@@ -79,7 +79,7 @@
                             <div class="bs-footer-4-contact-link">
                                 @if(setting('site.web-email'))
                                 <p class="bs-p-4 link-title">Email</p>
-                                <a href="#" class="link-elm bs-p-4 wa-clip-left-right" >
+                                <a href="mailto:{{ setting('site.web-email') }}" class="link-elm bs-p-4 wa-clip-left-right" >
                                     {{ setting('site.web-email') }}
                                 </a>
                                 @endif

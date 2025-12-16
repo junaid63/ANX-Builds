@@ -8,8 +8,8 @@
     color: #3c3d40;
 }
 .header-logo {
-    height: 100px;
-    width: 260px;
+  height:auto;
+  width: 240px;
 }
 .footer-logo {
     width: 300px;
@@ -258,6 +258,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   display: flex;
   justify-content: end;
   align-items: center;
+  margin-bottom: 0px;
 }
 .tags-list {
   display: flex;
@@ -322,7 +323,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   display: flex;
   flex-direction: column;
 }
-.text-ellipsis-4 a {
+.text-ellipsis-2 a {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -330,6 +331,31 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
     overflow: hidden;
     text-overflow: ellipsis;
     cursor: pointer;
+}
+.bs-header-4-row {
+  background: var(--bs-clr-black-2);
+}
+.bs-header-4-top {
+  background: var(--bs-white);
+}
+.bs-accordion:is(.has-details-page) .bs-accordion-item:is(.active) .show .bs-p-1,
+.bs-accordion:is(.has-details-page) .bs-accordion-item:is(.active) .item-title {
+  color: var(--bs-white);
+}
+.bs-accordion:is(.has-details-page) .bs-accordion-item:is(.active) .item-title .dot {
+  background-color: var(--bs-white);
+}
+.bs-sidebar-blog-single .item-img {
+  height: auto;
+  width: auto;
+  margin-bottom: 0px;
+  border-radius: 5px;
+}
+.bs-price-5-tabs-btn .nav-item .content {
+  width: 70%;
+}
+.bs-price-5-tabs-btn .nav-item .btn-img {
+  width: 20%;
 }
 
 @media only screen and (max-width: 510px) {

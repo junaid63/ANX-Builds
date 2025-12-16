@@ -48,7 +48,7 @@ ANX Builds || Services
                     </div>
                     <div class="content">
                         <h5 class="bs-h-1 item-title">
-                            <a href="services-details.html" aria-label="name">architectural building</a>
+                            <a href="#" aria-label="name">architectural building</a>
                         </h5>
                         <p class="bs-p-1 item-disc">Favorable orientation</p>
                     </div>
@@ -66,7 +66,7 @@ ANX Builds || Services
                     </div>
                     <div class="content">
                         <h5 class="bs-h-1 item-title">
-                            <a href="services-details.html" aria-label="name">Development</a>
+                            <a href="#" aria-label="name">Development</a>
                         </h5>
                         <p class="bs-p-1 item-disc">Growth and progress</p>
                     </div>
@@ -84,7 +84,7 @@ ANX Builds || Services
                     </div>
                     <div class="content">
                         <h5 class="bs-h-1 item-title">
-                            <a href="services-details.html" aria-label="name">Execution</a>
+                            <a href="#" aria-label="name">Execution</a>
                         </h5>
                         <p class="bs-p-1 item-disc">Effective implementation</p>
                     </div>
@@ -102,7 +102,7 @@ ANX Builds || Services
                     </div>
                     <div class="content">
                         <h5 class="bs-h-1 item-title">
-                            <a href="services-details.html" aria-label="name">Natural Light Home</a>
+                            <a href="#" aria-label="name">Natural Light Home</a>
                         </h5>
                         <p class="bs-p-1 item-disc">Bright, Airy,  Tranquil</p>
                     </div>
@@ -118,122 +118,55 @@ ANX Builds || Services
         <div class="container bs-container-1">
             <div class="bs-work-1-wrap">
 
-                <!-- left-btn -->
-                <div class="bs-work-1-tabs-btn wa-list-style-none" role="tablist">
-                    
-                    <!-- single-btn -->
-                    <button class="nav-link active bs-h-1 wa-fadeInUp" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
-                        <span class="number">01</span>
-                        Architecture
-                        <span class="line"></span>
-                    </button>
-
-                        <!-- single-btn -->
-                    <button class="nav-link wa-fadeInUp" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
-                        <span class="number">02</span>
-                        Interior
-                        <span class="line"></span>
-                    </button>
-
-                    <!-- single-btn -->
-                    <button class="nav-link wa-fadeInUp" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">
-                        <span class="number">03</span>
-                        Decoration Ration
-                        <span class="line"></span>
-                    </button>
-
-                    <!-- single-btn -->
-                    <button class="nav-link wa-fadeInUp" id="contact-tab2" data-bs-toggle="tab" data-bs-target="#contact2" type="button" role="tab" aria-controls="contact2" aria-selected="false">
-                        <span class="number">04</span>
-                        hotel interior
-                        <span class="line"></span>
-                    </button>
+               <div class="bs-work-1-tabs-btn wa-list-style-none" role="tablist">
+                    @foreach ($services as $service)
+                        <a href="{{ route('servicedetail', $service->slug) }}"
+                            class="nav-link bs-h-1 wa-fadeInUp {{ $loop->first ? 'active' : '' }}"
+                            id="tab-{{ $loop->index }}"
+                            data-bs-toggle="tab"
+                            data-bs-target="#content-{{ $loop->index }}"
+                            type="button"
+                            role="tab"
+                            aria-selected="{{ $loop->first ? 'true' : 'false' }}"
+                        >
+                            <span class="number">
+                                {{ str_pad($loop->iteration, 2, '0', STR_PAD_LEFT) }}
+                            </span>
+                            {{ ucwords($service->title) }}
+                            <span class="line"></span>
+                        </a>
+                    @endforeach
                 </div>
 
-
-                <!-- right-content -->
-                <div class="tab-content  bs-work-1-tabs-item" >
-
-                    <!-- single-pane -->
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="tab-content bs-work-1-tabs-item">
+                @foreach ($services as $service)
+                    <div
+                        class="tab-pane fade {{ $loop->first ? 'show active' : '' }}"
+                        id="content-{{ $loop->index }}"
+                        role="tabpanel"
+                        aria-labelledby="tab-{{ $loop->index }}"
+                    >
                         <div class="bs-work-1-tabs-item-single">
                             <div class="item-img wa-fix wa-img-cover" data-cursor="-opaque">
-                                <img src="{{ url('frontend/assets/img/work/w1-img-1.png') }}" alt="">
+                                <img src="{{ url('storage/' . $service->card_img) }}" alt="">
                             </div>
+
                             <p class="bs-p-1 item-disc">
-                                Whether you’re a home owner, business owners or developer we will not only protect your investment, but we’ll also ensure your design and build journey 
+                                {{ $service->short_description }}
                             </p>
+
                             <div class="item-btn">
-                                <a href="services-details.html" aria-label="name" class="bs-btn-1">
-                                    <span class="text">
-                                        See the Achievement
-                                    </span>
-                                    <span class="shape" ></span>
+                                <a href="{{ route('servicedetail', $service->slug) }}" class="bs-btn-1">
+                                    <span class="text">Read More</span>
+                                    <span class="shape"></span>
                                 </a>
                             </div>
                         </div>
                     </div>
+                @endforeach
+            </div>
 
-                    <!-- single-pane -->
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <div class="bs-work-1-tabs-item-single">
-                            <div class="item-img wa-fix wa-img-cover" data-cursor="-opaque">
-                                <img src="{{ url('frontend/assets/img/work/w1-img-2.png') }}" alt="">
-                            </div>
-                            <p class="bs-p-1 item-disc">
-                                Whether you’re a home owner, business owners or developer we will not only protect your investment, but we’ll also ensure your design and build journey 
-                            </p>
-                            <div class="item-btn">
-                                <a href="services-details.html" aria-label="name" class="bs-btn-1">
-                                    <span class="text">
-                                        See the Achievement
-                                    </span>
-                                    <span class="shape" ></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <!-- single-pane -->
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                        <div class="bs-work-1-tabs-item-single">
-                            <div class="item-img wa-fix wa-img-cover" data-cursor="-opaque">
-                                <img src="{{ url('frontend/assets/img/work/w1-img-3.png') }}" alt="">
-                            </div>
-                            <p class="bs-p-1 item-disc">
-                                Whether you’re a home owner, business owners or developer we will not only protect your investment, but we’ll also ensure your design and build journey 
-                            </p>
-                            <div class="item-btn">
-                                <a href="services-details.html" aria-label="name" class="bs-btn-1">
-                                    <span class="text">
-                                        See the Achievement
-                                    </span>
-                                    <span class="shape" ></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- single-pane -->
-                    <div class="tab-pane fade" id="contact2" role="tabpanel" aria-labelledby="contact-tab2">
-                        <div class="bs-work-1-tabs-item-single">
-                            <div class="item-img wa-fix wa-img-cover" data-cursor="-opaque">
-                                <img src="{{ url('frontend/assets/img/work/w1-img-4.png') }}" alt="">
-                            </div>
-                            <p class="bs-p-1 item-disc">
-                                Whether you’re a home owner, business owners or developer we will not only protect your investment, but we’ll also ensure your design and build journey 
-                            </p>
-                            <div class="item-btn">
-                                <a href="services-details.html" aria-label="name" class="bs-btn-1">
-                                    <span class="text">
-                                        See the Achievement
-                                    </span>
-                                    <span class="shape" ></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
