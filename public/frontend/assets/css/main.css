@@ -82,6 +82,7 @@ CSS INDEX
   --bs-clr-white-1: #ffffff;
   --bs-clr-black-1: #000000;
   --bs-clr-black-2: #363636;
+  --bs-black: #000000;
   --bs-cube-1: all .25s cubic-bezier(.645,.045,.355,1);
   --bs-cube-2: cubic-bezier(.1,.75,.25,1);
 }
@@ -1785,7 +1786,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   font-size: 18px;
   line-height: 1.555;
   font-weight: 400;
-  color: var(--bs-clr-black-2);
+  color: var(--bs-black);
   margin-bottom: 0;
 }
 
@@ -5612,7 +5613,7 @@ Primary style
 */
 .bs-header-4-logo {
   /* background: #E3E5DD; */
-  background: var(--bs-clr-black-2);
+  background: var(--bs-black);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5635,7 +5636,7 @@ Primary style
   width: 100%;
 }
 .bs-header-4-main {
-  background: var(--bs-clr-black-2);
+  background: var(--bs-black);
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -5709,7 +5710,7 @@ Primary style
   width: 50px;
   height: 44px;
   border-left: 1px solid rgba(6, 6, 6, 0.24);
-  color: var(--bs-clr-black-2);
+  color: var(--bs-black);
   transition: 0.4s var(--bs-cube-2);
   font-size: 16px;
 }
@@ -10101,11 +10102,11 @@ Primary style
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  border: 1px solid var(--bs-clr-black-2);
+  border: 1px solid var(--bs-black);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: var(--bs-clr-black-2);
+  color: var(--bs-black);
   font-size: 18px;
   opacity: 72%;
   transform: rotate(-45deg);
@@ -12493,7 +12494,7 @@ Primary style
 .bs-testimonial-5-rating-box {
   max-width: 278px;
   width: 100%;
-  background: var(--bs-clr-black-2);
+  background: var(--bs-black);
   padding: 30px 40px;
   margin-left: auto;
 }
@@ -12557,7 +12558,7 @@ Primary style
   width: 52px;
   height: 52px;
   border-radius: 50%;
-  border: 2px solid var(--bs-clr-black-2);
+  border: 2px solid var(--bs-black);
   margin-right: -16px;
 }
 .bs-testimonial-5-rating-box .disc {
@@ -14816,7 +14817,7 @@ Primary style
   position: absolute;
   top: 10px;
   left: 0;
-  background: var(--bs-clr-black-2);
+  background: var(--bs-black);
 }
 .bs-blog-4-item .title {
   font-size: 28px;

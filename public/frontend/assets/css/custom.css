@@ -333,7 +333,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
     cursor: pointer;
 }
 .bs-header-4-row {
-  background: var(--bs-clr-black-2);
+  background: var(--bs-black);
 }
 .bs-header-4-top {
   background: var(--bs-white);
@@ -431,7 +431,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
     padding: 20px;
   }
   .bs-header-4-row {
-    background: var(--bs-clr-black-2);
+    background: var(--bs-black);
   }
   .header-logo {
     height: 0px;
