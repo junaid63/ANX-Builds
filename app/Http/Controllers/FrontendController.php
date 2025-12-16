@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Contact;
 use App\Blog;
+use App\Service;
 
 class FrontendController extends Controller
 {
@@ -12,60 +13,81 @@ class FrontendController extends Controller
     {
         return Blog::where('status', 1)->get();
     }
+    private function getServices()
+    {
+        return Service::where('status', 1)->get();
+    }
     public function index()
     {
         $view = 'frontend.index';
         $blogs = $this->getBlogs();
-        return view($view, compact('blogs'));
+        $services = $this->getServices();
+        return view($view, compact('blogs','services'));
     }
 
     public function about()
     {
         $view = 'frontend.about';
         $blogs = $this->getBlogs();
-        return view($view, compact('blogs'));
+        $services = $this->getServices();
+        return view($view, compact('blogs','services'));
     }
 
     public function process()
     {
         $view = 'frontend.process';
         $blogs = $this->getBlogs();
-        return view($view, compact('blogs'));
+        $services = $this->getServices();
+        return view($view, compact('blogs','services'));
     }
 
     public function service()
     {
         $view = 'frontend.services';
         $blogs = $this->getBlogs();
-        return view($view, compact('blogs'));
+        $services = $this->getServices();
+        return view($view, compact('blogs','services'));
+    }
+    
+    public function servicedetail($slug)
+    {
+        $view = 'frontend.servicedetail';
+        $serviceDetails = Service::where('slug', $slug)->first();
+        $blogs = $this->getBlogs();
+        $services = $this->getServices();
+        return view($view, compact('blogs','services','serviceDetails'));
     }
 
     public function price()
     {
         $view = 'frontend.prices';
         $blogs = $this->getBlogs();
-        return view($view, compact('blogs'));
+        $services = $this->getServices();
+        return view($view, compact('blogs','services'));
     }
     
     public function gallery()
     {
         $view = 'frontend.gallery';
         $blogs = $this->getBlogs();
-        return view($view, compact('blogs'));
+        $services = $this->getServices();
+        return view($view, compact('blogs','services'));
     }
     
     public function faq()
     {
         $view = 'frontend.faqs';
         $blogs = $this->getBlogs();
-        return view($view, compact('blogs'));
+        $services = $this->getServices();
+        return view($view, compact('blogs','services'));
     }
 
     public function blogs()
     {
         $view = 'frontend.blog';
         $blogs = $this->getBlogs();
-        return view($view, compact('blogs'));
+        $services = $this->getServices();
+        return view($view, compact('blogs','services'));
     }
 
     public function blogDeails($slug)
@@ -74,14 +96,16 @@ class FrontendController extends Controller
         $blogDetail = Blog::where('slug', $slug)->first();
         $popularblogs = Blog::where('id','!=', $blogDetail->id)->inRandomOrder()->take(4)->get();
         $blogs = $this->getBlogs();
-        return view($view, compact('blogs','blogDetail','popularblogs'));
+        $services = $this->getServices();
+        return view($view, compact('blogs','blogDetail','popularblogs','services'));
     }
     
     public function contact()
     {
         $view = 'frontend.contact';
         $blogs = $this->getBlogs();
-        return view($view, compact('blogs'));
+        $services = $this->getServices();
+        return view($view, compact('blogs','services'));
     }
 
     public function contactSubmit(request $request)

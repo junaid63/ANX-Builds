@@ -40,7 +40,7 @@ ANX Builds || Prices
         <div class="container bs-container-2">
 
             <!-- section-title -->
-            <div class="bs-price-5-sec-title text-center mb-50">
+            <div class="bs-price-5-sec-title mb-50">
                 <h6 class="bs-subtitle-5 wa-capitalize">
                     <span>03</span>
                     <span class="wa-split-right ">pricing plan</span>
@@ -59,7 +59,7 @@ ANX Builds || Prices
                         <li class="nav-item wa-fadeInUp" role="presentation" data-cursor-text="click">
                             <button class="nav-link active bs-price-5-tabs-btn-single" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
                                 <span class="check-btn"></span>
-                                <span class="content">
+                                <span class="content d-flex flex-column">
                                     <span class="bs-h-4 title">basic plan</span>
                                     <span class="bs-p-4 disc">Our basic architectural plan focuses on creating functional.</span>
                                 </span>
@@ -73,7 +73,7 @@ ANX Builds || Prices
                         <li class="nav-item wa-fadeInUp" role="presentation" data-cursor-text="click">
                             <button class="nav-link bs-price-5-tabs-btn-single" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
                                 <span class="check-btn"></span>
-                                <span class="content">
+                                <span class="content d-flex flex-column">
                                     <span class="bs-h-4 title">Standard Plan</span>
                                     <span class="bs-p-4 disc">Our standard architecture plan offers a streamlined.</span>
                                 </span>
@@ -87,7 +87,7 @@ ANX Builds || Prices
                         <li class="nav-item wa-fadeInUp" role="presentation" data-cursor-text="click">
                             <button class="nav-link bs-price-5-tabs-btn-single" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">
                                 <span class="check-btn"></span>
-                                <span class="content">
+                                <span class="content d-flex flex-column">
                                     <span class="bs-h-4 title">Enterprise Plan</span>
                                     <span class="bs-p-4 disc">Our architectural enterprise plan focuses on delivering.</span>
                                 </span>

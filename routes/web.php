@@ -26,6 +26,7 @@ Route::get("/contact-us", [FrontendController::class , 'contact'])->name('contac
 Route::post("/contact/submit", [FrontendController::class , 'contactSubmit'])->name('contactSubmit');
 
 Route::get("/blog/{slug}", [FrontendController::class , 'blogDeails'])->name('blogDeails');
+Route::get("/service/{slug}", [FrontendController::class , 'servicedetail'])->name('servicedetail');
 
 // Route::group(['middleware' => 'instaload'], function () {
 //     Route::group(['prefix' => 'dashboard'], function () {

@@ -5618,7 +5618,8 @@ Primary style
   justify-content: center;
   max-width: 300px;
   width: 100%;
-  padding: 20px;
+  /* padding: 20px; */
+  padding: 10px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .bs-header-4-logo {
@@ -8933,7 +8934,8 @@ Primary style
   }
 }
 .bs-work-1-tabs-btn .nav-link {
-  font-size: 80px;
+  /* font-size: 80px; */
+  font-size: 60px;
   font-weight: 400;
   color: #878787;
   display: flex;
@@ -8946,6 +8948,7 @@ Primary style
   position: relative;
   z-index: 1;
   transition: var(--bs-cube-1);
+  text-align: start;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .bs-work-1-tabs-btn .nav-link {
@@ -8978,7 +8981,8 @@ Primary style
 .bs-work-1-tabs-btn .nav-link .number {
   font-size: 25px;
   font-weight: 700;
-  transform: translateY(-5px);
+  /* transform: translateY(-5px); */
+  transform: translateY(0px);
 }
 .bs-work-1-tabs-btn .nav-link .line {
   position: absolute;
@@ -9001,9 +9005,9 @@ Primary style
   color: var(--bs-clr-pr-1);
   font-weight: 500;
 }
-.bs-work-1-tabs-btn .nav-link:is(.active) .line {
+/* .bs-work-1-tabs-btn .nav-link:is(.active) .line {
   transform: translateY(-50%) scaleX(1);
-}
+} */
 .bs-work-1-tabs-item-single .item-img {
   height: 495px;
   margin-bottom: 35px;
@@ -13757,13 +13761,14 @@ Primary style
 */
 .bs-price-5-sec-title {
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 .bs-price-5-wrap {
-  max-width: 985px;
+  /* max-width: 985px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
+  max-width: 100%;
   display: grid;
   grid-template-columns: 1.27fr 1fr;
   gap: 32px;
@@ -13789,6 +13794,7 @@ Primary style
   transition: 0.4s var(--bs-cube-2);
   align-items: center;
   padding-left: 32px;
+  width: 100%;
 }
 @media (max-width: 767px) {
   .bs-price-5-tabs-btn-single {
@@ -13807,6 +13813,7 @@ Primary style
   border: 1px solid rgba(6, 6, 6, 0.16);
   border-radius: 50%;
   position: relative;
+  top: 15px;
   z-index: 1;
   transition: 0.4s var(--bs-cube-2);
   align-self: self-start;
@@ -13840,7 +13847,7 @@ Primary style
 }
 .bs-price-5-tabs-btn-single .disc {
   font-size: 17px;
-  max-width: 296px;
+  /* max-width: 296px; */
 }
 .bs-price-5-tabs-btn-single .btn-img {
   width: 126px;
@@ -15286,7 +15293,7 @@ Primary style
   right: 3px;
   top: 13px;
   transform: translateY(-50%);
-  background-image: url(../img/breadcrumb/icon.svg);
+  background-image: url(../img/breadcrumb/icon.png);
   width: 18px;
   height: 18px;
 }
@@ -15563,9 +15570,9 @@ Primary style
   background: var(--bs-clr-pr-1);
 }
 .bs-services-details-content {
-  max-width: 730px;
+  /* max-width: 730px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 .bs-services-details-content h1, .bs-services-details-content h2, .bs-services-details-content h3, .bs-services-details-content h4, .bs-services-details-content h5, .bs-services-details-content h6 {
   font-family: var(--bs-font-pr-1);
@@ -15776,7 +15783,8 @@ Primary style
   padding-bottom: 0;
 }
 .bs-accordion:is(.has-details-page) .bs-accordion-item:is(.active) {
-  background-color: #F3F3F3;
+  /* background-color: #F3F3F3; */
+  background-color: var(--bs-clr-pr-1);
 }
 .bs-accordion:is(.has-details-page) .bs-accordion-item:not(:last-child) {
   margin-bottom: 12px;

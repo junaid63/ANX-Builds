@@ -244,7 +244,7 @@ ANX Builds || Home
             <!-- single-item -->
             <div class="bs-core-feature-4-item wow fadeInRight" >
                 <h4 class="bs-h-4 item-title">
-                    <a href="services-details.html" aria-label="name">Creative Modular Ideas</a>
+                    <a href="#" aria-label="name">Creative Modular Ideas</a>
                 </h4>
                 <div class="item-icon">
                     <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-1.svg')}}" alt="">
@@ -257,7 +257,7 @@ ANX Builds || Home
             <!-- single-item -->
             <div class="bs-core-feature-4-item wow fadeInRight" data-wow-delay="0.2s">
                 <h4 class="bs-h-4 item-title">
-                    <a href="services-details.html" aria-label="name">Custom & Unique Designs</a>
+                    <a href="#" aria-label="name">Custom & Unique Designs</a>
                 </h4>
                 <div class="item-icon">
                     <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-2.svg')}}" alt="">
@@ -270,7 +270,7 @@ ANX Builds || Home
             <!-- single-item -->
             <div class="bs-core-feature-4-item wow fadeInRight" data-wow-delay="0.4s">
                 <h4 class="bs-h-4 item-title">
-                    <a href="services-details.html" aria-label="name">High-Efficiency Build</a>
+                    <a href="#" aria-label="name">High-Efficiency Build</a>
                 </h4>
                 <div class="item-icon">
                     <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-3.svg')}}" alt="">
@@ -283,7 +283,7 @@ ANX Builds || Home
             <!-- single-item -->
             <div class="bs-core-feature-4-item wow fadeInRight" data-wow-delay="0.6s">
                 <h4 class="bs-h-4 item-title">
-                    <a href="services-details.html" aria-label="name">Long-Lasting Quality</a>
+                    <a href="#" aria-label="name">Long-Lasting Quality</a>
                 </h4>
                 <div class="item-icon">
                     <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-4.svg')}}" alt="">
@@ -345,7 +345,7 @@ ANX Builds || Home
                                 <i class="flaticon-denver flaticon"></i>
                             </div>
                             <h4 class="bs-h-4 item-title">
-                                <a href="services-details.html" aria-label="name">modern Design</a>
+                                <a href="#" aria-label="name">modern Design</a>
                             </h4>
                             <p class="bs-p-4 item-disc">post no so what deal evil rent by real in. but her ready lived spite solid</p>
                         </div>
@@ -356,7 +356,7 @@ ANX Builds || Home
                                 <i class="flaticon-goodwill-1 flaticon"></i>
                             </div>
                             <h4 class="bs-h-4 item-title">
-                                <a href="services-details.html" aria-label="name">quality work</a>
+                                <a href="#" aria-label="name">quality work</a>
                             </h4>
                             <p class="bs-p-4 item-disc">collaboration is at the core of our process as our architects work.</p>
                         </div>
@@ -448,7 +448,7 @@ ANX Builds || Home
                     <div class="bs-services-4-item-single wa-bg-default active " data-background="{{url('frontend/assets/img/services/s4-card-bg.png')}}">
                         <div class="active-content">
                             <h4 class="bs-h-1 title">
-                                <a href="services-details.html" aria-label="name" class="wa-line-limit has-line-2">Garden Pods & Offices</a>
+                                <a href="#" aria-label="name" class="wa-line-limit has-line-2">Garden Pods & Offices</a>
                             </h4>
                             <div class="main-img wa-fix wa-img-cover">
                                 <img src="{{url('frontend/assets/img/services/s4-img-2.png')}}" alt="">
@@ -471,7 +471,7 @@ ANX Builds || Home
                     <div class="bs-services-4-item-single wa-bg-default " data-background="{{url('frontend/assets/img/services/s4-card-bg.png')}}">
                         <div class="active-content">
                             <h4 class="bs-h-1 title">
-                                <a href="services-details.html" aria-label="name" class="wa-line-limit has-line-2">Modular Home Extensions</a>
+                                <a href="#" aria-label="name" class="wa-line-limit has-line-2">Modular Home Extensions</a>
                             </h4>
                             <div class="main-img wa-fix wa-img-cover">
                                 <img src="{{url('frontend/assets/img/services/s4-img-3.png')}}" alt="">
@@ -494,7 +494,7 @@ ANX Builds || Home
                     <div class="bs-services-4-item-single wa-bg-default " data-background="{{url('frontend/assets/img/services/s4-card-bg.png')}}">
                         <div class="active-content">
                             <h4 class="bs-h-1 title">
-                                <a href="services-details.html" aria-label="name" class="wa-line-limit has-line-2">Granny Annexes</a>
+                                <a href="#" aria-label="name" class="wa-line-limit has-line-2">Granny Annexes</a>
                             </h4>
                             <div class="main-img wa-fix wa-img-cover">
                                 <img src="{{url('frontend/assets/img/services/s4-img-4.png')}}" alt="">
@@ -517,7 +517,7 @@ ANX Builds || Home
                     <div class="bs-services-4-item-single wa-bg-default " data-background="{{url('frontend/assets/img/services/s4-card-bg.png')}}">
                         <div class="active-content">
                             <h4 class="bs-h-1 title">
-                                <a href="services-details.html" aria-label="name" class="wa-line-limit has-line-2">Steel-Frame Structures</a>
+                                <a href="#" aria-label="name" class="wa-line-limit has-line-2">Steel-Frame Structures</a>
                             </h4>
                             <div class="main-img wa-fix wa-img-cover">
                                 <img src="{{url('frontend/assets/img/services/s4-img-5.png')}}" alt="">
@@ -877,7 +877,7 @@ ANX Builds || Home
                                         <i class="flaticon-top-right flaticon"></i>
                                     </a>
                                     <p class="bs-p-4 author">{{ ucwords($blog->sub_title) }}</p>
-                                    <h4 class="title bs-h-1 text-ellipsis-4">
+                                    <h4 class="title bs-h-1 text-ellipsis-2">
                                         <a href="{{ route('blogDeails', $blog->slug) }}" aria-label="name">{{ ucwords($blog->title) }}</a>
                                     </h4>
                                     <p class="item-meta bs-p-4">

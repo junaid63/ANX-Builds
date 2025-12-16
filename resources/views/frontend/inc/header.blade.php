@@ -18,7 +18,7 @@
                             <ul class="bs-header-4-top-contact wa-list-style-none">
                                 @if(setting('site.web-email'))
                                 <li class="bs-p-4">
-                                    <a href="mail:info@off-pod.co.uk" aria-label="name">
+                                    <a href="mailto:{{ setting('site.web-email') }}" aria-label="name">
                                         <i class="fa-regular fa-envelope"></i>
                                         {{ setting('site.web-email') }}
                                     </a>
@@ -26,7 +26,7 @@
                                 @endif
                                 @if(setting('site.web-phone'))
                                 <li class="bs-p-4">
-                                    <a href="tel:08002118049" aria-label="name">
+                                    <a href="tel:{{ setting('site.web-phone') }}" aria-label="name">
                                         <i class="fa-solid fa-phone"></i>
                                         {{ setting('site.web-phone') }}
                                     </a>
