@@ -35,6 +35,10 @@ ANX Builds || Our Process
     </section>
     <!-- breadcrumb-end -->
 
+    <!-- core-features-start -->
+    @include('frontend.inc.construction')
+    <!-- core-features-end -->
+
     <!-- work-process-start -->
     <section class="bs-work-process-area pt-140">
         <div class="container bs-container-1">

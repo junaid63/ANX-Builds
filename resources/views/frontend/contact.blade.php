@@ -116,7 +116,12 @@ ANX Builds || Contact Us
                         </span>
                         Contact us
                     </h6>
-                    <h2 class="bs-sec-title-1  wa-split-right wa-capitalize" data-cursor="-opaque">Let’s talk about your dream project.</h2>
+                    <h2 class="bs-sec-title-1  wa-split-right wa-capitalize" data-cursor="-opaque">
+                        Get In Touch
+                    </h2>
+                    <p class="bs-p-4 item-disc mt-md-3 mb-3">
+                        Whether you're planning a garden pod or a granny annexe, our team is ready to help.
+                    </p>
                 </div>
 
 
@@ -137,7 +142,28 @@ ANX Builds || Contact Us
                         <label class="bs-form-1-item-label" for="phone">phone</label>
                         <input id="contactphone" class="bs-form-1-item-input " type="tel" name="phone" placeholder="+44 20 8980 9731  |">
                     </div>
-                    
+
+                    <div class="bs-form-1-item">
+                        <label class="bs-form-1-item-label" for="postcode">postcode</label>
+                        <input id="contactpostcode" class="bs-form-1-item-input " type="text" name="postcode" placeholder="M1 2AB">
+                    </div>
+
+                    <div class="bs-form-1-item">
+                        <label class="bs-form-1-item-label" for="contactproject">
+                            Project Type
+                        </label>
+
+                        <select id="contactproject" name="contactproject" class="bs-form-1-item-input">
+                            <option value="">Select Project</option>
+                            <option value="garden_pod">Garden Pod</option>
+                            <option value="granny_annexe">Granny Annexe</option>
+                            <option value="steel_frame">Steel-Frame</option>
+                            <option value="commercial">Commercial</option>
+                        </select>
+
+                    </div>
+
+
                     <div class="bs-form-1-item">
                         <label class="bs-form-1-item-label" for="message">Message</label>
                         <textarea class="bs-form-1-item-input" name="message" id="contactmessage" placeholder="Write your message here..."></textarea>
@@ -180,129 +206,114 @@ ANX Builds || Contact Us
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script>
-        $(function() {
+       $(function () {
             $("#contactphone").mask('99999-999999');
-            $("#ContactSubmit").click(function(){
-                var name = $("#contactname").val();           
-                var email = $("#contactemail").val();           
-                var phone = $("#contactphone").val();           
-                var message = $("#contactmessage").val();    
+            $("#ContactSubmit").click(function () {
+
+                var name = $("#contactname").val().trim();
+                var email = $("#contactemail").val().trim();
+                var phone = $("#contactphone").val().trim();
+                var postcode = $("#contactpostcode").val().trim();
+                var project = $("#contactproject").val();
+                var message = $("#contactmessage").val().trim();
 
                 var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+                var ukPostcodePattern = /^[A-Z]{1,2}\d[A-Z\d]?\s?\d[A-Z]{2}$/i;
 
-                if(name != ""){
-                    if(email !=""){
+                if (name !== "") {
+
+                    if (email !== "") {
+
                         if (emailPattern.test(email)) {
-                            if(phone !=""){
-                                if(phone.length === 12){
-                                    if(message !=""){
-                                        $(this).html("Please Wait &nbsp; <i class='fa fa-spinner fa-spin'></i>");
-                                        $(this).attr("disabled", true);
-                                        $.ajax({
-                                            url: "contact/submit",
-                                            type: "POST",
-                                            data: {
-                                                name:name,
-                                                email:email,
-                                                phone:phone,
-                                                message:message,
-                                                '_token': '{{ csrf_token() }}',
-                                            },
-                                            success:function(response) {
-                                                if(response['status'] ==  "success"){
-                                                    Swal.fire({
-                                                        position: "center",
-                                                        icon: "success",
-                                                        title: response['message'],
-                                                        showConfirmButton: false,
-                                                        timer: 2000
+
+                            if (phone !== "") {
+
+                                if (phone.length === 12) {
+
+                                    if (postcode !== "") {
+
+                                        if (ukPostcodePattern.test(postcode)) {
+
+                                            if (project !== "") {   // ✅ project selected check
+
+                                                if (message !== "") {
+
+                                                    $(this).html("Please Wait &nbsp; <i class='fa fa-spinner fa-spin'></i>");
+                                                    $(this).attr("disabled", true);
+
+                                                    $.ajax({
+                                                        url: "contact/submit",
+                                                        type: "POST",
+                                                        data: {
+                                                            name: name,
+                                                            email: email,
+                                                            phone: phone,
+                                                            postcode: postcode,
+                                                            project: project,
+                                                            message: message,
+                                                            '_token': '{{ csrf_token() }}',
+                                                        },
+                                                        success: function (response) {
+
+                                                            Swal.fire({
+                                                                position: "center",
+                                                                icon: "success",
+                                                                title: response.message,
+                                                                showConfirmButton: false,
+                                                                timer: 2000
+                                                            });
+
+                                                            $("#ContactSubmit").html("Submit Now").removeAttr("disabled");
+                                                            $("#contact-form")[0].reset();
+                                                        }
                                                     });
-                                                    $("#ContactSubmit").html("Submit Now");
-                                                    $("#ContactSubmit").removeAttr("disabled");
-                                                    $("#contactname").val("");
-                                                    $("#contactemail").val("");
-                                                    $("#contactphone").val("");
-                                                    $("#contactmessage").val("");
+
+                                                } else {
+                                                    Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter the message", timer: 2000 });
+                                                    $("#contactmessage").focus();
                                                 }
-                                                else if (response['status'] == "warning") {
-                                                    Swal.fire({
-                                                        position: "center",
-                                                        icon: "success",
-                                                        title: "Thank you for Contact Us",
-                                                        showConfirmButton: false,
-                                                        timer: 2000
-                                                    });
-                                                    $("#ContactSubmit").html("Submit Now");
-                                                    $("#ContactSubmit").removeAttr("disabled");
-                                                }
+
+                                            } else {
+                                                Swal.fire({ icon: "warning", showConfirmButton: false, title: "Select project type", timer: 2000 });
+                                                $("#contactproject").focus();
                                             }
-                                        });
+
+                                        } else {
+                                            Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter a valid UK postcode", timer: 2000 });
+                                            $("#contactpostcode").focus();
+                                        }
+
+                                    } else {
+                                        Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter the postcode", timer: 2000 });
+                                        $("#contactpostcode").focus();
                                     }
-                                    else {
-                                        Swal.fire({
-                                            position: "center",
-                                            icon: "warning",
-                                            title: "Enter the message",
-                                            showConfirmButton: false,
-                                            timer: 2000
-                                        });
-                                        $("#contactmessage").focus();
-                                    }
-                                }
-                                else {
-                                    Swal.fire({
-                                        position: "center",
-                                        icon: "warning",
-                                        title: "Enter 12 Digits number",
-                                        showConfirmButton: false,
-                                        timer: 2000
-                                    });
+
+                                } else {
+                                    Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter 12 digits number", timer: 2000 });
                                     $("#contactphone").focus();
                                 }
+
+                            } else {
+                                Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter the phone number", timer: 2000 });
                             }
-                            else {
-                                Swal.fire({
-                                    position: "center",
-                                    icon: "warning",
-                                    title: "Enter the number",
-                                    showConfirmButton: false,
-                                    timer: 2000
-                                });
-                            }
-                        }
-                        else {
-                            Swal.fire({
-                                position: "center",
-                                icon: "warning",
-                                title: "Please Enter a Valid Email Address",
-                                showConfirmButton: false,
-                                timer: 2000
-                            });
+
+                        } else {
+                            Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter a valid email address", timer: 2000 });
                             $("#contactemail").focus();
                         }
-                    }
-                    else {
-                        Swal.fire({
-                            position: "center",
-                            icon: "warning",
-                            title: "Enter the email",
-                            showConfirmButton: false,
-                            timer: 2000
-                        });
+
+                    } else {
+                        Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter the email", timer: 2000 });
                         $("#contactemail").focus();
                     }
-                }
-                else {
-                    Swal.fire({
-                        position: "center",
-                        icon: "warning",
-                        title: "Enter the name",
-                        showConfirmButton: false,
-                        timer: 2000
-                    });
+
+                } else {
+                    Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter the name", timer: 2000 });
                     $("#contactname").focus();
                 }
+
             });
         });
+
     </script>
 @endsection

@@ -114,6 +114,8 @@ class FrontendController extends Controller
         $data->name = $request->name;
         $data->email = $request->email;
         $data->phone = $request->phone;
+        $data->postcode = $request->postcode;
+        $data->project_type = $request->project;
         $data->message = $request->message;
         $data->save();
 
