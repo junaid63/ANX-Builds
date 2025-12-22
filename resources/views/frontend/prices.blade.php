@@ -42,10 +42,13 @@ ANX Builds || Prices
             <!-- section-title -->
             <div class="bs-price-5-sec-title mb-50">
                 <h6 class="bs-subtitle-5 wa-capitalize">
-                    <span>03</span>
-                    <span class="wa-split-right ">pricing plan</span>
+                    <span class="wa-split-right ">Pricing Plan</span>
                 </h6>
-                <h2 class="bs-sec-title-4 wa-split-right wa-capitalize" data-cursor="-opaque">Affordable architecture solutions, tailored pricing plan.</h2>
+                <div class="d-flex flex-column">
+                    <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize mb-md-3 mb-3" data-cursor="-opaque">
+                        Transparent Pricing for Modular Pods & Annexes
+                    </h2>
+                </div>
             </div>
 
             <div class="bs-price-5-wrap">
@@ -60,8 +63,8 @@ ANX Builds || Prices
                             <button class="nav-link active bs-price-5-tabs-btn-single" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
                                 <span class="check-btn"></span>
                                 <span class="content d-flex flex-column">
-                                    <span class="bs-h-4 title">basic plan</span>
-                                    <span class="bs-p-4 disc">Our basic architectural plan focuses on creating functional.</span>
+                                    <span class="bs-h-4 title">Garden Pods & Offices</span>
+                                    <span class="bs-p-4 disc">Insulated modular spaces priced by size and finish.</span>
                                 </span>
                                 <span class="btn-img">
                                     <img src="{{ url('frontend/assets/img/price/p5-img-1.png') }}" alt="">
@@ -74,8 +77,8 @@ ANX Builds || Prices
                             <button class="nav-link bs-price-5-tabs-btn-single" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
                                 <span class="check-btn"></span>
                                 <span class="content d-flex flex-column">
-                                    <span class="bs-h-4 title">Standard Plan</span>
-                                    <span class="bs-p-4 disc">Our standard architecture plan offers a streamlined.</span>
+                                    <span class="bs-h-4 title">Granny Annexes</span>
+                                    <span class="bs-p-4 disc">Self-contained living units with tailored specifications.</span>
                                 </span>
                                 <span class="btn-img">
                                     <img src="{{ url('frontend/assets/img/price/p5-img-2.png') }}" alt="">
@@ -88,8 +91,8 @@ ANX Builds || Prices
                             <button class="nav-link bs-price-5-tabs-btn-single" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">
                                 <span class="check-btn"></span>
                                 <span class="content d-flex flex-column">
-                                    <span class="bs-h-4 title">Enterprise Plan</span>
-                                    <span class="bs-p-4 disc">Our architectural enterprise plan focuses on delivering.</span>
+                                    <span class="bs-h-4 title">Commercial Garden Rooms</span>
+                                    <span class="bs-p-4 disc">Scalable modular pricing for professional use.</span>
                                 </span>
                                 <span class="btn-img">
                                     <img src="{{ url('frontend/assets/img/price/p5-img-3.png') }}" alt="">
@@ -98,10 +101,11 @@ ANX Builds || Prices
                         </li>
                     </ul>
 
-                    <p class="bs-p-4 bs-price-5-left-disc wa-fadeInUp">Our architecture pricing plan offers flexible, transparent options tailored to the scope and complexity of your project, ensuring value without compromising on quality.</p>
+                    <p class="bs-p-4 bs-price-5-left-disc wa-fadeInUp">
+                        ANX pricing depends on size, layout and specification.
+                        Share your postcode and project type to receive a clear, no-obligation quote.
+                    </p>
                 </div>
-
-
 
                 <div class="tab-content bs-price-5-tabs-pane wa-fadeInUp" >
 

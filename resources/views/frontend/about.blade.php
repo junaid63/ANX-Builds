@@ -37,80 +37,7 @@ ANX Builds || About Us
     <!-- breadcrumb-end -->
 
     <!-- core-features-start -->
-    <section class="bs-core-features-1-area pt-120">
-        <div class="container bs-container-1">
-            <div class="bs-core-features-1-wrap">
-
-                <!-- single-item -->
-                <div class="bs-core-features-1-item">
-                    <div class="icon">
-                        <img src="{{url('frontend/assets/img/core-features/cf-icon-1.png')}}" alt="">
-                    </div>
-                    <div class="content">
-                        <h5 class="bs-h-1 item-title">
-                            <a href="#" aria-label="name">architectural building</a>
-                        </h5>
-                        <p class="bs-p-1 item-disc">Favorable orientation</p>
-                    </div>
-
-                </div>
-
-                <div class="shape">
-                    <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="">
-                </div>
-
-                <!-- single-item -->
-                <div class="bs-core-features-1-item">
-                    <div class="icon">
-                        <img src="{{url('frontend/assets/img/core-features/cf-icon-2.png')}}" alt="">
-                    </div>
-                    <div class="content">
-                        <h5 class="bs-h-1 item-title">
-                            <a href="#" aria-label="name">Development</a>
-                        </h5>
-                        <p class="bs-p-1 item-disc">Growth and progress</p>
-                    </div>
-
-                </div>
-
-                <div class="shape">
-                    <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="">
-                </div>
-
-                <!-- single-item -->
-                <div class="bs-core-features-1-item">
-                    <div class="icon">
-                        <img src="{{url('frontend/assets/img/core-features/cf-icon-3.png')}}" alt="">
-                    </div>
-                    <div class="content">
-                        <h5 class="bs-h-1 item-title">
-                            <a href="#" aria-label="name">Execution</a>
-                        </h5>
-                        <p class="bs-p-1 item-disc">Effective implementation</p>
-                    </div>
-
-                </div>
-
-                <div class="shape">
-                    <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="">
-                </div>
-
-                <!-- single-item -->
-                <div class="bs-core-features-1-item">
-                    <div class="icon">
-                        <img src="{{url('frontend/assets/img/core-features/cf-icon-4.png')}}" alt="">
-                    </div>
-                    <div class="content">
-                        <h5 class="bs-h-1 item-title">
-                            <a href="#" aria-label="name">Natural Light Home</a>
-                        </h5>
-                        <p class="bs-p-1 item-disc">Bright, Airy,  Tranquil</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    @include('frontend.inc.construction')
     <!-- core-features-end -->
 
     <!-- about-start -->
@@ -125,7 +52,7 @@ ANX Builds || About Us
                     </span>
                     Building Modern Modular Living Spaces Across the UK
                 </h6>
-                <h2 class="bs-sec-title-1  wa-split-right wa-capitalize" data-cursor="-opaque">Award-Winning Modular <br> Extensions, Pods & Annexes</h2>
+                <h2 class="bs-sec-title-1  wa-split-right wa-capitalize" data-cursor="-opaque">Award-Winning Modular Pods, Annexes & Steel-Frame Builds</h2>
             </div>
 
             <!-- slider -->
@@ -180,9 +107,8 @@ ANX Builds || About Us
             <!-- content -->
             <div class="bs-about-1-content">
                 <p class="bs-p-1 disc wa-split-y wa-capitalize">
-                    ANX delivers high-quality modular extensions, garden pods and self-contained annexes engineered for modern living.
-                    Our team manages every phase of your project — from design and planning to off-site fabrication and installation.
-                    With efficient construction methods and precision steel framing, we help homeowners save time, reduce disruption and enjoy durable, energy-efficient spaces.
+                    ANX Builds delivers high-quality modular pods and granny annexes engineered for modern living.
+                    Our team manages every phase — from design and planning to fabrication and installation — ensuring a smooth, efficient experience with minimal disruption.
                 </p>
             </div>
 
@@ -205,9 +131,9 @@ ANX Builds || About Us
                         <span class="counter wa-counter">350</span>
                         +
                     </h5>
-                    <p class="bs-p-4 item-disc">
+                    {{-- <p class="bs-p-4 item-disc">
                         Delivering modular pods, extensions and annexes across the UK.
-                    </p>
+                    </p> --}}
                 </div>
 
                 <!-- single-item -->
@@ -219,9 +145,9 @@ ANX Builds || About Us
                         <span class="counter wa-counter">10</span>
                         +
                     </h5>
-                    <p class="bs-p-4 item-disc">
+                    {{-- <p class="bs-p-4 item-disc">
                         A decade of experience in modular engineering and prefabrication.
-                    </p>
+                    </p> --}}
                 </div>
 
                 <!-- single-item -->
@@ -233,9 +159,9 @@ ANX Builds || About Us
                         <span class="counter wa-counter">98</span>
                         % 
                     </h5>
-                    <p class="bs-p-4 item-disc">
+                    {{-- <p class="bs-p-4 item-disc">
                         Homeowners trust ANX for reliable timelines, quality and service.
-                    </p>
+                    </p> --}}
                 </div>
 
                 <!-- single-item -->
@@ -247,9 +173,9 @@ ANX Builds || About Us
                         <span class="counter wa-counter">23</span>
                         +
                     </h5>
-                    <p class="bs-p-4 item-disc">
+                    {{-- <p class="bs-p-4 item-disc">
                         Awarded for innovation in modular and steel-frame construction.
-                    </p>
+                    </p> --}}
                 </div>
 
             </div>
@@ -482,10 +408,10 @@ ANX Builds || About Us
                             <span>08</span>
                             <span class="wa-split-right ">award</span>
                         </h6>
-                        <h2 class="bs-sec-title-4 wa-split-right wa-capitalize" data-cursor="-opaque">Showcasing Our Achievements in Modular Construction</h2>
-                        <p class="bs-p-4 item-disc mt-lg-3">
+                        <h2 class="bs-sec-title-4 wa-split-right wa-capitalize" data-cursor="-opaque">Achievements in Modular Construction</h2>
+                        {{-- <p class="bs-p-4 item-disc mt-lg-3">
                             ANX is recognised for advancing the standards of modular living through innovation, engineering excellence and sustainable building methods.
-                        </p>
+                        </p> --}}
                     </div>
 
                     <!-- img -->
@@ -573,7 +499,7 @@ ANX Builds || About Us
             <div class="bs-work-5-sec-title mb-90">
                 <h6 class="bs-subtitle-5 wa-capitalize">
                     <span>05</span>
-                    <span class="wa-split-right ">work process</span>
+                    <span class="wa-split-right ">Work Process</span>
                 </h6>
                 <h2 class="bs-sec-title-4 wa-split-right wa-capitalize" data-cursor="-opaque">Streamlined Modular Build Process for Exceptional Results</h2>
             </div>
@@ -588,7 +514,7 @@ ANX Builds || About Us
                     </div>
                     <h4 class="bs-h-1 title">Initial Consultation</h4>
                     <p class="bs-p-4 disc"> 
-                        We understand your goals, space requirements and planning needs.
+                        Understanding your goals, space and site requirements.
                     </p>
                     <h5 class="bs-h-1 number">01</h5>
                 </div>
@@ -600,7 +526,7 @@ ANX Builds || About Us
                     </div>
                     <h4 class="bs-h-1 title">Design & Planning</h4>
                     <p class="bs-p-4 disc"> 
-                        Our team prepares detailed modular designs tailored to your home and lifestyle.
+                        Tailored modular layouts prepared for your needs.
                     </p>
                     <h5 class="bs-h-1 number">02</h5>
                 </div>
@@ -612,7 +538,7 @@ ANX Builds || About Us
                     </div>
                     <h4 class="bs-h-1 title">Fabrication & Installation</h4>
                     <p class="bs-p-4 disc"> 
-                        Precision steel framing and components are built off-site for fast, clean installation.
+                        Off-site steel-frame build for fast, clean installation.
                     </p>
                     <h5 class="bs-h-1 number">03</h5>
                 </div>
@@ -624,7 +550,7 @@ ANX Builds || About Us
                     </div>
                     <h4 class="bs-h-1 title">Project Handover</h4>
                     <p class="bs-p-4 disc"> 
-                        We complete final checks and hand over a fully finished, ready-to-use space.
+                        Final checks and delivery of a ready-to-use space.
                     </p>
                     <h5 class="bs-h-1 number">04</h5>
                 </div>

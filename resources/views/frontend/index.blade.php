@@ -58,13 +58,13 @@ ANX Builds || Home
         <div class="container bs-container-2">
             <div class="bs-hero-4-content">
                 <h1 class="bs-hero-4-title bs-h-4 wa-split-y cd-headline clip " data-split-delay="1s">
-                    Modular Pods & Home Extensions
-                    <span class="cd-words-wrapper single-headline">
+                    Modular Pods & Garden Living Across the UK
+                    {{-- <span class="cd-words-wrapper single-headline">
                         <b class="is-visible">Designed</b>
                         <b>Built</b>
                         <b>Across</b>
                         <b>UK</b>
-                    </span>
+                    </span> --}}
                 </h1>
                 <div class="inner-div">
                     <a href="{{ route('about') }}" aria-label="name" class="bs-hero-4-circle-btn wa-magnetic-btn">
@@ -76,7 +76,7 @@ ANX Builds || Home
                         <img src="{{url('frontend/assets/img/illus/h4-circle-text.png')}}" alt="">
                     </a>
                     <p class="bs-p-4 bs-hero-4-disc wa-split-y" data-split-delay="1.6s">
-                        ANX creates modular extensions, garden pods, granny annexes and steel-frame home extensions.
+                        ANX Builds designs and installs garden pods UK, granny annexes and steel-frame modular buildings.
                         Fast to build, fully insulated and designed for modern living.
                     </p>
                 </div>
@@ -263,7 +263,7 @@ ANX Builds || Home
                     <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-2.svg')}}" alt="">
                 </div>
                 <p class="bs-p-4 item-disc">
-                    Every ANX pod and extension is tailored to your home and lifestyle.
+                    Every ANX pod and annexe is tailored to your home and lifestyle.
                 </p>
             </div>
 
@@ -289,7 +289,7 @@ ANX Builds || Home
                     <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-4.svg')}}" alt="">
                 </div>
                 <p class="bs-p-4 item-disc">
-                    Fully insulated, low-maintenance and built to UK standards for long-term reliability.
+                    Fully insulated, low-maintenance and built to UK standards.
                 </p>
             </div>
 
@@ -316,8 +316,8 @@ ANX Builds || Home
 
                     <div class="inner-div">
                         <p class="bs-p-4 disc wa-fadeInUp">
-                            ANX specialises in modular extensions, garden pods and self-contained annexes.
-                            We combine modern design, structural strength and efficient installation to create functional and stylish spaces for everyday use.
+                            ANX Builds specialises in modular pods, granny annexes and steel-frame buildings.
+                            We combine modern design, structural strength and efficient installation to create spaces that perform all year round.
                         </p>
                         <div class="btn-wrap wa-fadeInUp">
                             <a href="about.html" aria-label="name" class="bs-pr-btn-2">
@@ -337,7 +337,7 @@ ANX Builds || Home
                     </div>
 
                     <!-- feature -->
-                    <div class="bs-about-4-feature">
+                    {{-- <div class="bs-about-4-feature">
 
                         <!-- single -->
                         <div class="bs-about-4-feature-single wow fadeInRight">
@@ -361,7 +361,7 @@ ANX Builds || Home
                             <p class="bs-p-4 item-disc">collaboration is at the core of our process as our architects work.</p>
                         </div>
 
-                    </div>
+                    </div> --}}
                 </div>
                 
                 <div class="bs-about-4-right">
@@ -373,7 +373,7 @@ ANX Builds || Home
                             <a href="projects-3.html" aria-label="name">See Modular Projects</a>
                         </h4>
                         <p class="bs-p-4 disc">
-                            Explore completed garden pods, modular extensions and annexe builds across the UK.
+                            Explore completed garden pods, annexes and steel-frame builds across the UK.
                         </p>
                     </div>
 
@@ -405,141 +405,7 @@ ANX Builds || Home
     <!-- video-end -->
 
     <!-- services-start -->
-    <section class="bs-services-4-area pt-100 wa-fix " data-background="{{url('frontend/assets/img/services/s4-bg.png')}}">
-        <div class="bs-services-4-img wa-fix wa-img-cover wa-slideInLeft">
-            <img src="{{url('frontend/assets/img/services/s4-img-1.png')}}" alt="">
-        </div>
-        <div class="container bs-container-2">
-            <h5 class="bs-subtitle-4 bs-services-4-subtitle">
-                <span class="text">services</span>
-                <span class="icon">
-                    <img src="{{url('frontend/assets/img/illus/subtitle-4-icon-2.svg')}}" alt="">
-                </span>
-            </h5>
-
-            <div class="bs-services-4-wrap">
-
-                <!-- left-content -->
-                <div class="bs-services-4-content">
-
-                    <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">Transforming Homes With Modular Pods & Extensions.</h2>
-
-                    <p class="bs-p-4 disc wa-fadeInUp">
-                        ANX provides pre-engineered extension systems that are insulated, durable and built with precision steel framing.
-                        Ideal for creating new living areas, workspaces or multi-purpose rooms without the delays of traditional construction.
-                    </p>
-                    <div class="btn-wrap wa-fadeInUp">
-                        <a href="javascript:void()" aria-label="name" class="bs-pr-btn-2">
-                            <span class="text" data-back="view all services" data-front="view all services"></span>
-                            <span class="line-1"></span>
-                            <span class="line-2"></span>
-                            <span class="box box-1"></span>
-                            <span class="box box-2"></span>
-                            <span class="box box-3"></span>
-                            <span class="box box-4"></span>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- right-item -->
-                <div class="bs-services-4-item">
-
-                    <!-- single-item -->
-                    <div class="bs-services-4-item-single wa-bg-default active " data-background="{{url('frontend/assets/img/services/s4-card-bg.png')}}">
-                        <div class="active-content">
-                            <h4 class="bs-h-1 title">
-                                <a href="#" aria-label="name" class="wa-line-limit has-line-2">Garden Pods & Offices</a>
-                            </h4>
-                            <div class="main-img wa-fix wa-img-cover">
-                                <img src="{{url('frontend/assets/img/services/s4-img-2.png')}}" alt="">
-                            </div>
-                            <p class="bs-p-4 disc wa-line-limit has-line-3">
-                                Fully insulated, ready-to-use rooms for work or leisure.
-                            </p>
-                        </div>
-                        <div class="default-content">
-                            <div class="img-2 wa-fix wa-img-cover">
-                                <img src="{{url('frontend/assets/img/services/s4-img-2.png')}}" alt="">
-                            </div>
-                            <h4 class="bs-h-1 title-2 wa-line-limit has-line-1">
-                                Garden Pods & Offices
-                            </h4>
-                        </div>
-                    </div>
-
-                    <!-- single-item -->
-                    <div class="bs-services-4-item-single wa-bg-default " data-background="{{url('frontend/assets/img/services/s4-card-bg.png')}}">
-                        <div class="active-content">
-                            <h4 class="bs-h-1 title">
-                                <a href="#" aria-label="name" class="wa-line-limit has-line-2">Modular Home Extensions</a>
-                            </h4>
-                            <div class="main-img wa-fix wa-img-cover">
-                                <img src="{{url('frontend/assets/img/services/s4-img-3.png')}}" alt="">
-                            </div>
-                            <p class="bs-p-4 disc wa-line-limit has-line-3">
-                                Front, side and rear extensions installed quickly and seamlessly.
-                            </p>
-                        </div>
-                        <div class="default-content">
-                            <div class="img-2 wa-fix wa-img-cover">
-                                <img src="{{url('frontend/assets/img/services/s4-img-3.png')}}" alt="">
-                            </div>
-                            <h4 class="bs-h-1 title-2 wa-line-limit has-line-1">
-                                Modular Home Extensions
-                            </h4>
-                        </div>
-                    </div>
-
-                    <!-- single-item -->
-                    <div class="bs-services-4-item-single wa-bg-default " data-background="{{url('frontend/assets/img/services/s4-card-bg.png')}}">
-                        <div class="active-content">
-                            <h4 class="bs-h-1 title">
-                                <a href="#" aria-label="name" class="wa-line-limit has-line-2">Granny Annexes</a>
-                            </h4>
-                            <div class="main-img wa-fix wa-img-cover">
-                                <img src="{{url('frontend/assets/img/services/s4-img-4.png')}}" alt="">
-                            </div>
-                            <p class="bs-p-4 disc wa-line-limit has-line-3">
-                                Self-contained units designed for independent and comfortable living.
-                            </p>
-                        </div>
-                        <div class="default-content">
-                            <div class="img-2 wa-fix wa-img-cover">
-                                <img src="{{url('frontend/assets/img/services/s4-img-4.png')}}" alt="">
-                            </div>
-                            <h4 class="bs-h-1 title-2 wa-line-limit has-line-1">
-                                Granny Annexes
-                            </h4>
-                        </div>
-                    </div>
-
-                    <!-- single-item -->
-                    <div class="bs-services-4-item-single wa-bg-default " data-background="{{url('frontend/assets/img/services/s4-card-bg.png')}}">
-                        <div class="active-content">
-                            <h4 class="bs-h-1 title">
-                                <a href="#" aria-label="name" class="wa-line-limit has-line-2">Steel-Frame Structures</a>
-                            </h4>
-                            <div class="main-img wa-fix wa-img-cover">
-                                <img src="{{url('frontend/assets/img/services/s4-img-5.png')}}" alt="">
-                            </div>
-                            <p class="bs-p-4 disc wa-line-limit has-line-3">
-                                Strong, energy-efficient structures ideal for larger modular builds.
-                            </p>
-                        </div>
-                        <div class="default-content">
-                            <div class="img-2 wa-fix wa-img-cover">
-                                <img src="{{url('frontend/assets/img/services/s4-img-5.png')}}" alt="">
-                            </div>
-                            <h4 class="bs-h-1 title-2 wa-line-limit has-line-1">
-                                Steel-Frame Structures
-                            </h4>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('frontend.inc.servicecards')
     <!-- services-end -->
 
     <!-- choose-start -->
@@ -553,41 +419,41 @@ ANX Builds || Home
                         <div class="bs-choose-4-content">
 
                             <h5 class="bs-subtitle-4 bs-choose-4-subtitle">
-                                <span class="text">Why choose us</span>
+                                <span class="text">WHY CHOOSE US</span>
                                 <span class="icon">
                                     <img src="{{url('frontend/assets/img/illus/subtitle-4-icon-2.svg')}}" alt="">
                                 </span>
                             </h5>
 
-                            <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">Trusted Experts in Modular Extensions, Pods & Annexes.</h2>
+                            <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">Trusted Experts in Modular Pods & Annexes.</h2>
 
                             <p class="bs-p-4 disc wa-fadeInUp">
-                                Homeowners choose ANX for clean, reliable and efficient builds.
-                                Our modular systems ensure predictable timelines, controlled costs and consistent quality.
+                                Homeowners choose ANX for clean, reliable and efficient modular builds.
+                                Our systems ensure controlled costs, fast installation and long-term performance.
                             </p>
 
                             <h5 class="bs-subtitle-4 bs-choose-4-subtitle mb-3">
                                 <span class="text">
-                                    Key Strengths
+                                    Key Points 
                                 </span>
                             </h5>
                             <div class="bs-choose-4-progress d-flex flex-column gap-2">
                                 <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
                                     <i class="fa-solid fa-check"></i>
                                     <h5 class="bs-p-1 progress-title mb-0">
-                                        <span >Faster completion compared to traditional building</span>
+                                        <span >Faster completion than traditional building</span>
                                     </h5>
                                 </div>
                                 <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
                                     <i class="fa-solid fa-check"></i>
                                     <h5 class="bs-p-1 progress-title mb-0">
-                                        <span >High-performance insulation and durable steel framing</span>
+                                        <span >High-performance insulation and steel framing</span>
                                     </h5>
                                 </div>
                                 <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
                                     <i class="fa-solid fa-check"></i>
                                     <h5 class="bs-p-1 progress-title mb-0">
-                                        <span >Expert support with planning and compliance</span>
+                                        <span >Guidance with planning and compliance</span>
                                     </h5>
                                 </div>
                             </div>
@@ -610,7 +476,7 @@ ANX Builds || Home
                 </div>
             </div>
 
-            <div class="bs-choose-4-feature">
+            {{-- <div class="bs-choose-4-feature">
 
                 <!-- single-feature -->
                 <div class="item-margin">
@@ -672,7 +538,7 @@ ANX Builds || Home
                     </div>
                 </div>
 
-            </div>
+            </div> --}}
 
         </div>
     </section>
@@ -816,8 +682,12 @@ ANX Builds || Home
                     </span>
                 </h5>
                 <div class="inner-div">
-                    <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">Take a Look at Our Latest blogs & Articles.</h2>
-
+                    <div class="d-flex flex-column">
+                        <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize mb-md-3 mb-3" data-cursor="-opaque">Latest Guides & Articles</h2>
+                        <p class="bs-p-4 disc wa-fadeInUp">
+                            Insights on planning permission, garden pod ideas and granny annexe solutions.
+                        </p>
+                    </div>
                     <div class="btn-wrap wa-fadeInRight">
                         <a href="javascript:void(0);" aria-label="name" class="bs-pr-btn-2">
                             <span class="text" data-back="View All Blog" data-front="View All Blog"></span>

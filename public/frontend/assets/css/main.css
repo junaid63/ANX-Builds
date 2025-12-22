@@ -7709,7 +7709,7 @@ Primary style
   }
 }
 .bs-about-4-content .inner-div {
-  padding-left: 125px;
+  /* padding-left: 125px; */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .bs-about-4-content .inner-div {
@@ -7811,14 +7811,16 @@ Primary style
 }
 .bs-about-4-img {
   max-width: 540px;
-  height: 710px;
+  /* height: 710px; */
+  height: 510px;
   margin-left: auto;
 }
 .bs-about-4-project {
   max-width: 285px;
   border-right: 24px solid #fff;
   border-top: 24px solid #fff;
-  padding: 45px 25px;
+  /* padding: 45px 25px; */
+  padding: 20px;
   position: absolute;
   bottom: 0;
   left: 0;

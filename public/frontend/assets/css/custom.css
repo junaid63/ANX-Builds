@@ -357,6 +357,9 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 .bs-price-5-tabs-btn .nav-item .btn-img {
   width: 20%;
 }
+.bs-choose-4-area {
+  height: 850px;
+}
 
 @media only screen and (max-width: 510px) {
   .bs-footer-4-wrap {

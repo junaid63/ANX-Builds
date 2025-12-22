@@ -40,7 +40,7 @@
                                 Let’s Talk About Your Modular Project
                             </h2>
                             <p class="bs-p-4 disc wa-fadeInUp">
-                                Whether you're planning a garden pod, modular home extension or a full granny annexe, our team is here to provide guidance, pricing and a tailored proposal.
+                                Whether you're planning a garden pod or granny annexe, our team is here to provide guidance and pricing.
                             </p>
                             <div class="d-flex dia-banner-content flex-lg-row flex-md-row flex-column pt-lg-4">
                                 <div class="btn-wrap wa-fadeInUp">

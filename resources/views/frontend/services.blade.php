@@ -37,80 +37,7 @@ ANX Builds || Services
     <!-- breadcrumb-end -->
 
     <!-- core-features-start -->
-    <section class="bs-core-features-1-area pb-120 pt-120">
-        <div class="container bs-container-1">
-            <div class="bs-core-features-1-wrap">
-
-                <!-- single-item -->
-                <div class="bs-core-features-1-item">
-                    <div class="icon">
-                        <img src="{{ url('frontend/assets/img/core-features/cf-icon-1.png') }}" alt="">
-                    </div>
-                    <div class="content">
-                        <h5 class="bs-h-1 item-title">
-                            <a href="#" aria-label="name">architectural building</a>
-                        </h5>
-                        <p class="bs-p-1 item-disc">Favorable orientation</p>
-                    </div>
-
-                </div>
-
-                <div class="shape">
-                    <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="">
-                </div>
-
-                <!-- single-item -->
-                <div class="bs-core-features-1-item">
-                    <div class="icon">
-                        <img src="{{ url('frontend/assets/img/core-features/cf-icon-2.png') }}" alt="">
-                    </div>
-                    <div class="content">
-                        <h5 class="bs-h-1 item-title">
-                            <a href="#" aria-label="name">Development</a>
-                        </h5>
-                        <p class="bs-p-1 item-disc">Growth and progress</p>
-                    </div>
-
-                </div>
-
-                <div class="shape">
-                    <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="">
-                </div>
-
-                <!-- single-item -->
-                <div class="bs-core-features-1-item">
-                    <div class="icon">
-                        <img src="{{ url('frontend/assets/img/core-features/cf-icon-3.png') }}" alt="">
-                    </div>
-                    <div class="content">
-                        <h5 class="bs-h-1 item-title">
-                            <a href="#" aria-label="name">Execution</a>
-                        </h5>
-                        <p class="bs-p-1 item-disc">Effective implementation</p>
-                    </div>
-
-                </div>
-
-                <div class="shape">
-                    <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="">
-                </div>
-
-                <!-- single-item -->
-                <div class="bs-core-features-1-item">
-                    <div class="icon">
-                        <img src="{{ url('frontend/assets/img/core-features/cf-icon-4.png') }}" alt="">
-                    </div>
-                    <div class="content">
-                        <h5 class="bs-h-1 item-title">
-                            <a href="#" aria-label="name">Natural Light Home</a>
-                        </h5>
-                        <p class="bs-p-1 item-disc">Bright, Airy,  Tranquil</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    @include('frontend.inc.construction')
     <!-- core-features-end -->
     
     <!-- work-start -->
@@ -175,6 +102,10 @@ ANX Builds || Services
         </div>
     </div>
     <!-- work-end -->            
+
+    <!-- services-start -->
+    @include('frontend.inc.servicecards')
+    <!-- services-end -->
 
     <!-- contact-start -->
     @include('frontend.inc.conabout-banner')
