@@ -58,7 +58,7 @@ ANX Builds || Home
         <div class="container bs-container-2">
             <div class="bs-hero-4-content">
                 <h1 class="bs-hero-4-title bs-h-4 wa-split-y cd-headline clip " data-split-delay="1s">
-                    Modular Pods & Garden Living Across the UK
+                    This Should be Garden Annexes - Not modular pods
                     {{-- <span class="cd-words-wrapper single-headline">
                         <b class="is-visible">Designed</b>
                         <b>Built</b>
@@ -73,11 +73,10 @@ ANX Builds || Home
                                 <path d="M8.00001 7C8.00001 6.73478 8.10537 6.48043 8.2929 6.29289C8.48044 6.10536 8.73479 6 9.00001 6H17C17.2652 6 17.5196 6.10536 17.7071 6.29289C17.8947 6.48043 18 6.73478 18 7V15C18 15.2652 17.8947 15.5196 17.7071 15.7071C17.5196 15.8946 17.2652 16 17 16C16.7348 16 16.4804 15.8946 16.2929 15.7071C16.1054 15.5196 16 15.2652 16 15V9.414L7.70701 17.707C7.51841 17.8892 7.26581 17.99 7.00361 17.9877C6.74141 17.9854 6.4906 17.8802 6.30519 17.6948C6.11978 17.5094 6.01461 17.2586 6.01234 16.9964C6.01006 16.7342 6.11085 16.4816 6.29301 16.293L14.586 8H9.00001C8.73479 8 8.48044 7.89464 8.2929 7.70711C8.10537 7.51957 8.00001 7.26522 8.00001 7Z" fill="#a47966"/>
                             </svg>
                         </span>
-                        <img src="{{url('frontend/assets/img/illus/h4-circle-text.png')}}" alt="">
+                        <img src="{{url('frontend/assets/img/illus/cta-button.png')}}" alt="">
                     </a>
                     <p class="bs-p-4 bs-hero-4-disc wa-split-y" data-split-delay="1.6s">
-                        ANX Builds designs and installs garden pods UK, granny annexes and steel-frame modular buildings.
-                        Fast to build, fully insulated and designed for modern living.
+                        The Granny Annexe Company designs, builds and installs high-quality, bespoke, steel frame garden annexes across the UK. Our fully turnkey service manages every stage - from planning and groundworks to the finished handover.
                     </p>
                 </div>
             </div>
@@ -94,10 +93,10 @@ ANX Builds || Home
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-img-item ">
                                 <div class="main-img wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/hero/h4-img-1.png')}}" alt="">
+                                    <img src="{{url('frontend/assets/img/hero/01.png')}}" alt="">
                                 </div>
                                 <!-- trusted -->
-                                <div class="bs-hero-4-slider-img-item-trusted">
+                                {{-- <div class="bs-hero-4-slider-img-item-trusted">
                                     <h5 class="bs-h-4 title">trusted</h5>
                                     <p class="bs-p-4 ratting" >
                                         <i class="fa-solid fa-star"></i>
@@ -111,7 +110,7 @@ ANX Builds || Home
                                     <p class="bs-p-4 disc">
                                         discover the architectural
                                     </p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
 
@@ -119,10 +118,10 @@ ANX Builds || Home
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-img-item ">
                                 <div class="main-img wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/hero/h4-img-2.png')}}" alt="">
+                                    <img src="{{url('frontend/assets/img/hero/02.png')}}" alt="">
                                 </div>
                                 <!-- trusted -->
-                                <div class="bs-hero-4-slider-img-item-trusted">
+                                {{-- <div class="bs-hero-4-slider-img-item-trusted">
                                     <h5 class="bs-h-4 title">trusted</h5>
                                     <p class="bs-p-4 ratting" >
                                         <i class="fa-solid fa-star"></i>
@@ -136,7 +135,7 @@ ANX Builds || Home
                                     <p class="bs-p-4 disc">
                                         discover the architectural
                                     </p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
 
@@ -144,10 +143,10 @@ ANX Builds || Home
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-img-item ">
                                 <div class="main-img wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/hero/h4-img-3.png')}}" alt="">
+                                    <img src="{{url('frontend/assets/img/hero/03.png')}}" alt="">
                                 </div>
                                 <!-- trusted -->
-                                <div class="bs-hero-4-slider-img-item-trusted">
+                                {{-- <div class="bs-hero-4-slider-img-item-trusted">
                                     <h5 class="bs-h-4 title">trusted</h5>
                                     <p class="bs-p-4 ratting" >
                                         <i class="fa-solid fa-star"></i>
@@ -161,7 +160,7 @@ ANX Builds || Home
                                     <p class="bs-p-4 disc">
                                         discover the architectural
                                     </p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
 
@@ -169,10 +168,10 @@ ANX Builds || Home
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-img-item ">
                                 <div class="main-img wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/hero/h4-img-4.png')}}" alt="">
+                                    <img src="{{url('frontend/assets/img/hero/04.png')}}" alt="">
                                 </div>
                                 <!-- trusted -->
-                                <div class="bs-hero-4-slider-img-item-trusted">
+                                {{-- <div class="bs-hero-4-slider-img-item-trusted">
                                     <h5 class="bs-h-4 title">trusted</h5>
                                     <p class="bs-p-4 ratting" >
                                         <i class="fa-solid fa-star"></i>
@@ -186,7 +185,7 @@ ANX Builds || Home
                                     <p class="bs-p-4 disc">
                                         discover the architectural
                                     </p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -200,28 +199,28 @@ ANX Builds || Home
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-thum-item wa-img-cover wa-fix">
-                                <img src="{{url('frontend/assets/img/hero/h4-thum-1.png')}}" alt="">
+                                <img src="{{url('frontend/assets/img/hero/01.png')}}" alt="">
                             </div>
                         </div>
 
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-thum-item wa-img-cover wa-fix">
-                                <img src="{{url('frontend/assets/img/hero/h4-thum-2.png')}}" alt="">
+                                <img src="{{url('frontend/assets/img/hero/02.png')}}" alt="">
                             </div>
                         </div>
 
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-thum-item wa-img-cover wa-fix">
-                                <img src="{{url('frontend/assets/img/hero/h4-thum-3.png')}}" alt="">
+                                <img src="{{url('frontend/assets/img/hero/03.png')}}" alt="">
                             </div>
                         </div>
 
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-thum-item wa-img-cover wa-fix">
-                                <img src="{{url('frontend/assets/img/hero/h4-thum-1.png')}}" alt="">
+                                <img src="{{url('frontend/assets/img/hero/04.png')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -312,16 +311,18 @@ ANX Builds || Home
 
                 <!-- left-content -->
                 <div class="bs-about-4-content">
-                    <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">Innovative Modular Living Rooted in Engineering.</h2>
+                    <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">Premium quality granny annexes, engineered to last.</h2>
 
                     <div class="inner-div">
                         <p class="bs-p-4 disc wa-fadeInUp">
-                            ANX Builds specialises in modular pods, granny annexes and steel-frame buildings.
-                            We combine modern design, structural strength and efficient installation to create spaces that perform all year round.
+                            Our granny annexes are designed and engineered to feel like true homes - more
+                            like a new-build house than a temporary building. As you’ll see in our About Us
+                            section, we’re built around quality: robust steel-frame construction,
+                            house-level specification, and a careful finish on every detail.
                         </p>
                         <div class="btn-wrap wa-fadeInUp">
-                            <a href="about.html" aria-label="name" class="bs-pr-btn-2">
-                                <span class="text" data-back="Know About ANX" data-front="Know About ANX"></span>
+                            <a href="{{ route('about') }}" aria-label="name" class="bs-pr-btn-2">
+                                <span class="text" data-back="More About The Granny Annexe Company" data-front="More About The Granny Annexe Company"></span>
                                 <span class="line-1" ></span>
                                 <span class="line-2" ></span>
                                 <span class="box box-1" ></span>
@@ -397,7 +398,7 @@ ANX Builds || Home
 
             <div class="bs-video-4-text">
                 <div class="bs-video-4-marquee-active">
-                    <h4 class="bs-h-1 bs-video-4-text-item wa-split-text">ANX BUILDS</h4>
+                    <h4 class="bs-h-1 bs-video-4-text-item wa-split-text">The Granny Annexe Company</h4>
                 </div>
             </div>
         </div>
@@ -425,11 +426,12 @@ ANX Builds || Home
                                 </span>
                             </h5>
 
-                            <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">Trusted Experts in Modular Pods & Annexes.</h2>
+                            <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">
+                                Trusted Experts in Granny Annexes
+                            </h2>
 
                             <p class="bs-p-4 disc wa-fadeInUp">
-                                Homeowners choose ANX for clean, reliable and efficient modular builds.
-                                Our systems ensure controlled costs, fast installation and long-term performance.
+                                Homeowners choose The Granny Annexe Company for clean, reliable and efficient modular builds. Our systems ensure fixed costs, fast installation and long - term performance 
                             </p>
 
                             <h5 class="bs-subtitle-4 bs-choose-4-subtitle mb-3">
@@ -467,7 +469,8 @@ ANX Builds || Home
                 <!-- right-play-btn -->
                 <div class="bs-choose-4-right d-flex justify-content-center align-items-center">
 
-                    <a href="javascript:void(0)" aria-label="name" class="bs-play-btn-4 wa-magnetic popup-video">
+                    {{-- <a href="javascript:void(0)" aria-label="name" class="bs-play-btn-4 wa-magnetic popup-video"> --}}
+                    <a href="javascript:void(0)" aria-label="name" class="bs-play-btn-4 wa-magnetic">
                         <span class="icon wa-magnetic-btn">
                             <i class="flaticon-play flaticon"></i>
                         </span>
@@ -544,133 +547,6 @@ ANX Builds || Home
     </section>
     <!-- choose-end -->
 
-    <!-- project-start -->
-    <!-- <section class="bs-project-4-area pt-125 wa-fix">
-        <div class="container bs-container-2">
-            <h5 class="bs-subtitle-4 bs-project-4-subtitle">
-                <span class="text">projects</span>
-                <span class="icon">
-                    <img src="{{ url('frontend/') }}assets/img/illus/subtitle-4-icon.svg" alt="">
-                </span>
-            </h5>
-
-            <div class="bs-project-4-height">
-
-                <div class="bs-project-4-content wa-fix ">
-                    <h3 class="bs-h-4 big-title title " >recent</h3>
-                    <h3 class="bs-h-4 title title-2">
-                        <span class="left-text">wo</span>
-                        <span class="right-text">rks</span>
-                    </h3>
-                </div>
-
-                <div class="bs-project-4-card-pin">
-                    <div class="bs-project-4-card ">
-
-                        <div class="bs-project-4-card-single has-card-1">
-                            <div class="card-img wa-fix wa-img-cover">
-                                <a href="project-details.html" aria-label="name" data-cursor-text="View">
-                                    <img src="assets/img/projects/p4-img-1.png" alt="">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5 class="bs-h-4 title">
-                                    <a href="project-details.html" aria-label="name">Luxury villas: A fusion of elegance and function.</a>
-                                </h5>
-                                <ul class="card-details wa-list-style-none">
-                                    <li class="bs-p-4">
-                                        <span>role:</span>
-                                        Architecture design
-                                    </li>
-                                    <li class="bs-p-4">
-                                        <span>role:</span>
-                                        Building , Wireframes, Visual design
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="bs-project-4-card-single has-card-2">
-                            <div class="card-img wa-fix wa-img-cover">
-                                <a href="project-details.html" aria-label="name" data-cursor-text="View">
-                                    <img src="assets/img/projects/p4-img-2.png" alt="">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5 class="bs-h-4 title">
-                                    <a href="project-details.html" aria-label="name">Luxury villas: A fusion of elegance and function.</a>
-                                </h5>
-                                <ul class="card-details wa-list-style-none">
-                                    <li class="bs-p-4">
-                                        <span>role:</span>
-                                        Architecture design
-                                    </li>
-                                    <li class="bs-p-4">
-                                        <span>role:</span>
-                                        Building , Wireframes, Visual design
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="bs-project-4-card-single has-card-3">
-                            <div class="card-img wa-fix wa-img-cover">
-                                <a href="project-details.html" aria-label="name" data-cursor-text="View">
-                                    <img src="assets/img/projects/p4-img-3.png" alt="">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5 class="bs-h-4 title">
-                                    <a href="project-details.html" aria-label="name">Luxury villas: A fusion of elegance and function.</a>
-                                </h5>
-                                <ul class="card-details wa-list-style-none">
-                                    <li class="bs-p-4">
-                                        <span>role:</span>
-                                        Architecture design
-                                    </li>
-                                    <li class="bs-p-4">
-                                        <span>role:</span>
-                                        Building , Wireframes, Visual design
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="bs-project-4-card-single has-card-4">
-                            <div class="card-img wa-fix wa-img-cover">
-                                <a href="project-details.html" aria-label="name" data-cursor-text="View">
-                                    <img src="assets/img/projects/p4-img-4.png" alt="">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5 class="bs-h-4 title">
-                                    <a href="project-details.html" aria-label="name">Luxury villas: A fusion of elegance and function.</a>
-                                </h5>
-                                <ul class="card-details wa-list-style-none">
-                                    <li class="bs-p-4">
-                                        <span>role:</span>
-                                        Architecture design
-                                    </li>
-                                    <li class="bs-p-4">
-                                        <span>role:</span>
-                                        Building , Wireframes, Visual design
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-
-        </div>
-    </section> -->
-    <!-- project-end -->
-
-    <!-- testimonial-start -->
-    <!-- testimonial-end -->
-
     <!-- blog-start -->
     <section class="bs-blog-4-area pb-125 pt-95">
         <div class="container bs-container-2">
@@ -685,7 +561,7 @@ ANX Builds || Home
                     <div class="d-flex flex-column">
                         <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize mb-md-3 mb-3" data-cursor="-opaque">Latest Guides & Articles</h2>
                         <p class="bs-p-4 disc wa-fadeInUp">
-                            Insights on planning permission, garden pod ideas and granny annexe solutions.
+                            Insights on planning permission, garden pod ideas and solutions. 
                         </p>
                     </div>
                     <div class="btn-wrap wa-fadeInRight">
@@ -751,7 +627,7 @@ ANX Builds || Home
                                         <a href="{{ route('blogDeails', $blog->slug) }}" aria-label="name">{{ ucwords($blog->title) }}</a>
                                     </h4>
                                     <p class="item-meta bs-p-4">
-                                        <span class="categories" >architecture</span>
+                                        <span class="categories" >Garden Annexes</span>
                                         <span class="date" >jan 20, 2024</span>
                                         <span class="read" >10 min read</span>
                                     </p>
@@ -771,42 +647,6 @@ ANX Builds || Home
     <!-- contact-start -->
     @include('frontend.inc.conabout-banner')
     <!-- contact-end -->
-    
-    <!-- brand-start -->
-    <div class="bs-brand-4-area wa-fix mb-130">
-        <div class="bs-brand-4-marquee-active">
-            <div class="bs-brand-4-wrap wa-fix">
-                <div class="bs-brand-4-item">
-                    <img src="{{url('frontend/assets/img/brand/b4-logo-1.svg')}}" alt="">
-                </div>
-                <div class="bs-brand-4-item">
-                    <img src="{{url('frontend/assets/img/brand/b4-logo-2.svg')}}" alt="">
-                </div>
-                <div class="bs-brand-4-item">
-                    <img src="{{url('frontend/assets/img/brand/b4-logo-3.svg')}}" alt="">
-                </div>
-                <div class="bs-brand-4-item">
-                    <img src="{{url('frontend/assets/img/brand/b4-logo-4.svg')}}" alt="">
-                </div>
-                <div class="bs-brand-4-item">
-                    <img src="{{url('frontend/assets/img/brand/b4-logo-5.svg')}}" alt="">
-                </div>
-                <div class="bs-brand-4-item">
-                    <img src="{{url('frontend/assets/img/brand/b4-logo-6.svg')}}" alt="">
-                </div>
-                <div class="bs-brand-4-item">
-                    <img src="{{url('frontend/assets/img/brand/b4-logo-7.svg')}}" alt="">
-                </div>
-                <div class="bs-brand-4-item">
-                    <img src="{{url('frontend/assets/img/brand/b4-logo-8.svg')}}" alt="">
-                </div>
-                <div class="bs-brand-4-item">
-                    <img src="{{url('frontend/assets/img/brand/b4-logo-9.svg')}}" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- brand-end -->
 
 @endsection
 

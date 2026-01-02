@@ -1605,6 +1605,15 @@ input:focus::placeholder, textarea:focus::placeholder {
   list-style: none;
 }
 
+.bs-office-1-card .card-img.wa-img-cover {
+  height: 200px;
+}
+.card-img.wa-img-cover img {
+  width: 100%;
+  height: 100% !important;
+  object-fit: contain;
+}
+
 .wa-img-cover img {
   width: 100%;
   height: 100% !important;
@@ -6684,7 +6693,8 @@ Primary style
   }
 }
 .bs-hero-4-content {
-  max-width: 830px;
+  /* max-width: 830px; */
+  max-width: 1000px;
   position: relative;
   z-index: 2;
 }
@@ -6798,6 +6808,7 @@ Primary style
   z-index: 1;
   height: 820px;
 }
+
 .bs-hero-4-slider-img-item .main-img {
   width: 100%;
   height: 100%;
@@ -8925,10 +8936,10 @@ Primary style
   z-index: -1;
 }
 .bs-work-1-wrap {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1.475fr 1fr;
   gap: 70px;
-  align-items: center;
+  align-items: center; */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .bs-work-1-wrap {
@@ -9260,9 +9271,9 @@ Primary style
   }
 }
 .bs-work-process-item {
-  max-width: 1040px;
+  /* max-width: 1040px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 .bs-work-process-item-single {
   display: grid;
@@ -9296,7 +9307,7 @@ Primary style
   mask-size: 100% 100%;
   -webkit-mask-size: 100% 100%;
   mask-position: center center;
-  height: 290px;
+  /* height: 290px; */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .bs-work-process-item-single .item-img {
@@ -11558,7 +11569,8 @@ Primary style
   }
 }
 .bs-services-4-item-single .main-img {
-  max-width: 272px;
+  /* max-width: 272px; */
+  max-width: 470px;
   height: 320px;
   margin-bottom: 34px;
 }
@@ -17280,8 +17292,8 @@ Primary style
 }
 .bs-blog-details-content {
   max-width: 730px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 .bs-blog-details-content h1, .bs-blog-details-content h2, .bs-blog-details-content h3, .bs-blog-details-content h4, .bs-blog-details-content h5, .bs-blog-details-content h6 {
   font-family: var(--bs-font-pr-1);

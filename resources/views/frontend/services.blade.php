@@ -35,13 +35,8 @@ ANX Builds || Services
         </div>
     </section>
     <!-- breadcrumb-end -->
-
-    <!-- core-features-start -->
-    @include('frontend.inc.construction')
-    <!-- core-features-end -->
-    
     <!-- work-start -->
-    <div class="bs-work-1-area wa-p-relative" data-background="{{ url('frontend/assets/img/work/w1-bg-noise-1.png') }}">
+    <div class="bs-work-1-area wa-p-relative pt-lg-0 pt-md-0 pt-0" data-background="{{ url('frontend/assets/img/work/w1-bg-noise-1.png') }}">
         <div class="container bs-container-1">
             <div class="bs-work-1-wrap">
 
@@ -102,10 +97,6 @@ ANX Builds || Services
         </div>
     </div>
     <!-- work-end -->            
-
-    <!-- services-start -->
-    @include('frontend.inc.servicecards')
-    <!-- services-end -->
 
     <!-- contact-start -->
     @include('frontend.inc.conabout-banner')

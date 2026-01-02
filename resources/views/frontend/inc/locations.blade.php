@@ -1,5 +1,6 @@
 <section class="bs-office-1-area wa-fix mt-50">
-    <div class="container bs-container-1">
+    {{-- <div class="container bs-container-1"> --}}
+    <div class="container">
         <div class="bs-office-1-wrap">
 
             <div class="bs-office-1-left">
@@ -68,9 +69,9 @@
                 </div>
             </div>
 
-            <div class="bs-office-1-bg-img wa-fix">
+            {{-- <div class="bs-office-1-bg-img wa-fix">
                 <img class="wa-slideInUp" src="{{url('frontend/assets/img/office/o1-bg-img-1.png')}}" alt="">
-            </div>
+            </div> --}}
 
         </div>
     </div>

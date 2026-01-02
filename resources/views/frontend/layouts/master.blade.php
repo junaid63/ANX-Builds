@@ -3,24 +3,27 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>@yield('title')</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+        <meta name="robots" content="noindex, nofollow">
+        @yield('metas')
+	
+        <title>@yield('title')</title>
+    
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
         <!-- Place favicon.ico in the root directory -->
-
 		<!-- all-CSS-link-here -->
         <link rel="stylesheet" href="{{url('frontend/assets/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/swiper-bundle.min.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/all.min.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/flaticon_barsi.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/nice-select.css')}}">
-        <link rel="stylesheet" href="{{url('frontend/assets/css/animate.css')}}">
+        {{-- <link rel="stylesheet" href="{{url('frontend/assets/css/animate.css')}}"> --}}
         <link rel="stylesheet" href="{{url('frontend/assets/css/magnific-popup.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/main.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/custom.css')}}">
     </head>
-
+ 
     <body class="bs-home-4">
         {{-- wa-fix --}}
         <div class="main-wrapper">

@@ -114,7 +114,7 @@ ANX Builds || Prices
                         <div class="box-border">
                             <h5 class="bs-h-4 title">standard plan</h5>
                             <h6 class="bs-h-4 item-price ">
-                                <span class="dollar" >$</span>
+                                <span class="dollar" >&pound;</span>
                                 <span class="price" >120</span>
                                 <span class="time">/ per hours</span>
                             </h6>
@@ -160,7 +160,7 @@ ANX Builds || Prices
                         <div class="box-border">
                             <h5 class="bs-h-4 title">Standard Plan</h5>
                             <h6 class="bs-h-4 item-price ">
-                                <span class="dollar" >$</span>
+                                <span class="dollar" >&pound;</span>
                                 <span class="price" >450</span>
                                 <span class="time">/ per hours</span>
                             </h6>
@@ -206,7 +206,7 @@ ANX Builds || Prices
                         <div class="box-border">
                             <h5 class="bs-h-4 title">Enterprise Plan</h5>
                             <h6 class="bs-h-4 item-price ">
-                                <span class="dollar" >$</span>
+                                <span class="dollar" >&pound;</span>
                                 <span class="price" >990</span>
                                 <span class="time">/ per hours</span>
                             </h6>

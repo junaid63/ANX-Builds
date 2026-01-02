@@ -35,10 +35,6 @@ ANX Builds || Our Process
     </section>
     <!-- breadcrumb-end -->
 
-    <!-- core-features-start -->
-    @include('frontend.inc.construction')
-    <!-- core-features-end -->
-
     <!-- work-process-start -->
     <section class="bs-work-process-area pt-140">
         <div class="container bs-container-1">
@@ -62,57 +58,162 @@ ANX Builds || Our Process
                 
                 <!-- single-item -->
                 <div class="bs-work-process-item-single">
-                    <div class="item-img wa-fix wa-img-cover">
-                        <img src="{{ url('frontend/assets/img/work/w6-img-1.png') }}" alt="">
+                    <div class="item-img wa-fix wa-img-cover first">
+                        <img src="{{ url('frontend/assets/img/process/01.png') }}" alt="">
                     </div>
                     <div class="item-line">
                     </div>
                     <div class="content">
                         <h4 class="bs-h-4 number">01</h4>
-                        <h5 class="bs-h-4 title">Initial Consultation</h5>
-                        <p class="bs-p-4 disc">Our architecture initial consultation is a collaborative session where we discuss your project goals, preferences, and vision. We listen to your ideas and offer expert guidance to shape.</p>
+                        <h5 class="bs-h-4 title">Enquiry</h5>
+                        <p class="bs-p-4 disc">
+                            To start your exciting OffPOD journey, be sure to enquire via one of our methods below:
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    Contact form <a href="{{ route('contact') }}">(Link)</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                 Website chat
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                Email - <a href="mailto:info@off-pod.co.uk">info@off-pod.co.uk</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                Phone - <a href="tel:01623 490821">01623 490821</a> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                Social media  - <a href="{{ setting('site.facebook') }}">Facebook</a> & <a href="{{ setting('site.instagram') }}">Instagram</a>
+                                </p>
+                            </li>
+                        </ul>
+                        <p class="bs-p-4 disc">
+                            Your inquiry, no matter how detailed or vague, is always welcome. If you're uncertain about what you want, don't worry, we've got you covered. Our team of talented designers and architects are ready and eager to assist you in bringing your dream Home Extension, Annexe, or Garden Room to life. 
+                        </p>
                     </div>
                 </div>
                 
                 <!-- single-item -->
                 <div class="bs-work-process-item-single">
-                    <div class="item-img wa-fix wa-img-cover">
-                        <img src="{{ url('frontend/assets/img/work/w6-img-2.png') }}" alt="">
+                    <div class="item-img wa-fix wa-img-cover second">
+                        <img src="{{ url('frontend/assets/img/process/02.png') }}" alt="">
                     </div>
                     <div class="item-line">
                     </div>
                     <div class="content">
                         <h4 class="bs-h-4 number">02</h4>
-                        <h5 class="bs-h-4 title">Design & Planning</h5>
-                        <p class="bs-p-4 disc">Architecture design and planning is the process of creating innovative, functional, and aesthetically pleasing structures that meet the needs of the occupants. It involves careful.</p>
+                        <h5 class="bs-h-4 title">Consultation</h5>
+                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
+                            After receiving your inquiry, a dedicated member of the OffPOD team will reach out to you and get the ball rolling. Whether you prefer a personalised phone call, a virtual video chat, or a hands-on site visit, we'll work with you to find the best approach that suits your unique needs and preferences
+                        </p>
+                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
+                            The consultation is a crucial opportunity for you to gain a comprehensive understanding of the OffPOD philosophy and for us to fully grasp your specific needs and requirements. Together, we'll work towards creating a bespoke Modular House Extension, Granny Annexe or Garden Room that is tailored to your exact specifications and exceeds your expectations. 
+                        </p>
+                        <p class="bs-p-4 disc">
+                            Take comfort in the knowledge that OffPOD offers a comprehensive, one-stop turnkey solution that covers every aspect of the project, from planning applications to building regulations and even demolition work if necessary. Our aim is to make the process as seamless and convenient as possible for you, and we understand that many of our clients appreciate the convenience of keeping everything under one roof
+                        </p>
                     </div>
                 </div>
                 
                 <!-- single-item -->
                 <div class="bs-work-process-item-single">
-                    <div class="item-img wa-fix wa-img-cover">
-                        <img src="{{ url('frontend/assets/img/work/w6-img-3.png') }}" alt="">
+                    <div class="item-img wa-fix wa-img-cover third">
+                        <img src="{{ url('frontend/assets/img/process/03.png') }}" alt="">
                     </div>
                     <div class="item-line">
                     </div>
                     <div class="content">
-                        <h4 class="bs-h-4 number">02</h4>
-                        <h5 class="bs-h-4 title">Implementation</h5>
-                        <p class="bs-p-4 disc">Architecture implementation involves bringing design concepts to life through construction, ensuring that every detail aligns with the vision and functionality. It requires effective project.</p>
+                        <h4 class="bs-h-4 number">03</h4>
+                        <h5 class="bs-h-4 title">Initial Quote</h5>
+                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
+                            After the consultation, it's time for us to get to work, generating your bespoke quote using the details gathered from our recent discussions. 
+                        </p>
+                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
+                            The initial quote will detail a full breakdown of what's included and the Terms & Conditions to ensure full transparency right from the start.
+                        </p>
+                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
+                            Amongst many other things, we pride ourselves on efficiency. Buying an OffPOD Granny Annexe or Modular House Extension is an exciting time, and we don't like to keep our customers waiting around. As long as there is nothing too technical about your build you will have your price within 48 hours!
+                        </p>
                     </div>
                 </div>
                 
                 <!-- single-item -->
                 <div class="bs-work-process-item-single">
-                    <div class="item-img wa-fix wa-img-cover">
-                        <img src="{{ url('frontend/assets/img/work/w6-img-4.png') }}" alt="">
+                    <div class="item-img wa-fix wa-img-cover fourth">
+                        <img src="{{ url('frontend/assets/img/process/04.png') }}" alt="">
                     </div>
                     <div class="item-line">
                     </div>
                     <div class="content">
                         <h4 class="bs-h-4 number">04</h4>
-                        <h5 class="bs-h-4 title">Project Handover</h5>
-                        <p class="bs-p-4 disc">The architecture project handover marks the completion of design and construction, with all deliverables handed over to the client. This includes final plans, documentation.</p>
+                        <h5 class="bs-h-4 title">Site Survey</h5>
+                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
+                            The site survey is a vital stage of the process, as it allows us to fully understand the build conditions, such as the foundation requirements, electrical installations,  site access, any hazards or obstruction.  
+                        </p>
+                        <p class="bs-p-4 disc">
+                            By completing a site survey we ensure there aren't any unwanted surprises that will slow down the building of your garden room.  What we really love about site surveys is the chance to meet our future clients and build lasting relationships. We cant wait to meet you!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- single-item -->
+                <div class="bs-work-process-item-single">
+                    <div class="item-img wa-fix wa-img-cover five">
+                        <img src="{{ url('frontend/assets/img/process/05.png') }}" alt="">
+                    </div>
+                    <div class="item-line">
+                    </div>
+                    <div class="content">
+                        <h4 class="bs-h-4 number">05</h4>
+                        <h5 class="bs-h-4 title">Final Quote</h5>
+                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
+                            Following the site visit, we will amend and finalise the quote if need be. Now it's time for you to decide if we are the right people for the job..... we hope we have made a good impression!  
+                        </p>
+                        <p class="bs-p-4 disc">
+                            If you are completely happy with the quote and would like to secure your OffPOD build, we will require a 30% deposit. We can then give you an installation date and it's time for the countdown to begin! 
+                        </p>
+                    </div>
+                </div>
+
+                <!-- single-item -->
+                <div class="bs-work-process-item-single custom-ltr">
+                    <div class="item-img wa-fix wa-img-cover six">
+                        <img src="{{ url('frontend/assets/img/process/06.png') }}" alt="">
+                    </div>
+                    <div class="item-line">
+                    </div>
+                    <div class="content">
+                        <h4 class="bs-h-4 number">06</h4>
+                        <h5 class="bs-h-4 title">Order Package</h5>
+                        <p class="bs-p-4 disc">
+                            Upon receiving the deposit, things really start heating up. We will get straight to work on your order package, which will include the following details:
+                        </p>
+                        <ul>
+                            <li>
+                                Full technical drawings 
+                            </li>
+                            <li>
+                                Professional exterior & interior renders (Very Exciting)
+                            </li>
+                            <li>
+                                Order
+                            </li>
+                            <li>
+                                Terms & Conditions
+                            </li>
+                        </ul>
+                        <p class="bs-p-4 disc">
+                            This is the stage where we go through more of the finer detail, such as where the sockets & light placement,  window and door locations etc. 
+                        </p>
                     </div>
                 </div>
 
