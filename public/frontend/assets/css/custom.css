@@ -154,8 +154,8 @@
   width: 85px;
 }
 .contactus-images-banner .images .first {
-  top: -35px;
-  left: 120px;
+  top: -50px;
+  left: 100px;
 }
 .contactus-images-banner .images .second {
   top: -150px;
@@ -359,6 +359,34 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 }
 .bs-choose-4-area {
   height: 850px;
+}
+.bs-work-process-area .content ul li p {
+  margin-bottom: 0px;
+}
+.bs-work-process-area .content ul li p a {
+  text-decoration: underline;
+}
+.bs-work-process-item-single.custom-ltr:nth-child(2n) .content p,
+.bs-work-process-item-single.custom-ltr:nth-child(2n) .content ul {
+  direction: ltr;
+}
+.bs-work-process-item-single .item-img.first {
+  height: 400px;
+}
+.bs-work-process-item-single .item-img.second {
+  height: 500px;
+}
+.bs-work-process-item-single .item-img.six ,
+.bs-work-process-item-single .item-img.five ,
+.bs-work-process-item-single .item-img.fourth ,
+.bs-work-process-item-single .item-img.third {
+  height: 350px;
+}
+
+.bs-hero-4-content {
+  background: #f2f1ec;
+  padding: 30px;
+  border-radius: 40px;
 }
 
 @media only screen and (max-width: 510px) {

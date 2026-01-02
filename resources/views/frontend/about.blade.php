@@ -36,10 +36,6 @@ ANX Builds || About Us
     </section>
     <!-- breadcrumb-end -->
 
-    <!-- core-features-start -->
-    @include('frontend.inc.construction')
-    <!-- core-features-end -->
-
     <!-- about-start -->
     <section class="bs-about-1-area pt-125 pb-100">
         <div class="container bs-container-1">
@@ -50,9 +46,11 @@ ANX Builds || About Us
                     <span class="icon">
                         <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="">
                     </span>
-                    Building Modern Modular Living Spaces Across the UK
+                    About Us
                 </h6>
-                <h2 class="bs-sec-title-1  wa-split-right wa-capitalize" data-cursor="-opaque">Award-Winning Modular Pods, Annexes & Steel-Frame Builds</h2>
+                <h2 class="bs-sec-title-1  wa-split-right wa-capitalize" data-cursor="-opaque">
+                    Premium quality granny annexes, engineered to last.
+                </h2>
             </div>
 
             <!-- slider -->
@@ -107,8 +105,13 @@ ANX Builds || About Us
             <!-- content -->
             <div class="bs-about-1-content">
                 <p class="bs-p-1 disc wa-split-y wa-capitalize">
-                    ANX Builds delivers high-quality modular pods and granny annexes engineered for modern living.
-                    Our team manages every phase — from design and planning to fabrication and installation — ensuring a smooth, efficient experience with minimal disruption.
+                    The Granny Annexe Company designs, builds and installs high-quality garden annexes across the UK, created to help families support older loved ones with comfort, privacy and independence close to home. Founded by director Matt Biddle after years building annexes nationwide, our company was built around one simple principle: an annexe should feel like a proper home, not a temporary structure. 
+                </p>
+                <p class="bs-p-1 disc wa-split-y wa-capitalize">
+                    We specialise in steel-frame granny annexes for long-term strength, stability and year-round comfort. Our homes are engineered to go beyond the typical “cabin-style” approach, using high-performance insulation, soundproofing and triple glazing as standard, with specifications designed to outperform many modern new-build benchmarks and exceed the UK’s residential park home standard (BS 3632). 
+                </p>
+                <p class="bs-p-1 disc wa-split-y wa-capitalize">
+                    From first ideas to move-in day, we provide a complete turnkey garden annexe build service—including drawings and technical design, groundworks and connections, electrics, plumbing, heating, kitchen and bathroom installation, certification and handover. We also guide the planning route (often via the Caravan Act) and can manage your Lawful Development Certificate, with every build protected by a 10-year structural warranty and a clear aftercare pack. 
                 </p>
             </div>
 
@@ -117,7 +120,7 @@ ANX Builds || About Us
     <!-- about-end -->
 
     <!-- counter-start -->
-    <section class="bs-core-feature-5-area mb-160">
+    {{-- <section class="bs-core-feature-5-area mb-160">
         <div class="container bs-container-2">
             <div class="bs-core-feature-4-line wa-scaleXInUp"></div>
             <div class="bs-core-feature-4-wrap has-5">
@@ -131,9 +134,6 @@ ANX Builds || About Us
                         <span class="counter wa-counter">350</span>
                         +
                     </h5>
-                    {{-- <p class="bs-p-4 item-disc">
-                        Delivering modular pods, extensions and annexes across the UK.
-                    </p> --}}
                 </div>
 
                 <!-- single-item -->
@@ -145,9 +145,6 @@ ANX Builds || About Us
                         <span class="counter wa-counter">10</span>
                         +
                     </h5>
-                    {{-- <p class="bs-p-4 item-disc">
-                        A decade of experience in modular engineering and prefabrication.
-                    </p> --}}
                 </div>
 
                 <!-- single-item -->
@@ -159,9 +156,6 @@ ANX Builds || About Us
                         <span class="counter wa-counter">98</span>
                         % 
                     </h5>
-                    {{-- <p class="bs-p-4 item-disc">
-                        Homeowners trust ANX for reliable timelines, quality and service.
-                    </p> --}}
                 </div>
 
                 <!-- single-item -->
@@ -173,15 +167,12 @@ ANX Builds || About Us
                         <span class="counter wa-counter">23</span>
                         +
                     </h5>
-                    {{-- <p class="bs-p-4 item-disc">
-                        Awarded for innovation in modular and steel-frame construction.
-                    </p> --}}
                 </div>
 
             </div>
             <div class="bs-core-feature-4-line wa-scaleXInUp"></div>
         </div>
-    </section>
+    </section> --}}
     <!-- counter-end -->            
 
     <!-- video-start -->
@@ -199,365 +190,11 @@ ANX Builds || About Us
                 </div>
             </div>
             <div class="bs-h-1 title wa-split-down" data-cursor="-opaque">
-                ANX BUILDS
+                The Granny Annexe Company
             </div>
         </div>
     </section>
     <!-- video-end -->
-
-    <!-- team-start -->
-    {{-- <section class="bs-team-1-area pt-135 pb-140 wa-fix">
-        <div class="container bs-container-1">
-
-            <!-- section-title -->
-            <div class="bs-team-1-sec-title text-center mb-30">
-                <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
-                    <span class="icon">
-                        <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="">
-                    </span>
-                    our team
-                </h6>
-                <h2 class="bs-sec-title-1 wa-split-right wa-capitalize" data-cursor="-opaque">Meet Our Team</h2>
-            </div>
-
-            <!-- slider -->
-            <div class="bs-team-1-slider wa-p-relative">
-                <div class="swiper-container wa-fix bs-team1-active">
-                    <div class="swiper-wrapper">
-
-                        <!-- single-slide -->
-                        <div class="swiper-slide">
-                            <div class="bs-team-1-item">
-                                <div class="item-img wa-fix wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/team/t1-img-1.png')}}" alt="">
-                                </div>
-                                <div class="content-wrap">
-                                    <div class="left">
-                                        <h5 class="bs-h-1 name">
-                                            <a href="#" aria-label="name">marox woller</a>
-                                        </h5>
-                                        <p class="bs-p-1 bio">manager IT support</p>
-                                    </div>
-                                    <div class="social-link">
-                                        <a class="link" href="#" aria-label="name">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a class="link" href="#" aria-label="name">
-                                            <i class="fa-brands fa-instagram"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- single-slide -->
-                        <div class="swiper-slide">
-                            <div class="bs-team-1-item">
-                                <div class="item-img wa-fix wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/team/t1-img-2.png')}}" alt="">
-                                </div>
-                                <div class="content-wrap">
-                                    <div class="left">
-                                        <h5 class="bs-h-1 name">
-                                            <a href="#" aria-label="name">Natalie Lin</a>
-                                        </h5>
-                                        <p class="bs-p-1 bio">IT support</p>
-                                    </div>
-                                    <div class="social-link">
-                                        <a class="link" href="#" aria-label="name">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a class="link" href="#" aria-label="name">
-                                            <i class="fa-brands fa-instagram"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- single-slide -->
-                        <div class="swiper-slide">
-                            <div class="bs-team-1-item">
-                                <div class="item-img wa-fix wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/team/t1-img-3.png')}}" alt="">
-                                </div>
-                                <div class="content-wrap">
-                                    <div class="left">
-                                        <h5 class="bs-h-1 name">
-                                            <a href="#" aria-label="name">Ryann Wade</a>
-                                        </h5>
-                                        <p class="bs-p-1 bio">IT manager</p>
-                                    </div>
-                                    <div class="social-link">
-                                        <a class="link" href="#" aria-label="name">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a class="link" href="#" aria-label="name">
-                                            <i class="fa-brands fa-instagram"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- single-slide -->
-                        <div class="swiper-slide">
-                            <div class="bs-team-1-item">
-                                <div class="item-img wa-fix wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/team/t1-img-4.png')}}" alt="">
-                                </div>
-                                <div class="content-wrap">
-                                    <div class="left">
-                                        <h5 class="bs-h-1 name">
-                                            <a href="#" aria-label="name">Riley Wang</a>
-                                        </h5>
-                                        <p class="bs-p-1 bio">marketing expert</p>
-                                    </div>
-                                    <div class="social-link">
-                                        <a class="link" href="#" aria-label="name">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a class="link" href="#" aria-label="name">
-                                            <i class="fa-brands fa-instagram"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- single-slide -->
-                        <div class="swiper-slide">
-                            <div class="bs-team-1-item">
-                                <div class="item-img wa-fix wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/team/t1-img-5.png')}}" alt="">
-                                </div>
-                                <div class="content-wrap">
-                                    <div class="left">
-                                        <h5 class="bs-h-1 name">
-                                            <a href="#" aria-label="name">Kara McGee</a>
-                                        </h5>
-                                        <p class="bs-p-1 bio">engineer</p>
-                                    </div>
-                                    <div class="social-link">
-                                        <a class="link" href="#" aria-label="name">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a class="link" href="#" aria-label="name">
-                                            <i class="fa-brands fa-instagram"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- single-slide -->
-                        <div class="swiper-slide">
-                            <div class="bs-team-1-item">
-                                <div class="item-img wa-fix wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/team/t1-img-6.png')}}" alt="">
-                                </div>
-                                <div class="content-wrap">
-                                    <div class="left">
-                                        <h5 class="bs-h-1 name">
-                                            <a href="#" aria-label="name">Siena Zamora</a>
-                                        </h5>
-                                        <p class="bs-p-1 bio">support manager</p>
-                                    </div>
-                                    <div class="social-link">
-                                        <a class="link" href="#" aria-label="name">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a class="link" href="#" aria-label="name">
-                                            <i class="fa-brands fa-instagram"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- slider-btn -->
-                <div class="bs-team-1-slider-btn">
-                    <div class="bs-slider-btn-1 lw-team1-prev wa-magnetic-btn">
-                        <i class="fa-solid fa-chevron-left"></i>
-                    </div>
-                    <div class="bs-slider-btn-1 lw-team1-next wa-magnetic-btn">
-                        <i class="fa-solid fa-chevron-right"></i>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
-    </section> --}}
-    <!-- team-end -->
-
-    <!-- award-start -->
-    <section class="bs-award-5-area pt-135 wa-fix">
-        <div class="container bs-container-2">
-            <div class="bs-award-5-wrap">
-
-                <!-- left-content -->
-                <div class="bs-award-5-content">
-
-                    <!-- section-title -->
-                    <div class="bs-award-5-sec-title mb-50">
-                        <h6 class="bs-subtitle-5 wa-capitalize">
-                            <span>08</span>
-                            <span class="wa-split-right ">award</span>
-                        </h6>
-                        <h2 class="bs-sec-title-4 wa-split-right wa-capitalize" data-cursor="-opaque">Achievements in Modular Construction</h2>
-                        {{-- <p class="bs-p-4 item-disc mt-lg-3">
-                            ANX is recognised for advancing the standards of modular living through innovation, engineering excellence and sustainable building methods.
-                        </p> --}}
-                    </div>
-
-                    <!-- img -->
-                    <div class="bs-award-5-img wa-fix wa-img-cover wa-clip-top-bottom" data-cursor="-opaque" data-split-duration="1.5s">
-                        <img src="{{url('frontend/assets/img/award/a5-img-1.png')}}" alt="">
-                    </div>
-
-                </div>
-
-                <!-- right-list -->
-                <div class="bs-award-5-item">
-
-                    <!-- single-item -->
-                    <a href="#" class="bs-award-5-item-single wa-fadeInUp">
-                        <h3 class="bs-h-4 year">2020</h3>
-                        <h4 class="bs-h-4 title">Modular Innovation Award</h4>
-                        <span class="icon">
-                            <i class="flaticon-next-1 flaticon"></i>
-                        </span>
-                        <span class="item-img cursor-follow">
-                            <img src="{{url('frontend/assets/img/award/a5-item-img-1.png')}}" alt="">
-                        </span>
-                    </a>
-
-                    <!-- single-item -->
-                    <a href="#" class="bs-award-5-item-single wa-fadeInUp">
-                        <h3 class="bs-h-4 year">2021</h3>
-                        <h4 class="bs-h-4 title">Best Steel-Frame Residential Build</h4>
-                        <span class="icon">
-                            <i class="flaticon-next-1 flaticon"></i>
-                        </span>
-                        <span class="item-img cursor-follow">
-                            <img src="{{url('frontend/assets/img/award/a5-item-img-2.png')}}" alt="">
-                        </span>
-                    </a>
-
-                    <!-- single-item -->
-                    <a href="#" class="bs-award-5-item-single wa-fadeInUp">
-                        <h3 class="bs-h-4 year">2022</h3>
-                        <h4 class="bs-h-4 title">Prefabricated Construction Excellence</h4>
-                        <span class="icon">
-                            <i class="flaticon-next-1 flaticon"></i>
-                        </span>
-                        <span class="item-img cursor-follow">
-                            <img src="{{url('frontend/assets/img/award/a5-item-img-3.png')}}" alt="">
-                        </span>
-                    </a>
-
-                    <!-- single-item -->
-                    <a href="#" class="bs-award-5-item-single wa-fadeInUp">
-                        <h3 class="bs-h-4 year">2023</h3>
-                        <h4 class="bs-h-4 title">UK Modular Design Leadership</h4>
-                        <span class="icon">
-                            <i class="flaticon-next-1 flaticon"></i>
-                        </span>
-                        <span class="item-img cursor-follow">
-                            <img src="{{url('frontend/assets/img/award/a5-item-img-4.png')}}" alt="">
-                        </span>
-                    </a>
-
-                    <!-- single-item -->
-                    <a href="#" class="bs-award-5-item-single wa-fadeInUp">
-                        <h3 class="bs-h-4 year">2024</h3>
-                        <h4 class="bs-h-4 title">Sustainable Modular Development Award</h4>
-                        <span class="icon">
-                            <i class="flaticon-next-1 flaticon"></i>
-                        </span>
-                        <span class="item-img cursor-follow">
-                            <img src="{{url('frontend/assets/img/award/a5-item-img-5.png')}}" alt="">
-                        </span>
-                    </a>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-    <!-- award-end -->
-    
-    <!-- work-start -->
-    <section class="bs-work-5-area wa-bg-default pt-135 pb-170" data-background="{{url('frontend/assets/img/work/w5-bg-img.png')}}">
-        <div class="container bs-container-2">
-
-            <!-- section-title -->
-            <div class="bs-work-5-sec-title mb-90">
-                <h6 class="bs-subtitle-5 wa-capitalize">
-                    <span>05</span>
-                    <span class="wa-split-right ">Work Process</span>
-                </h6>
-                <h2 class="bs-sec-title-4 wa-split-right wa-capitalize" data-cursor="-opaque">Streamlined Modular Build Process for Exceptional Results</h2>
-            </div>
-
-            <!-- cards -->
-            <div class="bs-work-5-wrap">
-
-                <!-- single-card -->
-                <div class="bs-work-5-card has-ani-up">
-                    <div class="bg-img wa-img-cover wa-fix">
-                        <img src="{{url('frontend/assets/img/work/w5-img-1.png')}}" alt="">
-                    </div>
-                    <h4 class="bs-h-1 title">Initial Consultation</h4>
-                    <p class="bs-p-4 disc"> 
-                        Understanding your goals, space and site requirements.
-                    </p>
-                    <h5 class="bs-h-1 number">01</h5>
-                </div>
-
-                <!-- single-card -->
-                <div class="bs-work-5-card has-ani-down">
-                    <div class="bg-img wa-img-cover wa-fix">
-                        <img src="{{url('frontend/assets/img/work/w5-img-2.png')}}" alt="">
-                    </div>
-                    <h4 class="bs-h-1 title">Design & Planning</h4>
-                    <p class="bs-p-4 disc"> 
-                        Tailored modular layouts prepared for your needs.
-                    </p>
-                    <h5 class="bs-h-1 number">02</h5>
-                </div>
-
-                <!-- single-card -->
-                <div class="bs-work-5-card has-ani-up">
-                    <div class="bg-img wa-img-cover wa-fix">
-                        <img src="{{url('frontend/assets/img/work/w5-img-3.png')}}" alt="">
-                    </div>
-                    <h4 class="bs-h-1 title">Fabrication & Installation</h4>
-                    <p class="bs-p-4 disc"> 
-                        Off-site steel-frame build for fast, clean installation.
-                    </p>
-                    <h5 class="bs-h-1 number">03</h5>
-                </div>
-
-                <!-- single-card -->
-                <div class="bs-work-5-card has-ani-down">
-                    <div class="bg-img wa-img-cover wa-fix">
-                        <img src="{{url('frontend/assets/img/work/w5-img-4.png')}}" alt="">
-                    </div>
-                    <h4 class="bs-h-1 title">Project Handover</h4>
-                    <p class="bs-p-4 disc"> 
-                        Final checks and delivery of a ready-to-use space.
-                    </p>
-                    <h5 class="bs-h-1 number">04</h5>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- work-end -->
 
     <!-- office-start -->
     @include('frontend.inc.locations')
