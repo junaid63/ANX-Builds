@@ -379,7 +379,7 @@ ANX Builds || Home
                     </div>
 
                     <div class="bs-about-4-img wa-fix wa-img-cover">
-                        <img class="wa-parallax-img" src="{{url('frontend/assets/img/about/a4-img-1.png')}}" alt="">
+                        <img class="wa-parallax-img" src="{{url('frontend/assets/img/about/about-img.png')}}" alt="">
                     </div>
 
                     <div class="illus-2">
