@@ -599,8 +599,31 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
     left: 10px;
   }
 }
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .bs-hero-4-area.pt-90 {
+    padding-top: 0px;
+  }
+  .bs-hero-4-bg {
+    height: 200px;
+  }
+  .breadcrumb-wrap {
+    gap: 0px;
+  }
+  .breadcrumb-area {
+    padding-top: 150px;
+  }
+  .bs-main-navigation .navbar-nav {
+    gap: 35px;
+  }
+  .bs-header-4-main {
+    padding-left: 10px;
+  }
+  .bs-header-4-action-link {
+    gap: 15px;
+  }
+}
 
-@media only screen and (min-width: 920px) and (max-width: 1540px) {
+@media only screen and (min-width: 1500px) and (max-width: 1900px) {
   .bs-choose-4-feature {
     margin-right: 95px;
   }
