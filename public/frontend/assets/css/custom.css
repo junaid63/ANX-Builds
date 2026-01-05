@@ -388,6 +388,76 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   padding: 30px;
   border-radius: 40px;
 }
+.pricing-include-points .pricing-points ul {
+  margin-bottom: 0px;
+  color: white;
+}
+.pricing-include-points .pricing-points ul li {
+  text-align: start;
+}
+.pricing-include-points .pricing-points ul li p {
+  margin: 0px;
+  font-size: 16px;
+}
+.pricing-custom-matric .table thead {
+  background: var(--bs-clr-pr-1);
+  color: var(--bs-white);
+}
+.pricing-custom-matric .table {
+  width: 100%;
+}
+.pricing-custom-matric .table thead tr {
+  background: var(--bs-white);
+  color: var(--bs-black);
+}
+.pricing-custom-matric .table tbody tr:nth-child(2n + 1) {
+  /* background: var(--bs-black); */
+}
+.pricing-custom-matric .table tbody tr:nth-child(2n + 2) {
+  background: var(--bs-black);
+  color: var(--bs-white);
+}
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+  color: var(--bs-white);
+}
+.custom-font-title {
+  font-size: 35px;
+}
+.pricing-custom-main {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #a47966;
+  box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.2);
+}
+.pricing-custom-matric {
+  width: 40%;
+}
+.pricing-include-points {
+  width: 60%;
+}
+/* .pricing-custom-main .pricing-width {
+  width: calc((100% / 2) - 25px);
+} */
+.pricing-custom-main .pricing-include-points {
+  background: var(--bs-black);
+  padding: 20px 25px;
+  height: 100%;
+  border-radius: 5px;
+}
+.pricing-points {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.pricing-points ul {
+  width: calc((100% / 2) - 20px);
+}
+.pricing-custom-matric .table-hover tbody tr:hover:nth-child(2n + 2) td {
+  color:white!important;
+}
 
 @media only screen and (max-width: 510px) {
   .bs-footer-4-wrap {

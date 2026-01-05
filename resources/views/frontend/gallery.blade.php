@@ -20,7 +20,7 @@ ANX Builds || Gallery
 
         <div class="container bs-container-1">
             <div class="breadcrumb-wrap">
-                <h1 class="breadcrumb-title wa-split-right wa-capitalize" data-split-delay="1.1s" >Gallery</h1>
+                <h1 class="breadcrumb-title wa-split-right wa-capitalize" data-split-delay="1.1s" >Our Gallery</h1>
 
                 <div class="breadcrumb-list " >
                     <svg class="breadcrumb-list-shape" width="88" height="91" viewBox="0 0 88 91" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,56 +57,56 @@ ANX Builds || Gallery
                         <div class="bs-project-4-card-single has-card-1">
                             <div class="card-img wa-fix wa-img-cover">
                                 <a href="#" aria-label="name" data-cursor-text="View">
-                                    <img src="{{ url('frontend/assets/img/projects/p4-img-1.png') }}" alt="">
+                                    <img src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="content">
+                            {{-- <div class="content">
                                 <h5 class="bs-h-4 title">
                                     <a href="#" aria-label="name">Internal Images</a>
                                 </h5>
-                            </div>
+                            </div> --}}
                         </div>
 
                         <!-- single-card -->
                         <div class="bs-project-4-card-single has-card-2">
                             <div class="card-img wa-fix wa-img-cover">
                                 <a href="#" aria-label="name" data-cursor-text="View">
-                                    <img src="{{ url('frontend/assets/img/projects/p4-img-2.png') }}" alt="">
+                                    <img src="{{ url('frontend/assets/img/gallery/02.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="content">
+                            {{-- <div class="content">
                                 <h5 class="bs-h-4 title">
                                     <a href="#" aria-label="name">External Images</a>
                                 </h5>
-                            </div>
+                            </div> --}}
                         </div>
 
                         <!-- single-card -->
                         <div class="bs-project-4-card-single has-card-3">
                             <div class="card-img wa-fix wa-img-cover">
                                 <a href="#" aria-label="name" data-cursor-text="View">
-                                    <img src="{{ url('frontend/assets/img/projects/p4-img-3.png') }}" alt="">
+                                    <img src="{{ url('frontend/assets/img/gallery/03.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="content">
+                            {{-- <div class="content">
                                 <h5 class="bs-h-4 title">
                                     <a href="#" aria-label="name">Steel Frame</a>
                                 </h5>
-                            </div>
+                            </div> --}}
                         </div>
 
                         <!-- single-card -->
                         <div class="bs-project-4-card-single has-card-4">
                             <div class="card-img wa-fix wa-img-cover">
                                 <a href="#" aria-label="name" data-cursor-text="View">
-                                    <img src="{{ url('frontend/assets/img/projects/p4-img-4.png') }}" alt="">
+                                    <img src="{{ url('frontend/assets/img/gallery/04.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="content">
+                            {{-- <div class="content">
                                 <h5 class="bs-h-4 title">
                                     <a href="#" aria-label="name">Builds In Progress</a>
                                 </h5>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
 

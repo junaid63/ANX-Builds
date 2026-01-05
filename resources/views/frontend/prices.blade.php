@@ -36,219 +36,542 @@ ANX Builds || Prices
     <!-- breadcrumb-end -->
 
     <!-- price-start -->
-    <section class="bs-price-5-area wa-fix pt-135 pb-140 wa-bg-default" data-background="{{ url('frontend/assets/img/price/p5-shape.png') }}">
-        <div class="container bs-container-2">
+    <section class="bs-price-5-area wa-fix pt-135 pb-140 wa-bg-default pt-lg-5 pt-md-3 pt-2 pb-lg-0 pb-md-0 pb-0" data-background="{{ url('frontend/assets/img/price/p5-shape.png') }}">
+        <div class="container">
 
             <!-- section-title -->
-            <div class="bs-price-5-sec-title mb-50">
+            <div class="bs-price-6-sec-title mb-50">
                 <h6 class="bs-subtitle-5 wa-capitalize">
                     <span class="wa-split-right ">Pricing Plan</span>
                 </h6>
-                <div class="d-flex flex-column">
+                <div class="d-flex flex-column mb-lg-4 mb-md-3 mb-2">
                     <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize mb-md-3 mb-3" data-cursor="-opaque">
-                        Transparent Pricing for Modular Pods & Annexes
+                        Price Guide
                     </h2>
-                </div>
-            </div>
-
-            <div class="bs-price-5-wrap">
-
-                <div class="bs-price-5-left">
-
-                    <!-- tabs-btn -->
-                    <ul class="bs-price-5-tabs-btn wa-list-style-none " role="tablist">
-
-                        <!-- single-btn -->
-                        <li class="nav-item wa-fadeInUp" role="presentation" data-cursor-text="click">
-                            <button class="nav-link active bs-price-5-tabs-btn-single" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
-                                <span class="check-btn"></span>
-                                <span class="content d-flex flex-column">
-                                    <span class="bs-h-4 title">Garden Pods & Offices</span>
-                                    <span class="bs-p-4 disc">Insulated modular spaces priced by size and finish.</span>
-                                </span>
-                                <span class="btn-img">
-                                    <img src="{{ url('frontend/assets/img/price/p5-img-1.png') }}" alt="">
-                                </span>
-                            </button>
-                        </li>
-
-                        <!-- single-btn -->
-                        <li class="nav-item wa-fadeInUp" role="presentation" data-cursor-text="click">
-                            <button class="nav-link bs-price-5-tabs-btn-single" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
-                                <span class="check-btn"></span>
-                                <span class="content d-flex flex-column">
-                                    <span class="bs-h-4 title">Granny Annexes</span>
-                                    <span class="bs-p-4 disc">Self-contained living units with tailored specifications.</span>
-                                </span>
-                                <span class="btn-img">
-                                    <img src="{{ url('frontend/assets/img/price/p5-img-2.png') }}" alt="">
-                                </span>
-                            </button>
-                        </li>
-
-                        <!-- single-btn -->
-                        <li class="nav-item wa-fadeInUp" role="presentation" data-cursor-text="click">
-                            <button class="nav-link bs-price-5-tabs-btn-single" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">
-                                <span class="check-btn"></span>
-                                <span class="content d-flex flex-column">
-                                    <span class="bs-h-4 title">Commercial Garden Rooms</span>
-                                    <span class="bs-p-4 disc">Scalable modular pricing for professional use.</span>
-                                </span>
-                                <span class="btn-img">
-                                    <img src="{{ url('frontend/assets/img/price/p5-img-3.png') }}" alt="">
-                                </span>
-                            </button>
-                        </li>
-                    </ul>
-
-                    <p class="bs-p-4 bs-price-5-left-disc wa-fadeInUp">
-                        ANX pricing depends on size, layout and specification.
-                        Share your postcode and project type to receive a clear, no-obligation quote.
+                    <p class="bs-p-4 disc wa-fadeInUp mb-lg-3 mb-md-2 mb-2">
+                        We believe that transparency is key when it comes to budgeting for your building project. That's why we have put together a comprehensive price guide to give you an idea of what you can expect to pay for some of our most popular garden annexe and modular extension sizes.
+                    </p>
+                    <p class="bs-p-4 disc wa-fadeInUp mb-lg-3 mb-md-2 mb-2">
+                        Our prices are based on the external dimensions of the structure and include everything you need to get your new living space up and running, including ground screw foundations, electrical connection, plastering, painting, installation, and BS3632 Certification. This allows you to compare prices easily and make informed decisions about your project budget.
+                    </p>
+                    <p class="bs-p-4 disc wa-fadeInUp mb-lg-3 mb-md-2 mb-2">
+                        With Granny Annexe, you can have peace of mind knowing that the price you see is the price you pay. There are no hidden fees or unexpected costs. Let us help you bring your dream home to life.
                     </p>
                 </div>
-
-                <div class="tab-content bs-price-5-tabs-pane wa-fadeInUp" >
-
-                    <!-- single-pane -->
-                    <div class="tab-pane  fadeInUp animated fade show active bs-price-5-tabs-pane-single" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="box-border">
-                            <h5 class="bs-h-4 title">standard plan</h5>
-                            <h6 class="bs-h-4 item-price ">
-                                <span class="dollar" >&pound;</span>
-                                <span class="price" >120</span>
-                                <span class="time">/ per hours</span>
-                            </h6>
-
-                            <div class="line"></div>
-
-                            <ul class="wa-list-style-none feature-list" >
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    price transparency
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    24/7 consulting services
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    save design by more than 20%
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    unlimited design changes
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    statutory advertisement
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    comprehensive package
-                                </li>
-                            </ul>
-
-                            <a href="#" aria-label="name" class="bs-pr-btn-3 price-btn">
-                                <span class="text">Get Started</span>
-                                <span class="text">Get Started</span>
-                            </a>
+                <div class="pricing-table-title-table mb-lg-5 mb-md-3 mb-2">
+                    <h2 class="custom-font-title bs-sec-title-4 title wa-split-right wa-capitalize mb-md-3 mb-3" data-cursor="-opaque">
+                        Granny Annexe Prices
+                    </h2>
+                    <div class="pricing-custom-main">
+                        <div class="pricing-width pricing-custom-matric">
+                            <table class="table table-bordered table-striped table-hover mb-md-5">
+                                <thead class="thead-dark custom-table">
+                                    <tr>
+                                        <th>Size</th>
+                                        <th>Price</th>
+                                        <th>Footprint</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>4m x 5.5m</td>
+                                        <td>£59,995</td>
+                                        <td>22 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4m x 7m</td>
+                                        <td>£68,350</td>
+                                        <td>28 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4m x 9m</td>
+                                        <td>£81,000</td>
+                                        <td>36 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5m x 10m</td>
+                                        <td>£93,000</td>
+                                        <td>50 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5m x 12m</td>
+                                        <td>£107,350</td>
+                                        <td>60 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5m x 15m</td>
+                                        <td>£130,375</td>
+                                        <td>75 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5m x 19m</td>
+                                        <td>£145,725</td>
+                                        <td>95 sqm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="pricing-width pricing-include-points">
+                            <div class="bs-h-4 item-title text-white text-start pb-lg-2 pb-md-2 pb-2">
+                                Includes:
+                            </div>
+                            <div class="pricing-points d-flex justify-content-between">
+                                <ul style="border-right: 1px solid #a47966;">
+                                    <li>
+                                        <p>Steel Frame Construction</p>
+                                    </li>
+                                    <li><p>Composite Cladding (Front & Sides)</p></li>
+                                    <li>
+                                        <p>
+                                        French Doors
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Laminate Flooring
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Electrical Installation
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Plastered Finish
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Decorated
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Skirting boards
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        10 Year Structural Warranty
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Design Consultation
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Bathroom Fitout
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Kitchenette Fitout
+                                        </p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <p>
+                                        ​​Centre Lights
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Five Double Plug Sockets
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Ground Screw Foundations
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        100mm Rockwool Insulation
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        PIR Insulation
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Guttering 
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Aluminium Fascias
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Delivery
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Installation
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        3D Digital Renders​​
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Supply & Waste Connections
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Lawful Development Certification
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-
-                    <!-- single-pane -->
-                    <div class="tab-pane  fadeInUp animated fade bs-price-5-tabs-pane-single" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <div class="box-border">
-                            <h5 class="bs-h-4 title">Standard Plan</h5>
-                            <h6 class="bs-h-4 item-price ">
-                                <span class="dollar" >&pound;</span>
-                                <span class="price" >450</span>
-                                <span class="time">/ per hours</span>
-                            </h6>
-
-                            <div class="line"></div>
-
-                            <ul class="wa-list-style-none feature-list" >
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    price transparency
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    24/7 consulting services
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    save design by more than 20%
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    unlimited design changes
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    statutory advertisement
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    comprehensive package
-                                </li>
-                            </ul>
-
-                            <a href="#" aria-label="name" class="bs-pr-btn-3 price-btn">
-                                <span class="text">Get Started</span>
-                                <span class="text">Get Started</span>
-                            </a>
+                </div>
+                <div class="pricing-table-title-table mb-lg-5 mb-md-3 mb-2">
+                    <h2 class="custom-font-title bs-sec-title-4 title wa-split-right wa-capitalize mb-md-3 mb-3" data-cursor="-opaque">
+                        House Extension Prices
+                    </h2>
+                    <div class="pricing-custom-main">
+                        <div class="pricing-width pricing-custom-matric">
+                            <table class="table table-bordered table-striped table-hover mb-md-5">
+                                <thead class="thead-dark custom-table">
+                                    <tr>
+                                        <th>Size</th>
+                                        <th>Price</th>
+                                        <th>Footprint</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>4m x 4m</td>
+                                        <td>£48,510</td>
+                                        <td>16 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4m x 6m</td>
+                                        <td>£61,890</td>
+                                        <td>24 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4m x 8m</td>
+                                        <td>£75,450</td>
+                                        <td>32 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5m x 9m</td>
+                                        <td>£95,700</td>
+                                        <td>45 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6m x 12m</td>
+                                        <td>£135,060</td>
+                                        <td>72 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3m x 3m</td>
+                                        <td>£37,080</td>
+                                        <td>9 sqm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="pricing-width pricing-include-points">
+                            <div class="bs-h-4 item-title text-white text-start pb-lg-2 pb-md-2 pb-2">
+                                Includes:
+                            </div>
+                            <div class="pricing-points d-flex justify-content-between">
+                                <ul style="border-right: 1px solid #a47966;">
+                                    <li>
+                                        <p>
+                                            Steel Frame Construction
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Rendered Finish
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Ground Screw Foundations
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            1.5m French Door
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            2m x 1m Aluminium Windows
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Electrical Installation
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Plastered Finish
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            ​​Two Centre Lights
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Four Double Plug Sockets​
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            EPDM Roof 
+                                        </p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            PIR Insulation
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Guttering 
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            UPVC Fascias
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Delivery
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Installation
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            10-Year Structural Warranty
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            3D Digital Renders
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Design Consultation
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            All Aspects of Building Control
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-
-                    <!-- single-pane -->
-                    <div class="tab-pane  fadeInUp animated fade bs-price-5-tabs-pane-single" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                        <div class="box-border">
-                            <h5 class="bs-h-4 title">Enterprise Plan</h5>
-                            <h6 class="bs-h-4 item-price ">
-                                <span class="dollar" >&pound;</span>
-                                <span class="price" >990</span>
-                                <span class="time">/ per hours</span>
-                            </h6>
-
-                            <div class="line"></div>
-
-                            <ul class="wa-list-style-none feature-list" >
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    price transparency
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    24/7 consulting services
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    save design by more than 20%
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    unlimited design changes
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    statutory advertisement
-                                </li>
-                                <li class="bs-p-4">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    comprehensive package
-                                </li>
-                            </ul>
-
-                            <a href="#" aria-label="name" class="bs-pr-btn-3 price-btn">
-                                <span class="text">Get Started</span>
-                                <span class="text">Get Started</span>
-                            </a>
+                </div>
+                <div class="pricing-table-title-table mb-lg-5 mb-md-3 mb-2">
+                    <h2 class="custom-font-title bs-sec-title-4 title wa-split-right wa-capitalize mb-md-3 mb-3" data-cursor="-opaque">
+                        Garden Room Prices
+                    </h2>
+                    <div class="pricing-custom-main">
+                        <div class="pricing-width pricing-custom-matric">
+                            <table class="table table-bordered table-striped table-hover mb-md-5">
+                                <thead class="thead-dark custom-table">
+                                    <tr>
+                                        <th>Size</th>
+                                        <th>Price</th>
+                                        <th>Footprint</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>3m x 3m</td>
+                                        <td>£23,700</td>
+                                        <td>9 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3m x 4m</td>
+                                        <td>£27,400</td>
+                                        <td>12 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3m x 5m</td>
+                                        <td>£30,200</td>
+                                        <td>15 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3m x 6m</td>
+                                        <td>£34,500</td>
+                                        <td>18 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4m x 6m</td>
+                                        <td>£40,100</td>
+                                        <td>24 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4m x 7m</td>
+                                        <td>£45,200</td>
+                                        <td>28 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4m x 8m</td>
+                                        <td>£53,300</td>
+                                        <td>32 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5m x 9m</td>
+                                        <td>£68,800</td>
+                                        <td>45 sqm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6m x 10m</td>
+                                        <td>£89,200</td>
+                                        <td>60 sqm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="pricing-width pricing-include-points">
+                            <div class="bs-h-4 item-title text-white text-start pb-lg-2 pb-md-2 pb-2">
+                                Includes:
+                            </div>
+                            <div class="pricing-points d-flex justify-content-between">
+                                <ul style="border-right: 1px solid #a47966;">
+                                    <li>
+                                        <p>
+                                            Steel Frame Construction
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Composite Cladding (Front)
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            French Doors
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Laminate Flooring
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Electrical Installation
+                                        </p>    
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Plastered Finish
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Decorated
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Skirting boards
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            10 Year Structural Warranty
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Design Consultation
+                                        </p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            ​​Centre Light
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Two Double Plug Sockets​
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Ground Screw Foundations
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            100mm Rockwool Insulation
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            PIR Insulation
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Guttering 
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Aluminium Fascias
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Delivery
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Installation
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            3D Digital Renders
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
+
         </div>
     </section>
     <!-- price-end -->

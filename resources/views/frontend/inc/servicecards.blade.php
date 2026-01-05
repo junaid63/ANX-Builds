@@ -17,7 +17,7 @@
             <div class="bs-services-4-content">
 
                 <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">
-                    Tranfsorming lives with expertly built garden annexes
+                    Tranfsorming lives with <br>expertly built garden annexes
                 </h2>
 
                 <p class="bs-p-4 disc wa-fadeInUp">
