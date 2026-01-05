@@ -29,14 +29,13 @@
         <div class="main-wrapper">
 
             <!-- start preloader -->
-            <!-- <div class="lw-preloader">
+            {{-- <div class="lw-preloader">
                 <div class="lw-preloader-content">
                     <div class="bs-preloader-logo">
-                        <img src="assets/img/logo/logo-2.svg" alt="">
-                        <img src="assets/img/logo/logo.png" alt="">
+                        <img src="{{ url('storage') }}/{{ setting('site.logo') }}" alt="">
                     </div>
                 </div>
-            </div> -->
+            </div> --}}
             <!-- end preloader -->
 
             @include('frontend.inc.header')

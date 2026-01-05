@@ -58,7 +58,7 @@ ANX Builds || Home
         <div class="container bs-container-2">
             <div class="bs-hero-4-content">
                 <h1 class="bs-hero-4-title bs-h-4 wa-split-y cd-headline clip " data-split-delay="1s">
-                    This Should be Garden Annexes - Not modular pods
+                    Garden Annexes Living <br>Across The UK
                     {{-- <span class="cd-words-wrapper single-headline">
                         <b class="is-visible">Designed</b>
                         <b>Built</b>
@@ -561,7 +561,7 @@ ANX Builds || Home
                     <div class="d-flex flex-column">
                         <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize mb-md-3 mb-3" data-cursor="-opaque">Latest Guides & Articles</h2>
                         <p class="bs-p-4 disc wa-fadeInUp">
-                            Insights on planning permission, garden pod ideas and solutions. 
+                            Insights on planning permission, granny annexe ideas and solutions. 
                         </p>
                     </div>
                     <div class="btn-wrap wa-fadeInRight">
@@ -628,8 +628,8 @@ ANX Builds || Home
                                     </h4>
                                     <p class="item-meta bs-p-4">
                                         <span class="categories" >Garden Annexes</span>
-                                        <span class="date" >jan 20, 2024</span>
-                                        <span class="read" >10 min read</span>
+                                        {{-- <span class="date" >jan 20, 2024</span>
+                                        <span class="read" >10 min read</span> --}}
                                     </p>
                                 </div>
                             </div>

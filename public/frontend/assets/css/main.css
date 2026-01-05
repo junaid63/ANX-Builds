@@ -1609,9 +1609,12 @@ input:focus::placeholder, textarea:focus::placeholder {
   height: 200px;
 }
 .card-img.wa-img-cover img {
+  object-fit: contain;
+}
+.bs-project-4-card-single .card-img.wa-img-cover img {
   width: 100%;
   height: 100% !important;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .wa-img-cover img {
@@ -10379,7 +10382,8 @@ Primary style
   position: absolute;
   bottom: -30px;
   left: 0;
-  font-size: 150px;
+  /* font-size: 150px; */
+  font-size: 180px;
   color: var(--bs-clr-white-1);
   font-weight: 900;
   line-height: 1;
