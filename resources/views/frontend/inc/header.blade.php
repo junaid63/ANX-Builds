@@ -63,7 +63,9 @@
                                     <li class="@if(Route::currentRouteName() === 'index') active @endif"><a href="{{ route('index') }}">Home</a></li>
                                     <li class="@if(Route::currentRouteName() === 'about') active @endif"><a href="{{ route('about') }}">About Us</a></li>
                                     <li class="@if(Route::currentRouteName() === 'process') active @endif"><a href="{{ route('process') }}">Our Process</a></li>
-                                    <li class="@If(Route::currentRouteName() === 'service') active @endif"><a href="{{ route('service') }}">Services</a></li>
+                                    @foreach ($services as $ser)
+                                        <li class="@If(Route::currentRouteName() === 'servicedetail') active @endif"><a href="{{ route('servicedetail', $ser->slug) }}">Services</a></li>
+                                    @endforeach
                                     <li class="@If(Route::currentRouteName() === 'price') active @endif"><a href="{{ route('price') }}">Prices</a></li>
                                     <li class="@If(Route::currentRouteName() === 'gallery') active @endif"><a href="{{ route('gallery') }}">Gallery</a></li>
                                     <li class="@If(Route::currentRouteName() === 'faq') active @endif"><a href="{{ route('faq') }}">Faqs</a></li>

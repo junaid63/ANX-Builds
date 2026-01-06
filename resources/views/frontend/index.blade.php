@@ -366,7 +366,7 @@ ANX Builds || Home
                 </div>
                 
                 <div class="bs-about-4-right">
-                    <div class="bs-about-4-project wa-bg-default wa-parallax-item-right-left" data-background="{{url('frontend/assets/img/about/a4-bg-img-1.png')}}" >
+                    <div class="bs-about-4-project wa-bg-default wa-parallax-item-right-left" data-background="{{url('frontend/assets/img/about/about-small-img.png')}}" >
                         <div class="icon">
                             <i class="flaticon-right-arrow flaticon"></i>
                         </div>
@@ -456,6 +456,14 @@ ANX Builds || Home
                                     <i class="fa-solid fa-check"></i>
                                     <h5 class="bs-p-1 progress-title mb-0">
                                         <span >Guidance with planning and compliance</span>
+                                    </h5>
+                                </div>
+                                                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span>
+                                            Completely bespoke builds
+                                        </span>
                                     </h5>
                                 </div>
                             </div>

@@ -32,9 +32,9 @@
                                             <li class="@If(Route::currentRouteName() === 'process') active @endif">
                                                 <a href="{{ route('process') }}" aria-label="name">Our Process</a>
                                             </li>
-                                            <li class="@If(Route::currentRouteName() === 'service') active @endif">
+                                            {{-- <li class="@If(Route::currentRouteName() === 'service') active @endif">
                                                 <a href="{{ route('service') }}" aria-label="name">Services</a>
-                                            </li>
+                                            </li> --}}
                                             <li class="@If(Route::currentRouteName() === 'price') active @endif">
                                                 <a href="{{ route('price') }}" aria-label="name">Prices</a>
                                             </li>
@@ -51,7 +51,7 @@
                                                 <a href="{{ route('faq') }}" aria-label="name">Faqs</a>
                                             </li>
                                             <li>
-                                                <a href="" aria-label="name">Blog</a>
+                                                <a href="{{ route('blogs') }}" aria-label="name">Blog</a>
                                             </li>
                                             <li class="@If(Route::currentRouteName() === 'contact') active @endif">
                                                 <a href="{{ route('contact') }}" aria-label="name">Contact</a>

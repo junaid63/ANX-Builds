@@ -69,13 +69,13 @@ ANX Builds || Faqs
                         <div class="item-header" id="heading1">
                             <button class="item-title bs-h-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
                                 <span class="dot"></span>
-                                How do I know if I need an architect for my project?
+                                Do I need planning permission for my Garden Annexe?
                             </button>
                         </div>
                         <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionExample_31">
                             <div class="item-body ">
                                 <p class="bs-p-1">
-                                    If you’re arrested, remain calm and avoid making any statements to the police without your attorney present. Contact a lawyer immediately to protect your rights and guide you through the legal process.
+                                    On average, our home extension projects take about four weeks to complete. However, we've successfully constructed 3m x 3m modular house extensions in as little as two weeks! The exact duration can vary based on specific project requirements and site conditions, but we always aim to deliver with efficiency and precision.?
                                 </p>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ ANX Builds || Faqs
                         <div class="item-header" id="heading2">
                             <button class="item-title bs-h-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                                 <span class="dot"></span>
-                                What are the typical fees for architectural services?
+                                Does my OffPOD come with a Guarantee or warranty?
                             </button>
                         </div>
                         <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample_31">

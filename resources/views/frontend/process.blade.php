@@ -90,14 +90,14 @@ ANX Builds || Our Process
                                 Phone - <a href="tel:{{ setting('site.web-phone') }}">{{ setting('site.web-phone') }}</a> 
                                 </p>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <p>
                                 Social media  - <a href="{{ setting('site.facebook') }}">Facebook</a> & <a href="{{ setting('site.instagram') }}">Instagram</a>
                                 </p>
-                            </li>
+                            </li> --}}
                         </ul>
                         <p class="bs-p-4 disc">
-                            Your inquiry, no matter how detailed or vague, is always welcome. If you're uncertain about what you want, don't worry, we've got you covered. Our team of talented designers and architects are ready and eager to assist you in bringing your dream Home Extension, Annexe, or Garden Room to life. 
+                            Your inquiry, no matter how detailed or vague, is always welcome. If you're uncertain about what you want, don't worry, we've got you covered. Our team of talented designers and architects are ready and eager to assist you in bringing your dream Steel Frame Garden Annexe to life. 
                         </p>
                     </div>
                 </div>
@@ -109,17 +109,17 @@ ANX Builds || Our Process
                     </div>
                     <div class="item-line">
                     </div>
-                    <div class="content">
+                    <div class="content direction-left">
                         <h4 class="bs-h-4 number">02</h4>
                         <h5 class="bs-h-4 title">Consultation</h5>
                         <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
-                            After receiving your inquiry, a dedicated member of the Granny Annexesteam will reach out to you and get the ball rolling. Whether you prefer a personalised phone call, a virtual video chat, or a hands-on site visit, we'll work with you to find the best approach that suits your unique needs and preferences
+                            After receiving your inquiry, a dedicated member of the Granny Annexes team will reach out to you and get the ball rolling. Whether you prefer a personalised phone call, a virtual video chat, or a hands-on site visit, we'll work with you to find the best approach that suits your unique needs and preferences
                         </p>
                         <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
-                            The consultation is a crucial opportunity for you to gain a comprehensive understanding of the Granny Annexesphilosophy and for us to fully grasp your specific needs and requirements. Together, we'll work towards creating a bespoke Modular House Extension, Granny Annexe or Garden Room that is tailored to your exact specifications and exceeds your expectations. 
+                            The consultation is a crucial opportunity for you to gain a comprehensive understanding of the Granny Annexes philosophy and for us to fully grasp your specific needs and requirements. Together, we'll work towards creating a bespoke Steel Frame Garden Annexe that is tailored to your exact specifications and exceeds your expectations. 
                         </p>
                         <p class="bs-p-4 disc">
-                            Take comfort in the knowledge that Granny Annexesoffers a comprehensive, one-stop turnkey solution that covers every aspect of the project, from planning applications to building regulations and even demolition work if necessary. Our aim is to make the process as seamless and convenient as possible for you, and we understand that many of our clients appreciate the convenience of keeping everything under one roof
+                            Take comfort in the knowledge that Granny Annexes offers a comprehensive, one-stop turnkey solution that covers every aspect of the project, from planning applications to building regulations and even demolition work if necessary. Our aim is to make the process as seamless and convenient as possible for you, and we understand that many of our clients appreciate the convenience of keeping everything under one roof
                         </p>
                     </div>
                 </div>
@@ -141,7 +141,7 @@ ANX Builds || Our Process
                             The initial quote will detail a full breakdown of what's included and the Terms & Conditions to ensure full transparency right from the start.
                         </p>
                         <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
-                            Amongst many other things, we pride ourselves on efficiency. Buying an Granny AnnexesGranny Annexe or Modular House Extension is an exciting time, and we don't like to keep our customers waiting around. As long as there is nothing too technical about your build you will have your price within 48 hours!
+                            Amongst many other things, we pride ourselves on efficiency. Buying an Granny Annexe is an exciting time, and we don't like to keep our customers waiting around. As long as there is nothing too technical about your build you will have your price within 48 hours!
                         </p>
                     </div>
                 </div>
@@ -153,7 +153,7 @@ ANX Builds || Our Process
                     </div>
                     <div class="item-line">
                     </div>
-                    <div class="content">
+                    <div class="content direction-left">
                         <h4 class="bs-h-4 number">04</h4>
                         <h5 class="bs-h-4 title">Site Survey</h5>
                         <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
@@ -179,7 +179,7 @@ ANX Builds || Our Process
                             Following the site visit, we will amend and finalise the quote if need be. Now it's time for you to decide if we are the right people for the job..... we hope we have made a good impression!  
                         </p>
                         <p class="bs-p-4 disc">
-                            If you are completely happy with the quote and would like to secure your Granny Annexesbuild, we will require a 30% deposit. We can then give you an installation date and it's time for the countdown to begin! 
+                            If you are completely happy with the quote and would like to secure your Granny Annexes build, we will require a 30% deposit. We can then give you an installation date and it's time for the countdown to begin! 
                         </p>
                     </div>
                 </div>

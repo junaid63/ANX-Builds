@@ -438,6 +438,12 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 .pricing-include-points {
   width: 60%;
 }
+.bs-services-details-area .pricing-custom-matric {
+  width: 75%;
+}
+.bs-services-details-area .pricing-include-points {
+  width: 35%;
+}
 /* .pricing-custom-main .pricing-width {
   width: calc((100% / 2) - 25px);
 } */
@@ -458,6 +464,47 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 .pricing-custom-matric .table-hover tbody tr:hover:nth-child(2n + 2) td {
   color:white!important;
 }
+.swiper-backface-hidden .swiper-slide {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.direction-left .bs-p-4 {
+  direction: ltr;
+}
+.service-banner-img {
+  height: 500px;
+  width: 100%;
+  background: var(--bs-clr-pr-1);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.service-banner-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.bs-services-details-content h2 strong {
+  font-weight: 600!important;
+  color: var(--bs-clr-pr-1);
+}
+.bs-services-details-area .service-detail-table-para {
+  min-height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-custom-main .pricing-include-points.bg-transperent {
+  background: linear-gradient(rgb(0 0 0 / 0%), rgb(0 0 0 / 33%)), url(/frontend/assets/img/footer/f4-bg-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
 
 @media only screen and (max-width: 510px) {
   .bs-footer-4-wrap {

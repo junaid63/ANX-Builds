@@ -1,7 +1,7 @@
 <!-- services-start -->
 <section class="bs-services-4-area pt-100 wa-fix " data-background="{{url('frontend/assets/img/services/s4-bg.png')}}">
     <div class="bs-services-4-img wa-fix wa-img-cover wa-slideInLeft">
-        <img src="{{url('frontend/assets/img/services/s4-img-1.png')}}" alt="">
+        <img src="{{url('frontend/assets/img/services/sevice-small-img.png')}}" alt="">
     </div>
     <div class="container bs-container-2">
         <h5 class="bs-subtitle-4 bs-services-4-subtitle">
