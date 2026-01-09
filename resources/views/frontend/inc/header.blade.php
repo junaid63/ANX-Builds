@@ -78,8 +78,8 @@
                             <div class="bs-header-4-action-link d-flex align-items-center ">
 
                                 <!-- pr-btn -->
-                                <a href="#" aria-label="name" class="bs-pr-btn-2">
-                                    <span class="text" data-back="free consultation" data-front="free consultation"></span>
+                                <a href="{{ route('contact') }}" aria-label="name" class="bs-pr-btn-2">
+                                    <span class="text" data-back="Free consultation" data-front="Free consultation"></span>
                                     <span class="box box-1" ></span>
                                     <span class="box box-2" ></span>
                                     <span class="box box-3" ></span>

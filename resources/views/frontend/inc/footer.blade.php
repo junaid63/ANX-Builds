@@ -60,7 +60,7 @@
                                     </div>
                                 </div>
     
-                                <div class="bs-footer-4-copyright-social">
+                                {{-- <div class="bs-footer-4-copyright-social">
                                     <a href="https://www.facebook.com/OffPods" aria-label="name" class="elm-link bs-p-4">
                                         <i class="fa-brands fa-facebook-f"></i>
                                         facebook
@@ -69,13 +69,13 @@
                                         <i class="fa-brands fa-instagram"></i>
                                         instagram
                                     </a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
 
                         <!-- right -->
                         <div class="bs-footer-4-contact">
-                            <h4 class="bs-h-1 title wa-split-up wa-capitalize wa-fix">get in touch</h4>
+                            <h4 class="bs-h-1 title wa-split-up wa-capitalize wa-fix">Get In Touch</h4>
                             <div class="bs-footer-4-contact-link">
                                 @if(setting('site.web-email'))
                                 <p class="bs-p-4 link-title">Email</p>

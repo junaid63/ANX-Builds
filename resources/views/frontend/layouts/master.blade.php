@@ -18,10 +18,13 @@
         <link rel="stylesheet" href="{{url('frontend/assets/css/all.min.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/flaticon_barsi.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/nice-select.css')}}">
-        {{-- <link rel="stylesheet" href="{{url('frontend/assets/css/animate.css')}}"> --}}
+        <link rel="stylesheet" href="{{url('frontend/assets/css/animate.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/magnific-popup.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/main.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/custom.css')}}">
+        <link rel="stylesheet" href="{{url('frontend/assets/css/gallery.css')}}">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"
+            />
     </head>
  
     <body class="bs-home-4">
@@ -179,6 +182,7 @@
         <script src="{{url('frontend/assets/js/lenis.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/ScrollTrigger.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/main.js')}}"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
         @yield('js')
     </body>
 </html>

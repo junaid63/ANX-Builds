@@ -8,6 +8,7 @@ ANX Builds || Gallery
 @endsection
 
 @section('css')
+
 @endsection
 
 @section('content')
@@ -15,7 +16,7 @@ ANX Builds || Gallery
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-img.png') }}" alt="">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-gallery.png') }}" alt="">
         </div>
 
         <div class="container bs-container-1">
@@ -37,7 +38,7 @@ ANX Builds || Gallery
     <!-- breadcrumb-end -->
 
     <!-- project-start -->
-    <section class="bs-project-4-area pt-125 wa-fix">
+    {{-- <section class="bs-project-4-area pt-125 wa-fix">
         <div class="container bs-container-2">
 
             <div class="bs-project-4-height">
@@ -60,11 +61,11 @@ ANX Builds || Gallery
                                     <img src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
                                 </a>
                             </div>
-                            {{-- <div class="content">
+                            <div class="content">
                                 <h5 class="bs-h-4 title">
                                     <a href="#" aria-label="name">Internal Images</a>
                                 </h5>
-                            </div> --}}
+                            </div>
                         </div>
 
                         <!-- single-card -->
@@ -74,11 +75,11 @@ ANX Builds || Gallery
                                     <img src="{{ url('frontend/assets/img/gallery/02.png') }}" alt="">
                                 </a>
                             </div>
-                            {{-- <div class="content">
+                            <div class="content">
                                 <h5 class="bs-h-4 title">
                                     <a href="#" aria-label="name">External Images</a>
                                 </h5>
-                            </div> --}}
+                            </div>
                         </div>
 
                         <!-- single-card -->
@@ -88,11 +89,11 @@ ANX Builds || Gallery
                                     <img src="{{ url('frontend/assets/img/gallery/03.png') }}" alt="">
                                 </a>
                             </div>
-                            {{-- <div class="content">
+                            <div class="content">
                                 <h5 class="bs-h-4 title">
                                     <a href="#" aria-label="name">Steel Frame</a>
                                 </h5>
-                            </div> --}}
+                            </div>
                         </div>
 
                         <!-- single-card -->
@@ -102,11 +103,11 @@ ANX Builds || Gallery
                                     <img src="{{ url('frontend/assets/img/gallery/04.png') }}" alt="">
                                 </a>
                             </div>
-                            {{-- <div class="content">
+                            <div class="content">
                                 <h5 class="bs-h-4 title">
                                     <a href="#" aria-label="name">Builds In Progress</a>
                                 </h5>
-                            </div> --}}
+                            </div>
                         </div>
                     </div>
 
@@ -114,6 +115,57 @@ ANX Builds || Gallery
             </div>
 
 
+        </div>
+    </section> --}}
+    <section class="gallery-main-section">
+        <div class="masonry-container">
+            <div class="gallery-box">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
+            </div>
+
+            <div class="gallery-box">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/02.png') }}" alt="">
+            </div>
+
+            <div class="gallery-box">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/03.png') }}" alt="">
+            </div>
+
+            <div class="gallery-box">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/04.png') }}" alt="">
+            </div>
+
+            <div class="gallery-box">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/03.png') }}" alt="">
+            </div>
+
+            <div class="gallery-box">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/02.png') }}" alt="">
+            </div>
+
+            <div class="gallery-box">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
+            </div>
+
+            <div class="gallery-box">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
+            </div>
+
+            <div class="gallery-box">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/02.png') }}" alt="">
+            </div>
+
+            <div class="gallery-box">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/03.png') }}" alt="">
+            </div>
+
+            <div class="gallery-box">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/04.png') }}" alt="">
+            </div>
+
+            <div class="gallery-box">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
+            </div>
         </div>
     </section>
     <!-- project-end -->
@@ -129,4 +181,9 @@ ANX Builds || Gallery
 @endsection
 
 @section('js')
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+        });
+    </script>
 @endsection

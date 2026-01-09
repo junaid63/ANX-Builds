@@ -43,13 +43,13 @@ ANX Builds || Service Detail
 
                 <div class="bs-about-4-content">
                     <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">
-                        <strong>Granny Annexes:</strong> Uniquely Tailored For You
+                        <strong>Granny Annexes:</strong>
                     </h2>
                     <p class="desc">
-                        At Granny Annexes, we create steel-framed garden annexes that feel like home from day one. Every build is fully designed, installed, and finished by our team, giving you a complete turn-key solution without hidden extras. Take a look at some of our past projects in the gallery and see how other families have transformed their outdoor space. A granny annexe offers more than just extra room. It’s a way to keep loved ones close while still giving them the independence and privacy they need. Each Granny Annexes annexe is designed around your garden and your lifestyle, adding real value to your property while creating a space that works for years to come.
+                        Ultimately, not all annexes are built equally as some companies focus more on offering a low competitive price rather than having a high-quality product, this will often come to light over time.  Our bespoke annexes are engineered from steel frames that are much stronger and more durable than timber and not prone to issues such as rot or dampness. Therefore, we are confident that our annexes will still be standing decades down the line; hence our 10-year structural guarantee should give you complete peace of mind. 
                     </p>
                     <p class="desc">
-                        With fully inclusive pricing, fast installation, and premium finishes, your annexe can be ready to move into in a matter of weeks – no hidden extras. Built to meet UK building control standards, each unit combines style, efficiency, and long-term durability. View our price guide to see package options and book a free consultation today.
+                        Our innovative steel frame modular construction system, combined with the use of premium materials, allows us to deliver projects that are not only completed up to three times faster than traditional builds but also boast unrivalled structural integrity that will last for many years to come. 
                     </p>
                 </div>
             </div>

@@ -58,7 +58,7 @@ ANX Builds || Home
         <div class="container bs-container-2">
             <div class="bs-hero-4-content">
                 <h1 class="bs-hero-4-title bs-h-4 wa-split-y cd-headline clip " data-split-delay="1s">
-                    Garden Annexes Living <br>Across The UK
+                    Bespoke, Custom-Made  <br>Garden Annexes Across the UK 
                     {{-- <span class="cd-words-wrapper single-headline">
                         <b class="is-visible">Designed</b>
                         <b>Built</b>
@@ -242,53 +242,53 @@ ANX Builds || Home
 
             <!-- single-item -->
             <div class="bs-core-feature-4-item wow fadeInRight" >
-                <h4 class="bs-h-4 item-title">
-                    <a href="#" aria-label="name">Creative Modular Ideas</a>
-                </h4>
+                <h3 class="second-banner-section bs-h-4 item-title">
+                    <a href="#" aria-label="name">Modular Build System</a>
+                </h3>
                 <div class="item-icon">
-                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-1.svg')}}" alt="">
+                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/build-system.png')}}" alt="">
                 </div>
-                <p class="bs-p-4 item-disc">
-                    Smart solutions for garden offices, gyms, studios and compact living spaces.
+                <p class="bs-p-4 item-disc second-banner-section-para">
+                    Your annexe will be  completed in just a matter of weeks
                 </p>
             </div>
 
             <!-- single-item -->
             <div class="bs-core-feature-4-item wow fadeInRight" data-wow-delay="0.2s">
-                <h4 class="bs-h-4 item-title">
+                <h3 class="second-banner-section bs-h-4 item-title">
                     <a href="#" aria-label="name">Custom & Unique Designs</a>
-                </h4>
+                </h3>
                 <div class="item-icon">
-                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-2.svg')}}" alt="">
+                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/custom-unique.png')}}" alt="">
                 </div>
-                <p class="bs-p-4 item-disc">
-                    Every ANX pod and annexe is tailored to your home and lifestyle.
+                <p class="bs-p-4 item-disc second-banner-section-para">
+                    Every Granny Annexe Company project is tailored your specific taste and requirements 
                 </p>
             </div>
 
             <!-- single-item -->
             <div class="bs-core-feature-4-item wow fadeInRight" data-wow-delay="0.4s">
-                <h4 class="bs-h-4 item-title">
+                <h3 class="second-banner-section bs-h-4 item-title">
                     <a href="#" aria-label="name">High-Efficiency Build</a>
-                </h4>
+                </h3>
                 <div class="item-icon">
                     <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-3.svg')}}" alt="">
                 </div>
-                <p class="bs-p-4 item-disc">
-                    Precision steel framing ensures fast installation and minimal disruption.
+                <p class="bs-p-4 item-disc second-banner-section-para">
+                    Exceptional insulation for  warm winters, cool summers,  and low running costs
                 </p>
             </div>
 
             <!-- single-item -->
             <div class="bs-core-feature-4-item wow fadeInRight" data-wow-delay="0.6s">
-                <h4 class="bs-h-4 item-title">
-                    <a href="#" aria-label="name">Long-Lasting Quality</a>
-                </h4>
+                <h3 class="second-banner-section bs-h-4 item-title">
+                    <a href="#" aria-label="name">Engineered to Last, Finished to Perfection</a>
+                </h3>
                 <div class="item-icon">
-                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-4.svg')}}" alt="">
+                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/engineered.png')}}" alt="">
                 </div>
-                <p class="bs-p-4 item-disc">
-                    Fully insulated, low-maintenance and built to UK standards.
+                <p class="bs-p-4 item-disc second-banner-section-para">
+                    Our steel frame system gives you a stronger core, cleaner lines, and long-term durability.
                 </p>
             </div>
 
@@ -296,6 +296,47 @@ ANX Builds || Home
         <div class="bs-core-feature-4-line wa-scaleXInUp"></div>
     </section>
     <!-- core-feature-end -->
+
+    <!-- core-services-start -->
+    <section class="bs-core-services-2-area home-pricing-banner wa-bg-default wa-fix">
+        <div class="bs-core-services-2-wrap">
+            
+            <!-- single-item -->
+            <div class="bs-core-services-2-item ">
+                {{-- <div class="item-title"> --}}
+                    <h5 class="bs-h-2 item-title">
+                        <span class="wa-split-up wa-capitalize wa-fix">
+                            Prices Starting From
+                        </span>
+                    </h5>
+                    <h5 class="bs-h-2 item-title custom-top">
+                        <strong>£59,995</strong>
+                    </h5>
+                {{-- </div> --}}
+                <div class="content-wrap">
+                    <h5 class="bs-h-2 item-title">
+                        Prices Starting From
+                    </h5>
+                    <h5 class="bs-h-2 item-title">
+                       <strong>£59,995</strong>
+                    </h5>
+                    <div class="item-btn">
+                        <a href="{{ route('price') }}" aria-label="name" class="bs-btn-1">
+                            <span class="text">
+                                learn more pricing
+                            </span>
+                            <span class="shape" ></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item-img wa-fix wa-img-cover">
+                    <img src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-blog-detail.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- core-services-end -->
 
     <!-- about-start -->
     <section class="bs-about-4-area pt-45 pb-125 wa-fix">
@@ -371,10 +412,10 @@ ANX Builds || Home
                             <i class="flaticon-right-arrow flaticon"></i>
                         </div>
                         <h4 class="bs-h-4 title">
-                            <a href="projects-3.html" aria-label="name">See Modular Projects</a>
+                            <a href="{{ route('about') }}" aria-label="name">See some of our completed annexe</a>
                         </h4>
                         <p class="bs-p-4 disc">
-                            Explore completed garden pods, annexes and steel-frame builds across the UK.
+                            Explore completed annexes and steel-frame builds across the UK.
                         </p>
                     </div>
 
@@ -410,7 +451,7 @@ ANX Builds || Home
     <!-- services-end -->
 
     <!-- choose-start -->
-    <section class="bs-choose-4-area wa-bg-default wa-fix pb-120" data-background="{{url('frontend/assets/img/choose/ch4-bg-img-1.png')}}">
+    {{-- <section class="bs-choose-4-area wa-bg-default wa-fix pb-120">
         <div class="container bs-container-2">
             <div class="bs-choose-4-wrap">
 
@@ -476,18 +517,15 @@ ANX Builds || Home
 
                 <!-- right-play-btn -->
                 <div class="bs-choose-4-right d-flex justify-content-center align-items-center">
-
-                    {{-- <a href="javascript:void(0)" aria-label="name" class="bs-play-btn-4 wa-magnetic popup-video"> --}}
                     <a href="javascript:void(0)" aria-label="name" class="bs-play-btn-4 wa-magnetic">
                         <span class="icon wa-magnetic-btn">
                             <i class="flaticon-play flaticon"></i>
                         </span>
                     </a>
-
                 </div>
             </div>
 
-            {{-- <div class="bs-choose-4-feature">
+            <div class="bs-choose-4-feature">
 
                 <!-- single-feature -->
                 <div class="item-margin">
@@ -549,14 +587,104 @@ ANX Builds || Home
                     </div>
                 </div>
 
-            </div> --}}
+            </div>
 
+        </div>
+    </section> --}}
+    <section class="custom-choose wa-bg-default wa-fix pb-120">
+        <div class="container bs-container-2">
+            <div class="bs-choose-4-wrap">
+
+                <div class="bs-choose-4-content-height">
+                    <!-- left-content -->
+                    <div class="bs-choose-4-content-pin">
+                        <div class="bs-choose-4-content">
+
+                            <h5 class="bs-subtitle-4 bs-choose-4-subtitle">
+                                <span class="text">WHY CHOOSE US</span>
+                                <span class="icon">
+                                    <img src="{{url('frontend/assets/img/illus/subtitle-4-icon-2.svg')}}" alt="">
+                                </span>
+                            </h5>
+
+                            <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">
+                                Why choose the Granny Annexe Company For Your Project 
+                            </h2>
+
+                            <p class="bs-p-4 disc wa-fadeInUp mb-lg-3 mb-md-2 mb-2">
+                                When comparing annexes, the differences in build quality can be significant. Many look similar from the outside, but the materials, insulation, and construction methods used can dramatically affect comfort, running costs, and how long your annexe will last. 
+                            </p>
+                            <p class="bs-p-4 disc wa-fadeInUp">
+                                At The Granny Annexe Company, we believe a garden annexe should be built to the same standard as a high-quality home - not a temporary structure. That’s why we go far beyond the basic requirements used by many other builders. 
+                            </p>
+
+                            <div class="btn-wrap wa-fadeInUp">
+                                <a href="{{ route('about') }}#why-choose-us" aria-label="name" class="bs-pr-btn-2">
+                                    <span class="text" data-back="Learn More Why Choose Us" data-front="Learn More Why Choose Us"></span>
+                                    <span class="line-1" ></span>
+                                    <span class="line-2" ></span>
+                                    <span class="box box-1" ></span>
+                                    <span class="box box-2" ></span>
+                                    <span class="box box-3" ></span>
+                                    <span class="box box-4" ></span>
+                                </a>
+                            </div>
+
+                            {{-- <h5 class="bs-subtitle-4 bs-choose-4-subtitle mb-3">
+                                <span class="text">
+                                    Typical Building Regulation requirements: 
+                                </span>
+                            </h5>
+                            <div class="bs-choose-4-progress">
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span >Walls: around 0.26 W/m2K</span>
+                                    </h5>
+                                </div>
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span >Roofs: around 0.16 W/m2K</span>
+                                    </h5>
+                                </div>
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span >Floors: around 0.18 W/m2K</span>
+                                    </h5>
+                                </div>
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span>
+                                            Windows: around 1.4 W/m2K
+                                        </span>
+                                    </h5>
+                                </div>
+                            </div> --}}
+                        </div>
+                    </div>
+                </div>
+    
+
+
+
+                <!-- right-play-btn -->
+                <div class="bs-choose-4-right d-flex justify-content-center align-items-center">
+                    {{-- <a href="javascript:void(0)" aria-label="name" class="bs-play-btn-4 wa-magnetic">
+                        <span class="icon wa-magnetic-btn">
+                            <i class="flaticon-play flaticon"></i>
+                        </span>
+                    </a> --}}
+                </div>
+            </div>
         </div>
     </section>
     <!-- choose-end -->
 
     <!-- blog-start -->
-    <section class="bs-blog-4-area pb-125 pt-95">
+    <section class="bs-blog-4-area py-lg-5 py-md-3 py-2">
         <div class="container bs-container-2">
             <div class="bs-blog-4-content">
                 <h5 class="bs-subtitle-4 ">

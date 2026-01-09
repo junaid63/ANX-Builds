@@ -18,7 +18,7 @@ ANX Builds || {{ implode(' ', array_slice($words, 0, 3)) }}
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area has-blog-details wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/blog-details.png') }}" alt="">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-blog-detail.png') }}" alt="">
         </div>
 
         <div class="container bs-container-1">
@@ -38,46 +38,8 @@ ANX Builds || {{ implode(' ', array_slice($words, 0, 3)) }}
                     <div class="col-lg-8">
                         <!-- left-item -->
                         <div class="bs-blog-page-2-left">
-                            {{-- {!! $blogDetail->description !!} --}}
+                            {!! $blogDetail->description !!}
                             <!-- left-item -->
-                            <div class="bs-blog-details-content ">
-                                <p ><span class="big-letter">T</span>
-                                    ake a moment to look at your garden. What do you see? An open space or do you imagine the possibility of something more? Not just a shed, not just a storage spot, but a place with purpose. A place that could become part of your life.
-                                    This is where a garden annexe steps in. It is not simply a structure—it is a lifestyle choice. A quiet retreat for working from home. A private space for a loved one. Or even a long-term investment that grows the value of your property.
-                                    Design matters here. An annexe must be more than beautiful but it must also be practical. It must fit your days. It must carry your stories. That is the balance between style and use. And that is what makes an annexe more than a building. You create a living space that works for you today and stands strong for tomorrow.
-                                    In this blog, we’ll explore how to design a garden annexe UK that blends elegance with function—so your space looks good, feels good, and truly fits your life.
-                                </p>
-                                <div class="blog-detail-points-para">
-                                    <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">
-                                        Designing a Functional Garden Annexe UK: Where to Begin
-                                    </h2>
-                                    <p>
-                                        When starting your garden annexe project, function should be at the heart of every decision. Ask yourself: Who is this space for? What will it be used for daily? These questions guide the layout, fittings, and flow of the space.
-                                        A well-designed annexe should be:
-                                    </p>
-                                    <ul class="ms-lg-3 ms-md-2 ms-2 mb-lg-3 mb-md-2 mb-2">
-                                        <li>
-                                            <span><b>Comfortable</b> all year round</span>
-                                        </li>
-                                        <li>
-                                            <b>Easy to maintain</b>
-                                        </li>
-                                        <li>
-                                            <b>
-                                                Efficiently laid out
-                                            </b>
-                                        </li>
-                                        <li>
-                                            <b>
-                                                Visually appealing
-                                            </b>
-                                        </li>
-                                    </ul>
-                                    <p>
-                                        At OffPOD, every layout is tailored around your garden, your lifestyle, and your needs—no two builds are the same. This is the beauty of a truly bespoke garden annexe.
-                                    </p>
-                                </div>
-                            </div>
                         </div>
                     </div>
 

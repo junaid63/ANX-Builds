@@ -15,7 +15,7 @@ ANX Builds || Contact Us
 <!-- breadcrumb-start -->
 <section class="breadcrumb-area wa-p-relative" >
     <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-        <img class="wa-parallax-img" src="{{url('frontend/assets/img/breadcrumb/breadcrumb-img.png')}}" alt="">
+        <img class="wa-parallax-img" src="{{url('frontend/assets/img/breadcrumb/breadcrumb-contact.png')}}" alt="">
     </div>
 
     <div class="container bs-container-1">
@@ -103,7 +103,7 @@ ANX Builds || Contact Us
         <div class="bs-contact-6-wrap">
 
             <div class="bs-contact-6-img wa-fix wa-img-cover">
-                <img src="{{url('frontend/assets/img/contact/c6-img-1.png')}}" alt="">
+                <img src="{{url('frontend/assets/img/contact/contact-img.png')}}" alt="">
             </div>
 
             <div class="bs-contact-6-content">
@@ -191,7 +191,7 @@ ANX Builds || Contact Us
 
 <!-- map-start -->
 <div class="bs-contact-page-map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67494.869835997!2d-0.5614198280771351!3d52.35433673888768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879bf624b1d038f%3A0xa5702e1d01536660!2sOffPOD%20Modular%20Extensions%20%26%20Garden%20Annexes!5e0!3m2!1sen!2s!4v1765447375969!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1755.2107538265516!2d-0.09000049936547676!3d51.527105409133256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca66eeaa42d%3A0xfeaa9eff15ff6f43!2sLondon%20EC1V%202NX%2C%20UK!5e0!3m2!1sen!2s!4v1767783747785!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <!-- map-end -->
 

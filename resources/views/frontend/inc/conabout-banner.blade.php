@@ -40,7 +40,7 @@
                                 Lets talk about your garden annexe project
                             </h2>
                             <p class="bs-p-4 disc wa-fadeInUp">
-                                Whether you're planning a granny annexe, our team is here to provide guidance and pricing.
+                                If you're planning a granny annexe, our team is here to provide help.
                             </p>
                             <div class="d-flex dia-banner-content flex-lg-row flex-md-row flex-column pt-lg-4">
                                 <div class="btn-wrap wa-fadeInUp">

@@ -13,7 +13,7 @@
                         </span>
                         UK COVERAGE SECTION
                     </h6>
-                    <h2 class="bs-sec-title-1 wa-split-right wa-capitalize" data-cursor="-opaque">Serving Homeowners Across the UK</h2>
+                    <h2 class="bs-sec-title-1 wa-split-right wa-capitalize" data-cursor="-opaque">Serving Clients Across the UK</h2>
                     {{-- <p class="bs-p-4 item-disc mt-lg-3">
                         ANX delivers modular solutions across the UK, including:
                     </p> --}}
@@ -31,10 +31,10 @@
                     <!-- single-card -->
                     <div class="bs-office-1-card wa-clip-left-right">
                         <div class="card-img wa-fix wa-img-cover">
-                            <img src="{{url('frontend/assets/img/office/o1-img-1.png')}}" alt="">
+                            <img src="{{url('frontend/assets/img/location/london.webp')}}" alt="">
                         </div>
                         <h5 class="bs-h-1 title">London</h5>
-                        <p class="bs-p-1 disc">Pods & compact modular spaces</p>
+                        <p class="bs-p-1 disc">Granny Annexe modular spaces</p>
                         {{-- <a href="#" class="link bs-p-1">+22 (0)3 789 41 41</a>
                         <a href="#" class="link bs-p-1">see on maps</a> --}}
                     </div>
@@ -42,10 +42,10 @@
                     <!-- single-card -->
                     <div class="bs-office-1-card wa-clip-left-right">
                         <div class="card-img wa-fix wa-img-cover">
-                            <img src="{{url('frontend/assets/img/office/o1-img-2.png')}}" alt="">
+                            <img src="{{url('frontend/assets/img/location/manchister.jpg')}}" alt="">
                         </div>
                         <h5 class="bs-h-1 title">Manchester</h5>
-                        <p class="bs-p-1 disc">Granny annexes & modular rooms</p>
+                        <p class="bs-p-1 disc">Granny Annexes</p>
                         {{-- <a href="#" class="link bs-p-1">+28 (0)3 978 41 97</a>
                         <a href="#" class="link bs-p-1">see on maps</a> --}}
                     </div>
@@ -53,10 +53,10 @@
                     <!-- single-card -->
                     <div class="bs-office-1-card wa-clip-left-right">
                         <div class="card-img wa-fix wa-img-cover">
-                            <img src="{{url('frontend/assets/img/office/o1-img-3.png')}}" alt="">
+                            <img src="{{url('frontend/assets/img/location/birmingham.jpg')}}" alt="">
                         </div>
                         <h5 class="bs-h-1 title">Birmingham</h5>
-                        <p class="bs-p-1 disc">Steel-frame & commercial builds</p>
+                        {{-- <p class="bs-p-1 disc">Steel-frame & commercial builds</p> --}}
                         {{-- <a href="#" class="link bs-p-1">+22 (0)5 100 80 77</a>
                         <a href="#" class="link bs-p-1">see on maps</a> --}}
                     </div>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="bs-about-1-content my-lg-5">
                     <p class="bs-p-1 disc wa-split-y wa-capitalize">
-                        ANX provides nationwide support with dependable service.
+                        The Granny Annexe Company provides nationwide support with dependable service.
                     </p>
                 </div>
             </div>

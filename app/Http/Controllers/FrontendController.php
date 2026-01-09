@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Contact;
 use App\Blog;
 use App\Service;
+use App\Faq;
 
 class FrontendController extends Controller
 {
@@ -79,7 +80,8 @@ class FrontendController extends Controller
         $view = 'frontend.faqs';
         $blogs = $this->getBlogs();
         $services = $this->getServices();
-        return view($view, compact('blogs','services'));
+        $faqs = Faq::where('status', 1)->get();
+        return view($view, compact('blogs','services','faqs'));
     }
 
     public function blogs()

@@ -15,7 +15,7 @@ ANX Builds || Blogs
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-img.png') }}" alt="">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-blogs.png') }}" alt="">
         </div>
 
         <div class="container bs-container-1">
@@ -64,8 +64,12 @@ ANX Builds || Blogs
                         </a>
                     </div>
                     <p class="item-date bs-p-1">
-                        <span>{{ date('d') }}</span>
-                        <span>{{ date('M') }}</span>
+                        <span>
+                            {{ \Carbon\Carbon::parse($blog->created_at)->format('d') }}
+                        </span>
+                        <span>
+                            {{ substr(\Carbon\Carbon::parse($blog->created_at)->format('F'), 0, 3) }}
+                        </span>
                     </p>
                     <div class="content">
                         <h5 class="bs-h-1 item-title">
