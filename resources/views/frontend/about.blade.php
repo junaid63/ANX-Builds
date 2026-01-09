@@ -15,7 +15,7 @@ ANX Builds || About Us
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{url('frontend/assets/img/breadcrumb/breadcrumb-img.png')}}" alt="">
+            <img class="wa-parallax-img" src="{{url('frontend/assets/img/breadcrumb/breadcrumb-about.png')}}" alt="">
         </div>
 
         <div class="container bs-container-1">
@@ -61,8 +61,8 @@ ANX Builds || About Us
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-about-1-item wa-fix ">
-                                <a href="{{url('frontend/assets/img/about/a1-img-1.png')}}" class="popup-img wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/about/a1-img-1.png')}}" alt="">
+                                <a href="{{url('frontend/assets/img/about/01.png')}}" class="popup-img wa-img-cover">
+                                    <img src="{{url('frontend/assets/img/about/01.png')}}" alt="">
                                 </a>
                                 
                             </div>
@@ -71,8 +71,8 @@ ANX Builds || About Us
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-about-1-item wa-fix ">
-                                <a href="{{url('frontend/assets/img/about/a1-img-2.png')}}" class="popup-img wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/about/a1-img-2.png')}}" alt="">
+                                <a href="{{url('frontend/assets/img/about/02.png')}}" class="popup-img wa-img-cover">
+                                    <img src="{{url('frontend/assets/img/about/02.png')}}" alt="">
                                 </a>
                             </div>
                         </div>
@@ -80,21 +80,11 @@ ANX Builds || About Us
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-about-1-item wa-fix ">
-                                <a href="{{url('frontend/assets/img/about/a1-img-3.png')}}" class="popup-img wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/about/a1-img-3.png')}}" alt="">
+                                <a href="{{url('frontend/assets/img/about/03.png')}}" class="popup-img wa-img-cover">
+                                    <img src="{{url('frontend/assets/img/about/03.png')}}" alt="">
                                 </a>
                             </div>
                         </div>
-
-                        <!-- single-slide -->
-                        <div class="swiper-slide">
-                            <div class="bs-about-1-item wa-fix ">
-                                <a href="{{url('frontend/assets/img/about/a1-img-4.png')}}" class="popup-img wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/about/a1-img-4.png')}}" alt="">
-                                </a>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
 
@@ -108,7 +98,7 @@ ANX Builds || About Us
                     The Granny Annexe Company designs, builds and installs high-quality garden annexes across the UK, created to help families support older loved ones with comfort, privacy and independence close to home. Founded by director Matt Biddle after years building annexes nationwide, our company was built around one simple principle: an annexe should feel like a proper home, not a temporary structure. 
                 </p>
                 <p class="bs-p-1 disc wa-split-y wa-capitalize">
-                    We specialise in steel-frame granny annexes for long-term strength, stability and year-round comfort. Our homes are engineered to go beyond the typical “cabin-style” approach, using high-performance insulation, soundproofing and triple glazing as standard, with specifications designed to outperform many modern new-build benchmarks and exceed the UK’s residential park home standard (BS 3632). 
+                    We specialise in steel-frame granny annexes for long-term strength, stability and year-round comfort. Our homes are engineered to go beyond the typical “cabin-style” approach, using high-performance insulation, soundproofing and triple glazing as standard, with specifications designed to outperform many modern new-house benchmarks and exceed the UK’s residential park home standard (BS 3632). 
                 </p>
                 <p class="bs-p-1 disc wa-split-y wa-capitalize">
                     From first ideas to move-in day, we provide a complete turnkey garden annexe build service—including drawings and technical design, groundworks and connections, electrics, plumbing, heating, kitchen and bathroom installation, certification and handover. We also guide the planning route (often via the Caravan Act) and can manage your Lawful Development Certificate, with every build protected by a 10-year structural warranty and a clear aftercare pack. 
@@ -176,25 +166,590 @@ ANX Builds || About Us
     <!-- counter-end -->            
 
     <!-- video-start -->
-    <section class="bs-video-1-area wa-fix">
+    {{-- <section class="custom-choose bs-video-1-area wa-fix">
         <div class="bs-video-1-content wa-p-relative">
-            <div class="bs-video-1-content-img wa-p-relative wa-fix wa-img-cover">
-                <img class="wa-parallax-img" src="{{url('frontend/assets/img/video/v1-img-1.png')}}" alt="">
-
-                <div class="bs-video-1-play-btn">
-                    <a href="javascript:void(0)" aria-label="name" class="bs-play-btn-3 wa-magnetic popup-video">
-                        <span class="icon wa-magnetic-btn">
-                            <i class="fa-solid fa-play"></i>
-                        </span>
-                    </a>
-                </div>
-            </div>
             <div class="bs-h-1 title wa-split-down" data-cursor="-opaque">
                 The Granny Annexe Company
             </div>
         </div>
+    </section> --}}
+     <!-- video-start -->
+    <section class="bs-video-4-area">
+        <div class="bs-video-4-content wa-p-relative wa-fix wa-img-cover">
+            <img class="wa-parallax-img" src="{{url('frontend/assets/img/video/v4-img-1.png')}}" alt="">
+
+            <div class="bs-video-4-text">
+                <div class="bs-video-4-marquee-active">
+                    <h4 class="bs-h-1 bs-video-4-text-item wa-split-text">The Granny Annexe Company</h4>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- video-end -->
+
+    <!-- choose-start -->
+    <section id="why-choose-us" class="bs-choose-4-area wa-bg-default wa-fix pb-120">
+        <div class="container bs-container-2">
+            <div class="bs-choose-4-wrap">
+
+                <div class="bs-choose-4-content-height">
+                    <!-- left-content -->
+                    <div class="bs-choose-4-content-pin">
+                        <div class="bs-choose-4-content py-lg-5 py-md-3 py-2">
+
+                            <h5 class="bs-subtitle-4 bs-choose-4-subtitle">
+                                <span class="text">WHY CHOOSE US</span>
+                                <span class="icon">
+                                    <img src="{{url('frontend/assets/img/illus/subtitle-4-icon-2.svg')}}" alt="">
+                                </span>
+                            </h5>
+
+                            <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">
+                                Why choose the Granny Annexe Company For Your Project 
+                            </h2>
+
+                            <p class="bs-p-4 disc wa-fadeInUp mb-lg-3 mb-md-2 mb-2">
+                                When comparing annexes, the differences in build quality can be significant. Many look similar from the outside, but the materials, insulation, and construction methods used can dramatically affect comfort, running costs, and how long your annexe will last. 
+                            </p>
+                            <p class="bs-p-4 disc wa-fadeInUp">
+                                At The Granny Annexe Company, we believe a garden annexe should be built to the same standard as a high-quality home - not a temporary structure. That’s why we go far beyond the basic requirements used by many other builders. 
+                            </p>
+
+                            <span class="custom-choose-span bs-h-4 item-title title mb-lg-3 mb-md-2 mb-2">
+                                Built To Exceed new-house Home Standards
+                            </span>
+                            <p class="bs-p-4 disc wa-fadeInUp">
+                                In the UK, new-house houses must meet strict Building Regulations for thermal performance (known as U-values). These set maximum limits for how much heat can escape through walls, floors, roofs, windows, and doors. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+            <div class="bs-choose-4-feature">
+               
+                <div class="item-margin">
+                    <div class="bs-choose-4-feature-single">
+                        <h5 class="custom-choose-second-span bs-choose-4-subtitle mb-3">
+                            Typical Building Regulation requirements:
+                        </h5>
+                        <div class="bs-choose-4-progress ms-lg-5 ms-md-3 ms-2">
+                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                                <i class="fa-solid fa-check"></i>
+                                <h5 class="bs-p-1 progress-title mb-0">
+                                    <span ><strong>Walls:</strong> around 0.26 W/m2K</span>
+                                </h5>
+                            </div>
+                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                                <i class="fa-solid fa-check"></i>
+                                <h5 class="bs-p-1 progress-title mb-0">
+                                    <span ><strong>Roofs:</strong> around 0.16 W/m2K</span>
+                                </h5>
+                            </div>
+                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                                <i class="fa-solid fa-check"></i>
+                                <h5 class="bs-p-1 progress-title mb-0">
+                                    <span ><strong>Floors:</strong> around 0.18 W/m2K</span>
+                                </h5>
+                            </div>
+                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                                <i class="fa-solid fa-check"></i>
+                                <h5 class="bs-p-1 progress-title mb-0">
+                                    <span>
+                                        <strong>Windows:</strong> around 1.4 W/m2K
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-margin">
+                    <div class="bs-choose-4-feature-single">
+                        <h5 class="custom-choose-second-span bs-choose-4-subtitle mb-3">
+                            Our annexes are engineered to outperform these figures:
+                        </h5>
+                        <div class="bs-choose-4-progress ms-lg-5 ms-md-3 ms-2">
+                            <div class="bs-choose-4-progress ms-lg-5 ms-md-3 ms-2">
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span><strong>Walls:</strong> approx. 0.23 W/m2K</span>
+                                    </h5>
+                                </div>
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span ><strong>Roofs:</strong> approx. 0.14 W/m2K</span>
+                                    </h5>
+                                </div>
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span ><strong>Floors:</strong> approx. 0.15 W/m2K</span>
+                                    </h5>
+                                </div>
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span>
+                                            <strong>Triple-glazed windows:</strong> approx. 0.9–1.0 W/m2K
+                                        </span>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="bs-p-4 disc wa-fadeInUp border-top pt-lg-4 pt-md-3 pt-2">
+                            This means our homes keep heat in more effectively than most newly built houses resulting in a warmer, quieter, more efficient annexe.
+                        </p>
+                    </div>
+                </div>  
+
+                {{-- <div class="item-margin">
+                    <div class="bs-choose-4-feature-single">
+                        <div class="icon">
+                            <i class="flaticon-minimalist flaticon"></i>
+                        </div>
+                        <h4 class="bs-h-4 title">
+                            <a href="#" aria-label="name">Acoustic Rockwool</a>
+                        </h4>
+                        <p class="bs-p-4 disc">
+                            Acoustic Rockwool in all walls and floors for exceptional soundproofing and a calm, quiet interior.
+                        </p>
+                    </div>
+                </div>
+                <div class="item-margin">
+                    <div class="bs-choose-4-feature-single">
+                        <div class="icon">
+                            <i class="flaticon-blueprint flaticon"></i>
+                        </div>
+                        <h4 class="bs-h-4 title">
+                            <a href="#" aria-label="name">High-performance PIR</a>
+                        </h4>
+                        <p class="bs-p-4 disc">
+                            High-performance PIR insulation for excellent thermal efficiency.
+                        </p>
+                    </div>
+                </div>
+                <div class="item-margin">
+                    <div class="bs-choose-4-feature-single">
+                        <div class="icon">
+                            <i class="flaticon-property-insurance flaticon"></i>
+                        </div>
+                        <h4 class="bs-h-4 title">
+                            <a href="#" aria-label="name">Triple-glazed UPVC windows & doors</a>
+                        </h4>
+                        <p class="bs-p-4 disc">
+                            Triple-glazed UPVC windows & doors as standard - something rarely offered as standard even in many new-house houses. 
+                        </p>
+                    </div>
+                </div>
+                <div class="item-margin">
+                    <div class="bs-choose-4-feature-single">
+                        <div class="icon">
+                            <i class="flaticon-goodwill-1 flaticon"></i>
+                        </div>
+                        <h4 class="bs-h-4 title">
+                            <a href="#" aria-label="name">LONG-TERM COMFORT, NOT SHORT-TERM SAVINGS</a>
+                        </h4>
+                        <p class="bs-p-4 disc">
+                            Some annexes on the market are built using lightweight materials, limited insulation, or single/double glazing. These may look appealing at first but can feel colder in winter, hotter in summer, and less solid over time.
+                        </p>
+                    </div>
+                </div> --}}
+            </div>
+
+        </div>
+    </section>
+    <!-- choose-end -->
+
+    <!-- work-start -->
+    <section class="bs-work-5-area why-choose-second wa-bg-default pt-135 pb-170" data-background="{{ url('frontend/assets/img/work/w5-bg-img.png') }}">
+        <div class="container bs-container-2">
+
+            <!-- section-title -->
+            <div class="bs-work-5-sec-title mb-90">
+                <h2 class="bs-sec-title-4 wa-split-right wa-capitalize" data-cursor="-opaque">Premium Insulation In Every Annexe</h2>
+                <p class="bs-p-4 disc wa-fadeInUp">
+                    We combine multiple layers of high-performance insulation to create year-round comfort: 
+                </p>
+            </div>
+            
+            <!-- cards -->
+            <div class="bs-work-5-wrap">
+    
+                <!-- single-card -->
+                <div class="bs-work-5-card has-ani-up active">
+                    <div class="bg-img wa-img-cover wa-fix">
+                    </div>
+                    <h4 class="bs-h-1 title">Acoustic Rockwool</h4>
+                    <p class="bs-p-4 disc custom-para"> Acoustic Rockwool in all walls and floors for exceptional soundproofing and a calm, quiet interior.</p>
+                    <h5 class="bs-h-1 number">01</h5>
+                </div>
+    
+                <!-- single-card -->
+                <div class="bs-work-5-card has-ani-down">
+                    <div class="bg-img wa-img-cover wa-fix">
+                    </div>
+                    <h4 class="bs-h-1 title">High-performance PIR</h4>
+                    <p class="bs-p-4 disc custom-para">High-performance PIR insulation for excellent thermal efficiency.</p>
+                    <h5 class="bs-h-1 number">02</h5>
+                </div>
+    
+                <!-- single-card -->
+                <div class="bs-work-5-card has-ani-up">
+                    <div class="bg-img wa-img-cover wa-fix">
+                    </div>
+                    <h4 class="bs-h-1 title">Triple-glazed UPVC windows & doors</h4>
+                    <p class="bs-p-4 disc custom-para">Triple-glazed UPVC windows & doors as standard - something rarely offered as standard even in many new-house houses. </p>
+                    <h5 class="bs-h-1 number">03</h5>
+                </div>
+    
+                <!-- single-card -->
+                <div class="bs-work-5-card has-ani-down">
+                    <div class="bg-img wa-img-cover wa-fix">
+                    </div>
+                    <h4 class="bs-h-1 title">Long-Term Comfort, Not Short-Term Savings </h4>
+                    <p class="bs-p-4 disc custom-para">Some annexes on the market are built using lightweight materials, limited insulation, or single/double glazing. These may look appealing at first but can feel colder in winter, hotter in summer, and less solid over time.</p>
+                    <h5 class="bs-h-1 number">04</h5>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- work-end -->
+
+    <!-- services-start -->
+    <section class="bs-services-3-area pt-120 pb-155 bg-black" data-background="{{ url('frontend/assets/img/services/s4-bg.png') }}">
+        <div class="container bs-container-1">
+
+            <!-- section-title -->
+            <div class="bs-services-3-sec-title mb-40 text-center">
+                <h2 class="bs-sec-title-3  wa-split-right wa-capitalize mb-lg-4 mb-md-2 mb-2" data-cursor="-opaque">What’s included as standard?</h2>
+                <p class="bs-p-4 disc wa-fadeInUp text-white">
+                    Every annexe we build is fully finished and ready to furnish, with all the essential features included as standard - no hidden extras and no unexpected costs. We take pride in delivering a home that feels complete, comfortable, and welcoming from the moment you step inside.
+                </p>
+            </div>
+
+            <!-- card -->
+            <div class="bs-services-3-wrap  mb-70">
+
+                <!-- single-card -->
+                <div class="bs-services-3-card ">
+                    <div class="card-icon">
+                        <i class="flaticon-worker flaticon"></i>
+                    </div>
+                    <h5 class="bs-h-1 card-title">
+                        Groundworks & foundations*
+                    </h5>
+                    <p class="bs-p-1 card-disc">All builds include ground screw foundations as standard, plus trenching and associated works for service runs.</p>
+                    <h5 class="bs-h-1 card-number">1</h5>
+                </div>
+
+                <!-- single-card -->
+                <div class="bs-services-3-card ">
+                    <div class="card-icon">
+                        <i class="flaticon-construction flaticon"></i>
+                    </div>
+                    <h5 class="bs-h-1 card-title">
+                        Supply & waste connections*
+                    </h5>
+                    <p class="bs-p-1 card-disc">
+                        We include all required service connections (water, electricity and waste) to your annexe for runs up to 25 metres as standard.
+                    </p>
+                    <h5 class="bs-h-1 card-number">2</h5>
+                </div>
+
+                <!-- single-card -->
+                <div class="bs-services-3-card ">
+                    <div class="card-icon">
+                        <i class="flaticon-architect flaticon"></i>
+                    </div>
+                    <h5 class="bs-h-1 card-title">
+                        High-quality flooring throughout
+                    </h5>
+                    <p class="bs-p-1 card-disc">
+                        Durable, easy-to-clean flooring, available in a choice of modern finishes.
+                    </p>
+                    <h5 class="bs-h-1 card-number">3</h5>
+                </div>
+
+                <!-- single-card -->
+                <div class="bs-services-3-card ">
+                    <div class="card-icon">
+                        <i class="flaticon-maintenance flaticon"></i>
+                    </div>
+                    <h5 class="bs-h-1 card-title">
+                        Skirting boards and oak-effect doors
+                    </h5>
+                    <p class="bs-p-1 card-disc">
+                        A polished, homely finish that feels like a high-quality bungalow.
+                    </p>
+                    <h5 class="bs-h-1 card-number">4</h5>
+                </div>
+
+                <!-- single-card -->
+                <div class="bs-services-3-card ">
+                    <div class="card-icon">
+                        <i class="flaticon-blueprint flaticon"></i>
+                    </div>
+                    <h5 class="bs-h-1 card-title">
+                        Internal lighting
+                    </h5>
+                    <p class="bs-p-1 card-disc">
+                        Ceiling rose lights installed in every room.
+                    </p>
+                    <h5 class="bs-h-1 card-number">5</h5>
+                </div>
+
+                <!-- single-card -->
+                <div class="bs-services-3-card ">
+                    <div class="card-icon">
+                        <i class="flaticon-electrical flaticon"></i>
+                    </div>
+                    <h5 class="bs-h-1 card-title">
+                        Fully decorated interior
+                    </h5>
+                    <p class="bs-p-1 card-disc">
+                        Professionally plastered walls, finished in white paint.
+                    </p>
+                    <h5 class="bs-h-1 card-number">6</h5>
+                </div>
+
+                <!-- single-card -->
+                <div class="bs-services-3-card why-choose-card-hide">
+                    <div class="card-icon">
+                        <i class="flaticon-electrical flaticon"></i>
+                    </div>
+                    <h5 class="bs-h-1 card-title">
+                        Smart panel radiators
+                    </h5>
+                    <p class="bs-p-1 card-disc">
+                        Professionally plastered walls, finished in white paint.
+                    </p>
+                    <h5 class="bs-h-1 card-number">7</h5>
+                </div>
+                
+                <!-- single-card -->
+                <div class="bs-services-3-card why-choose-card-hide">
+                    <div class="card-icon">
+                        <i class="flaticon-electrical flaticon"></i>
+                    </div>
+                    <h5 class="bs-h-1 card-title">
+                        Double plug sockets
+                    </h5>
+                    <p class="bs-p-1 card-disc">
+                        Conveniently positioned throughout your annexe.
+                    </p>
+                    <h5 class="bs-h-1 card-number">8</h5>
+                </div>
+
+                <!-- single-card -->
+                <div class="bs-services-3-card why-choose-card-hide">
+                    <div class="card-icon">
+                        <i class="flaticon-electrical flaticon"></i>
+                    </div>
+                    <h5 class="bs-h-1 card-title">
+                        Fully fitted kitchen
+                    </h5>
+                    <p class="bs-p-1 card-disc">
+                        A high-quality, fully customisable kitchen including a sink, fridge, oven and 8 units. Unlimited upgrades are also available.
+                    </p>
+                    <h5 class="bs-h-1 card-number">9</h5>
+                </div>
+
+                <!-- single-card -->
+                <div class="bs-services-3-card why-choose-card-hide">
+                    <div class="card-icon">
+                        <i class="flaticon-electrical flaticon"></i>
+                    </div>
+                    <h5 class="bs-h-1 card-title">
+                        Fully fitted shower room
+                    </h5>
+                    <p class="bs-p-1 card-disc">
+                        Includes Aquapanel wall finish, electric shower, low-threshold shower tray, toilet, basin, extractor fan and electric towel heater.
+                    </p>
+                    <h5 class="bs-h-1 card-number">10</h5>
+                </div>
+                <!-- single-card -->
+                <div class="bs-services-3-card why-choose-card-hide">
+                    <div class="card-icon">
+                        <i class="flaticon-electrical flaticon"></i>
+                    </div>
+                    <h5 class="bs-h-1 card-title">
+                        Instant hot water heater
+                    </h5>
+                    <p class="bs-p-1 card-disc">
+                        Kitchen and bathroom sinks are supplied by a compact instant hot water heater for efficient, on-demand hot water.
+                    </p>
+                    <h5 class="bs-h-1 card-number">11</h5>
+                </div>
+
+                <!-- single-card -->
+                <div class="bs-services-3-card why-choose-card-hide">
+                    <div class="card-icon">
+                        <i class="flaticon-electrical flaticon"></i>
+                    </div>
+                    <h5 class="bs-h-1 card-title">
+                        Certificate of Lawfulness / planning application
+                    </h5>
+                    <p class="bs-p-1 card-disc">
+                        We typically build under the Caravan Sites Act (often referred to as the Caravan Act). This framework can allow a fully equipped annexe to be classed as a “mobile structure,” which often makes the planning process much simpler and can significantly improve the likelihood of approval.
+                    </p>
+                    <h5 class="bs-h-1 card-number">12</h5>
+                </div>
+
+            </div>
+
+            <!-- all-btn -->
+            <div class="bs-services-3-all-btn text-center wa-fadeInUp">
+                <button class="bs-btn-1 see-more text-capitalize">
+                    <span class="text">
+                        See More
+                    </span>
+                    <span class="icon">
+                        <i class="fa-solid fa-right-long"></i>
+                        <i class="fa-solid fa-right-long"></i>
+                    </span>
+                    <span class="shape"></span>
+                </button>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- services-end -->
+
+    <!-- about-start -->
+    <section class="bs-about-5-area why-choose-third pt-135 pb-100 wa-fix wa-p-relative">
+        <div class="bs-about-5-bg-shape">
+            <img src="{{ url('frontend/assets/img/about/a5-bg-shape.png') }}" alt="">
+        </div>
+        <div class="bs-about-5-bg-shape-2">
+            <img src="{{ url('frontend/assets/img/about/a5-bg-shape-2.png') }}" alt="">
+        </div>
+
+        <div class="container bs-container-2">
+
+            <!-- section-title -->
+            <div class="bs-work-5-sec-title mb-lg-4 mb-md-2 mb-2">
+                <h2 class="bs-sec-title-4 wa-split-right wa-capitalize mb-lg-4 mb-md-2 mb-2" data-cursor="-opaque">
+                    We take care of everything 
+                </h2>
+                <p class="bs-p-4 disc wa-fadeInUp">
+                    Building a granny annexe should feel exciting, not overwhelming. That’s why we offer a complete, start-to-finish service, handling every stage of the project so you don’t have to worry about a thing. 
+                </p>
+            </div>
+
+            <div class="bs-about-5-wrap">
+
+                <!-- left-side -->
+                <div class="bs-about-5-left">
+                    <p class="bs-p-4 disc wa-fadeInUp">
+                        From the moment you choose your design, we manage:
+                    </p>
+
+                    <!-- right-side -->
+                    <div class="bs-about-5-right mb-lg-4 mb-md-3 mb-2">
+
+                        <ul class="bs-about-5-feature wa-list-style-none">
+                            <li class="bs-p-4 wa-fadeInUp">
+                                <i class="fa-solid fa-plus"></i>
+                                All planning applications and approvals 
+                            </li>
+                            <li class="bs-p-4 wa-fadeInUp">
+                                <i class="fa-solid fa-plus"></i>
+                                Full drawings and technical design 
+                            </li>
+                            <li class="bs-p-4 wa-fadeInUp">
+                                <i class="fa-solid fa-plus"></i>
+                                Demolition of existing outbuildings, if required 
+                            </li>
+                            <li class="bs-p-4 wa-fadeInUp">
+                                <i class="fa-solid fa-plus"></i>
+                                Groundworks, foundations, and service connections 
+                            </li>
+                            <li class="bs-p-4 wa-fadeInUp">
+                                <i class="fa-solid fa-plus"></i>
+                                Construction of your annexe, fully finished inside and out 
+                            </li>
+                            <li class="bs-p-4 wa-fadeInUp">
+                                <i class="fa-solid fa-plus"></i>
+                                Electrical, plumbing, heating, kitchen, and bathroom installation 
+                            </li>
+                            <li class="bs-p-4 wa-fadeInUp">
+                                <i class="fa-solid fa-plus"></i>
+                                Final checks, certification, and handover 
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bs-about-5-img-1 wa-fix wa-img-cover wa-fadeInUp" data-cursor="-opaque">
+                        <img class="wa-parallax-img" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
+                    </div>
+                </div>
+
+                <!-- right-side -->
+                <div class="bs-about-5-right">
+                    <div class="bs-about-5-img-2 wa-fix wa-img-cover wa-fadeInUp" data-cursor="-opaque">
+                        <img class="wa-parallax-img" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
+                    </div>
+
+                    <p class="bs-p-4 disc wa-fadeInUp ms-lg-3 ms-md-2 ms-2">
+                        When your annexe is complete, the only thing left for you to do is move in your furniture and start enjoying your new home. 
+                        The only area we do not cover is garden landscaping. But everything relating to the annexe itself, from preparation to completion, is taken care of by our team. 
+                        With The Granny Annexe Company, “full service” truly means everything is handled for you, smoothly and professionally, from day one to move-in day. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-end -->
+
+    <!-- testimonial-start -->
+    <section class="bs-testimonial-5-area bg-black why-choose-fourth wa-fix" data-background="{{ url('frontend/assets/img/services/s4-bg.png') }}">
+        <div class="container bs-container-2">
+            <div class="bs-testimonial-5-wrap">
+
+                <!-- left-content -->
+                <div class="bs-testimonial-5-content pt-lg-5 pt-md-3 pt-2">
+
+                    <!-- section-title -->
+                    <div class="bs-testimonial-5-sec-title mb-lg-4 mb-md-3 mb-2">
+                        <h2 class="bs-sec-title-4 text-white wa-split-right wa-capitalize" data-cursor="-opaque">
+                            Why choose a steel frame annexe?
+                        </h2>
+                        <p class="bs-p-4 text-white disc wa-fadeInUp">
+                            At The Granny Annexe Company, we build in steel frame because it delivers a stronger, smarter, and more future-proof annexe.
+                            Steel has an outstanding strength-to-weight ratio, meaning it can support heavier loads and span spaces more confidently than many traditional materials. That strength translates into a solid structure you can rely on for the long term.
+                        </p>
+                        <p class="bs-p-4 text-white disc wa-fadeInUp">
+                            Steel frame construction is also ideal for high-performance insulation. Our annexes can be insulated to the highest standards to help maintain a comfortable, consistent temperature all year round. The result is a warmer home in winter, cooler in summer, and lower energy costs over time — with a more sustainable build that can add long-term value to your property.
+                        </p>
+                    </div>
+                   
+                </div>
+
+                <div class="bs-testimonial-5-img wa-fix wa-img-cover" data-cursor="-opaque">
+                    <img class="wa-parallax-img" src="{{ url('frontend/assets/img/gallery/02.png') }}" alt="">
+                </div>
+                
+            </div>
+            <div class="container ps-0">
+                <div class="d-flex flex-column mb-lg-5 mb-md-3 mb-2">
+                    <p class="bs-p-4 text-white disc wa-fadeInUp mb-lg-3 mb-md-3 mb-2">
+                        Our modular steel frame system brings big practical benefits too. Much of the build is prepared in a controlled environment, which keeps the process cleaner and more efficient, reduces waste, and helps minimise disruption at your home. On-site assembly is faster and more streamlined, so you get your annexe sooner with less mess.
+                    </p>
+                    <p class="bs-p-4 disc text-white wa-fadeInUp">
+                        Finally, steel is built for resilience. It’s highly durable and naturally resistant to issues that can affect other building types, including extreme weather, fire risk, and pests. Combined with excellent insulation, it also helps to reduce noise transfer, creating a quieter, more peaceful space to live in.
+                    </p>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <!-- testimonial-end -->
+
 
     <!-- office-start -->
     @include('frontend.inc.locations')
@@ -204,4 +759,39 @@ ANX Builds || About Us
 @endsection
 
 @section('js')
+<script>
+        $(document).ready(function() {
+            $(".see-more").click(function() {
+                var hiddenItems = $(".why-choose-card-hide");
+                
+                // Toggle display
+                if (hiddenItems.css("display") === "none") {
+                    hiddenItems.css("display", "flex"); // flex show
+                    $(this).find(".text").text("Show Less");
+                } else {
+                    hiddenItems.css("display", "none"); // hide again
+                    $(this).find(".text").text("See More");
+                }
+            });
+
+            $('.team-item').first().trigger('mouseenter');
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            var $cards = $('.bs-work-5-card');
+
+            // first card active by default
+            $cards.first().addClass('active');
+
+            // hover behavior
+            $cards.on('mouseenter', function () {
+                $cards.removeClass('active');      // first se active remove
+                $(this).addClass('active');        // hovered active
+            });
+
+        });
+    </script>
+
 @endsection

@@ -15,7 +15,7 @@ ANX Builds || Our Process
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-img.png') }}" alt="">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-process.png') }}" alt="">
         </div>
 
         <div class="container bs-container-1">
@@ -40,18 +40,27 @@ ANX Builds || Our Process
         <div class="container bs-container-1">
 
             <!-- section-title -->
-            <div class="bs-work-process-sec-title mb-50">
-                <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
-                    <span class="icon">
-                        <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="">
-                    </span>
-                    Work Process
-                </h6>
-                <h2 class="bs-sec-title-1  wa-split-right wa-capitalize" data-cursor="-opaque">Streamlined architecture process for exceptional results.</h2>
-            </div>
-
-            <div class="bs-work-process-img wa-fix wa-img-cover pb-140">
-                <img src="{{ url('frontend/assets/img/work/w6-big-img.png') }}" alt="">
+            <div class="work-process-first-sec pb-lg-5 pb-md-3 pb-2">
+                <div class="bs-work-process-sec-title mb-50">
+                    <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
+                        <span class="icon">
+                            <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="">
+                        </span>
+                        Work Process
+                    </h6>
+                    <h2 class="bs-sec-title-1  wa-split-right wa-capitalize" data-cursor="-opaque">A detailed process for exceptional results.</h2>
+                </div>
+    
+                <div class="bs-work-process-img wa-fix wa-img-cover mb-lg-3 mb-md-2 mb-2">
+                    <img src="{{ url('frontend/assets/img/work/banner.png') }}" alt="">
+                </div>
+    
+                <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
+                    Discover our comprehensive and seamless 8-step customer order process, designed to guide you effortlessly from the initial inquiry to the realization of your dream Granny Annexe or Garden Room. Our process ensures that every aspect of your project is thoroughly taken care of, giving you peace of mind and a hassle-free experience from start to finish.
+                </p>
+                <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
+                    At first glance, the process may seem extensive, but rest assured that each step has been carefully crafted to guarantee the perfect outcome. We understand the importance of ensuring that our product not only meets, but exceeds your expectations. That's why we've created this in-depth customer journey - to ensure that the final product is precisely what you need, expertly installed within the agreed timeframe, and engineered to the pinnacle of excellence. 
+                </p>
             </div>
 
             <div class="bs-work-process-item">
@@ -66,10 +75,10 @@ ANX Builds || Our Process
                     <div class="content">
                         <h4 class="bs-h-4 number">01</h4>
                         <h5 class="bs-h-4 title">Enquiry</h5>
-                        <p class="bs-p-4 disc">
+                        <p class="bs-p-4 disc wa-split-y">
                             To start your exciting Granny Annexes journey, be sure to enquire via one of our methods below:
                         </p>
-                        <ul>
+                        <ul class="wa-split-y">
                             <li>
                                 <p>
                                     Contact form <a href="{{ route('contact') }}">(Link)</a>
@@ -90,14 +99,14 @@ ANX Builds || Our Process
                                 Phone - <a href="tel:{{ setting('site.web-phone') }}">{{ setting('site.web-phone') }}</a> 
                                 </p>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <p>
                                 Social media  - <a href="{{ setting('site.facebook') }}">Facebook</a> & <a href="{{ setting('site.instagram') }}">Instagram</a>
                                 </p>
-                            </li>
+                            </li> --}}
                         </ul>
-                        <p class="bs-p-4 disc">
-                            Your inquiry, no matter how detailed or vague, is always welcome. If you're uncertain about what you want, don't worry, we've got you covered. Our team of talented designers and architects are ready and eager to assist you in bringing your dream Home Extension, Annexe, or Garden Room to life. 
+                        <p class="bs-p-4 disc wa-split-y">
+                            Your inquiry, no matter how detailed or vague, is always welcome. If you're uncertain about what you want, don't worry, we've got you covered. Our team of talented designers and eager to assist you in bringing your dream Steel Frame Garden Annexe to life. 
                         </p>
                     </div>
                 </div>
@@ -109,17 +118,17 @@ ANX Builds || Our Process
                     </div>
                     <div class="item-line">
                     </div>
-                    <div class="content">
+                    <div class="content direction-left">
                         <h4 class="bs-h-4 number">02</h4>
                         <h5 class="bs-h-4 title">Consultation</h5>
-                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
-                            After receiving your inquiry, a dedicated member of the Granny Annexesteam will reach out to you and get the ball rolling. Whether you prefer a personalised phone call, a virtual video chat, or a hands-on site visit, we'll work with you to find the best approach that suits your unique needs and preferences
+                        <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
+                            After receiving your inquiry, a dedicated member of the Granny Annexes Company team will reach out to you and get the ball rolling. Whether you prefer a personalised phone call, a virtual video chat, or a hands-on site visit, we'll work with you to find the best approach that suits your unique needs and preferences
                         </p>
-                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
-                            The consultation is a crucial opportunity for you to gain a comprehensive understanding of the Granny Annexesphilosophy and for us to fully grasp your specific needs and requirements. Together, we'll work towards creating a bespoke Modular House Extension, Granny Annexe or Garden Room that is tailored to your exact specifications and exceeds your expectations. 
+                        <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
+                            The consultation is a crucial opportunity for you to gain a comprehensive understanding of the Granny Annexes Company philosophy and for us to fully grasp your specific needs and requirements. Together, we'll work towards creating a bespoke Steel Frame Garden Annexe that is tailored to your exact specifications and exceeds your expectations. 
                         </p>
-                        <p class="bs-p-4 disc">
-                            Take comfort in the knowledge that Granny Annexesoffers a comprehensive, one-stop turnkey solution that covers every aspect of the project, from planning applications to building regulations and even demolition work if necessary. Our aim is to make the process as seamless and convenient as possible for you, and we understand that many of our clients appreciate the convenience of keeping everything under one roof
+                        <p class="bs-p-4 disc wa-split-y">
+                            Take comfort in the knowledge that Granny Annexes Company offers a comprehensive, one-stop turnkey solution that covers every aspect of the project, from planning applications to demolition work if necessary. Our aim is to make the process as seamless and convenient as possible for you, and we understand that many of our clients appreciate the convenience of keeping everything under one roof
                         </p>
                     </div>
                 </div>
@@ -134,14 +143,14 @@ ANX Builds || Our Process
                     <div class="content">
                         <h4 class="bs-h-4 number">03</h4>
                         <h5 class="bs-h-4 title">Initial Quote</h5>
-                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
+                        <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
                             After the consultation, it's time for us to get to work, generating your bespoke quote using the details gathered from our recent discussions. 
                         </p>
-                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
-                            The initial quote will detail a full breakdown of what's included and the Terms & Conditions to ensure full transparency right from the start.
+                        <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
+                            The initial quote will detail a full breakdown of what's included and the Payment Terms to ensure full transparency right from the start.
                         </p>
-                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
-                            Amongst many other things, we pride ourselves on efficiency. Buying an Granny AnnexesGranny Annexe or Modular House Extension is an exciting time, and we don't like to keep our customers waiting around. As long as there is nothing too technical about your build you will have your price within 48 hours!
+                        <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
+                            Amongst many other things, we pride ourselves on efficiency. Buying an Granny Annexe is an exciting time, and we don't like to keep our customers waiting around. As long as there is nothing too technical about your build you will have your price within 48 hours!
                         </p>
                     </div>
                 </div>
@@ -153,13 +162,13 @@ ANX Builds || Our Process
                     </div>
                     <div class="item-line">
                     </div>
-                    <div class="content">
+                    <div class="content direction-left">
                         <h4 class="bs-h-4 number">04</h4>
                         <h5 class="bs-h-4 title">Site Survey</h5>
-                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
+                        <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
                             The site survey is a vital stage of the process, as it allows us to fully understand the build conditions, such as the foundation requirements, electrical installations,  site access, any hazards or obstruction.  
                         </p>
-                        <p class="bs-p-4 disc">
+                        <p class="bs-p-4 disc wa-split-y">
                             By completing a site survey we ensure there aren't any unwanted surprises that will slow down the building of your garden room.  What we really love about site surveys is the chance to meet our future clients and build lasting relationships. We cant wait to meet you!
                         </p>
                     </div>
@@ -175,11 +184,11 @@ ANX Builds || Our Process
                     <div class="content">
                         <h4 class="bs-h-4 number">05</h4>
                         <h5 class="bs-h-4 title">Final Quote</h5>
-                        <p class="bs-p-4 disc mb-lg-3 mb-md-2 mb-2">
+                        <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
                             Following the site visit, we will amend and finalise the quote if need be. Now it's time for you to decide if we are the right people for the job..... we hope we have made a good impression!  
                         </p>
-                        <p class="bs-p-4 disc">
-                            If you are completely happy with the quote and would like to secure your Granny Annexesbuild, we will require a 30% deposit. We can then give you an installation date and it's time for the countdown to begin! 
+                        <p class="bs-p-4 disc wa-split-y">
+                            If you are completely happy with the quote and would like to secure your Granny Annexes build, we will require a 5% deposit. We can then give you an installation date and begin work on your certificate of lawfulness application! 
                         </p>
                     </div>
                 </div>
@@ -193,26 +202,26 @@ ANX Builds || Our Process
                     </div>
                     <div class="content">
                         <h4 class="bs-h-4 number">06</h4>
-                        <h5 class="bs-h-4 title">Order Package</h5>
-                        <p class="bs-p-4 disc">
-                            Upon receiving the deposit, things really start heating up. We will get straight to work on your order package, which will include the following details:
+                        <h5 class="bs-h-4 title">Finalising details</h5>
+                        <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
+                            While we’re waiting for your Certificate of Lawfulness to be issued, the work doesn’t stop.
                         </p>
-                        <ul>
+                        <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
+                            During this period, we work closely with you to finalise your design and specification package, locking in every detail well before your build begins - from plug socket and lighting positions, to window and door locations, flooring finishes, and fixtures, as well are you build package which includes the below
+                        </p>
+                        <ul class="wa-split-y">
                             <li>
-                                Full technical drawings 
+                                Scope of works
                             </li>
                             <li>
-                                Professional exterior & interior renders (Very Exciting)
+                                An introduction to our installation team 
                             </li>
                             <li>
-                                Order
-                            </li>
-                            <li>
-                                Terms & Conditions
+                                Final specification and order summary
                             </li>
                         </ul>
-                        <p class="bs-p-4 disc">
-                            This is the stage where we go through more of the finer detail, such as where the sockets & light placement,  window and door locations etc. 
+                        <p class="bs-p-4 disc wa-split-y">
+                            This process means everything is agreed and signed off in advance - no unwanted surprises, no last-minute decisions, and complete clarity on exactly what you’re getting, down to the smallest detail.
                         </p>
                     </div>
                 </div>

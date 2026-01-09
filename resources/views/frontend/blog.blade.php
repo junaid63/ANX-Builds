@@ -15,12 +15,12 @@ ANX Builds || Blogs
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-img.png') }}" alt="">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-blogs.png') }}" alt="">
         </div>
 
         <div class="container bs-container-1">
             <div class="breadcrumb-wrap">
-                <h1 class="breadcrumb-title wa-split-right wa-capitalize" data-split-delay="1.1s" >Blog</h1>
+                <h1 class="breadcrumb-title wa-split-right wa-capitalize" data-split-delay="1.1s" >Blogs</h1>
 
                 <div class="breadcrumb-list " >
                     <svg class="breadcrumb-list-shape" width="88" height="91" viewBox="0 0 88 91" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,8 +64,12 @@ ANX Builds || Blogs
                         </a>
                     </div>
                     <p class="item-date bs-p-1">
-                        <span>22</span>
-                        <span>agu</span>
+                        <span>
+                            {{ \Carbon\Carbon::parse($blog->created_at)->format('d') }}
+                        </span>
+                        <span>
+                            {{ substr(\Carbon\Carbon::parse($blog->created_at)->format('F'), 0, 3) }}
+                        </span>
                     </p>
                     <div class="content">
                         <h5 class="bs-h-1 item-title">
@@ -74,11 +78,7 @@ ANX Builds || Blogs
                         <p class="blog-meta bs-p-1">
                             <span>
                                 <i class="fa-regular fa-user"></i>
-                                by nolie jona
-                            </span>
-                            <span>
-                                <i class="fa-regular fa-comment"></i>
-                                02 Comments
+                                Admin
                             </span>
                         </p>
                         <p class="bs-p-1 item-disc">

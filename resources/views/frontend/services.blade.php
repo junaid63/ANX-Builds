@@ -44,16 +44,12 @@ ANX Builds || Services
                     @foreach ($services as $service)
                         <a href="{{ route('servicedetail', $service->slug) }}"
                             class="nav-link bs-h-1 wa-fadeInUp {{ $loop->first ? 'active' : '' }}"
-                            id="tab-{{ $loop->index }}"
                             data-bs-toggle="tab"
                             data-bs-target="#content-{{ $loop->index }}"
                             type="button"
                             role="tab"
                             aria-selected="{{ $loop->first ? 'true' : 'false' }}"
                         >
-                            <span class="number">
-                                {{ str_pad($loop->iteration, 2, '0', STR_PAD_LEFT) }}
-                            </span>
                             {{ ucwords($service->title) }}
                             <span class="line"></span>
                         </a>

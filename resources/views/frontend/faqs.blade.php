@@ -15,7 +15,7 @@ ANX Builds || Faqs
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-img.png') }}" alt="">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-faqs.png') }}" alt="">
         </div>
 
         <div class="container bs-container-1">
@@ -46,18 +46,22 @@ ANX Builds || Faqs
                 <div class="bs-faqs-6-content">
 
                     <!-- section-title -->
-                    <div class="bs-faqs-6-sec-title mb-85">
-                        <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
-                            <span class="icon">
-                                <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="">
-                            </span>
-                            Popular Question
-                        </h6>
-                        <h2 class="bs-sec-title-1  wa-split-right wa-capitalize" data-cursor="-opaque">Frequently Asked Questions</h2>
-                    </div>
+                    <div class="title-img">
+                        <div class="bs-faqs-6-sec-title mb-lg-5 mb-md-3 mb-2">
+                            <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
+                                <span class="icon">
+                                    <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="">
+                                </span>
+                                Popular Question
+                            </h6>
+                            <h2 class="bs-sec-title-1  wa-split-right wa-capitalize" data-cursor="-opaque">Frequently Asked Questions</h2>
+                        </div>
 
-                    <div class="bs-faqs-6-img">
-                        <img src="{{ url('frontend/assets/img/faq/f6-img-1.png') }}" alt="">
+                        <div class="bs-faqs-6-img">
+                            <i class="fa-solid fa-building"></i>
+                            <img src="{{ url('frontend/assets/img/faq/faq-img.png') }}" alt="">
+                            <i class="fa-solid fa-compass-drafting"></i>
+                        </div>
                     </div>
                 </div>
 
@@ -65,158 +69,38 @@ ANX Builds || Faqs
                 <div class="bs-accordion has-details-page" id="accordionExample_31">
 
                     <!-- single-team -->
-                    <div class="bs-accordion-item wa-fadeInUp active"  >
-                        <div class="item-header" id="heading1">
-                            <button class="item-title bs-h-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                                <span class="dot"></span>
-                                How do I know if I need an architect for my project?
-                            </button>
-                        </div>
-                        <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionExample_31">
-                            <div class="item-body ">
-                                <p class="bs-p-1">
-                                    If you’re arrested, remain calm and avoid making any statements to the police without your attorney present. Contact a lawyer immediately to protect your rights and guide you through the legal process.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                   @foreach ($faqs as $faq)
+                        <div class="bs-accordion-item wa-fadeInUp {{ $loop->first ? 'active' : '' }}">
 
-                    <!-- single-team -->
-                    <div class="bs-accordion-item wa-fadeInUp "  >
-                        <div class="item-header" id="heading2">
-                            <button class="item-title bs-h-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                <span class="dot"></span>
-                                What are the typical fees for architectural services?
-                            </button>
-                        </div>
-                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample_31">
-                            <div class="item-body ">
-                                <p class="bs-p-1">
-                                    If you’re arrested, remain calm and avoid making any statements to the police without your attorney present. Contact a lawyer immediately to protect your rights and guide you through the legal process.
-                                </p>
+                            <div class="item-header" id="heading{{ $loop->index }}">
+                                <button
+                                    class="item-title bs-h-1 {{ $loop->first ? '' : 'collapsed' }}"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapse{{ $loop->index }}"
+                                    aria-expanded="{{ $loop->first ? 'true' : 'false' }}"
+                                    aria-controls="collapse{{ $loop->index }}"
+                                >
+                                    <span class="dot"></span>
+                                    {{ ucwords($faq->question) }}
+                                </button>
                             </div>
-                        </div>
-                    </div>
 
-                    <!-- single-team -->
-                    <div class="bs-accordion-item  wa-fadeInUp"  >
-                        <div class="item-header" id="heading3">
-                            <button class="item-title bs-h-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                <span class="dot"></span>
-                                How involved will I be in the design process?
-                            </button>
-                        </div>
-                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample_31">
-                            <div class="item-body ">
-                                <p class="bs-p-1">
-                                    If you’re arrested, remain calm and avoid making any statements to the police without your attorney present. Contact a lawyer immediately to protect your rights and guide you through the legal process.
-                                </p>
+                            <div
+                                id="collapse{{ $loop->index }}"
+                                class="accordion-collapse collapse {{ $loop->first ? 'show' : '' }}"
+                                aria-labelledby="heading{{ $loop->index }}"
+                                data-bs-parent="#accordionExample_31"
+                            >
+                                <div class="item-body">
+                                    <p class="bs-p-1">
+                                        {{ ucwords($faq->answer) }}
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                    </div>
 
-                    <!-- single-team -->
-                    <div class="bs-accordion-item  wa-fadeInUp" >
-                        <div class="item-header" id="heading4">
-                            <button class="item-title bs-h-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                <span class="dot"></span>
-                                How long does an architectural design project typically take?
-                            </button>
                         </div>
-                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample_31">
-                            <div class="item-body ">
-                                <p class="bs-p-1">
-                                    If you’re arrested, remain calm and avoid making any statements to the police without your attorney present. Contact a lawyer immediately to protect your rights and guide you through the legal process.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- single-team -->
-                    <div class="bs-accordion-item  wa-fadeInUp" >
-                        <div class="item-header" id="heading5">
-                            <button class="item-title bs-h-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                <span class="dot"></span>
-                                Can an architect help with interior design and landscaping?
-                            </button>
-                        </div>
-                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample_31">
-                            <div class="item-body ">
-                                <p class="bs-p-1">
-                                    If you’re arrested, remain calm and avoid making any statements to the police without your attorney present. Contact a lawyer immediately to protect your rights and guide you through the legal process.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- single-team -->
-                    <div class="bs-accordion-item  wa-fadeInUp" >
-                        <div class="item-header" id="heading6">
-                            <button class="item-title bs-h-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                                <span class="dot"></span>
-                                How do architects handle building permits and approvals?
-                            </button>
-                        </div>
-                        <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample_31">
-                            <div class="item-body ">
-                                <p class="bs-p-1">
-                                    If you’re arrested, remain calm and avoid making any statements to the police without your attorney present. Contact a lawyer immediately to protect your rights and guide you through the legal process.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- single-team -->
-                    <div class="bs-accordion-item  wa-fadeInUp" >
-                        <div class="item-header" id="heading7">
-                            <button class="item-title bs-h-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                                <span class="dot"></span>
-                                What should I bring to my first meeting with an architect?
-                            </button>
-                        </div>
-                        <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample_31">
-                            <div class="item-body ">
-                                <p class="bs-p-1">
-                                    If you’re arrested, remain calm and avoid making any statements to the police without your attorney present. Contact a lawyer immediately to protect your rights and guide you through the legal process.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- single-team -->
-                    <div class="bs-accordion-item  wa-fadeInUp" >
-                        <div class="item-header" id="heading8">
-                            <button class="item-title bs-h-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
-                                <span class="dot"></span>
-                                What is the difference between an architect and a designer?
-                            </button>
-                        </div>
-                        <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample_31">
-                            <div class="item-body ">
-                                <p class="bs-p-1">
-                                    If you’re arrested, remain calm and avoid making any statements to the police without your attorney present. Contact a lawyer immediately to protect your rights and guide you through the legal process.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- single-team -->
-                    <div class="bs-accordion-item  wa-fadeInUp" >
-                        <div class="item-header" id="heading9">
-                            <button class="item-title bs-h-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
-                                <span class="dot"></span>
-                                What are the benefits of hiring an architect for sustainable design?
-                            </button>
-                        </div>
-                        <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample_31">
-                            <div class="item-body ">
-                                <p class="bs-p-1">
-                                    If you’re arrested, remain calm and avoid making any statements to the police without your attorney present. Contact a lawyer immediately to protect your rights and guide you through the legal process.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
+                    @endforeach
 
                 </div>
             </div>

@@ -18,7 +18,7 @@ ANX Builds || {{ implode(' ', array_slice($words, 0, 3)) }}
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area has-blog-details wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/blog-details.png') }}" alt="">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-blog-detail.png') }}" alt="">
         </div>
 
         <div class="container bs-container-1">
@@ -39,6 +39,7 @@ ANX Builds || {{ implode(' ', array_slice($words, 0, 3)) }}
                         <!-- left-item -->
                         <div class="bs-blog-page-2-left">
                             {!! $blogDetail->description !!}
+                            <!-- left-item -->
                         </div>
                     </div>
 
@@ -64,7 +65,10 @@ ANX Builds || {{ implode(' ', array_slice($words, 0, 3)) }}
                                                 </h4>
                                                 <h6 class="bs-p-4 item-meta">
                                                     <i class="fa-regular fa-calendar"></i>
-                                                    <span class="date">{{ $popular->created_at }}</span>
+                                                    {{-- <span class="date">{{ $popular->created_at }}</span> --}}
+                                                    <span class="date">
+                                                        {{ \Carbon\Carbon::parse($popular->created_at)->format('d F Y') }}
+                                                    </span>
                                                 </h6>
                                             </div>
                                         </div>

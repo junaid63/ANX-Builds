@@ -549,7 +549,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			gsap.from(item, {
 			width: "0%",
 			ease: "ease1",
-			duration: 2,
+			duration: 0,
 				scrollTrigger: {
 					trigger: item,
 					start: "top 80%",
