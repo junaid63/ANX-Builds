@@ -22,6 +22,7 @@ Route::get("/prices", [FrontendController::class , 'price'])->name('price');
 Route::get("/gallery", [FrontendController::class , 'gallery'])->name('gallery');
 Route::get("/blog", [FrontendController::class , 'blogs'])->name('blogs');
 Route::get("/faq", [FrontendController::class , 'faq'])->name('faq');
+Route::get("/payment-milestone", [FrontendController::class , 'paymentmilestone'])->name('paymentmilestone');
 Route::get("/contact-us", [FrontendController::class , 'contact'])->name('contact');
 Route::post("/contact/submit", [FrontendController::class , 'contactSubmit'])->name('contactSubmit');
 

@@ -312,6 +312,14 @@ ANX Builds || Home
                     <h5 class="bs-h-2 item-title custom-top">
                         <strong>£59,995</strong>
                     </h5>
+                    <div class="item-btn custom-top-btn">
+                        <a href="{{ route('price') }}" aria-label="name" class="bs-btn-1">
+                            <span class="text">
+                                learn more pricing
+                            </span>
+                            <span class="shape" ></span>
+                        </a>
+                    </div>
                 {{-- </div> --}}
                 <div class="content-wrap">
                     <h5 class="bs-h-2 item-title">
@@ -339,7 +347,7 @@ ANX Builds || Home
     <!-- core-services-end -->
 
     <!-- about-start -->
-    <section class="bs-about-4-area pt-45 pb-125 wa-fix">
+    <section class="bs-about-4-area py-lg-5 py-5 wa-fix">
         <div class="container bs-container-2">
             <h5 class="bs-subtitle-4 ">
                 <span class="text">about us</span>
@@ -412,7 +420,7 @@ ANX Builds || Home
                             <i class="flaticon-right-arrow flaticon"></i>
                         </div>
                         <h4 class="bs-h-4 title">
-                            <a href="{{ route('about') }}" aria-label="name">See some of our completed annexe</a>
+                            <a href="{{ route('about') }}" aria-label="name">See some of our completed annexes</a>
                         </h4>
                         <p class="bs-p-4 disc">
                             Explore completed annexes and steel-frame builds across the UK.
@@ -591,14 +599,14 @@ ANX Builds || Home
 
         </div>
     </section> --}}
-    <section class="custom-choose wa-bg-default wa-fix pb-120">
+    <section class="custom-choose wa-bg-default wa-fix pb-lg-5 pb-0">
         <div class="container bs-container-2">
             <div class="bs-choose-4-wrap">
 
                 <div class="bs-choose-4-content-height">
                     <!-- left-content -->
                     <div class="bs-choose-4-content-pin">
-                        <div class="bs-choose-4-content">
+                        <div class="bs-choose-4-content py-lg-5 py-5">
 
                             <h5 class="bs-subtitle-4 bs-choose-4-subtitle">
                                 <span class="text">WHY CHOOSE US</span>
@@ -684,7 +692,7 @@ ANX Builds || Home
     <!-- choose-end -->
 
     <!-- blog-start -->
-    <section class="bs-blog-4-area py-lg-5 py-md-3 py-2">
+    <section class="bs-blog-4-area py-lg-5 py-md-3 py-4">
         <div class="container bs-container-2">
             <div class="bs-blog-4-content">
                 <h5 class="bs-subtitle-4 ">

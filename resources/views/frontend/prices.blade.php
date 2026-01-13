@@ -559,6 +559,65 @@ ANX Builds || Prices
     </section>
     <!-- price-end -->
 
+    <!-- work-start -->
+    <section class="bs-work-5-area wa-bg-default py-lg-5 py-3" data-background="{{ url('frontend/assets/img/work/w5-bg-img.png') }}">
+        <div class="container bs-container-2">
+
+            <!-- section-title -->
+            <div class="bs-work-5-sec-title mb-90">
+                <h6 class="bs-subtitle-5 wa-capitalize">
+                    <span class="wa-split-right ">Featured Builds</span>
+                </h6>
+                <h2 class="bs-sec-title-4 wa-split-right wa-capitalize" data-cursor="-opaque">Our Bespoke Garden Annexe Builds.</h2>
+            </div>
+
+            <!-- cards -->
+            <div class="bs-work-5-wrap brochure-cards">
+
+                <!-- single-card -->
+                <div class="bs-work-5-card has-ani-up">
+                    <div class="bg-img wa-img-cover wa-fix">
+                        <img src="{{ url('frontend/assets/img/price/brochures/01.png') }}" alt="">
+                    </div>
+                    <h4 class="bs-h-1 title">9.0m x 5.0m x 3.1m Garden Annexe</h4>
+                    <p class="bs-p-4 disc"> This bespoke Garden Annexe was designed to provide a safe, comfortable, and independent living space for a family member with a degenerative condition, while remaining close to loved ones for daily support and reassurance.</p>
+                    <h5 class="bs-h-1 number">01</h5>
+                </div>
+
+                <!-- single-card -->
+                <div class="bs-work-5-card has-ani-down">
+                    <div class="bg-img wa-img-cover wa-fix">
+                        <img src="{{ url('frontend/assets/img/price/brochures/02.jpg') }}" alt="">
+                    </div>
+                    <h4 class="bs-h-1 title">9.8m x 3.5m x 3.1m Garden Annexe</h4>
+                    <p class="bs-p-4 disc"> This bespoke Garden Annexe was designed to create a high-quality, self-contained living space for a family member requiring independence while remaining close to the main home. The brief focused on comfort, privacy, and a layout suitable for long-term everyday living.</p>
+                    <h5 class="bs-h-1 number">02</h5>
+                </div>
+
+                <!-- single-card -->
+                <div class="bs-work-5-card has-ani-up">
+                    <div class="bg-img wa-img-cover wa-fix">
+                        <img src="{{ url('frontend/assets/img/price/brochures/03.png') }}" alt="">
+                    </div>
+                    <h4 class="bs-h-1 title">3.8m x 7.8m x 2.8m Garden Annexe</h4>
+                    <p class="bs-p-4 disc"> This bespoke Luxury Garden Annexe was designed as a compact, self-contained living space for a family member visiting from Hong Kong for extended periods, providing independence while remaining closely connected to the main home.</p>
+                    <h5 class="bs-h-1 number">03</h5>
+                </div>
+
+                <!-- single-card -->
+                <div class="bs-work-5-card has-ani-down">
+                    <div class="bg-img wa-img-cover wa-fix">
+                        <img src="{{ url('frontend/assets/img/price/brochures/04.png') }}" alt="">
+                    </div>
+                    <h4 class="bs-h-1 title">15.5m x 6.0m x 3.4m Garden Annexe</h4>
+                    <p class="bs-p-4 disc"> This large, two bedroom Annexe was designed as a high-quality, single-storey home, offering comfortable and practical living with a strong focus on longevity, efficiency, and low maintenance. The brief was to create a modern annexe for a clients parents that could adapt easily to future needs while remaining simple and robust in its design.</p>
+                    <h5 class="bs-h-1 number">04</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- work-end -->
+
     <!-- contact-start -->
     @include('frontend.inc.conabout-banner')
     <!-- contact-end -->

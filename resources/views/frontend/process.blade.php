@@ -36,7 +36,7 @@ ANX Builds || Our Process
     <!-- breadcrumb-end -->
 
     <!-- work-process-start -->
-    <section class="bs-work-process-area pt-140">
+    <section class="bs-work-process-area py-lg-5 py-5">
         <div class="container bs-container-1">
 
             <!-- section-title -->
@@ -225,6 +225,46 @@ ANX Builds || Our Process
                         </p>
                     </div>
                 </div>
+
+                <!-- single-item -->
+                <div class="bs-work-process-item-single">
+                    <div class="item-img wa-fix wa-img-cover five">
+                        <img src="{{ url('frontend/assets/img/process/07.jpg') }}" alt="">
+                    </div>
+                    <div class="item-line">
+                    </div>
+                    <div class="content">
+                        <h4 class="bs-h-4 number">07</h4>
+                        <h5 class="bs-h-4 title">Installing your annexe</h5>
+                        <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
+                            We start by setting out the annexe and protecting the build site location, then move straight into groundworks followed by the installation of the steel-frame structure and weatherproof shell. From there, we progress through insulation, windows and doors, first-fix electrics/plumbing, internal finishes and final details - all managed by our team to keep the programme smooth and the site tidy.
+                        </p>
+                        <p class="bs-p-4 disc wa-split-y">
+                            You’ll have a clear schedule, regular updates, and a single point of contact throughout, so you always know what’s happening and what comes next.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- single-item -->
+                <div class="bs-work-process-item-single custom-ltr">
+                    <div class="item-img wa-fix wa-img-cover six">
+                        <img src="{{ url('frontend/assets/img/process/08.png') }}" alt="">
+                    </div>
+                    <div class="item-line">
+                    </div>
+                    <div class="content">
+                        <h4 class="bs-h-4 number">08</h4>
+                        <h5 class="bs-h-4 title">Completion & Handover</h5>
+                        <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
+                            Once the build is complete, we carry out final checks and a full walkthrough with you to make sure everything is finished exactly as agreed. We’ll then officially hand over your new garden annexe, ready to enjoy.
+                        </p>
+                        <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
+                            At handover, you’ll receive your documentation pack, including your 10-year guarantee and all other relevant paperwork for your annexe (such as certificates, manuals, and key product information where applicable).
+                            And it doesn’t end there - after completion we remain on hand to help with any questions or support you may need, so you feel looked after long after you’ve moved in.
+                        </p>
+                    </div>
+                </div>
+
 
             </div>
 

@@ -7593,7 +7593,7 @@ Primary style
 }
 .bs-about-1-content .disc {
   /* font-size: 35px; */
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.285;
   /* max-width: 920px; */
   max-width: 100%;
@@ -9174,6 +9174,10 @@ Primary style
 .bs-work-5-sec-title {
   max-width: 790px;
 }
+.bs-work-5-wrap.brochure-cards {
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
 .bs-work-5-wrap {
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
@@ -9263,7 +9267,8 @@ Primary style
   color: var(--bs-clr-white-1);
 }
 .bs-work-5-card:hover .bg-img {
-  opacity: 1;
+  height: 100%;
+  opacity: 0.4;
   transform: translateY(0);
 }
 
@@ -10561,10 +10566,11 @@ Primary style
 .bs-video-4-text-item {
   font-size: 235px;
   /* font-weight: 800; */
-  font-weight: 600;
+  font-weight: 300;
   text-transform: uppercase;
   line-height: 1;
-  text-shadow: 4px 4px 0px #6A6A6A;
+  /* text-shadow: 4px 4px 0px #6A6A6A; */
+  text-shadow: 4px 4px 0px #e9e9e9;
   color: var(--bs-clr-h-4);
 }
 @media only screen and (min-width: 1600px) and (max-width: 1799px) {
@@ -11990,12 +11996,13 @@ Primary style
 }
 .bs-core-services-2-item > .item-title {
   position: absolute;
-  top: 40%;
+  /* top: 40%; */
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .bs-core-services-2-item > .item-title.custom-top {
-  top: 65%;
+  top: 60%;
   transform: translate(-50%, -50%);
 }
 .bs-core-services-2-item .item-title {
@@ -15675,7 +15682,7 @@ Primary style
 .bs-services-details-content p, .bs-services-details-content span, .bs-services-details-content li {
   font-family: var(--bs-font-pr-1);
   color: #444444;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 28px;
 }
 .bs-services-details-content h1 {

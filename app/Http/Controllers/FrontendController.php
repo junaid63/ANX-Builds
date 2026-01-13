@@ -110,6 +110,14 @@ class FrontendController extends Controller
         return view($view, compact('blogs','services'));
     }
 
+    public function paymentmilestone()
+    {
+        $view = 'frontend.milestone';
+        $blogs = $this->getBlogs();
+        $services = $this->getServices();
+        return view($view, compact('blogs','services'));
+    }
+
     public function contactSubmit(request $request)
     {
         $data = new Contact();

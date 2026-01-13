@@ -37,7 +37,7 @@ ANX Builds || About Us
     <!-- breadcrumb-end -->
 
     <!-- about-start -->
-    <section class="bs-about-1-area pt-125 pb-100">
+    <section class="bs-about-1-area py-lg-5 py-5">
         <div class="container bs-container-1">
 
             <!-- section-title -->
@@ -98,7 +98,7 @@ ANX Builds || About Us
                     The Granny Annexe Company designs, builds and installs high-quality garden annexes across the UK, created to help families support older loved ones with comfort, privacy and independence close to home. Founded by director Matt Biddle after years building annexes nationwide, our company was built around one simple principle: an annexe should feel like a proper home, not a temporary structure. 
                 </p>
                 <p class="bs-p-1 disc wa-split-y wa-capitalize">
-                    We specialise in steel-frame granny annexes for long-term strength, stability and year-round comfort. Our homes are engineered to go beyond the typical “cabin-style” approach, using high-performance insulation, soundproofing and triple glazing as standard, with specifications designed to outperform many modern new-house benchmarks and exceed the UK’s residential park home standard (BS 3632). 
+                    We specialise in steel-frame granny annexes for long-term strength, stability and year-round comfort. Our homes are engineered to go beyond the typical “cabin-style” approach, using high-performance insulation, soundproofing and triple glazing as standard, with specifications designed to outperform many modern new-build house benchmarks and exceed the UK’s residential park home standard (BS 3632). 
                 </p>
                 <p class="bs-p-1 disc wa-split-y wa-capitalize">
                     From first ideas to move-in day, we provide a complete turnkey garden annexe build service—including drawings and technical design, groundworks and connections, electrics, plumbing, heating, kitchen and bathroom installation, certification and handover. We also guide the planning route (often via the Caravan Act) and can manage your Lawful Development Certificate, with every build protected by a 10-year structural warranty and a clear aftercare pack. 
@@ -179,23 +179,27 @@ ANX Builds || About Us
             <img class="wa-parallax-img" src="{{url('frontend/assets/img/video/v4-img-1.png')}}" alt="">
 
             <div class="bs-video-4-text">
-                <div class="bs-video-4-marquee-active">
-                    <h4 class="bs-h-1 bs-video-4-text-item wa-split-text">The Granny Annexe Company</h4>
-                </div>
+                {{-- <div class="bs-video-4-marquee-active"> --}}
+                    {{-- <h4 class="bs-h-1 bs-video-4-text-item wa-split-text">The Granny Annexe Company</h4> --}}
+                    <div class="banner-logo">
+                        <img src="{{ url('frontend/assets/img/logo/banner-logo.png') }}" alt="Company Logo">
+                        {{-- <img src="{{ url('storage') }}/{{ setting('site.logo') }}" alt="Company Logo"> --}}
+                    </div>
+                {{-- </div> --}}
             </div>
         </div>
     </section>
     <!-- video-end -->
 
     <!-- choose-start -->
-    <section id="why-choose-us" class="bs-choose-4-area wa-bg-default wa-fix pb-120">
+    <section id="why-choose-us" class="bs-choose-4-area wa-bg-default wa-fix pb-lg-5 pb-3">
         <div class="container bs-container-2">
             <div class="bs-choose-4-wrap">
 
                 <div class="bs-choose-4-content-height">
                     <!-- left-content -->
                     <div class="bs-choose-4-content-pin">
-                        <div class="bs-choose-4-content py-lg-5 py-md-3 py-2">
+                        <div class="bs-choose-4-content py-lg-5 py-md-3 py-5">
 
                             <h5 class="bs-subtitle-4 bs-choose-4-subtitle">
                                 <span class="text">WHY CHOOSE US</span>
@@ -212,14 +216,14 @@ ANX Builds || About Us
                                 When comparing annexes, the differences in build quality can be significant. Many look similar from the outside, but the materials, insulation, and construction methods used can dramatically affect comfort, running costs, and how long your annexe will last. 
                             </p>
                             <p class="bs-p-4 disc wa-fadeInUp">
-                                At The Granny Annexe Company, we believe a garden annexe should be built to the same standard as a high-quality home - not a temporary structure. That’s why we go far beyond the basic requirements used by many other builders. 
+                                At The Granny Annexe Company, we believe a garden annexe should be built to the same standard as a high-quality home - not a temporary structure. That’s why we go far beyond the basic requirements used by many other Companies. 
                             </p>
 
                             <span class="custom-choose-span bs-h-4 item-title title mb-lg-3 mb-md-2 mb-2">
-                                Built To Exceed new-house Home Standards
+                                Built To Exceed New-Build House Insulation Standards
                             </span>
-                            <p class="bs-p-4 disc wa-fadeInUp">
-                                In the UK, new-house houses must meet strict Building Regulations for thermal performance (known as U-values). These set maximum limits for how much heat can escape through walls, floors, roofs, windows, and doors. 
+                            <p class="bs-p-4 disc wa-fadeInUp mb-lg-5 mb-0">
+                                In the UK, new-build houses must meet strict Building Regulations for thermal performance (known as U-values). These set maximum limits for how much heat can escape through walls, floors, roofs, windows, and doors. 
                             </p>
                         </div>
                     </div>
@@ -234,26 +238,26 @@ ANX Builds || About Us
                         <h5 class="custom-choose-second-span bs-choose-4-subtitle mb-3">
                             Typical Building Regulation requirements:
                         </h5>
-                        <div class="bs-choose-4-progress ms-lg-5 ms-md-3 ms-2">
-                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                        <div class="bs-choose-4-progress ms-lg-5 ms-md-3 ms-0">
+                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
                                 <i class="fa-solid fa-check"></i>
                                 <h5 class="bs-p-1 progress-title mb-0">
                                     <span ><strong>Walls:</strong> around 0.26 W/m2K</span>
                                 </h5>
                             </div>
-                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
                                 <i class="fa-solid fa-check"></i>
                                 <h5 class="bs-p-1 progress-title mb-0">
                                     <span ><strong>Roofs:</strong> around 0.16 W/m2K</span>
                                 </h5>
                             </div>
-                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
                                 <i class="fa-solid fa-check"></i>
                                 <h5 class="bs-p-1 progress-title mb-0">
                                     <span ><strong>Floors:</strong> around 0.18 W/m2K</span>
                                 </h5>
                             </div>
-                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
+                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
                                 <i class="fa-solid fa-check"></i>
                                 <h5 class="bs-p-1 progress-title mb-0">
                                     <span>
@@ -269,34 +273,32 @@ ANX Builds || About Us
                         <h5 class="custom-choose-second-span bs-choose-4-subtitle mb-3">
                             Our annexes are engineered to outperform these figures:
                         </h5>
-                        <div class="bs-choose-4-progress ms-lg-5 ms-md-3 ms-2">
-                            <div class="bs-choose-4-progress ms-lg-5 ms-md-3 ms-2">
-                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
-                                    <i class="fa-solid fa-check"></i>
-                                    <h5 class="bs-p-1 progress-title mb-0">
-                                        <span><strong>Walls:</strong> approx. 0.23 W/m2K</span>
-                                    </h5>
-                                </div>
-                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
-                                    <i class="fa-solid fa-check"></i>
-                                    <h5 class="bs-p-1 progress-title mb-0">
-                                        <span ><strong>Roofs:</strong> approx. 0.14 W/m2K</span>
-                                    </h5>
-                                </div>
-                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
-                                    <i class="fa-solid fa-check"></i>
-                                    <h5 class="bs-p-1 progress-title mb-0">
-                                        <span ><strong>Floors:</strong> approx. 0.15 W/m2K</span>
-                                    </h5>
-                                </div>
-                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-center gap-2">
-                                    <i class="fa-solid fa-check"></i>
-                                    <h5 class="bs-p-1 progress-title mb-0">
-                                        <span>
-                                            <strong>Triple-glazed windows:</strong> approx. 0.9–1.0 W/m2K
-                                        </span>
-                                    </h5>
-                                </div>
+                        <div class="bs-choose-4-progress ms-lg-5 ms-md-3 ms-0 mb-lg-5 mb-3">
+                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
+                                <i class="fa-solid fa-check"></i>
+                                <h5 class="bs-p-1 progress-title mb-0">
+                                    <span><strong>Walls:</strong> approx. 0.23 W/m2K</span>
+                                </h5>
+                            </div>
+                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
+                                <i class="fa-solid fa-check"></i>
+                                <h5 class="bs-p-1 progress-title mb-0">
+                                    <span ><strong>Roofs:</strong> approx. 0.14 W/m2K</span>
+                                </h5>
+                            </div>
+                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
+                                <i class="fa-solid fa-check"></i>
+                                <h5 class="bs-p-1 progress-title mb-0">
+                                    <span ><strong>Floors:</strong> approx. 0.15 W/m2K</span>
+                                </h5>
+                            </div>
+                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
+                                <i class="fa-solid fa-check"></i>
+                                <h5 class="bs-p-1 progress-title mb-0">
+                                    <span>
+                                        <strong>Triple-glazed windows:</strong> approx. 0.9–1.0 W/m2K
+                                    </span>
+                                </h5>
                             </div>
                         </div>
                         <p class="bs-p-4 disc wa-fadeInUp border-top pt-lg-4 pt-md-3 pt-2">
@@ -340,7 +342,7 @@ ANX Builds || About Us
                             <a href="#" aria-label="name">Triple-glazed UPVC windows & doors</a>
                         </h4>
                         <p class="bs-p-4 disc">
-                            Triple-glazed UPVC windows & doors as standard - something rarely offered as standard even in many new-house houses. 
+                            Triple-glazed UPVC windows & doors as standard - something rarely offered as standard even in many new-build house houses. 
                         </p>
                     </div>
                 </div>
@@ -364,12 +366,12 @@ ANX Builds || About Us
     <!-- choose-end -->
 
     <!-- work-start -->
-    <section class="bs-work-5-area why-choose-second wa-bg-default pt-135 pb-170" data-background="{{ url('frontend/assets/img/work/w5-bg-img.png') }}">
+    <section class="bs-work-5-area why-choose-second wa-bg-default py-lg-5 py-5" data-background="{{ url('frontend/assets/img/work/w5-bg-img.png') }}">
         <div class="container bs-container-2">
 
             <!-- section-title -->
-            <div class="bs-work-5-sec-title mb-90">
-                <h2 class="bs-sec-title-4 wa-split-right wa-capitalize" data-cursor="-opaque">Premium Insulation In Every Annexe</h2>
+            <div class="bs-work-5-sec-title mb-lg-5 mb-5">
+                <h2 class="bs-sec-title-4 wa-split-right wa-capitalize mb-3" data-cursor="-opaque">Premium Insulation In Every Annexe</h2>
                 <p class="bs-p-4 disc wa-fadeInUp">
                     We combine multiple layers of high-performance insulation to create year-round comfort: 
                 </p>
@@ -383,7 +385,7 @@ ANX Builds || About Us
                     <div class="bg-img wa-img-cover wa-fix">
                     </div>
                     <h4 class="bs-h-1 title">Acoustic Rockwool</h4>
-                    <p class="bs-p-4 disc custom-para"> Acoustic Rockwool in all walls and floors for exceptional soundproofing and a calm, quiet interior.</p>
+                    <p class="bs-p-4 disc custom-para"> Acoustic Rockwool in all walls and Roof for exceptional soundproofing and a calm, quiet interior.</p>
                     <h5 class="bs-h-1 number">01</h5>
                 </div>
     
@@ -401,7 +403,7 @@ ANX Builds || About Us
                     <div class="bg-img wa-img-cover wa-fix">
                     </div>
                     <h4 class="bs-h-1 title">Triple-glazed UPVC windows & doors</h4>
-                    <p class="bs-p-4 disc custom-para">Triple-glazed UPVC windows & doors as standard - something rarely offered as standard even in many new-house houses. </p>
+                    <p class="bs-p-4 disc custom-para">Triple-glazed UPVC windows & doors as standard - something rarely offered as standard even in many new-build house. </p>
                     <h5 class="bs-h-1 number">03</h5>
                 </div>
     
@@ -420,12 +422,12 @@ ANX Builds || About Us
     <!-- work-end -->
 
     <!-- services-start -->
-    <section class="bs-services-3-area pt-120 pb-155 bg-black" data-background="{{ url('frontend/assets/img/services/s4-bg.png') }}">
+    <section class="bs-services-3-area bg-black py-lg-5 py-5" data-background="{{ url('frontend/assets/img/services/s4-bg.png') }}">
         <div class="container bs-container-1">
 
             <!-- section-title -->
-            <div class="bs-services-3-sec-title mb-40 text-center">
-                <h2 class="bs-sec-title-3  wa-split-right wa-capitalize mb-lg-4 mb-md-2 mb-2" data-cursor="-opaque">What’s included as standard?</h2>
+            <div class="bs-services-3-sec-title mb-40 text-lg-center text-start">
+                <h2 class="bs-sec-title-3  wa-split-right wa-capitalize mb-lg-4 mb-md-2 mb-2" data-cursor="-opaque">What’s Included As Standard?</h2>
                 <p class="bs-p-4 disc wa-fadeInUp text-white">
                     Every annexe we build is fully finished and ready to furnish, with all the essential features included as standard - no hidden extras and no unexpected costs. We take pride in delivering a home that feels complete, comfortable, and welcoming from the moment you step inside.
                 </p>
@@ -621,7 +623,7 @@ ANX Builds || About Us
     <!-- services-end -->
 
     <!-- about-start -->
-    <section class="bs-about-5-area why-choose-third pt-135 pb-100 wa-fix wa-p-relative">
+    <section class="bs-about-5-area why-choose-third wa-fix wa-p-relative py-lg-5 py-5">
         <div class="bs-about-5-bg-shape">
             <img src="{{ url('frontend/assets/img/about/a5-bg-shape.png') }}" alt="">
         </div>
@@ -634,7 +636,7 @@ ANX Builds || About Us
             <!-- section-title -->
             <div class="bs-work-5-sec-title mb-lg-4 mb-md-2 mb-2">
                 <h2 class="bs-sec-title-4 wa-split-right wa-capitalize mb-lg-4 mb-md-2 mb-2" data-cursor="-opaque">
-                    We take care of everything 
+                    We Take Care Of Everything 
                 </h2>
                 <p class="bs-p-4 disc wa-fadeInUp">
                     Building a granny annexe should feel exciting, not overwhelming. That’s why we offer a complete, start-to-finish service, handling every stage of the project so you don’t have to worry about a thing. 
@@ -707,7 +709,7 @@ ANX Builds || About Us
     <!-- about-end -->
 
     <!-- testimonial-start -->
-    <section class="bs-testimonial-5-area bg-black why-choose-fourth wa-fix" data-background="{{ url('frontend/assets/img/services/s4-bg.png') }}">
+    <section class="bs-testimonial-5-area bg-black why-choose-fourth wa-fix pb-lg-5 pt-lg-0 py-5" data-background="{{ url('frontend/assets/img/services/s4-bg.png') }}">
         <div class="container bs-container-2">
             <div class="bs-testimonial-5-wrap">
 
@@ -720,7 +722,7 @@ ANX Builds || About Us
                             Why choose a steel frame annexe?
                         </h2>
                         <p class="bs-p-4 text-white disc wa-fadeInUp">
-                            At The Granny Annexe Company, we build in steel frame because it delivers a stronger, smarter, and more future-proof annexe.
+                            At The Granny Annexe Company, we build with steel because it delivers a stronger, smarter, and more future-proof annexe.
                             Steel has an outstanding strength-to-weight ratio, meaning it can support heavier loads and span spaces more confidently than many traditional materials. That strength translates into a solid structure you can rely on for the long term.
                         </p>
                         <p class="bs-p-4 text-white disc wa-fadeInUp">
@@ -731,12 +733,12 @@ ANX Builds || About Us
                 </div>
 
                 <div class="bs-testimonial-5-img wa-fix wa-img-cover" data-cursor="-opaque">
-                    <img class="wa-parallax-img" src="{{ url('frontend/assets/img/gallery/02.png') }}" alt="">
+                    <img class="wa-parallax-img" src="{{ url('frontend/assets/img/services/steel-frame.png') }}" alt="">
                 </div>
                 
             </div>
             <div class="container ps-0">
-                <div class="d-flex flex-column mb-lg-5 mb-md-3 mb-2">
+                <div class="d-flex flex-column mb-lg-5 mb-md-3 mb-0 mt-3 mt-lg-0">
                     <p class="bs-p-4 text-white disc wa-fadeInUp mb-lg-3 mb-md-3 mb-2">
                         Our modular steel frame system brings big practical benefits too. Much of the build is prepared in a controlled environment, which keeps the process cleaner and more efficient, reduces waste, and helps minimise disruption at your home. On-site assembly is faster and more streamlined, so you get your annexe sooner with less mess.
                     </p>
@@ -745,7 +747,6 @@ ANX Builds || About Us
                     </p>
                 </div>
             </div>
-           
         </div>
     </section>
     <!-- testimonial-end -->

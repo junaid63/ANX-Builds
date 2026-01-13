@@ -1,9 +1,9 @@
-<section class="bs-office-1-area wa-fix mt-50">
+<section class="bs-office-1-area wa-fix py-lg-5 py-5">
     {{-- <div class="container bs-container-1"> --}}
     <div class="container">
         <div class="bs-office-1-wrap">
 
-            <div class="bs-office-1-left">
+            <div class="bs-office-1-left pb-0">
 
                 <!-- section-title -->
                 <div class="bs-faq-1-sec-title mb-35">
@@ -62,7 +62,7 @@
                     </div>
                     
                 </div>
-                <div class="bs-about-1-content my-lg-5">
+                <div class="bs-about-1-content my-lg-3 mt-5">
                     <p class="bs-p-1 disc wa-split-y wa-capitalize">
                         The Granny Annexe Company provides nationwide support with dependable service.
                     </p>
