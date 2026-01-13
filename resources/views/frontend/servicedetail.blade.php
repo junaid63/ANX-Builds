@@ -114,6 +114,9 @@ ANX Builds || Service Detail
                         </div>
                     </div>
                 </div>
+                <p class="desc mt-lg-4 pt-3">
+                    Please note that the dimensions and prices above are for guidance only. As we offer a bespoke service, we can build annexes to any dimensions - not just those listed above.
+                </p>
             </div>
         </div>
     </section>
