@@ -1,7 +1,5 @@
 /*
-	Template Name: Barsi - Architecture & Interior HTML Template
-	Author: https://themexriver.com/
-	Version: 1.0
+   Template Name: The Granny Annexe Co
 */
 
 

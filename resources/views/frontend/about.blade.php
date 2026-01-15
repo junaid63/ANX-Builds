@@ -37,11 +37,11 @@ ANX Builds || About Us
     <!-- breadcrumb-end -->
 
     <!-- about-start -->
-    <section class="bs-about-1-area py-lg-5 py-5">
+    <section class="bs-about-1-area py-lg-5 py-4">
         <div class="container bs-container-1">
 
             <!-- section-title -->
-            <div class="bs-about-1-sec-title mb-30">
+            <div class="bs-about-1-sec-title mb-30 mb-md-3">
                 <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
                     <span class="icon">
                         <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="">
@@ -54,7 +54,7 @@ ANX Builds || About Us
             </div>
 
             <!-- slider -->
-            <div class="bs-about-1-slider mb-40 wa-p-relative">
+            <div class="bs-about-1-slider mb-40 mb-md-3 wa-p-relative">
                 <div class="swiper-container wa-fix bs-a1-active">
                     <div class="swiper-wrapper">
 
@@ -98,7 +98,7 @@ ANX Builds || About Us
                     The Granny Annexe Company designs, builds and installs high-quality garden annexes across the UK, created to help families support older loved ones with comfort, privacy and independence close to home. Founded by director Matt Biddle after years building annexes nationwide, our company was built around one simple principle: an annexe should feel like a proper home, not a temporary structure. 
                 </p>
                 <p class="bs-p-1 disc wa-split-y wa-capitalize">
-                    We specialise in steel-frame granny annexes for long-term strength, stability and year-round comfort. Our homes are engineered to go beyond the typical “cabin-style” approach, using high-performance insulation, soundproofing and triple glazing as standard, with specifications designed to outperform many modern new-build house benchmarks and exceed the UK’s residential park home standard (BS 3632). 
+                    We specialise in steel-frame granny annexes for long-term strength, stability and year-round comfort. Our Annexes are engineered to go beyond the typical “cabin-style” approach, using high-performance insulation, soundproofing and triple glazing as standard, with specifications designed to outperform many modern new-build house benchmarks and exceed the UK’s residential park home standard (BS 3632). 
                 </p>
                 <p class="bs-p-1 disc wa-split-y wa-capitalize">
                     From first ideas to move-in day, we provide a complete turnkey garden annexe build service—including drawings and technical design, groundworks and connections, electrics, plumbing, heating, kitchen and bathroom installation, certification and handover. We also guide the planning route (often via the Caravan Act) and can manage your Lawful Development Certificate, with every build protected by a 10-year structural warranty and a clear aftercare pack. 
@@ -192,7 +192,7 @@ ANX Builds || About Us
     <!-- video-end -->
 
     <!-- choose-start -->
-    <section id="why-choose-us" class="bs-choose-4-area wa-bg-default wa-fix pb-lg-5 pb-3">
+    <section id="why-choose-us" class="bs-choose-4-area wa-bg-default wa-fix pb-lg-5 pb-3 ">
         <div class="container bs-container-2">
             <div class="bs-choose-4-wrap">
 
@@ -208,7 +208,7 @@ ANX Builds || About Us
                                 </span>
                             </h5>
 
-                            <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize" data-cursor="-opaque">
+                            <h2 class="bs-sec-title-1 title wa-split-right wa-capitalize" data-cursor="-opaque">
                                 Why choose the Granny Annexe Company For Your Project 
                             </h2>
 
@@ -216,8 +216,8 @@ ANX Builds || About Us
                                 When comparing annexes, the differences in build quality can be significant. Many look similar from the outside, but the materials, insulation, and construction methods used can dramatically affect comfort, running costs, and how long your annexe will last. 
                             </p>
                             <p class="bs-p-4 disc wa-fadeInUp">
-                                At The Granny Annexe Company, we believe a garden annexe should be built to the same standard as a high-quality home - not a temporary structure. That’s why we go far beyond the basic requirements used by many other Companies. 
-                            </p>
+                                At The Granny Annexe Company, we believe a garden annexe should be built to the same standard as a high-quality home. That’s why we go far beyond the basic requirements used by many other Companies. 
+                            </p>s
 
                             <span class="custom-choose-span bs-h-4 item-title title mb-lg-3 mb-md-2 mb-2">
                                 Built To Exceed New-Build House Insulation Standards
@@ -366,7 +366,7 @@ ANX Builds || About Us
     <!-- choose-end -->
 
     <!-- work-start -->
-    <section class="bs-work-5-area why-choose-second wa-bg-default py-lg-5 py-5" data-background="{{ url('frontend/assets/img/work/w5-bg-img.png') }}">
+    <section class="bs-work-5-area why-choose-second wa-bg-default py-lg-5 py-5 overflow-hidden" data-background="{{ url('frontend/assets/img/work/w5-bg-img.png') }}">
         <div class="container bs-container-2">
 
             <!-- section-title -->
@@ -426,7 +426,7 @@ ANX Builds || About Us
         <div class="container bs-container-1">
 
             <!-- section-title -->
-            <div class="bs-services-3-sec-title mb-40 text-lg-center text-start">
+            <div class="bs-services-3-sec-title mb-40 text-lg-start text-start">
                 <h2 class="bs-sec-title-3  wa-split-right wa-capitalize mb-lg-4 mb-md-2 mb-2" data-cursor="-opaque">What’s Included As Standard?</h2>
                 <p class="bs-p-4 disc wa-fadeInUp text-white">
                     Every annexe we build is fully finished and ready to furnish, with all the essential features included as standard - no hidden extras and no unexpected costs. We take pride in delivering a home that feels complete, comfortable, and welcoming from the moment you step inside.
@@ -714,7 +714,7 @@ ANX Builds || About Us
             <div class="bs-testimonial-5-wrap">
 
                 <!-- left-content -->
-                <div class="bs-testimonial-5-content pt-lg-5 pt-md-3 pt-2">
+                <div class="bs-testimonial-5-content pt-lg-5 pt-md-3 pt-0">
 
                     <!-- section-title -->
                     <div class="bs-testimonial-5-sec-title mb-lg-4 mb-md-3 mb-2">

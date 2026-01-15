@@ -38,7 +38,7 @@ ANX Builds || Faqs
 
 
     <!-- faqs-start -->
-    <section class="bs-faqs-6-area pt-140 pb-140">
+    <section class="bs-faqs-6-area py-lg-5 py-4">
         <div class="container bs-container-1">
             <div class="bs-faqs-6-wrap">
 

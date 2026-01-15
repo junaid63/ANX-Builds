@@ -37,14 +37,14 @@ ANX Builds || Blogs
     <!-- breadcrumb-end -->
 
     <!-- blog-start -->
-    <section class="bs-blog-1-area wa-p-relative pt-140 pb-80">
+    <section class="bs-blog-1-area wa-p-relative py-lg-5 py-4">
 
         <div class="bs-blog-1-bg-color"></div>
 
         <div class="container bs-container-1">
 
             <!-- section-title -->
-            <div class="bs-blog-1-sec-title text-center mb-40">
+            <div class="bs-blog-1-sec-title text-start text-lg-center mb-40">
                 <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
                     <span class="icon">
                         <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="">

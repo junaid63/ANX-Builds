@@ -1,4 +1,4 @@
-<section class="bs-office-1-area wa-fix py-lg-5 py-5">
+<section class="bs-office-1-area wa-fix py-lg-5 py-md-5 py-4">
     {{-- <div class="container bs-container-1"> --}}
     <div class="container">
         <div class="bs-office-1-wrap">

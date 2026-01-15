@@ -38,6 +38,9 @@
                                 <li class="@If(Route::currentRouteName() === 'price') active @endif">
                                     <a href="{{ route('price') }}" aria-label="name">Prices</a>
                                 </li>
+                                @foreach ($services as $ser)
+                                    <li class="@If(Route::currentRouteName() === 'servicedetail') active @endif"><a href="{{ route('servicedetail', $ser->slug) }}">Services</a></li>
+                                @endforeach
                             </ul>
                         </div>
 

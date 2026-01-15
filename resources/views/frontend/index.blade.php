@@ -236,7 +236,7 @@ ANX Builds || Home
     <!-- hero-end -->
 
     <!-- core-feature-start -->
-    <section class="bs-core-feature-4-area pt-80 pb-80">
+    <section class="bs-core-feature-4-area py-lg-5 py-md-3 py-4">
         <div class="bs-core-feature-4-line wa-scaleXInUp"></div>
         <div class="bs-core-feature-4-wrap">
 
@@ -272,7 +272,7 @@ ANX Builds || Home
                     <a href="#" aria-label="name">High-Efficiency Build</a>
                 </h3>
                 <div class="item-icon">
-                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-3.svg')}}" alt="">
+                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-3.png')}}" alt="">
                 </div>
                 <p class="bs-p-4 item-disc second-banner-section-para">
                     Exceptional insulation for  warm winters, cool summers,  and low running costs
@@ -315,7 +315,7 @@ ANX Builds || Home
                     <div class="item-btn custom-top-btn">
                         <a href="{{ route('price') }}" aria-label="name" class="bs-btn-1">
                             <span class="text">
-                                learn more pricing
+                                See Our Prices
                             </span>
                             <span class="shape" ></span>
                         </a>
@@ -331,7 +331,7 @@ ANX Builds || Home
                     <div class="item-btn">
                         <a href="{{ route('price') }}" aria-label="name" class="bs-btn-1">
                             <span class="text">
-                                learn more pricing
+                                See Our Prices
                             </span>
                             <span class="shape" ></span>
                         </a>
@@ -365,7 +365,7 @@ ANX Builds || Home
                     <div class="inner-div">
                         <p class="bs-p-4 disc wa-fadeInUp">
                             Our granny annexes are designed and engineered to feel like true homes - more
-                            like a new-build house than a temporary building. As you’ll see in our About Us
+                            like a new-build house than a temporary building. As you’ll see in our <a href="{{ route('about') }}" style="text-decoration: underline">About Us</a>
                             section, we’re built around quality: robust steel-frame construction,
                             house-level specification, and a careful finish on every detail.
                         </p>
@@ -441,7 +441,7 @@ ANX Builds || Home
     <!-- about-end -->
 
     <!-- video-start -->
-    <section class="bs-video-4-area">
+    {{-- <section class="bs-video-4-area">
         <div class="bs-video-4-content wa-p-relative wa-fix wa-img-cover">
             <img class="wa-parallax-img" src="{{url('frontend/assets/img/video/v4-img-1.png')}}" alt="">
 
@@ -451,8 +451,26 @@ ANX Builds || Home
                 </div>
             </div>
         </div>
+    </section> --}}
+    <!-- video-end -->
+     <!-- video-start -->
+    <section class="bs-video-4-area">
+        <div class="bs-video-4-content wa-p-relative wa-fix wa-img-cover">
+            <img class="wa-parallax-img" src="{{url('frontend/assets/img/video/v4-img-1.png')}}" alt="">
+
+            <div class="bs-video-4-text">
+                {{-- <div class="bs-video-4-marquee-active"> --}}
+                    {{-- <h4 class="bs-h-1 bs-video-4-text-item wa-split-text">The Granny Annexe Company</h4> --}}
+                    <div class="banner-logo">
+                        {{-- <img src="{{ url('frontend/assets/img/logo/banner-logo.png') }}" alt="Company Logo"> --}}
+                        <img src="{{ url('storage') }}/{{ setting('site.transperent-logo') }}" alt="Company Logo">
+                    </div>
+                {{-- </div> --}}
+            </div>
+        </div>
     </section>
     <!-- video-end -->
+
 
     <!-- services-start -->
     @include('frontend.inc.servicecards')
@@ -606,7 +624,7 @@ ANX Builds || Home
                 <div class="bs-choose-4-content-height">
                     <!-- left-content -->
                     <div class="bs-choose-4-content-pin">
-                        <div class="bs-choose-4-content py-lg-5 py-5">
+                        <div class="bs-choose-4-content py-lg-5 py-md-4 py-5">
 
                             <h5 class="bs-subtitle-4 bs-choose-4-subtitle">
                                 <span class="text">WHY CHOOSE US</span>
@@ -623,7 +641,7 @@ ANX Builds || Home
                                 When comparing annexes, the differences in build quality can be significant. Many look similar from the outside, but the materials, insulation, and construction methods used can dramatically affect comfort, running costs, and how long your annexe will last. 
                             </p>
                             <p class="bs-p-4 disc wa-fadeInUp">
-                                At The Granny Annexe Company, we believe a garden annexe should be built to the same standard as a high-quality home - not a temporary structure. That’s why we go far beyond the basic requirements used by many other builders. 
+                                At The Granny Annexe Company, we believe a garden annexe should be built to the same standard as a high-quality home - not a temporary structure. That’s why we go far beyond the basic requirements used by many other Companies. 
                             </p>
 
                             <div class="btn-wrap wa-fadeInUp">
@@ -692,7 +710,7 @@ ANX Builds || Home
     <!-- choose-end -->
 
     <!-- blog-start -->
-    <section class="bs-blog-4-area py-lg-5 py-md-3 py-4">
+    <section class="bs-blog-4-area py-lg-5 py-md-4 py-4">
         <div class="container bs-container-2">
             <div class="bs-blog-4-content">
                 <h5 class="bs-subtitle-4 ">
@@ -823,10 +841,10 @@ ANX Builds || Home
                 },
 
                 980: {
-                    slidesPerView: 5
+                    slidesPerView: 2
                 },
                 1200: {
-                    slidesPerView: 3
+                    slidesPerView: 2
                 }
             }
         });

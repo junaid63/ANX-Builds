@@ -36,26 +36,26 @@ ANX Builds || Prices
     <!-- breadcrumb-end -->
 
     <!-- price-start -->
-    <section class="bs-price-5-area wa-fix pt-135 pb-140 wa-bg-default pt-lg-5 pt-md-3 pt-2 pb-lg-0 pb-md-0 pb-0" data-background="{{ url('frontend/assets/img/price/p5-shape.png') }}">
+    <section class="bs-price-5-area wa-fix pt-135 pb-140 wa-bg-default py-lg-5 py-4" data-background="{{ url('frontend/assets/img/price/p5-shape.png') }}">
         <div class="container">
 
             <!-- section-title -->
-            <div class="bs-price-6-sec-title mb-50">
-                <h6 class="bs-subtitle-5 wa-capitalize">
+            <div class="bs-price-6-sec-title mb-lg-5 mb-3">
+                {{-- <h6 class="bs-subtitle-5 wa-capitalize">
                     <span class="wa-split-right ">Pricing Plan</span>
-                </h6>
+                </h6> --}}
                 <div class="d-flex flex-column mb-lg-4 mb-md-3 mb-2">
                     <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize mb-md-3 mb-3" data-cursor="-opaque">
-                        Price Guide
+                        Granny Annexe Price Guide
                     </h2>
                     <p class="bs-p-4 disc wa-fadeInUp mb-lg-3 mb-md-2 mb-2">
-                        We believe that transparency is key when it comes to budgeting for your building project. That's why we have put together a comprehensive price guide to give you an idea of what you can expect to pay for some of our most popular garden annexe and modular extension sizes.
+                        We believe that transparency is key when it comes to budgeting for your building project. That's why we have put together a comprehensive price guide to give you an idea of what you can expect to pay for some of our most popular garden annexe sizes.
                     </p>
                     <p class="bs-p-4 disc wa-fadeInUp mb-lg-3 mb-md-2 mb-2">
                         Our prices are based on the external dimensions of the structure and include everything you need to get your new living space up and running, including ground screw foundations, electrical connection, plastering, painting, installation, and BS3632 Certification. This allows you to compare prices easily and make informed decisions about your project budget.
                     </p>
                     <p class="bs-p-4 disc wa-fadeInUp mb-lg-3 mb-md-2 mb-2">
-                        With Granny Annexe, you can have peace of mind knowing that the price you see is the price you pay. There are no hidden fees or unexpected costs. Let us help you bring your dream home to life.
+                        With The Granny Annexe Company you can have peace of mind knowing that the price you see is the price you pay. There are no hidden fees or unexpected costs. Let us help you bring your dream home to life.
                     </p>
                 </div>
                 <div class="pricing-table-title-table mb-lg-5 mb-md-3 mb-2">
@@ -63,7 +63,7 @@ ANX Builds || Prices
                         Granny Annexe Prices
                     </h2>
                     <div class="pricing-custom-main first-table">
-                        <div class="pricing-width pricing-custom-matric">
+                        {{-- <div class="pricing-width pricing-custom-matric">
                             <table class="table table-bordered table-striped table-hover">
                                 <thead class="thead-dark custom-table">
                                     <tr>
@@ -110,7 +110,7 @@ ANX Builds || Prices
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
+                        </div> --}}
                         <div class="pricing-width pricing-include-points">
                             <div class="bs-h-4 item-title text-white text-start pb-lg-2 pb-md-2 pb-2">
                                 Includes:
@@ -564,7 +564,7 @@ ANX Builds || Prices
         <div class="container bs-container-2">
 
             <!-- section-title -->
-            <div class="bs-work-5-sec-title mb-90">
+            <div class="bs-work-5-sec-title mb-lg-5 mb-4">
                 <h6 class="bs-subtitle-5 wa-capitalize">
                     <span class="wa-split-right ">Featured Builds</span>
                 </h6>

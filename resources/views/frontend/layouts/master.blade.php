@@ -54,7 +54,7 @@
 
                         <!-- logo -->
                         <a href="{{ route('index') }}" aria-label="name" class="wa-offcanvas-top-logo">
-                            <img src="{{url('frontend/assets/img/logo/black-logo.png')}}" alt="">
+                            <img src="{{url('storage')}}/{{ setting('site.black-logo') }}" alt="">
                         </a>
 
                         <!-- close-btn -->
@@ -78,7 +78,9 @@
                             @endforeach
                             <li class="@If(Route::currentRouteName() === 'price') active @endif"><a href="{{ route('price') }}">Prices</a></li>
                             <li class="@If(Route::currentRouteName() === 'gallery') active @endif"><a href="{{ route('gallery') }}">Gallery</a></li>
+                        <li class="@If(Route::currentRouteName() === 'blogs') active @endif"><a href="{{ route('blogs') }}">Blogs</a></li>
                             <li class="@If(Route::currentRouteName() === 'faq') active @endif"><a href="{{ route('faq') }}">Faqs</a></li>
+                            <li class="@If(Route::currentRouteName() === 'contact') active @endif"><a href="{{ route('contact') }}">Contact Us</a></li>
                         </ul>
                     </nav>
 
@@ -169,7 +171,7 @@
         <script src="{{url('frontend/assets/js/jquery-3.7.1.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/bootstrap.bundle.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/swiper-bundle.min.js')}}"></script>
-        <script src="{{url('frontend/assets/js/wow.js')}}"></script>
+        {{-- <script src="{{url('frontend/assets/js/wow.js')}}"></script> --}}
         <script src="{{url('frontend/assets/js/text-type.js')}}"></script>
         <script src="{{url('frontend/assets/js/matter.js')}}"></script>
         <script src="{{url('frontend/assets/js/throwable.js')}}"></script>
@@ -177,8 +179,8 @@
         <script src="{{url('frontend/assets/js/nice-select.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/marquee.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/magnific-popup.min.js')}}"></script>
-        <script src="{{url('frontend/assets/js/SplitText.min.js')}}"></script>
-        <script src="{{url('frontend/assets/js/gsap.min.js')}}"></script>
+        {{-- <script src="{{url('frontend/assets/js/SplitText.min.js')}}"></script> --}}
+        {{-- <script src="{{url('frontend/assets/js/gsap.min.js')}}"></script> --}}
         <script src="{{url('frontend/assets/js/CustomEase.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/counterup.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/waypoints.min.js')}}"></script>

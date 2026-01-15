@@ -41,7 +41,7 @@ ANX Builds || Our Process
 
             <!-- section-title -->
             <div class="work-process-first-sec pb-lg-5 pb-md-3 pb-2">
-                <div class="bs-work-process-sec-title mb-50">
+                <div class="bs-work-process-sec-title mb-lg-5 mb-md-3 mb-2">
                     <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
                         <span class="icon">
                             <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="">
@@ -56,7 +56,7 @@ ANX Builds || Our Process
                 </div>
     
                 <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
-                    Discover our comprehensive and seamless 8-step customer order process, designed to guide you effortlessly from the initial inquiry to the realization of your dream Granny Annexe or Garden Room. Our process ensures that every aspect of your project is thoroughly taken care of, giving you peace of mind and a hassle-free experience from start to finish.
+                    Discover our comprehensive and seamless 8-step customer order process, designed to guide you effortlessly from the initial inquiry to the realization of your dream Granny Annexe. Our process ensures that every aspect of your project is thoroughly taken care of, giving you peace of mind and a hassle-free experience from start to finish.
                 </p>
                 <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
                     At first glance, the process may seem extensive, but rest assured that each step has been carefully crafted to guarantee the perfect outcome. We understand the importance of ensuring that our product not only meets, but exceeds your expectations. That's why we've created this in-depth customer journey - to ensure that the final product is precisely what you need, expertly installed within the agreed timeframe, and engineered to the pinnacle of excellence. 
@@ -169,7 +169,7 @@ ANX Builds || Our Process
                             The site survey is a vital stage of the process, as it allows us to fully understand the build conditions, such as the foundation requirements, electrical installations,  site access, any hazards or obstruction.  
                         </p>
                         <p class="bs-p-4 disc wa-split-y">
-                            By completing a site survey we ensure there aren't any unwanted surprises that will slow down the building of your garden room.  What we really love about site surveys is the chance to meet our future clients and build lasting relationships. We cant wait to meet you!
+                            By completing a site survey we ensure there aren't any unwanted surprises that will slow down the building of your.  What we really love about site surveys is the chance to meet our future clients and build lasting relationships. We cant wait to meet you!
                         </p>
                     </div>
                 </div>
@@ -188,7 +188,7 @@ ANX Builds || Our Process
                             Following the site visit, we will amend and finalise the quote if need be. Now it's time for you to decide if we are the right people for the job..... we hope we have made a good impression!  
                         </p>
                         <p class="bs-p-4 disc wa-split-y">
-                            If you are completely happy with the quote and would like to secure your Granny Annexes build, we will require a 5% deposit. We can then give you an installation date and begin work on your certificate of lawfulness application! 
+                            If you are completely happy with the quote and would like to secure your we will require a 5% deposit. We can then give you an installation date and begin work on your certificate of lawfulness application! 
                         </p>
                     </div>
                 </div>
@@ -207,7 +207,7 @@ ANX Builds || Our Process
                             While we’re waiting for your Certificate of Lawfulness to be issued, the work doesn’t stop.
                         </p>
                         <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
-                            During this period, we work closely with you to finalise your design and specification package, locking in every detail well before your build begins - from plug socket and lighting positions, to window and door locations, flooring finishes, and fixtures, as well are you build package which includes the below
+                            During this period, we work closely with you to finalise your design and specification package, locking in every detail well before your begins - from plug socket and lighting positions, to window and door locations, flooring finishes, and fixtures, as well are you build package which includes the below
                         </p>
                         <ul class="wa-split-y">
                             <li>
@@ -237,7 +237,7 @@ ANX Builds || Our Process
                         <h4 class="bs-h-4 number">07</h4>
                         <h5 class="bs-h-4 title">Installing your annexe</h5>
                         <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
-                            We start by setting out the annexe and protecting the build site location, then move straight into groundworks followed by the installation of the steel-frame structure and weatherproof shell. From there, we progress through insulation, windows and doors, first-fix electrics/plumbing, internal finishes and final details - all managed by our team to keep the programme smooth and the site tidy.
+                            We start by setting out the annexe and protecting the site location, then move straight into groundworks followed by the installation of the steel-frame structure and weatherproof shell. From there, we progress through insulation, windows and doors, first-fix electrics/plumbing, internal finishes and final details - all managed by our team to keep the programme smooth and the site tidy.
                         </p>
                         <p class="bs-p-4 disc wa-split-y">
                             You’ll have a clear schedule, regular updates, and a single point of contact throughout, so you always know what’s happening and what comes next.
@@ -256,7 +256,7 @@ ANX Builds || Our Process
                         <h4 class="bs-h-4 number">08</h4>
                         <h5 class="bs-h-4 title">Completion & Handover</h5>
                         <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
-                            Once the build is complete, we carry out final checks and a full walkthrough with you to make sure everything is finished exactly as agreed. We’ll then officially hand over your new garden annexe, ready to enjoy.
+                            Once is complete, we carry out final checks and a full walkthrough with you to make sure everything is finished exactly as agreed. We’ll then officially hand over your new garden annexe, ready to enjoy.
                         </p>
                         <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
                             At handover, you’ll receive your documentation pack, including your 10-year guarantee and all other relevant paperwork for your annexe (such as certificates, manuals, and key product information where applicable).

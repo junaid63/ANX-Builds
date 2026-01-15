@@ -37,7 +37,7 @@ ANX Builds || Payment Milestone
     <!-- breadcrumb-end -->
 
     <!-- about-start -->
-    <section class="bs-about-1-area bs-content-page-main py-lg-5 py-5">
+    <section class="bs-about-1-area bs-content-page-main py-lg-5 py-4 overflow-hidden">
         <div class="container bs-container-1">
 
             <!-- section-title -->
@@ -60,9 +60,9 @@ ANX Builds || Payment Milestone
                 </p>
                 <ul>
                     <li>
-                        <div class="content-detail-points mb-lg-3 mb-2">
-                            <strong>5% deposit –</strong>
+                        <div class="content-detail-points mb-lg-3 mb-3">
                             <span>
+                                <b>5% deposit –</b>
                                 secure your build slot and start the planning process
                             </span>
                         </div>
@@ -71,9 +71,9 @@ ANX Builds || Payment Milestone
                         </p>
                     </li>
                     <li>
-                        <div class="content-detail-points mb-lg-3 mb-2">
-                            <strong>10% payment –</strong>
+                        <div class="content-detail-points mb-lg-3 mb-3">
                             <span>
+                                <b>10% payment –</b>
                                 six weeks before start date (fabrication and long-lead items)
                             </span>
                         </div>
@@ -82,9 +82,9 @@ ANX Builds || Payment Milestone
                         </p>
                     </li>
                     <li>
-                        <div class="content-detail-points mb-lg-3 mb-2">
-                            <strong>10% payment –</strong>
+                        <div class="content-detail-points mb-lg-3 mb-3">
                             <span>
+                                <b>10% payment –</b>
                                 groundworks complete (foundations and services ready)
                             </span>
                         </div>
@@ -93,9 +93,9 @@ ANX Builds || Payment Milestone
                         </p>
                     </li>
                     <li>
-                        <div class="content-detail-points mb-lg-3 mb-2">
-                            <strong>25% payment –</strong>
+                        <div class="content-detail-points mb-lg-3 mb-3">
                             <span>
+                                <b>25% payment –</b>
                                 steel frame erected (structure complete, fit-out begins)
                             </span>
                         </div>
@@ -104,9 +104,9 @@ ANX Builds || Payment Milestone
                         </p>
                     </li>
                     <li>
-                        <div class="content-detail-points mb-lg-3 mb-2">
-                            <strong>20% payment –</strong>
+                        <div class="content-detail-points mb-lg-3 mb-3">
                             <span>
+                                <b>20% payment –</b>
                                 watertight (roof, doors and windows fitted)
                             </span>
                         </div>
@@ -115,9 +115,9 @@ ANX Builds || Payment Milestone
                         </p>
                     </li>
                      <li>
-                        <div class="content-detail-points mb-lg-3 mb-2">
-                            <strong>15% payment –</strong>
+                        <div class="content-detail-points mb-lg-3 mb-3">
                             <span>
+                                <b>15% payment –</b>
                                 plastering complete (interior taking shape)
                             </span>
                         </div>
@@ -126,9 +126,9 @@ ANX Builds || Payment Milestone
                         </p>
                     </li>
                     <li>
-                        <div class="content-detail-points mb-lg-3 mb-2">
-                            <strong>15% payment (minus £2,000) –</strong>
+                        <div class="content-detail-points mb-lg-3 mb-3">
                             <span>
+                                <b>15% payment (minus £2,000) –</b>
                                 kitchen and bathroom installed
                             </span>
                         </div>
@@ -137,9 +137,9 @@ ANX Builds || Payment Milestone
                         </p>
                     </li>
                     <li>
-                        <div class="content-detail-points mb-lg-3 mb-2">
-                            <strong>Your final £2,000</strong>
+                        <div class="content-detail-points mb-lg-3 mb-3">
                             <span>
+                                <b>Your final £2,000</b>
                                 instalment is due at completion and handover, the moment your new annexe becomes a finished home, ready to enjoy.
                             </span>
                         </div>
