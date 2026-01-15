@@ -246,7 +246,7 @@ ANX Builds || Home
                     <a href="#" aria-label="name">Modular Build System</a>
                 </h3>
                 <div class="item-icon">
-                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/build-system.png')}}" alt="">
+                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/build-system-01.png')}}" alt="">
                 </div>
                 <p class="bs-p-4 item-disc second-banner-section-para">
                     Your annexe will be  completed in just a matter of weeks
@@ -259,7 +259,7 @@ ANX Builds || Home
                     <a href="#" aria-label="name">Custom & Unique Designs</a>
                 </h3>
                 <div class="item-icon">
-                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/custom-unique.png')}}" alt="">
+                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/custom-unique-01.png')}}" alt="">
                 </div>
                 <p class="bs-p-4 item-disc second-banner-section-para">
                     Every Granny Annexe Company project is tailored your specific taste and requirements 
@@ -272,7 +272,7 @@ ANX Builds || Home
                     <a href="#" aria-label="name">High-Efficiency Build</a>
                 </h3>
                 <div class="item-icon">
-                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-3.png')}}" alt="">
+                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-3-01.png')}}" alt="">
                 </div>
                 <p class="bs-p-4 item-disc second-banner-section-para">
                     Exceptional insulation for  warm winters, cool summers,  and low running costs
@@ -285,7 +285,7 @@ ANX Builds || Home
                     <a href="#" aria-label="name">Engineered to Last, Finished to Perfection</a>
                 </h3>
                 <div class="item-icon">
-                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/engineered.png')}}" alt="">
+                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/engineered-01.png')}}" alt="">
                 </div>
                 <p class="bs-p-4 item-disc second-banner-section-para">
                     Our steel frame system gives you a stronger core, cleaner lines, and long-term durability.
@@ -456,7 +456,7 @@ ANX Builds || Home
      <!-- video-start -->
     <section class="bs-video-4-area">
         <div class="bs-video-4-content wa-p-relative wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{url('frontend/assets/img/video/v4-img-1.png')}}" alt="">
+            <img class="wa-parallax-img" src="{{url('frontend/assets/img/video/v4-img-1-updated.png')}}" alt="">
 
             <div class="bs-video-4-text">
                 {{-- <div class="bs-video-4-marquee-active"> --}}
