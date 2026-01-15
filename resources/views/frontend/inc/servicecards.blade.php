@@ -1,5 +1,5 @@
 <!-- services-start -->
-<section class="bs-services-4-area py-lg-5 py-5 wa-fix " data-background="{{url('frontend/assets/img/services/s4-bg.png')}}">
+<section class="bs-services-4-area py-lg-5 py-md-4 py-5 wa-fix " data-background="{{url('frontend/assets/img/services/s4-bg.png')}}">
     <div class="bs-services-4-img wa-fix wa-img-cover wa-slideInLeft">
         <img src="{{url('frontend/assets/img/services/sevice-small-img.png')}}" alt="">
     </div>
@@ -21,18 +21,20 @@
                 </h2>
 
                 <p class="bs-p-4 disc wa-fadeInUp">
-                    We offer a complete turnkey granny annexe and garden annexe service across the UK, managing everything from initial design and drawings through to groundworks, build, installation, utilities, and full interior fit-out. You’ll have one team overseeing the whole process- so your annexe is delivered to a high standard with a clear, supported journey from first conversation to handover.
+                    We offer a complete turnkey granny annexe service across the UK, managing everything from initial design and drawings through to groundworks, build, installation, utilities, and full interior fit-out. You’ll have one team overseeing the whole process- so your annexe is delivered to a high standard with a clear, supported journey from first conversation to handover.
                 </p>
                 <div class="btn-wrap wa-fadeInUp">
-                    <a href="javascript:void()" aria-label="name" class="bs-pr-btn-2">
-                        <span class="text" data-back="More About Our Services" data-front="More About Our Services"></span>
-                        <span class="line-1"></span>
-                        <span class="line-2"></span>
-                        <span class="box box-1"></span>
-                        <span class="box box-2"></span>
-                        <span class="box box-3"></span>
-                        <span class="box box-4"></span>
-                    </a>
+                    @foreach ($services as $service)
+                        <a href="{{ route('servicedetail', $service->slug) }}" aria-label="name" class="bs-pr-btn-2">
+                            <span class="text" data-back="More About Our Services" data-front="More About Our Services"></span>
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                            <span class="box box-1"></span>
+                            <span class="box box-2"></span>
+                            <span class="box box-3"></span>
+                            <span class="box box-4"></span>
+                        </a>
+                    @endforeach
                 </div>
             </div>
 
@@ -46,20 +48,30 @@
                         <h4 class="bs-h-1 title">
                             <a href="{{ route('servicedetail', $service->slug) }}" aria-label="name" class="wa-line-limit has-line-2">{{ ucwords($service->title) }}</a>
                         </h4>
-                        <div class="main-img wa-fix wa-img-cover">
-                            <img src="{{url('storage/' . $service->card_img)}}" alt="">
+                        <div class="d-md-none d-block d-lg-block">
+                            <div class="main-img wa-fix wa-img-cover">
+                                <img src="{{url('storage/' . $service->card_img)}}" alt="">
+                            </div>
+                            <p class="bs-p-4 disc wa-line-limit has-line-3">
+                                {{ $service->short_description }}
+                            </p>
                         </div>
-                        <p class="bs-p-4 disc wa-line-limit has-line-3">
-                            {{ $service->short_description }}
-                        </p>
+                        <div class="d-md-flex d-none d-lg-none gap-md-2">
+                            <div class="main-img wa-fix wa-img-cover">
+                                <img src="{{url('storage/' . $service->card_img)}}" alt="">
+                            </div>
+                            <p class="bs-p-4 disc wa-line-limit has-line-3">
+                                {{ $service->short_description }}
+                            </p>
+                        </div>
                     </div>
                     <div class="default-content">
                         <div class="img-2 wa-fix wa-img-cover">
                             <img src="{{url('storage/' . $service->card_img)}}" alt="">
                         </div>
-                        <h4 class="bs-h-1 title-2 wa-line-limit has-line-1">
-                            Garden Pods & Offices
-                        </h4>
+                        {{-- <h4 class="bs-h-1 title-2 wa-line-limit has-line-1">
+                            Garden Annexes & Offices
+                        </h4> --}}
                     </div>
                 </div>
                 @endforeach

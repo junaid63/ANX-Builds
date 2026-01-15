@@ -1,11 +1,7 @@
 /*
 ************
 *************************
-
-   Template Name: Barsi - Architecture & Interior HTML Template
-   Description: Barsi - Architecture & Interior HTML Template is a modern, unique and clean responsive HTML 5 template. It could be a perfect choice for Architecture Interior and construction companies as it provides the contemporary design reflecting the nature of their business. The layout looks beautiful at any size, be it a laptop screen, iPad, iPhone, Android Mobile or tablets.
-   Author: https://themexriver.com/
-   Version: 1.0
+   Template Name: The Granny Annexe Co
 
 -----------------------------------------------------------------------------------
 
@@ -1779,7 +1775,8 @@ input:focus::placeholder, textarea:focus::placeholder {
 .bs-p-1 {
   font-family: var(--bs-font-1);
   /* font-size: 18px; */
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 22px;
   line-height: 1.555;
   font-weight: 400;
   color: var(--bs-clr-black-1);
@@ -1897,7 +1894,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 }
 
 .bs-sec-title-3 {
-  font-family: var(--bs-font-2);
+  font-family: var(--bs-font-1);
   font-weight: 600;
   letter-spacing: -0.03em;
   text-transform: capitalize;
@@ -9302,7 +9299,8 @@ Primary style
 .bs-work-process-item-single {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  gap: 60px;
+  /* gap: 60px; */
+  gap: 45px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .bs-work-process-item-single {
@@ -9370,7 +9368,8 @@ Primary style
   z-index: 1;
 }
 .bs-work-process-item-single .content .bs-h-4.title {
-  font-size: 32px;
+  /* font-size: 35px; */
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -11335,8 +11334,8 @@ Primary style
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align-last: center;
+  align-items: start;
+  text-align-last: start;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .bs-services-3-card {
@@ -11358,7 +11357,8 @@ Primary style
   transform-origin: center top;
 }
 .bs-services-3-card .card-title {
-  text-align: center;
+  /* text-align: center; */
+  text-align: start;
   font-size: 30px;
   color: var(--bs-clr-white-1);
   font-weight: 700;
@@ -11380,8 +11380,9 @@ Primary style
   }
 }
 .bs-services-3-card .card-disc {
-  text-align: center;
-  font-size: 20px;
+  /* text-align: center; */
+  text-align: start;
+  font-size: 22px;
   /* color: #c3c3c3; */
   color: var(--bs-clr-white-1);
   /* margin-bottom: 28px; */
@@ -11464,13 +11465,16 @@ Primary style
   }
 }
 .bs-services-4-img {
-  width: 15.7%;
-  height: 353px;
+  /* width: 15.7%;
+  height: 353px; */
+  width: 40%;
+  height: 50%;
   border-right: 15px solid #202020;
   border-top: 15px solid #202020;
   position: absolute;
   bottom: 0;
   left: 0;
+  opacity: 0.2;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .bs-services-4-img {
@@ -14457,7 +14461,8 @@ Primary style
   border: 2px solid #000;
   /* background-color: #eef4eb; */
   background-color: #eee;
-  padding: 80px 90px;
+  /* padding: 80px 90px; */
+  padding: 40px 40px;
   margin-top: -2px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -14498,7 +14503,7 @@ Primary style
   transform-origin: center center;
 }
 .bs-blog-1-item .content {
-  max-width: 530px;
+  max-width: 715px;
 }
 .bs-blog-1-item .item-date {
   border-radius: 50%;
@@ -14572,7 +14577,8 @@ Primary style
   margin-bottom: 11px;
 }
 .bs-blog-1-item .item-disc {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 24px;
   margin-bottom: 23px;
 }
 .bs-blog-1-item:hover img {
@@ -14582,7 +14588,8 @@ Primary style
   direction: rtl;
 }
 .bs-blog-1-item:nth-child(even) .content {
-  max-width: 530px;
+  /* max-width: 530px;- */
+  max-width: 715px;
   text-align: left;
   margin-right: auto;
   direction: ltr;
@@ -15146,7 +15153,8 @@ Primary style
   margin-bottom: 25px;
 }
 .bs-office-1-card .title {
-  font-size: 24px;
+  /* font-size: 24px; */
+  font-size: 30px;
   font-weight: 700;
   font-family: var(--bs-font-2);
   margin-bottom: 7px;
@@ -15679,7 +15687,13 @@ Primary style
   margin-bottom: 24px;
   font-weight: 600;
 }
-.bs-services-details-content p, .bs-services-details-content span, .bs-services-details-content li {
+.bs-services-details-content p {
+  font-family: var(--bs-font-pr-1);
+  color: #444444;
+  font-size: 24px;
+  line-height: 28px;
+}
+.bs-services-details-content span, .bs-services-details-content li {
   font-family: var(--bs-font-pr-1);
   color: #444444;
   font-size: 22px;
@@ -15887,7 +15901,8 @@ Primary style
   margin-bottom: 12px;
 }
 .bs-accordion:is(.has-details-page) .bs-accordion-item .item-title {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 27px;
   font-weight: 500;
   gap: 12px;
   padding: 25px 32px;
@@ -15895,6 +15910,7 @@ Primary style
 .bs-accordion:is(.has-details-page) .bs-accordion-item .item-title .dot {
   width: 8px;
   height: 8px;
+  aspect-ratio: 1;
   border-radius: 50%;
   background-color: #444444;
   transition: 0.4s var(--bs-cube-1);
@@ -15904,10 +15920,10 @@ Primary style
   opacity: 1;
 }
 .bs-accordion:is(.has-details-page) .bs-accordion-item .item-body p {
-  padding-left: 53px;
+  padding: 0px 10px 20px 50px;
   font-weight: 400;
-  padding-bottom: 25px;
-  line-height: 26px;
+  /* padding-bottom: 25px; */
+  /* line-height: 26px; */
 }
 
 /* 
@@ -16668,7 +16684,9 @@ Primary style
   font-weight: 400;
   padding-bottom: 30px;
 }
-
+.bs-accordion:is(.has-details-page) .bs-accordion-item:is(.active) .show .bs-p-1 {
+  font-size: 24px;
+}
 /* 
     career-offer-end
 */
@@ -17133,15 +17151,15 @@ Primary style
   border-radius: 5px;
 }
 .bs-sidebar-blog-single .item-meta {
-  font-size: 14px;
+  font-size: 16px;
   display: flex;
   flex-wrap: wrap;
   gap: 2px 15px;
   margin-bottom: 10px;
 }
 .bs-sidebar-blog-single .title {
-  /* font-size: 20px; */
-  font-size: 16px;
+  font-size: 20px;
+  /* font-size: 16px; */
   line-height: 25px;
   transition: 0.4s var(--bs-cube-2);
 }
@@ -17389,7 +17407,13 @@ Primary style
   margin-bottom: 24px;
   font-weight: 600;
 }
-.bs-blog-details-content p, .bs-blog-details-content span, .bs-blog-details-content li {
+.bs-blog-details-content p {
+  font-family: var(--bs-font-pr-1);
+  color: #444444;
+  font-size: 24px;
+  line-height: 28px;
+}
+.bs-blog-details-content span, .bs-blog-details-content li {
   font-family: var(--bs-font-pr-1);
   color: #444444;
   font-size: 18px;
@@ -17419,7 +17443,8 @@ Primary style
   }
 }
 .bs-blog-details-content h2 {
-  font-size: 32px;
+  /* font-size: 32px; */
+  font-size: 35px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .bs-blog-details-content h2 {
@@ -18489,7 +18514,7 @@ Primary style
   }
 }
 .bs-footer-4-contact .link-title {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -18559,7 +18584,8 @@ Primary style
   }
 }
 .bs-footer-4-copyright-text {
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 20px;
   color: rgba(255, 255, 255, 0.64);
 }
 .bs-footer-4-copyright-text a {

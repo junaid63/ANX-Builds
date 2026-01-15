@@ -80,7 +80,7 @@ ANX Builds || {{ implode(' ', array_slice($words, 0, 3)) }}
                             <div class="bs-blog-page-sidebar-widget">
                                 <h5 class="widget-title bs-h-4">Share Page</h5>
 
-                                <div class="bs-sidebar-blog">
+                                <div class="bs-sidebar-blog share-icons">
                                     <div class="tags-list">
                                         <!-- WhatsApp -->
                                         <a href="https://api.whatsapp.com/send?text=https%3A%2F%2Ftest-v3.quay-space.co.uk%2Fblogs%2Freasons-to-choose-quay-space-for-your-office-or-workspace-in-the-uk" target="_blank">

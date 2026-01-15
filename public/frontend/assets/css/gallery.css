@@ -102,9 +102,8 @@
 @media (max-width: 900px) {
 
   .masonry-container {
-
-    column-count: 3;
-
+    column-count: 2;
+    padding: 50px 50px;
   }
 
 }
@@ -122,9 +121,11 @@
 @media (max-width: 400px) {
 
   .masonry-container {
-
-    column-count: 1;
-
+    column-count: 2;
+    padding: 30px 15px;
+  }
+  .masonry-container:hover .gallery-box {
+    filter: blur(0px);
   }
 
 }

@@ -13,7 +13,7 @@ ANX Builds || Contact Us
 @section('content')
 
 <!-- breadcrumb-start -->
-<section class="breadcrumb-area wa-p-relative" >
+<section class="breadcrumb-area wa-p-relative">
     <div class="breadcrumb-bg-img wa-fix wa-img-cover">
         <img class="wa-parallax-img" src="{{url('frontend/assets/img/breadcrumb/breadcrumb-contact.png')}}" alt="">
     </div>
@@ -37,7 +37,7 @@ ANX Builds || Contact Us
 <!-- breadcrumb-end -->
 
 <!-- core-feature-start -->
-<section class="bs-core-feature-6-area  pt-125 ">
+<section class="bs-core-feature-6-area  py-lg-5 py-4">
     <div class="container bs-container-1">
         <div class="bs-core-feature-4-line wa-scaleXInUp"></div>
         <div class="bs-core-feature-6-wrap bg-black" data-background="{{url('frontend/assets/img/services/s4-bg.png')}}">
@@ -98,7 +98,7 @@ ANX Builds || Contact Us
 <!-- core-feature-end -->
 
 <!-- contact-form-start -->
-<section class="bs-contact-6-area pt-130 pb-160">
+<section class="bs-contact-6-area py-lg-5 py-4">
     <div class="container bs-container-1">
         <div class="bs-contact-6-wrap">
 
@@ -109,14 +109,14 @@ ANX Builds || Contact Us
             <div class="bs-contact-6-content">
 
                 <!-- section-title -->
-                <div class="bs-about-1-sec-title mb-30">
+                <div class="bs-about-1-sec-title mb-lg-5 mb-3">
                     <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
                         <span class="icon">
                             <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="">
                         </span>
                         Contact us
                     </h6>
-                    <h2 class="bs-sec-title-1  wa-split-right wa-capitalize" data-cursor="-opaque">
+                    <h2 class="bs-sec-title-1  wa-split-right wa-capitalize mt-lg-3 mb-3" data-cursor="-opaque">
                         Get In Touch
                     </h2>
                     <p class="bs-p-4 item-disc mt-md-3 mb-3">

@@ -96,7 +96,7 @@ class FrontendController extends Controller
     {
         $view = 'frontend.blogdetail';
         $blogDetail = Blog::where('slug', $slug)->first();
-        $popularblogs = Blog::where('id','!=', $blogDetail->id)->inRandomOrder()->take(4)->get();
+        $popularblogs = Blog::where('status',1)->where('id','!=', $blogDetail->id)->inRandomOrder()->take(4)->get();
         $blogs = $this->getBlogs();
         $services = $this->getServices();
         return view($view, compact('blogs','blogDetail','popularblogs','services'));

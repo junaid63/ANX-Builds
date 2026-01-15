@@ -1,4 +1,4 @@
- <section id="dia-contactus-banner" class="contactus-banner-main dia-banner-section py-lg-5 py-3">
+ <section id="dia-contactus-banner" class="contactus-banner-main dia-banner-section py-lg-5 py-md-5 py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

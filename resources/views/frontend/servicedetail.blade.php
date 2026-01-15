@@ -13,7 +13,7 @@ ANX Builds || Service Detail
 @section('content')
 
     <!-- breadcrumb-start -->
-    <section class="breadcrumb-area has-2 wa-p-relative" >
+    <section class="breadcrumb-area has-2 wa-p-relative overflow-hidden" >
 
 
         <div class="container bs-container-1">
@@ -22,7 +22,7 @@ ANX Builds || Service Detail
                     <i class="fa-solid fa-angle-left"></i>
                     Back to Services Page
                 </a> --}}
-                <h1 class="breadcrumb-title wa-split-right wa-capitalize" data-split-delay="1.1s" >{{ ucwords($serviceDetails->title) }}</h1>
+                <h1 class="breadcrumb-title service-detail-title wa-split-right wa-capitalize" data-split-delay="1.1s" >{{ ucwords($serviceDetails->title) }}</h1>
 
                 <div class="breadcrumb-bg-shape">
                     <img src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-shape.png') }}" alt="">
