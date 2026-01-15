@@ -20,8 +20,8 @@
         <link rel="stylesheet" href="{{url('frontend/assets/css/nice-select.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/animate.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/magnific-popup.css')}}">
-        <link rel="stylesheet" href="{{url('frontend/assets/css/main.css')}}">
-        <link rel="stylesheet" href="{{url('frontend/assets/css/custom.css')}}">
+        <link rel="stylesheet" href="{{url('frontend/assets/css/main.css')}}?ref={{ setting('site.css') }}">
+        <link rel="stylesheet" href="{{url('frontend/assets/css/custom.css')}}?ref={{ setting('site.css') }}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/gallery.css')}}">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"
             />
@@ -171,7 +171,7 @@
         <script src="{{url('frontend/assets/js/jquery-3.7.1.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/bootstrap.bundle.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/swiper-bundle.min.js')}}"></script>
-        {{-- <script src="{{url('frontend/assets/js/wow.js')}}"></script> --}}
+        <script src="{{url('frontend/assets/js/wow.js')}}"></script>
         <script src="{{url('frontend/assets/js/text-type.js')}}"></script>
         <script src="{{url('frontend/assets/js/matter.js')}}"></script>
         <script src="{{url('frontend/assets/js/throwable.js')}}"></script>
@@ -179,14 +179,14 @@
         <script src="{{url('frontend/assets/js/nice-select.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/marquee.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/magnific-popup.min.js')}}"></script>
-        {{-- <script src="{{url('frontend/assets/js/SplitText.min.js')}}"></script> --}}
-        {{-- <script src="{{url('frontend/assets/js/gsap.min.js')}}"></script> --}}
+        <script src="{{url('frontend/assets/js/SplitText.min.js')}}"></script>
+        <script src="{{url('frontend/assets/js/gsap.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/CustomEase.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/counterup.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/waypoints.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/lenis.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/ScrollTrigger.min.js')}}"></script>
-        <script src="{{url('frontend/assets/js/main.js')}}"></script>
+        <script src="{{url('frontend/assets/js/main.js')}}?ref={{ setting('site.css') }}"></script>
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
         @yield('js')
     </body>
