@@ -11537,7 +11537,7 @@ Primary style
   background: #fff;
   position: relative;
   z-index: 1;
-  padding: 68px 50px;
+  padding: 40px 40px;
   width: 108px;
   transition: 1s var(--bs-cube-2);
 }
