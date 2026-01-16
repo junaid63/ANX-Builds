@@ -2,37 +2,37 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="contactus-images-banner" data-background="{{url('frontend/assets/img/services/s4-bg.png')}}">
+                    <div class="contactus-images-banner" data-background="{{url('frontend/assets/img/services/s4-b0g.png')}}">
                         <div class="images">
                             <div class="first">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/1.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/01.png') }}" alt="">
                             </div>
                             <div class="second">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/2.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/02.png') }}" alt="">
                             </div>
                             <div class="third">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/3.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/03.png') }}" alt="">
                             </div>
                             <div class="fourth">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/4.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/04.png') }}" alt="">
                             </div>
                             <div class="center-top">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/5.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/05.png') }}" alt="">
                             </div>
                             <div class="six">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/6.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/06.png') }}" alt="">
                             </div>
                             <div class="seven">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/7.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/07.png') }}" alt="">
                             </div>
                             <div class="eight">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/8.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/08.png') }}" alt="">
                             </div>
                             <div class="nine">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/9.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/09.png') }}" alt="">
                             </div>
                             <div class="ten">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/10.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/010.png') }}" alt="">
                             </div>
                         </div>
                         <div class="contactus-content">

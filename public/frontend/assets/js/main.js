@@ -1219,29 +1219,40 @@ team3card.from(".bs-team-3-item:nth-child(2)", { scale: .9},"<");
 if (window.matchMedia("(min-width: 992px)").matches) {
 
 
-	gsap.to(".bs-choose-4-content-pin", {
-		scrollTrigger: {
-			trigger: ".bs-choose-4-content-height",
-			start: "top top",
-			end: "bottom bottom",
-			pin: ".bs-choose-4-content-pin",
-			pinSpacing: true,
-			markers: false,
-		},
-	});
+	// gsap.to(".bs-choose-4-content-pin", {
+	// 	scrollTrigger: {
+	// 		trigger: ".bs-choose-4-content-height",
+	// 		start: "top top",
+	// 		end: "bottom bottom",
+	// 		pin: ".bs-choose-4-content-pin",
+	// 		pinSpacing: true,
+	// 		markers: false,
+	// 	},
+	// });
 
 
-	var ch4content= gsap.timeline({
+	// var ch4content= gsap.timeline({
+	// 	scrollTrigger: {
+	// 		trigger: ".bs-choose-4-content-height",
+	// 		start: "top 0%",
+	// 		toggleActions: "play none none reverse",
+	// 		markers: false,
+	// 		scrub: true,
+	// 	},
+
+	// })
+	// ch4content.to(".bs-choose-4-content", { scale: 0, xPercent: -50 });
+
+	var ch4item= gsap.timeline({
 		scrollTrigger: {
-			trigger: ".bs-choose-4-content-height",
-			start: "top 0%",
+			trigger: ".bs-choose-4-wrap",
+			start: "top 80%",
 			toggleActions: "play none none reverse",
 			markers: false,
-			scrub: true,
 		},
 
 	})
-	ch4content.to(".bs-choose-4-content", { scale: 0, xPercent: -50 });
+	ch4item.from(".bs-choose-4-content", { scale: 0, xPercent: -50 });
 
 	var ch4item= gsap.timeline({
 		scrollTrigger: {
@@ -1252,7 +1263,8 @@ if (window.matchMedia("(min-width: 992px)").matches) {
 		},
 
 	})
-	ch4item.from(".bs-choose-4-feature .item-margin", { xPercent: -200, rotation: -200, stagger: -0.1, duration: 1.5, 	ease: "back.out(2)",  });
+	ch4item.from(".bs-choose-4-feature .item-margin", { scale: 0, xPercent: 50 });
+	// ch4item.from(".bs-choose-4-feature .item-margin", { xPercent: -200, rotation: -200, stagger: -0.1, duration: 1.5, 	ease: "back.out(2)",  });
 
 }
 

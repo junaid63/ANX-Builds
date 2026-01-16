@@ -207,7 +207,7 @@ ANX Builds || Our Process
                             While we’re waiting for your Certificate of Lawfulness to be issued, the work doesn’t stop.
                         </p>
                         <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
-                            During this period, we work closely with you to finalise your design and specification package, locking in every detail well before your begins - from plug socket and lighting positions, to window and door locations, flooring finishes, and fixtures, as well are you build package which includes the below
+                            During this period, we work closely with you to finalise your design and specification package, locking in every detail well before your project begins - from plug socket and lighting positions, to window and door locations, flooring finishes, and fixtures, as well are you build package which includes the below
                         </p>
                         <ul class="wa-split-y">
                             <li>
@@ -256,7 +256,7 @@ ANX Builds || Our Process
                         <h4 class="bs-h-4 number">08</h4>
                         <h5 class="bs-h-4 title">Completion & Handover</h5>
                         <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
-                            Once is complete, we carry out final checks and a full walkthrough with you to make sure everything is finished exactly as agreed. We’ll then officially hand over your new garden annexe, ready to enjoy.
+                            Once your Annexe is complete, we carry out final checks and a full walkthrough with you to make sure everything is finished exactly as agreed. We’ll then officially hand over your new garden annexe, ready to enjoy.
                         </p>
                         <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
                             At handover, you’ll receive your documentation pack, including your 10-year guarantee and all other relevant paperwork for your annexe (such as certificates, manuals, and key product information where applicable).
