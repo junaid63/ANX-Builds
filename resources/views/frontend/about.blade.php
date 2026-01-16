@@ -134,6 +134,45 @@ ANX Builds || About Us
                         <img  src="{{ url('frontend/assets/img/mat-biddle/mat-biddle.jpg') }}" alt="Matt Biddle">
                     </div>
                 </div>
+                <div class="matt-biddle laptop-screen">
+                    <div class="mat-content">
+                        <div class="content">
+                            <p class="bs-p-1 disc  wa-capitalize mb-lg-3">
+                                Instead of the lightweight structures common in the industry, Matt set out to create annexes that outperform modern new-build homes in strength, warmth, and energy efficiency. Homes built with the same attention to detail you’d expect in a premium bungalow solid, quiet, durable, and comfortable all year round. 
+                            </p>
+                            <p class="bs-p-1 disc  wa-capitalize mb-lg-2">
+                                This commitment to quality can be seen in everything we do: 
+                            </p>
+                            <div class="mat-biddle-points d-flex flex-column">
+                                <ul class="ms-lg-3 ms-md-2 ms-2">
+                                    <li>
+                                        <b>Steel-frame</b> construction for unmatched strength and longevity
+                                    </li>
+                                    <li>
+                                        <b>High insulation levels</b> to keep running costs low
+                                    </li>
+                                    <li>
+                                        <b>Thoughtful layouts</b> designed for easy, safe daily living
+                                    </li>
+                                    <li>
+                                        <b>
+                                            Finishes that feel permanent, refined, and welcoming
+                                        </b>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mat-img">
+                            <img  src="{{ url('frontend/assets/img/mat-biddle/mat-biddle.jpg') }}" alt="Matt Biddle">
+                        </div>
+                    </div>
+                    <p class="bs-p-1 disc wa-capitalize mb-lg-3">
+                        Families choose The Granny Annexe Company because they want more than an extra building in the garden. They want a home built with care. A company they can trust. 
+                    </p>
+                    <p class="bs-p-1 disc wa-capitalize mb-lg-2 mb-5">
+                        Just as important is the experience. Matt believes creating an annexe should be enjoyable, not stressful. That’s why we handle everything from planning and design to construction and handover keeping you informed at every stage.
+                    </p>
+                </div>
                 <div class="matt-biddle d-md-block d-lg-none d-none">
                     <div class="mat-content">
                         <div class="mat-biddle-points">

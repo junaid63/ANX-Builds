@@ -447,7 +447,7 @@ ANX Builds || Home
                     {{-- <h4 class="bs-h-1 bs-video-4-text-item wa-split-text">The Granny Annexe Company</h4> --}}
                     <div class="banner-logo">
                         {{-- <img src="{{ url('frontend/assets/img/logo/banner-logo.png') }}" alt="Company Logo"> --}}
-                        <img src="{{ url('storage') }}/{{ setting('site.transperent-logo') }}" alt="Company Logo">
+                        <img src="{{ url('storage') }}/{{ setting('site.logo') }}" alt="Company Logo">
                     </div>
                 {{-- </div> --}}
             </div>
