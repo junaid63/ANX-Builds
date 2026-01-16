@@ -5632,7 +5632,7 @@ Primary style
   max-width: 300px;
   width: 100%;
   /* padding: 20px; */
-  padding: 10px;
+  padding: 0px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .bs-header-4-logo {
@@ -10804,8 +10804,20 @@ Primary style
   display: grid;
   /* grid-template-columns: 1.33fr 1fr; */
   grid-template-columns: 4.33fr 1fr;
+  /* grid-template-columns: 1fr 4.33fr; */
   align-items: start;
 }
+.bs-choose-4-wrap.custom-para-points {
+  grid-template-columns: 1fr;
+}
+.bs-choose-4-wrap.custom-para-points {
+  width: 50%;
+}
+.bs-choose-4-feature.custom-title-para {
+  width: 50%;
+  margin-bottom: 210px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .bs-choose-4-wrap {
     grid-template-columns: 1fr;
@@ -10842,6 +10854,7 @@ Primary style
   margin-bottom: 47px;
   /* max-width: 565px; */
   max-width: 1000px;
+  padding-left: 10px;
 }
 .bs-choose-4-progress {
   /* max-width: 565px; */
@@ -10908,8 +10921,9 @@ Primary style
 .bs-choose-4-feature {
   display: flex;
   flex-direction: column;
-  margin-top: -300px;
-  justify-content: space-between;
+  /* margin-top: -300px; */
+  margin-top: 0px;
+  justify-content: start;
   gap: 10px;
 }
 @media only screen and (min-width: 1600px) and (max-width: 1799px), only screen and (min-width: 1400px) and (max-width: 1599px) {
@@ -11523,7 +11537,7 @@ Primary style
   background: #fff;
   position: relative;
   z-index: 1;
-  padding: 68px 50px;
+  padding: 40px 40px;
   width: 108px;
   transition: 1s var(--bs-cube-2);
 }

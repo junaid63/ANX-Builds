@@ -84,7 +84,7 @@
                         </ul>
                     </nav>
 
-                    <div class="wa-offcanvas-gallery">
+                    {{-- <div class="wa-offcanvas-gallery">
                         <h6 class="wa-offcanvas-gallery-title bs-h-1 ">Stay Inspired with Instagram</h6>
 
                         <div class="wa-offcanvas-gallery-grid">
@@ -101,7 +101,7 @@
                                 <img src="{{url('frontend/assets/img/gallery/g2-img-4.png')}}" alt="">
                             </a>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <!-- social -->
                     <div class="wa-offcanvas-social">

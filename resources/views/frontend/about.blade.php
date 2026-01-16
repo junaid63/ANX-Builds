@@ -37,7 +37,7 @@ ANX Builds || About Us
     <!-- breadcrumb-end -->
 
     <!-- about-start -->
-    <section class="bs-about-1-area py-lg-5 py-4">
+    <section class="bs-about-1-area py-lg-5 py-4 overflow-hidden">
         <div class="container bs-container-1">
 
             <!-- section-title -->
@@ -97,6 +97,110 @@ ANX Builds || About Us
                 <p class="bs-p-1 disc wa-split-y wa-capitalize">
                     The Granny Annexe Company designs, builds and installs high-quality garden annexes across the UK, created to help families support older loved ones with comfort, privacy and independence close to home. Founded by director Matt Biddle after years building annexes nationwide, our company was built around one simple principle: an annexe should feel like a proper home, not a temporary structure. 
                 </p>
+                <div class="matt-biddle">
+                    <div class="mat-content">
+                        <p class="bs-p-1 disc  wa-capitalize mb-lg-3">
+                            Instead of the lightweight structures common in the industry, Matt set out to create annexes that outperform modern new-build homes in strength, warmth, and energy efficiency. Homes built with the same attention to detail you’d expect in a premium bungalow solid, quiet, durable, and comfortable all year round. 
+                        </p>
+                        <p class="bs-p-1 disc  wa-capitalize mb-lg-2">
+                            This commitment to quality can be seen in everything we do: 
+                        </p>
+                        <div class="mat-biddle-points d-md-none d-lg-block d-block">
+                            <ul class="ms-lg-3 ms-md-2 ms-2">
+                                <li>
+                                    <b>Steel-frame</b> construction for unmatched strength and longevity
+                                </li>
+                                <li>
+                                    <b>High insulation levels</b> to keep running costs low
+                                </li>
+                                <li>
+                                    <b>Thoughtful layouts</b> designed for easy, safe daily living
+                                </li>
+                                <li>
+                                    <b>
+                                        Finishes that feel permanent, refined, and welcoming
+                                    </b>
+                                </li>
+                            </ul>
+                            <p class="bs-p-1 disc wa-capitalize mb-lg-3">
+                                Families choose The Granny Annexe Company because they want more than an extra building in the garden. They want a home built with care. A company they can trust. 
+                            </p>
+                            <p class="bs-p-1 disc wa-capitalize mb-lg-2 mb-5">
+                                Just as important is the experience. Matt believes creating an annexe should be enjoyable, not stressful. That’s why we handle everything from planning and design to construction and handover keeping you informed at every stage.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mat-img">
+                        <img  src="{{ url('frontend/assets/img/mat-biddle/mat-biddle.jpg') }}" alt="Matt Biddle">
+                    </div>
+                </div>
+                <div class="matt-biddle laptop-screen">
+                    <div class="mat-content">
+                        <div class="content">
+                            <p class="bs-p-1 disc  wa-capitalize mb-lg-3">
+                                Instead of the lightweight structures common in the industry, Matt set out to create annexes that outperform modern new-build homes in strength, warmth, and energy efficiency. Homes built with the same attention to detail you’d expect in a premium bungalow solid, quiet, durable, and comfortable all year round. 
+                            </p>
+                            <p class="bs-p-1 disc  wa-capitalize mb-lg-2">
+                                This commitment to quality can be seen in everything we do: 
+                            </p>
+                            <div class="mat-biddle-points d-flex flex-column">
+                                <ul class="ms-lg-3 ms-md-2 ms-2">
+                                    <li>
+                                        <b>Steel-frame</b> construction for unmatched strength and longevity
+                                    </li>
+                                    <li>
+                                        <b>High insulation levels</b> to keep running costs low
+                                    </li>
+                                    <li>
+                                        <b>Thoughtful layouts</b> designed for easy, safe daily living
+                                    </li>
+                                    <li>
+                                        <b>
+                                            Finishes that feel permanent, refined, and welcoming
+                                        </b>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mat-img">
+                            <img  src="{{ url('frontend/assets/img/mat-biddle/mat-biddle.jpg') }}" alt="Matt Biddle">
+                        </div>
+                    </div>
+                    <p class="bs-p-1 disc wa-capitalize mb-lg-3">
+                        Families choose The Granny Annexe Company because they want more than an extra building in the garden. They want a home built with care. A company they can trust. 
+                    </p>
+                    <p class="bs-p-1 disc wa-capitalize mb-lg-2 mb-5">
+                        Just as important is the experience. Matt believes creating an annexe should be enjoyable, not stressful. That’s why we handle everything from planning and design to construction and handover keeping you informed at every stage.
+                    </p>
+                </div>
+                <div class="matt-biddle d-md-block d-lg-none d-none">
+                    <div class="mat-content">
+                        <div class="mat-biddle-points">
+                            <ul class="ms-lg-3 ms-md-2 ms-2">
+                                <li>
+                                    <b>Steel-frame</b> construction for unmatched strength and longevity
+                                </li>
+                                <li>
+                                    <b>High insulation levels</b> to keep running costs low
+                                </li>
+                                <li>
+                                    <b>Thoughtful layouts</b> designed for easy, safe daily living
+                                </li>
+                                <li>
+                                    <b>
+                                        Finishes that feel permanent, refined, and welcoming
+                                    </b>
+                                </li>
+                            </ul>
+                            <p class="bs-p-1 disc wa-capitalize mb-lg-3">
+                                Families choose The Granny Annexe Company because they want more than an extra building in the garden. They want a home built with care. A company they can trust. 
+                            </p>
+                            <p class="bs-p-1 disc wa-capitalize mb-lg-2 mb-5">
+                                Just as important is the experience. Matt believes creating an annexe should be enjoyable, not stressful. That’s why we handle everything from planning and design to construction and handover keeping you informed at every stage.
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <p class="bs-p-1 disc wa-split-y wa-capitalize">
                     We specialise in steel-frame granny annexes for long-term strength, stability and year-round comfort. Our Annexes are engineered to go beyond the typical “cabin-style” approach, using high-performance insulation, soundproofing and triple glazing as standard, with specifications designed to outperform many modern new-build house benchmarks and exceed the UK’s residential park home standard (BS 3632). 
                 </p>
@@ -176,14 +280,14 @@ ANX Builds || About Us
      <!-- video-start -->
     <section class="bs-video-4-area">
         <div class="bs-video-4-content wa-p-relative wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{url('frontend/assets/img/video/v4-img-1.png')}}" alt="">
+            <img class="wa-parallax-img" src="{{url('frontend/assets/img/video/v4-img-1-updated.png')}}" alt="">
 
             <div class="bs-video-4-text">
                 {{-- <div class="bs-video-4-marquee-active"> --}}
                     {{-- <h4 class="bs-h-1 bs-video-4-text-item wa-split-text">The Granny Annexe Company</h4> --}}
                     <div class="banner-logo">
-                        <img src="{{ url('frontend/assets/img/logo/banner-logo.png') }}" alt="Company Logo">
-                        {{-- <img src="{{ url('storage') }}/{{ setting('site.logo') }}" alt="Company Logo"> --}}
+                        {{-- <img src="{{ url('frontend/assets/img/logo/banner-logo.png') }}" alt="Company Logo"> --}}
+                        <img src="{{ url('storage') }}/{{ setting('site.logo') }}" alt="Company Logo">
                     </div>
                 {{-- </div> --}}
             </div>
@@ -193,174 +297,176 @@ ANX Builds || About Us
 
     <!-- choose-start -->
     <section id="why-choose-us" class="bs-choose-4-area wa-bg-default wa-fix pb-lg-5 pb-3 ">
-        <div class="container bs-container-2">
-            <div class="bs-choose-4-wrap">
-
-                <div class="bs-choose-4-content-height">
-                    <!-- left-content -->
-                    <div class="bs-choose-4-content-pin">
-                        <div class="bs-choose-4-content py-lg-5 py-md-3 py-5">
-
-                            <h5 class="bs-subtitle-4 bs-choose-4-subtitle">
-                                <span class="text">WHY CHOOSE US</span>
-                                <span class="icon">
-                                    <img src="{{url('frontend/assets/img/illus/subtitle-4-icon-2.svg')}}" alt="">
+        {{-- <div class="container bs-container-2"> --}}
+        <div class="container-fuild mx-lg-5 mx-md-4 mx-3">
+            <div class="d-flex flex-lg-row flex-column justify-content-between align-items-center gap-lg-3">
+                <div class="bs-choose-4-wrap custom-para-points">
+    
+                    <div class="bs-choose-4-content-height">
+                        <!-- left-content -->
+                        <div class="bs-choose-4-content-pin">
+                            <div class="bs-choose-4-content py-lg-5 py-md-3 py-5">
+    
+                                <h5 class="bs-subtitle-4 bs-choose-4-subtitle">
+                                    <span class="text">WHY CHOOSE US</span>
+                                    <span class="icon">
+                                        <img src="{{url('frontend/assets/img/illus/subtitle-4-icon-2.svg')}}" alt="">
+                                    </span>
+                                </h5>
+    
+                                <h2 class="bs-sec-title-1 title wa-split-right wa-capitalize" data-cursor="-opaque">
+                                    Why choose the Granny Annexe Company For Your Project 
+                                </h2>
+    
+                                <p class="bs-p-4 disc wa-fadeInUp mb-lg-3 mb-md-2 mb-2">
+                                    When comparing annexes, the differences in build quality can be significant. Many look similar from the outside, but the materials, insulation, and construction methods used can dramatically affect comfort, running costs, and how long your annexe will last. 
+                                </p>
+                                <p class="bs-p-4 disc wa-fadeInUp">
+                                    At The Granny Annexe Company, we believe a garden annexe should be built to the same standard as a high-quality home. That’s why we go far beyond the basic requirements used by many other Companies. 
+                                </p>
+    
+                                <span class="custom-choose-span bs-h-4 item-title title mb-lg-3 mb-md-2 mb-2">
+                                    Built To Exceed New-Build House Insulation Standards
                                 </span>
+                                <p class="bs-p-4 disc wa-fadeInUp mb-lg-5 mb-0">
+                                    In the UK, new-build houses must meet strict Building Regulations for thermal performance (known as U-values). These set maximum limits for how much heat can escape through walls, floors, roofs, windows, and doors. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+    
+                <div class="bs-choose-4-feature custom-title-para">
+                   
+                    <div class="item-margin">
+                        <div class="bs-choose-4-feature-single">
+                            <h5 class="custom-choose-second-span bs-choose-4-subtitle mb-3">
+                                Typical Building Regulation requirements:
                             </h5>
-
-                            <h2 class="bs-sec-title-1 title wa-split-right wa-capitalize" data-cursor="-opaque">
-                                Why choose the Granny Annexe Company For Your Project 
-                            </h2>
-
-                            <p class="bs-p-4 disc wa-fadeInUp mb-lg-3 mb-md-2 mb-2">
-                                When comparing annexes, the differences in build quality can be significant. Many look similar from the outside, but the materials, insulation, and construction methods used can dramatically affect comfort, running costs, and how long your annexe will last. 
+                            <div class="bs-choose-4-progress ms-lg-3 ms-md-3 ms-0">
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-start gap-lg-3 gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span ><strong>Walls:</strong> around 0.26 W/m2K</span>
+                                    </h5>
+                                </div>
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-start gap-lg-3 gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span ><strong>Roofs:</strong> around 0.16 W/m2K</span>
+                                    </h5>
+                                </div>
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-start gap-lg-3 gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span ><strong>Floors:</strong> around 0.18 W/m2K</span>
+                                    </h5>
+                                </div>
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-start gap-lg-3 gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span>
+                                            <strong>Windows:</strong> around 1.4 W/m2K
+                                        </span>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-margin">
+                        <div class="bs-choose-4-feature-single">
+                            <h5 class="custom-choose-second-span bs-choose-4-subtitle mb-3">
+                                Our annexes are engineered to outperform these figures:
+                            </h5>
+                            <div class="bs-choose-4-progress ms-lg-3 ms-md-3 ms-0">
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-start gap-lg-3 gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span><strong>Walls:</strong> approx. 0.23 W/m2K</span>
+                                    </h5>
+                                </div>
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-start gap-lg-3 gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span ><strong>Roofs:</strong> approx. 0.14 W/m2K</span>
+                                    </h5>
+                                </div>
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-start gap-lg-3 gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span ><strong>Floors:</strong> approx. 0.15 W/m2K</span>
+                                    </h5>
+                                </div>
+                                <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-start gap-lg-3 gap-2">
+                                    <i class="fa-solid fa-check"></i>
+                                    <h5 class="bs-p-1 progress-title mb-0">
+                                        <span>
+                                            <strong>Triple-glazed windows:</strong> approx. 0.9–1.0 W/m2K
+                                        </span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <p class="bs-p-4 disc wa-fadeInUp text-start border-top pt-lg-4 pt-md-3 pt-2">
+                                This means our homes keep heat in more effectively than most newly built houses resulting in a warmer, quieter, more efficient annexe.
                             </p>
-                            <p class="bs-p-4 disc wa-fadeInUp">
-                                At The Granny Annexe Company, we believe a garden annexe should be built to the same standard as a high-quality home. That’s why we go far beyond the basic requirements used by many other Companies. 
-                            </p>s
-
-                            <span class="custom-choose-span bs-h-4 item-title title mb-lg-3 mb-md-2 mb-2">
-                                Built To Exceed New-Build House Insulation Standards
-                            </span>
-                            <p class="bs-p-4 disc wa-fadeInUp mb-lg-5 mb-0">
-                                In the UK, new-build houses must meet strict Building Regulations for thermal performance (known as U-values). These set maximum limits for how much heat can escape through walls, floors, roofs, windows, and doors. 
+                        </div>
+                    </div>  
+    
+                    {{-- <div class="item-margin">
+                        <div class="bs-choose-4-feature-single">
+                            <div class="icon">
+                                <i class="flaticon-minimalist flaticon"></i>
+                            </div>
+                            <h4 class="bs-h-4 title">
+                                <a href="#" aria-label="name">Acoustic Rockwool</a>
+                            </h4>
+                            <p class="bs-p-4 disc">
+                                Acoustic Rockwool in all walls and floors for exceptional soundproofing and a calm, quiet interior.
                             </p>
                         </div>
                     </div>
+                    <div class="item-margin">
+                        <div class="bs-choose-4-feature-single">
+                            <div class="icon">
+                                <i class="flaticon-blueprint flaticon"></i>
+                            </div>
+                            <h4 class="bs-h-4 title">
+                                <a href="#" aria-label="name">High-performance PIR</a>
+                            </h4>
+                            <p class="bs-p-4 disc">
+                                High-performance PIR insulation for excellent thermal efficiency.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-margin">
+                        <div class="bs-choose-4-feature-single">
+                            <div class="icon">
+                                <i class="flaticon-property-insurance flaticon"></i>
+                            </div>
+                            <h4 class="bs-h-4 title">
+                                <a href="#" aria-label="name">Triple-glazed UPVC windows & doors</a>
+                            </h4>
+                            <p class="bs-p-4 disc">
+                                Triple-glazed UPVC windows & doors as standard - something rarely offered as standard even in many new-build house houses. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-margin">
+                        <div class="bs-choose-4-feature-single">
+                            <div class="icon">
+                                <i class="flaticon-goodwill-1 flaticon"></i>
+                            </div>
+                            <h4 class="bs-h-4 title">
+                                <a href="#" aria-label="name">LONG-TERM COMFORT, NOT SHORT-TERM SAVINGS</a>
+                            </h4>
+                            <p class="bs-p-4 disc">
+                                Some annexes on the market are built using lightweight materials, limited insulation, or single/double glazing. These may look appealing at first but can feel colder in winter, hotter in summer, and less solid over time.
+                            </p>
+                        </div>
+                    </div> --}}
                 </div>
-               
             </div>
-
-            <div class="bs-choose-4-feature">
-               
-                <div class="item-margin">
-                    <div class="bs-choose-4-feature-single">
-                        <h5 class="custom-choose-second-span bs-choose-4-subtitle mb-3">
-                            Typical Building Regulation requirements:
-                        </h5>
-                        <div class="bs-choose-4-progress ms-lg-5 ms-md-3 ms-0">
-                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
-                                <i class="fa-solid fa-check"></i>
-                                <h5 class="bs-p-1 progress-title mb-0">
-                                    <span ><strong>Walls:</strong> around 0.26 W/m2K</span>
-                                </h5>
-                            </div>
-                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
-                                <i class="fa-solid fa-check"></i>
-                                <h5 class="bs-p-1 progress-title mb-0">
-                                    <span ><strong>Roofs:</strong> around 0.16 W/m2K</span>
-                                </h5>
-                            </div>
-                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
-                                <i class="fa-solid fa-check"></i>
-                                <h5 class="bs-p-1 progress-title mb-0">
-                                    <span ><strong>Floors:</strong> around 0.18 W/m2K</span>
-                                </h5>
-                            </div>
-                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
-                                <i class="fa-solid fa-check"></i>
-                                <h5 class="bs-p-1 progress-title mb-0">
-                                    <span>
-                                        <strong>Windows:</strong> around 1.4 W/m2K
-                                    </span>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-margin">
-                    <div class="bs-choose-4-feature-single">
-                        <h5 class="custom-choose-second-span bs-choose-4-subtitle mb-3">
-                            Our annexes are engineered to outperform these figures:
-                        </h5>
-                        <div class="bs-choose-4-progress ms-lg-5 ms-md-3 ms-0 mb-lg-5 mb-3">
-                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
-                                <i class="fa-solid fa-check"></i>
-                                <h5 class="bs-p-1 progress-title mb-0">
-                                    <span><strong>Walls:</strong> approx. 0.23 W/m2K</span>
-                                </h5>
-                            </div>
-                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
-                                <i class="fa-solid fa-check"></i>
-                                <h5 class="bs-p-1 progress-title mb-0">
-                                    <span ><strong>Roofs:</strong> approx. 0.14 W/m2K</span>
-                                </h5>
-                            </div>
-                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
-                                <i class="fa-solid fa-check"></i>
-                                <h5 class="bs-p-1 progress-title mb-0">
-                                    <span ><strong>Floors:</strong> approx. 0.15 W/m2K</span>
-                                </h5>
-                            </div>
-                            <div class="bs-choose-4-progress-item pb-0 d-flex align-items-start align-items-lg-center gap-2">
-                                <i class="fa-solid fa-check"></i>
-                                <h5 class="bs-p-1 progress-title mb-0">
-                                    <span>
-                                        <strong>Triple-glazed windows:</strong> approx. 0.9–1.0 W/m2K
-                                    </span>
-                                </h5>
-                            </div>
-                        </div>
-                        <p class="bs-p-4 disc wa-fadeInUp border-top pt-lg-4 pt-md-3 pt-2">
-                            This means our homes keep heat in more effectively than most newly built houses resulting in a warmer, quieter, more efficient annexe.
-                        </p>
-                    </div>
-                </div>  
-
-                {{-- <div class="item-margin">
-                    <div class="bs-choose-4-feature-single">
-                        <div class="icon">
-                            <i class="flaticon-minimalist flaticon"></i>
-                        </div>
-                        <h4 class="bs-h-4 title">
-                            <a href="#" aria-label="name">Acoustic Rockwool</a>
-                        </h4>
-                        <p class="bs-p-4 disc">
-                            Acoustic Rockwool in all walls and floors for exceptional soundproofing and a calm, quiet interior.
-                        </p>
-                    </div>
-                </div>
-                <div class="item-margin">
-                    <div class="bs-choose-4-feature-single">
-                        <div class="icon">
-                            <i class="flaticon-blueprint flaticon"></i>
-                        </div>
-                        <h4 class="bs-h-4 title">
-                            <a href="#" aria-label="name">High-performance PIR</a>
-                        </h4>
-                        <p class="bs-p-4 disc">
-                            High-performance PIR insulation for excellent thermal efficiency.
-                        </p>
-                    </div>
-                </div>
-                <div class="item-margin">
-                    <div class="bs-choose-4-feature-single">
-                        <div class="icon">
-                            <i class="flaticon-property-insurance flaticon"></i>
-                        </div>
-                        <h4 class="bs-h-4 title">
-                            <a href="#" aria-label="name">Triple-glazed UPVC windows & doors</a>
-                        </h4>
-                        <p class="bs-p-4 disc">
-                            Triple-glazed UPVC windows & doors as standard - something rarely offered as standard even in many new-build house houses. 
-                        </p>
-                    </div>
-                </div>
-                <div class="item-margin">
-                    <div class="bs-choose-4-feature-single">
-                        <div class="icon">
-                            <i class="flaticon-goodwill-1 flaticon"></i>
-                        </div>
-                        <h4 class="bs-h-4 title">
-                            <a href="#" aria-label="name">LONG-TERM COMFORT, NOT SHORT-TERM SAVINGS</a>
-                        </h4>
-                        <p class="bs-p-4 disc">
-                            Some annexes on the market are built using lightweight materials, limited insulation, or single/double glazing. These may look appealing at first but can feel colder in winter, hotter in summer, and less solid over time.
-                        </p>
-                    </div>
-                </div> --}}
-            </div>
-
         </div>
     </section>
     <!-- choose-end -->
@@ -624,12 +730,12 @@ ANX Builds || About Us
 
     <!-- about-start -->
     <section class="bs-about-5-area why-choose-third wa-fix wa-p-relative py-lg-5 py-5">
-        <div class="bs-about-5-bg-shape">
+        {{-- <div class="bs-about-5-bg-shape">
             <img src="{{ url('frontend/assets/img/about/a5-bg-shape.png') }}" alt="">
         </div>
         <div class="bs-about-5-bg-shape-2">
             <img src="{{ url('frontend/assets/img/about/a5-bg-shape-2.png') }}" alt="">
-        </div>
+        </div> --}}
 
         <div class="container bs-container-2">
 

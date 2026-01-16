@@ -115,29 +115,13 @@ ANX Builds || Home
                         </div>
 
                         <!-- single-slide -->
-                        <div class="swiper-slide">
+                        {{-- <div class="swiper-slide">
                             <div class="bs-hero-4-slider-img-item ">
                                 <div class="main-img wa-img-cover">
                                     <img src="{{url('frontend/assets/img/hero/02.png')}}" alt="">
                                 </div>
-                                <!-- trusted -->
-                                {{-- <div class="bs-hero-4-slider-img-item-trusted">
-                                    <h5 class="bs-h-4 title">trusted</h5>
-                                    <p class="bs-p-4 ratting" >
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        4.8 view
-                                    </p>
-
-                                    <p class="bs-p-4 disc">
-                                        discover the architectural
-                                    </p>
-                                </div> --}}
                             </div>
-                        </div>
+                        </div> --}}
 
                         <!-- single-slide -->
                         <div class="swiper-slide">
@@ -204,11 +188,11 @@ ANX Builds || Home
                         </div>
 
                         <!-- single-slide -->
-                        <div class="swiper-slide">
+                        {{-- <div class="swiper-slide">
                             <div class="bs-hero-4-slider-thum-item wa-img-cover wa-fix">
                                 <img src="{{url('frontend/assets/img/hero/02.png')}}" alt="">
                             </div>
-                        </div>
+                        </div> --}}
 
                         <!-- single-slide -->
                         <div class="swiper-slide">
@@ -463,7 +447,7 @@ ANX Builds || Home
                     {{-- <h4 class="bs-h-1 bs-video-4-text-item wa-split-text">The Granny Annexe Company</h4> --}}
                     <div class="banner-logo">
                         {{-- <img src="{{ url('frontend/assets/img/logo/banner-logo.png') }}" alt="Company Logo"> --}}
-                        <img src="{{ url('storage') }}/{{ setting('site.transperent-logo') }}" alt="Company Logo">
+                        <img src="{{ url('storage') }}/{{ setting('site.logo') }}" alt="Company Logo">
                     </div>
                 {{-- </div> --}}
             </div>
@@ -692,17 +676,10 @@ ANX Builds || Home
                         </div>
                     </div>
                 </div>
-    
-
-
 
                 <!-- right-play-btn -->
                 <div class="bs-choose-4-right d-flex justify-content-center align-items-center">
-                    {{-- <a href="javascript:void(0)" aria-label="name" class="bs-play-btn-4 wa-magnetic">
-                        <span class="icon wa-magnetic-btn">
-                            <i class="flaticon-play flaticon"></i>
-                        </span>
-                    </a> --}}
+                    
                 </div>
             </div>
         </div>

@@ -1,11 +1,16 @@
 .bs-choose-4-progress-item i {
-  width: 25px;
+  position: relative;
+  top: 6px;
+  width: 6%;
   background: white;
   aspect-ratio: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #3c3d40;
+}
+.bs-choose-4-progress-item .progress-title {
+  width: 94%;
 }
 .header-logo {
   /* height:auto;
@@ -380,8 +385,8 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   width: 20%;
 }
 .bs-choose-4-area {
-  /* height: 850px; */
-  background: linear-gradient(rgb(0 0 0 / 78%), rgb(0 0 0 / 61%)), url(/frontend/assets/img/breadcrumb/why-choose-us.png);
+  height: 1015px;
+  background: linear-gradient(rgb(0 0 0 / 39%), rgb(0 0 0 / 39%)), url(/frontend/assets/img/breadcrumb/why-choose-us.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -730,7 +735,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 }
 .bs-content-page-main ul li .content-detail-points {
   font-size: 24px;
-  width: max-content;
+  width: 100%;
   background: var(--bs-clr-pr-1);
   padding: 10px;
   border-radius: 5px;
@@ -738,14 +743,15 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 }
 .bs-content-page-main ul li p {
   font-size: 22px;
-  background: white;
+  background: #eee;
   padding: 20px 20px;
   border-radius: 10px;
 }
 .bs-content-page-main ul {
   padding: 25px 30px;
-  background: var(--bs-black);
+  background: white;
   border-radius: 10px;
+  border: 2px solid #a47966;
 }
 .bs-content-page-main ul li {
   margin-bottom: 30px;
@@ -783,9 +789,104 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 .bs-about-4-content .disc a:hover {
   color: var(--bs-clr-pr-1);
 }
+.matt-biddle {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  /* background: #eee; */
+  padding: 20px 30px;
+  border-radius: 5px;
+  /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); */
+}
+.matt-biddle .mat-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  z-index: 99;
+  border-right: 10px solid white;
+  border-top: 10px solid white;
+  border-radius: 40px 0px 40px 30px;
+  /* box-shadow: 0px 0px 50px rgb(255 255 255); */
+}
+.matt-biddle .mat-content {
+  width: 60%;
+}
+.matt-biddle .mat-img {
+  position: relative;
+  width: 40%;
+  height: 600px;
+}
+.matt-biddle .mat-img::before {
+  position: absolute;
+  content: '';
+  width: 60%;  
+  height: 60%;
+  aspect-ratio: 1;
+  background: var(--bs-clr-pr-1);
+  right: -35px;
+  top: -35px;
+  border-radius: 50px 0px;
+}
+.matt-biddle .mat-img::after {
+  position: absolute;
+  content: '';
+  width: 70%;  
+  height: 70%;
+  aspect-ratio: 1;
+  background: black;
+  right: -20px;
+  top: -20px;
+  border-radius: 50px 0px;
+}
+.matt-biddle .mat-content ul li {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.matt-biddle .mat-content ul li::marker {
+  color: var(--bs-clr-pr-1);
+}
+.matt-biddle .mat-content ul {
+  padding: 20px 40px;
+  margin: 0px;
+}
+ .matt-biddle.laptop-screen {
+  display: none;
+}
 
 
 @media only screen and (max-width: 510px) {
+  .wa-offcanvas-area {
+    padding: 40px 30px;
+  }
+  .matt-biddle.laptop-screen {
+    display: none;
+  }
+  .bs-choose-4-area {
+    height: auto;
+  }
+  .bs-choose-4-feature.custom-title-para {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .bs-choose-4-wrap.custom-para-points {
+    width: 100%;
+  }
+  .matt-biddle .mat-img {
+    position: relative;
+    width: 85%;
+    height: 370px;
+  }
+  .matt-biddle .mat-content {
+    width: 100%;
+  }
+  .matt-biddle {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+  }
   .bs-header-4-main {
     margin-right: 0px;
   }
@@ -1175,7 +1276,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
     font-size: 35px;
   }
   .contactus-images-banner .images .ten {
-    top: 375px;
+    top: 400px;
     left: -4px;
   }
   .contactus-images-banner .images .nine {
@@ -1226,6 +1327,34 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 
 /* @media only screen and (max-width: 768px) { */
 @media only screen and (min-width: 510px) and (max-width: 820px) {
+  .wa-offcanvas-area {
+    padding: 40px 30px;
+  }
+  .matt-biddle.laptop-screen {
+    display: none;
+  }
+  .bs-choose-4-feature.custom-title-para {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .bs-choose-4-wrap.custom-para-points {
+    width: 100%;
+  }
+  .bs-choose-4-area {
+    height: auto;
+  }
+  .matt-biddle .mat-img {
+    width: 100%;
+    height: 360px;
+  }
+  .matt-biddle .mat-content {
+    width: 100%;
+  }
+  .matt-biddle {
+    flex-direction: row;
+    padding: 0px;
+    align-items: start;
+  }
   .bs-header-4-main {
     margin-right: 0px;
   }
@@ -1660,8 +1789,59 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .bs-content-page-main ul li .content-detail-points {
+    width: 100%;
+  }
+  .breadcrumb-area:is(.has-blog-details) {
+    padding: 120px 0px;
+  }
+  .bs-work-process-item-single .item-img.first ,
+  .bs-work-process-item-single .item-img.second ,
+  .bs-work-process-item-single .item-img.third ,
+  .bs-work-process-item-single .item-img.five {
+    height: 290px;
+  }
+  .bs-work-process-item-single .item-img.six {
+    height: 290px;
+  }
+  .matt-biddle.laptop-screen .mat-content .mat-img {
+    width: 40%;
+    height: 450px;
+  }
+  .matt-biddle.laptop-screen .mat-content .content {
+    width: 60%;
+  }
+  .matt-biddle.laptop-screen .mat-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+  }
+  .matt-biddle.laptop-screen {
+    display: block;
+  }
+  .matt-biddle {
+    display: none;
+  }
+  .matt-biddle .middle-desktop-flex {
+    display: flex;
+  }
+  .matt-biddle .middle-desktop {
+    display: none;
+  }
+  .matt-biddle {
+    align-items: start;
+  }
+  .bs-choose-4-area {
+    height: 1220px; 
+  }
+  .bs-about-4-project {
+    bottom: 50px;
+  }
   .bs-core-services-2-item .item-btn.custom-top-btn {
-    transform: translate(242%, -112%);
+    /* transform: translate(242%, -112%); */
+    transform: translate(306%, -112%);
   }
   .wa-offcanvas-top-logo {
     max-width: 250px;
@@ -1669,8 +1849,8 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 
   .bs-header-4-logo {
     max-width: 100%;
-    width: 225px;
-    height: 120px;
+    width: 270px;
+    height: 100px;
     padding: 0px;
   }
   .bs-core-feature-4-item.fadeInRight .item-icon {
