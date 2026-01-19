@@ -16980,7 +16980,8 @@ Primary style
 .bs-blog-page-sidebar {
   /* background: #EEF3EC; */
   position: sticky;
-  top: 10px;
+  /* top: 10px; */
+  top: 130px;
   display: flex;
   flex-direction: column;
   gap: 10px;
