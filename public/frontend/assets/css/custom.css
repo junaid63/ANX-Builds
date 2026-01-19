@@ -478,8 +478,8 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   width: 40%;
 }
 .pricing-include-points {
-  /* width: 60%; */
-  width: 100%;
+  /* width: 100%; */
+  width: 60%;
 }
 .bs-services-details-area .pricing-custom-matric {
   width: 75%;
@@ -857,7 +857,41 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 }
 
 
+/* Sticky clone */
+.bs-header-4-area.is-sticky-clone {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+
+    background: #fff;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+
+    transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+/* Visible state */
+.bs-header-4-area.is-sticky-clone.is-sticky {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+.bs-services-details-area .bs-services-details-content .bs-sec-title-4 {
+  font-size: 52px;
+}
+
 @media only screen and (max-width: 510px) {
+  .bs-about-4-project .title {
+    font-size: 26px;
+  }
+  .bs-core-feature-4-item .bs-p-4.second-banner-section-para {
+    font-size: 22px;
+  }
   .wa-offcanvas-area {
     padding: 40px 30px;
   }
@@ -911,6 +945,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   .bs-work-5-area.wa-bg-default .bs-work-5-card .bs-p-4.disc {
     font-size: 20px;
   }
+  .bs-services-4-item-single .title,
   .why-choose-fourth .bs-sec-title-4,
   .why-choose-third .bs-sec-title-4,
   .why-choose-second .bs-sec-title-4 {
@@ -921,14 +956,14 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
     font-size: 35px;
   }
   .bs-core-feature-4-item.fadeInRight .item-icon {
-    padding: 10px;
+    padding: 15px;
     height: 90px;
   }
   .wa-offcanvas-top-logo {
     max-width: 210px;
   }
   .bs-core-services-2-item .item-btn.custom-top-btn {
-    transform: translate(35%, -115%);
+    transform: translate(55%, -100%);
     bottom: -50px;
   }
   .bs-content-page-main .bs-about-1-content {

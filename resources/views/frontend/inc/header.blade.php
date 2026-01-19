@@ -1,5 +1,5 @@
 <!-- header-start -->
-<header class="bs-header-4-area ">
+<header class="bs-header-4-area">
     <div class="bs-header-4-row d-flex  justify-content-between">
 
         <div class="header-logo">
@@ -34,7 +34,8 @@
                     @endif
                     <li class="bs-p-4">
                         <i class="fa-regular fa-clock"></i>
-                        Mon - Fri 8:30 - 17:30, Sat - Sun off
+                        {{-- Mon - Fri 8:30 - 17:30, Sat - Sun off --}}
+                        Monday to Friday 8:30 - 17:30
                     </li>
                 </ul>
 
