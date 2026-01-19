@@ -188,6 +188,32 @@
         <script src="{{url('frontend/assets/js/ScrollTrigger.min.js')}}"></script>
         <script src="{{url('frontend/assets/js/main.js')}}?ref={{ setting('site.css') }}"></script>
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+        <script>
+$(function () {
+
+    var $originalHeader = $('.bs-header-4-area');
+
+    // Clone header for sticky
+    var $stickyHeader = $originalHeader.clone()
+        .addClass('is-sticky-clone')
+        .appendTo('body');
+
+    $(window).on('scroll', function () {
+        var scrollTop = $(this).scrollTop();
+
+        if (scrollTop > 0) {
+            $stickyHeader.addClass('is-sticky');
+        } else {
+            $stickyHeader.removeClass('is-sticky');
+        }
+    });
+
+});
+</script>
+
+
+
+
         @yield('js')
     </body>
 </html>

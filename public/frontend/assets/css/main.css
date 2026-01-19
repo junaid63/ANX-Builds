@@ -5695,6 +5695,11 @@ Primary style
 .bs-header-4-top-contact li i, .bs-header-4-top-contact a i {
   color: var(--bs-clr-pr-1);
 }
+.bs-header-4-top-contact .bs-p-4 ,
+.bs-header-4-top-contact li a {
+  font-size: 17px;
+  font-weight: 500;
+}
 .bs-header-4-top-contact a {
   transition: 0.4s var(--bs-cube-2);
 }
@@ -15472,8 +15477,8 @@ Primary style
   gap: 64px;
   /* padding-top: 85px;
   padding-bottom: 75px; */
-  padding-top: 120px;
-  padding-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 10px;
 }
 .breadcrumb-area:is(.has-2) .breadcrumb-title {
   color: var(--bs-clr-black-1);

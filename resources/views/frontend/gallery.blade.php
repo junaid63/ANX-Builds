@@ -124,11 +124,11 @@ ANX Builds || Gallery
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/02.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/03.png') }}" alt="">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/03.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/02.png') }}" alt="">
             </div>
 
             <div class="gallery-box">
@@ -136,36 +136,41 @@ ANX Builds || Gallery
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/03.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/14.png') }}" alt="">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/02.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/07.png') }}" alt="">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/08.png') }}" alt="">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/09.png') }}" alt="">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/02.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/10.png') }}" alt="">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/03.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/11.png') }}" alt="">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/04.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/12.png') }}" alt="">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/13.png') }}" alt="">
             </div>
+
+            <div class="gallery-box">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/06.png') }}" alt="">
+            </div>
+
         </div>
     </section>
     <!-- project-end -->

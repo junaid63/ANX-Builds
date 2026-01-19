@@ -91,7 +91,7 @@
                     @endif
                     @if(setting('site.web-phone'))
                     <p class="bs-p-4 link-title">phone</p>
-                    <a href="tel:08002118049" class="link-elm bs-p-4 wa-clip-left-right" >
+                    <a href="tel:{{ setting('site.web-phone') }}" class="link-elm bs-p-4 wa-clip-left-right" >
                         {{ setting('site.web-phone') }}
                     </a>
                     @endif

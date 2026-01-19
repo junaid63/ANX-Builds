@@ -63,7 +63,7 @@ ANX Builds || Prices
                         Granny Annexe Prices
                     </h2>
                     <div class="pricing-custom-main first-table">
-                        {{-- <div class="pricing-width pricing-custom-matric">
+                        <div class="pricing-width pricing-custom-matric">
                             <table class="table table-bordered table-striped table-hover">
                                 <thead class="thead-dark custom-table">
                                     <tr>
@@ -110,7 +110,7 @@ ANX Builds || Prices
                                     </tr>
                                 </tbody>
                             </table>
-                        </div> --}}
+                        </div>
                         <div class="pricing-width pricing-include-points">
                             <div class="bs-h-4 item-title text-white text-start pb-lg-2 pb-md-2 pb-2">
                                 Includes:
