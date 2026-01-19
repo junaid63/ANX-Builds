@@ -595,7 +595,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 }
 .bs-faqs-6-content .title-img{
   position: sticky;
-  top: 10px;
+  top: 130px;
 }
 .bs-faqs-6-img .fa-building {
   position: absolute;
