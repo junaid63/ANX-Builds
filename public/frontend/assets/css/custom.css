@@ -885,7 +885,287 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   font-size: 52px;
 }
 
+
+
+
+.call-now-info {
+  width: 60px;
+  height: 60px;
+  bottom: 70px;
+  right: 70px;
+  position: absolute;
+
+  line-height: 60px;
+  font-size: 45px;
+
+  color: var(--bs-clr-pr-1);
+  border: var(--bs-clr-pr-1) 2px solid;
+  
+  /* background: var(--bs-clr-pr-1); */
+  background: var(--bs-black);
+  text-align: center;
+  z-index: 99;
+  border-radius: 90%;
+
+  cursor: pointer;
+}
+.call-now-button {
+  position: fixed;
+  right: -50px;
+  bottom: -35px;
+  width: 40px;
+  height: 40px;
+  z-index: 99999;
+  transition: all 0.5s;
+}
+.call-now-button::before,
+.call-now-button::after {
+  content: "";
+}
+.call-now-button::before {
+  width: 160px;
+  height: 160px;
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  background-color: transparent;
+
+  border-radius: 100%;
+  border: 2px solid transparent;
+
+  -webkit-animation: phone-pulse-first 1.2s infinite ease-in-out;
+  animation: phone-pulse-first 1.2s infinite ease-in-out;
+
+  transition: all 0.5s;
+
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+  /*Xanh dương*/
+  border-color: #00aff2;
+  border-color: #bfebfc;
+
+  /*Xanh lá*/
+  border-color: var(--bs-clr-pr-1);
+
+
+  opacity: 0.5;
+}
+
+@keyframes phone-pulse-first {
+  0% {
+    -webkit-transform: rotate(0) scale(0.5) skew(1deg);
+    transform: rotate(0) scale(0.5) skew(1deg);
+    opacity: 0.1;
+  }
+
+  30% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    transform: rotate(0) scale(0.7) skew(1deg);
+    opacity: 0.5;
+  }
+
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+    transform: rotate(0) scale(1) skew(1deg);
+    opacity: 0.1;
+  }
+}
+
+.call-now-button::after {
+  width: 100px;
+  height: 100px;
+  bottom: 50px;
+  right: 50px;
+  position: absolute;
+
+  border-radius: 100%;
+  border: 2px solid transparent;
+
+  -webkit-animation: phone-pulse-second 2.3s infinite ease-in-out;
+  animation: phone-pulse-second 2.3s infinite ease-in-out;
+
+  transition: all 0.5s;
+
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+  background-color: var(--bs-clr-pr-1);
+  opacity: 0.75 !important;
+}
+
+@keyframes phone-pulse-second {
+  0% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    transform: rotate(0) scale(0.7) skew(1deg);
+    opacity: 0.2;
+  }
+
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+    transform: rotate(0) scale(1) skew(1deg);
+    opacity: 0.2;
+  }
+
+  100% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    transform: rotate(0) scale(0.7) skew(1deg);
+    opacity: 0.2;
+  }
+}
+
+.phone-ringing {
+  animation: phone-ringing 1s infinite ease-in-out;
+  -o-animation: phone-ringing 1s infinite ease-in-out;
+  -ms-animation: phone-ringing 1s infinite ease-in-out;
+  -moz-animation: phone-ringing 1s infinite ease-in-out;
+  -webkit-animation: phone-ringing 1s infinite ease-in-out;
+}
+
+@keyframes phone-ringging {
+  0% {
+    transform: rotate(0) scale(1) skew(1deg);
+  }
+
+  10% {
+    transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+
+  20% {
+    transform: rotate(25deg) scale(1) skew(1deg);
+  }
+
+  30% {
+    transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+
+  40% {
+    transform: rotate(25deg) scale(1) skew(1deg);
+  }
+
+  50% {
+    transform: rotate(0) scale(1) skew(1deg);
+  }
+
+  100% {
+    transform: rotate(0) scale(1) skew(1deg);
+  }
+}
+
+@-o-keyframes phone-ringing {
+  0% {
+    -o-transform: rotate(0) scale(1) skew(1deg);
+  }
+
+  10% {
+    -o-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+
+  20% {
+    -o-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+
+  30% {
+    -o-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+
+  40% {
+    -o-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+
+  50% {
+    -o-transform: rotate(0) scale(1) skew(1deg);
+  }
+
+  100% {
+    -o-transform: rotate(0) scale(1) skew(1deg);
+  }
+}
+
+@-moz-keyframes phone-ringing {
+  0% {
+    -moz-transform: rotate(0) scale(1) skew(1deg);
+  }
+
+  10% {
+    -moz-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+
+  20% {
+    -moz-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+
+  30% {
+    -moz-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+
+  40% {
+    -moz-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+
+  50% {
+    -moz-transform: rotate(0) scale(1) skew(1deg);
+  }
+
+  100% {
+    -moz-transform: rotate(0) scale(1) skew(1deg);
+  }
+}
+
+@-webkit-keyframes phone-ringing {
+  0% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+
+  30% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+}
+
+.call-now-button:hover .call-now-info {
+  color: var(--bs-black);
+  background: var(--bs-white);
+  border-color: 1px solid var(--bs-black);
+}
+
+
 @media only screen and (max-width: 510px) {
+  .wa-back-to-top {
+    width: 50px;
+    height: 50px;
+  }
+  .wa-back-to-top-text {
+    font-size: 18px;
+  }
+  .call-now-button {
+    right: -62px;
+    bottom: -20px;
+  }
+  .wa-back-to-top:is(.active) {
+    bottom: 18.5%;
+  }
   .bs-about-4-project .title {
     font-size: 26px;
   }
@@ -1362,6 +1642,14 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 
 /* @media only screen and (max-width: 768px) { */
 @media only screen and (min-width: 510px) and (max-width: 820px) {
+  .wa-back-to-top:is(.active) {
+    right: 2.9%;
+    bottom: 16.5%;
+  }
+  .call-now-button {
+    right: -60px;
+    bottom: 5px;
+  }
   .wa-offcanvas-area {
     padding: 40px 30px;
   }

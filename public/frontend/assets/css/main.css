@@ -3755,14 +3755,16 @@ picture.jarallax-img img {
   transition: 0.3s;
 }
 .wa-back-to-top:is(.active) {
-  bottom: 2.5%;
+  /* bottom: 2.5%; */
+  bottom: 14.5%;
+  right: 32px;
 }
-.wa-back-to-top:is(.active):hover {
+/* .wa-back-to-top:is(.active):hover {
   bottom: 3.5%;
 }
 .wa-back-to-top:is(.active):hover .wa-back-to-top-text {
   transform: rotate(-45deg) translateY(5px);
-}
+} */
 .wa-back-to-top:is(.active):hover::after {
   top: 5px;
   left: 5px;
