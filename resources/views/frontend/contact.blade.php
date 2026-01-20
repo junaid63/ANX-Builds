@@ -145,7 +145,7 @@ ANX Builds || Contact Us
 
                     <div class="bs-form-1-item">
                         <label class="bs-form-1-item-label" for="postcode">postcode</label>
-                        <input id="contactpostcode" class="bs-form-1-item-input " type="text" name="postcode" placeholder="2NX">
+                        <input id="contactpostcode" class="bs-form-1-item-input " type="text" name="postcode" placeholder="EC1V 2NX">
                     </div>
 
                     <div class="bs-form-1-item">
@@ -155,7 +155,7 @@ ANX Builds || Contact Us
 
                         <select id="contactproject" name="contactproject" class="bs-form-1-item-input">
                             <option value="">Select Project</option>
-                            <option value="steel_frame">Steel-Frame</option>
+                            <option value="steel_frame">Steel Frame Garden Annexes</option>
                         </select>
 
                     </div>

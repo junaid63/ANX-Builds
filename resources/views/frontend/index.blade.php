@@ -67,14 +67,38 @@ ANX Builds || Home
                     </span> --}}
                 </h1>
                 <div class="inner-div">
-                    <a href="{{ route('about') }}" aria-label="name" class="bs-hero-4-circle-btn wa-magnetic-btn">
+                    {{-- <a href="{{ route('about') }}" aria-label="name" class="bs-hero-4-circle-btn wa-magnetic-btn">
                         <span class="btn-icon ">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8.00001 7C8.00001 6.73478 8.10537 6.48043 8.2929 6.29289C8.48044 6.10536 8.73479 6 9.00001 6H17C17.2652 6 17.5196 6.10536 17.7071 6.29289C17.8947 6.48043 18 6.73478 18 7V15C18 15.2652 17.8947 15.5196 17.7071 15.7071C17.5196 15.8946 17.2652 16 17 16C16.7348 16 16.4804 15.8946 16.2929 15.7071C16.1054 15.5196 16 15.2652 16 15V9.414L7.70701 17.707C7.51841 17.8892 7.26581 17.99 7.00361 17.9877C6.74141 17.9854 6.4906 17.8802 6.30519 17.6948C6.11978 17.5094 6.01461 17.2586 6.01234 16.9964C6.01006 16.7342 6.11085 16.4816 6.29301 16.293L14.586 8H9.00001C8.73479 8 8.48044 7.89464 8.2929 7.70711C8.10537 7.51957 8.00001 7.26522 8.00001 7Z" fill="#a47966"/>
                             </svg>
                         </span>
                         <img src="{{url('frontend/assets/img/illus/cta-button.png')}}" alt="">
+                    </a> --}}
+                    <a href="{{ route('about') }}" aria-label="Book a Design Consultation" class="bs-hero-4-circle-btn wa-magnetic-btn">
+                        <span class="btn-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.00001 7C8.00001 6.73478 8.10537 6.48043 8.2929 6.29289C8.48044 6.10536 8.73479 6 9.00001 6H17C17.2652 6 17.5196 6.10536 17.7071 6.29289C17.8947 6.48043 18 6.73478 18 7V15C18 15.2652 17.8947 15.5196 17.7071 15.7071C17.5196 15.8946 17.2652 16 17 16C16.7348 16 16.4804 15.8946 16.2929 15.7071C16.1054 15.5196 16 15.2652 16 15V9.414L7.70701 17.707C7.51841 17.8892 7.26581 17.99 7.00361 17.9877C6.74141 17.9854 6.4906 17.8802 6.30519 17.6948C6.11978 17.5094 6.01461 17.2586 6.01234 16.9964C6.01006 16.7342 6.11085 16.4816 6.29301 16.293L14.586 8H9.00001C8.73479 8 8.48044 7.89464 8.2929 7.70711C8.10537 7.51957 8.00001 7.26522 8.00001 7Z"
+                                    fill="#a47966"/>
+                            </svg>
+                        </span>
+
+                        <!-- Circular Text -->
+                        <svg class="circle-text" viewBox="0 0 200 200">
+                            <defs>
+                                <path id="circlePath"
+                                    d="M100,100 m-75,0 a75,75 0 1,1 150,0 a75,75 0 1,1 -150,0"/>
+                            </defs>
+                            <text>
+                                <textPath href="#circlePath">
+                                    BOOK A DESIGN CONSULTATION -----------------
+                                </textPath>
+                            </text>
+                        </svg>
+
                     </a>
+
                     <p class="bs-p-4 bs-hero-4-disc wa-split-y" data-split-delay="1.6s">
                         The Granny Annexe Company designs, builds and installs high-quality, bespoke, steel frame garden annexes across the UK. Our fully turnkey service manages every stage - from planning and groundworks to the finished handover.
                     </p>
