@@ -130,22 +130,22 @@ ANX Builds || Contact Us
 
                     <div class="bs-form-1-item">
                         <label class="bs-form-1-item-label" for="name">Name</label>
-                        <input id="contactname" class="bs-form-1-item-input "  type="text" name="name" placeholder="e.g. Oliver Spiteri">
+                        <input id="contactname" class="bs-form-1-item-input "  type="text" name="name" placeholder="Enter your Name">
                     </div>
 
                     <div class="bs-form-1-item">
                         <label class="bs-form-1-item-label" for="email">email</label>
-                        <input id="contactemail" class="bs-form-1-item-input " type="email" name="email" placeholder="info@forgexindustry.co.uk">
+                        <input id="contactemail" class="bs-form-1-item-input " type="email" name="email" placeholder="info@grannyannexecompany.co.uk">
                     </div>
 
                     <div class="bs-form-1-item">
                         <label class="bs-form-1-item-label" for="phone">phone</label>
-                        <input id="contactphone" class="bs-form-1-item-input " type="tel" name="phone" placeholder="+44 20 8980 9731  |">
+                        <input id="contactphone" class="bs-form-1-item-input " type="tel" name="phone" placeholder="07777 7777777">
                     </div>
 
                     <div class="bs-form-1-item">
                         <label class="bs-form-1-item-label" for="postcode">postcode</label>
-                        <input id="contactpostcode" class="bs-form-1-item-input " type="text" name="postcode" placeholder="M1 2AB">
+                        <input id="contactpostcode" class="bs-form-1-item-input " type="text" name="postcode" placeholder="2NX">
                     </div>
 
                     <div class="bs-form-1-item">
@@ -155,10 +155,7 @@ ANX Builds || Contact Us
 
                         <select id="contactproject" name="contactproject" class="bs-form-1-item-input">
                             <option value="">Select Project</option>
-                            <option value="garden_pod">Garden Pod</option>
-                            <option value="granny_annexe">Granny Annexe</option>
                             <option value="steel_frame">Steel-Frame</option>
-                            <option value="commercial">Commercial</option>
                         </select>
 
                     </div>
@@ -172,7 +169,7 @@ ANX Builds || Contact Us
                     <div class="bs-form-1-item  ">
                         <button class="bs-btn-1" id="ContactSubmit" type="button" >
                             <span class="text">
-                                    submit now
+                                Submit now
                             </span>
                             <span class="icon">
                                 <i class="fa-solid fa-right-long"></i>
