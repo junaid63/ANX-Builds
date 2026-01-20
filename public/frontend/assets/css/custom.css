@@ -1164,6 +1164,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
     bottom: -20px;
   }
   .wa-back-to-top:is(.active) {
+    right: 15px;
     bottom: 18.5%;
   }
   .bs-about-4-project .title {
