@@ -23,14 +23,20 @@
         <link rel="stylesheet" href="{{url('frontend/assets/css/main.css')}}?ref={{ setting('site.css') }}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/custom.css')}}?ref={{ setting('site.css') }}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/gallery.css')}}">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"
-            />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     </head>
  
     <body class="bs-home-4">
         {{-- wa-fix --}}
         <div class="main-wrapper">
 
+
+            <div class="call-now-button">
+                <a href="tel:{{ setting('site.web-phone') }}" class="call-now-info phone-ringing"><i class="fa fa-phone"></i></a>
+            </div>
+
+            
             <!-- start preloader -->
             {{-- <div class="lw-preloader">
                 <div class="lw-preloader-content">
