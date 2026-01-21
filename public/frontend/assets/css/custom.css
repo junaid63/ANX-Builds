@@ -1200,21 +1200,9 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
         transform: rotate(360deg);
     }
 }
-
-.bs-accordion.has-details-page 
-.bs-accordion-item.active 
-.show 
-.bs-p-1 {
-    text-transform: lowercase;
+.bs-accordion:is(.has-details-page) .bs-accordion-item .item-title {
+  text-transform: none;
 }
-
-.bs-accordion.has-details-page 
-.bs-accordion-item.active 
-.show 
-.bs-p-1::first-letter {
-    text-transform: uppercase;
-}
-
 
 
 @media only screen and (max-width: 510px) {

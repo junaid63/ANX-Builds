@@ -82,7 +82,7 @@ ANX Builds || Faqs
                                     aria-controls="collapse{{ $loop->index }}"
                                 >
                                     <span class="dot"></span>
-                                    {{ ucwords($faq->question) }}
+                                    {{ $faq->question }}
                                 </button>
                             </div>
 
@@ -94,7 +94,7 @@ ANX Builds || Faqs
                             >
                                 <div class="item-body">
                                     <p class="bs-p-1">
-                                        {{ ucwords($faq->answer) }}
+                                        {{ $faq->answer }}
                                     </p>
                                 </div>
                             </div>
