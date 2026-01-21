@@ -43,7 +43,7 @@
 
                 <!-- single-item -->
                 @foreach ($services as $service)
-                <div class="bs-services-4-item-single wa-bg-default active " data-background="{{url('storage/' . $service->card_img)}}">
+                <div class="bs-services-4-item-single wa-bg-default active ">
                     <div class="active-content">
                         <h4 class="bs-h-1 title">
                             <a href="{{ route('servicedetail', $service->slug) }}" aria-label="name" class="wa-line-limit has-line-2">{{ ucwords($service->title) }}</a>
