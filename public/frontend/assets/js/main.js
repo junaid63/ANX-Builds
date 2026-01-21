@@ -81,9 +81,15 @@ waStickyHeader();
 	offcanvas-function
 */
 
-$('.offcanvas_toggle').on('click', function() {
+// $('.offcanvas_toggle').on('click', function() {
+// 	$('.wa-overly, .offcanvas_box_active').addClass('active');
+// });
+$(document).on('click', '.offcanvas_toggle', function (e) {
+    e.preventDefault();
+    e.stopPropagation();
     $('.wa-overly, .offcanvas_box_active').addClass('active');
 });
+
 
 $('.wa-overly, .offcanvas_box_close').on('click', function() {
     $('.offcanvas_box_active').removeClass('active');

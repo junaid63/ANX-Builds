@@ -76,7 +76,7 @@
                 </nav>
 
                 <!-- action-link -->
-                <div class="bs-header-4-action-link d-flex align-items-center ">
+                <div class="bs-header-4-action-link d-flex align-items-center">
 
                     <!-- pr-btn -->
                     <a href="{{ route('contact') }}" aria-label="name" class="bs-pr-btn-2">
