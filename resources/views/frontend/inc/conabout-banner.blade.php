@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="contactus-images-banner" data-background="{{url('frontend/assets/img/services/s4-b0g.png')}}">
+                    <div class="contactus-images-banner">
                         <div class="images">
                             <div class="first">
                                 <img src="{{ url('frontend/assets/img/contact/banner/small-images/01.png') }}" alt="">

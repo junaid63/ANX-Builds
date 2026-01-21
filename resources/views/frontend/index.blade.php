@@ -239,7 +239,7 @@ ANX Builds || Home
         </div>
 
         
-        <div class="bs-hero-4-bg" data-background="{{url('frontend/assets/img/hero/h4-bg.png')}}"></div>
+        {{-- <div class="bs-hero-4-bg" data-background="{{url('frontend/assets/img/hero/h4-bg.png')}}"></div> --}}
     </section>
     <!-- hero-end -->
 
