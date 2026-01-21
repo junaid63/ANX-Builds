@@ -82,43 +82,44 @@ ANX Builds || {{ implode(' ', array_slice($words, 0, 3)) }}
 
                                 <div class="bs-sidebar-blog share-icons">
                                     <div class="tags-list">
+
                                         <!-- WhatsApp -->
-                                        <a href="https://api.whatsapp.com/send?text=https%3A%2F%2Ftest-v3.quay-space.co.uk%2Fblogs%2Freasons-to-choose-quay-space-for-your-office-or-workspace-in-the-uk" target="_blank">
+                                        <a href="https://api.whatsapp.com/send?text=https%3A%2F%2Fwww.grannyannexecompany.co.uk%2Fblog%2F{{ $blogDetail->slug }}" target="_blank">
                                             <i class="fa-brands fa-whatsapp"></i>
                                         </a>
 
                                         <!-- Facebook -->
-                                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftest-v3.quay-space.co.uk%2Fblogs%2Freasons-to-choose-quay-space-for-your-office-or-workspace-in-the-uk" target="_blank">
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.grannyannexecompany.co.uk%2Fblog%2F{{ $blogDetail->slug }}" target="_blank">
                                             <i class="fa-brands fa-facebook"></i>
                                         </a>
 
-                                        <!-- Instagram (Direct sharing NOT supported by URL) -->
-                                        <a href="https://www.instagram.com/?url=https%3A%2F%2Ftest-v3.quay-space.co.uk%2Fblogs%2Freasons-to-choose-quay-space-for-your-office-or-workspace-in-the-uk" target="_blank">
+                                        <!-- Instagram (no direct share support, opens Instagram) -->
+                                        <a href="https://www.instagram.com/" target="_blank">
                                             <i class="fa-brands fa-instagram"></i>
                                         </a>
 
-                                        <!-- TikTok (Direct share link NOT supported, open profile only) -->
-                                        <a href="https://www.tiktok.com" target="_blank">
+                                        <!-- TikTok (no direct share support) -->
+                                        <a href="https://www.tiktok.com/" target="_blank">
                                             <i class="fa-brands fa-tiktok"></i>
                                         </a>
 
                                         <!-- Messenger -->
-                                        <a href="https://www.facebook.com/dialog/send?link=https%3A%2F%2Ftest-v3.quay-space.co.uk%2Fblogs%2Freasons-to-choose-quay-space-for-your-office-or-workspace-in-the-uk&amp;app_id=123456&amp;redirect_uri=https%3A%2F%2Ftest-v3.quay-space.co.uk%2Fblogs%2Freasons-to-choose-quay-space-for-your-office-or-workspace-in-the-uk" target="_blank">
+                                        <a href="https://www.facebook.com/dialog/send?link=https%3A%2F%2Fwww.grannyannexecompany.co.uk%2F&app_id=123456&redirect_uri=https%3A%2F%2Fwww.grannyannexecompany.co.uk%2Fblog%2F{{ $blogDetail->slug }}" target="_blank">
                                             <i class="fa-brands fa-facebook-messenger"></i>
                                         </a>
 
-                                        <!-- YouTube (No share link support, sends to YouTube page only) -->
-                                        <a href="https://www.youtube.com" target="_blank">
+                                        <!-- YouTube -->
+                                        <a href="https://www.youtube.com/" target="_blank">
                                             <i class="fa-brands fa-youtube"></i>
                                         </a>
 
                                         <!-- LinkedIn -->
-                                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ftest-v3.quay-space.co.uk%2Fblogs%2Freasons-to-choose-quay-space-for-your-office-or-workspace-in-the-uk" target="_blank">
+                                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.grannyannexecompany.co.uk%2Fblog%2F{{ $blogDetail->slug }}" target="_blank">
                                             <i class="fa-brands fa-linkedin"></i>
                                         </a>
 
                                         <!-- X (Twitter) -->
-                                        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ftest-v3.quay-space.co.uk%2Fblogs%2Freasons-to-choose-quay-space-for-your-office-or-workspace-in-the-uk" target="_blank">
+                                        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.grannyannexecompany.co.uk%2Fblog%2F{{ $blogDetail->slug }}" target="_blank">
                                             <i class="fa-brands fa-x-twitter"></i>
                                         </a>
 
