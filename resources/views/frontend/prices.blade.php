@@ -1,10 +1,16 @@
 @extends('frontend/layouts/master')
 
 @section('metas')
+    <meta name="title" content="Garden Granny Annexe UK Prices | ANX Builds Cost Guide">
+    <meta name="description" content="Garden granny annexe UK prices and cost breakdown from ANX Builds. Transparent pricing, no hidden fees get your tailored quote today and start planning with confidence.">
+    <meta property="og:title" content="Garden Granny Annexe UK Prices | ANX Builds Cost Guide">
+    <meta property="og:description" content="Garden granny annexe UK prices and cost breakdown from ANX Builds. Transparent pricing, no hidden fees get your tailored quote today and start planning with confidence.">
+    <meta name="twitter:title" content="Garden Granny Annexe UK Prices | ANX Builds Cost Guide">
+    <meta name="twitter:description" content="Garden granny annexe UK prices and cost breakdown from ANX Builds. Transparent pricing, no hidden fees get your tailored quote today and start planning with confidence.">
 @endsection
 
 @section('title')
-ANX Builds || Prices
+Garden Granny Annexe UK Prices | ANX Builds Cost Guide
 @endsection
 
 @section('css')

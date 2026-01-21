@@ -1,10 +1,16 @@
 @extends('frontend/layouts/master')
 
 @section('metas')
+    <meta name="title" content="Garden Granny Annexe UK Process | ANX Builds Build Journey">
+    <meta name="description" content="Garden granny annexe UK process made simple by ANX Builds, from design to handover. Clear steps, fixed timelines and quality builds. Start your free consultation today.">
+    <meta property="og:title" content="Garden Granny Annexe UK Process | ANX Builds Build Journey">
+    <meta property="og:description" content="Garden granny annexe UK process made simple by ANX Builds, from design to handover. Clear steps, fixed timelines and quality builds. Start your free consultation today.">
+    <meta name="twitter:title" content="Garden Granny Annexe UK Process | ANX Builds Build Journey">
+    <meta name="twitter:description" content="Garden granny annexe UK process made simple by ANX Builds, from design to handover. Clear steps, fixed timelines and quality builds. Start your free consultation today.">
 @endsection
 
 @section('title')
-ANX Builds || Our Process
+Garden Granny Annexe UK Process | ANX Builds Build Journey
 @endsection
 
 @section('css')

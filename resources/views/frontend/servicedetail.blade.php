@@ -1,10 +1,16 @@
 @extends('frontend/layouts/master')
 
 @section('metas')
+    <meta name="title" content="{{ ucwords($serviceDetails->meta_title) }}">
+    <meta name="description" content="{{ $serviceDetails->meta_description }}">
+    <meta property="og:title" content="{{ ucwords($serviceDetails->meta_title) }}">
+    <meta property="og:description" content="{{ $serviceDetails->meta_description }}">
+    <meta name="twitter:title" content="{{ ucwords($serviceDetails->meta_title) }}">
+    <meta name="twitter:description" content="{{ $serviceDetails->meta_description }}">
 @endsection
 
 @section('title')
-ANX Builds || Service Detail
+{{ ucwords($serviceDetails->meta_title) }}
 @endsection
 
 @section('css')

@@ -1203,7 +1203,24 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 .bs-accordion:is(.has-details-page) .bs-accordion-item .item-title {
   text-transform: none;
 }
+.swiper {
+  width: 100%;
+  height: 100%;
+  }
 
+  .swiper-slide {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
 
 @media only screen and (max-width: 510px) {
   .bs-core-feature-6-wrap .bs-core-feature-4-item a .contact-page-p {

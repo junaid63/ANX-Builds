@@ -1,10 +1,16 @@
 @extends('frontend/layouts/master')
 
 @section('metas')
+    <meta name="title" content="Garden Granny Annexe UK Blog | ANX Builds Insights">
+    <meta name="description" content="Garden granny annexe UK blog from ANX Builds covering costs, planning permission and design tips. Stay informed and speak to our experts for free advice today.">
+    <meta property="og:title" content="Garden Granny Annexe UK Blog | ANX Builds Insights">
+    <meta property="og:description" content="Garden granny annexe UK blog from ANX Builds covering costs, planning permission and design tips. Stay informed and speak to our experts for free advice today.">
+    <meta name="twitter:title" content="Garden Granny Annexe UK Blog | ANX Builds Insights">
+    <meta name="twitter:description" content="Garden granny annexe UK blog from ANX Builds covering costs, planning permission and design tips. Stay informed and speak to our experts for free advice today.">
 @endsection
 
 @section('title')
-ANX Builds || Blogs
+Garden Granny Annexe UK Blog | ANX Builds Insights
 @endsection
 
 @section('css')
