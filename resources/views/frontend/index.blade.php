@@ -1,54 +1,21 @@
 @extends('frontend/layouts/master')
 
 @section('metas')
+    <meta name="title" content="Garden Granny Annexe UK | Bespoke Builds by ANX Builds">
+    <meta name="description" content="Garden granny annexe UK experts at ANX Builds, creating bespoke, fully insulated garden annexes. Perfect for family living. Get a free quote today.">
+    <meta property="og:title" content="Garden Granny Annexe UK | Bespoke Builds by ANX Builds">
+    <meta property="og:description" content="Garden granny annexe UK experts at ANX Builds, creating bespoke, fully insulated garden annexes. Perfect for family living. Get a free quote today.">
+    <meta name="twitter:title" content="Garden Granny Annexe UK | Bespoke Builds by ANX Builds">
+    <meta name="twitter:description" content="Garden granny annexe UK experts at ANX Builds, creating bespoke, fully insulated garden annexes. Perfect for family living. Get a free quote today.">
 @endsection
 
 @section('title')
-ANX Builds || Home
+Garden Granny Annexe UK | Bespoke Builds by ANX Builds
 @endsection
 
 @section('css')
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-    <!-- Demo styles -->
-    <style>
-        html,
-        body {
-        position: relative;
-        height: 100%;
-        }
-
-        body {
-        background: #000;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #fff;
-        margin: 0;
-        padding: 0;
-        }
-
-        .swiper {
-        width: 100%;
-        height: 100%;
-        }
-
-        .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #444;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        }
-
-        .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        }
-    </style>
 @endsection
 
 @section('content')

@@ -1,10 +1,16 @@
 @extends('frontend/layouts/master')
 
 @section('metas')
+    <meta name="title" content="Granny Annexe Payment Milestones UK | Simple Build Stages">
+    <meta name="description" content="Granny annexe payment milestones UK explained clearly, from deposit to completion. Understand each stage with confidence and plan your build smoothly. View our process today.">
+    <meta property="og:title" content="Granny Annexe Payment Milestones UK | Simple Build Stages">
+    <meta property="og:description" content="Granny annexe payment milestones UK explained clearly, from deposit to completion. Understand each stage with confidence and plan your build smoothly. View our process today.">
+    <meta name="twitter:title" content="Granny Annexe Payment Milestones UK | Simple Build Stages">
+    <meta name="twitter:description" content="Granny annexe payment milestones UK explained clearly, from deposit to completion. Understand each stage with confidence and plan your build smoothly. View our process today.">
 @endsection
 
 @section('title')
-ANX Builds || Payment Milestone
+Granny Annexe Payment Milestones UK | Simple Build Stages
 @endsection
 
 @section('css')
