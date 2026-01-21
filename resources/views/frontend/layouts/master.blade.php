@@ -129,8 +129,6 @@
 
                     <!-- social -->
                     <div class="wa-offcanvas-social">
-                        <h6 class="wa-offcanvas-social-title bs-h-1 ">we're on social media:</h6>
-
                         <div class="wa-offcanvas-social-flex d-flex flex-wrap">
                             @if(setting('site.facebook'))
                             <a href="{{ setting('site.facebook') }}" class="wa-offcanvas-social-link " aria-label="name">
@@ -143,7 +141,6 @@
                             </a>
                             @endif
                         </div>
-
                     </div>
 
                 </div>

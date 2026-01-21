@@ -37,7 +37,7 @@ ANX Builds || Contact Us
 <!-- breadcrumb-end -->
 
 <!-- core-feature-start -->
-<section class="bs-core-feature-6-area  py-lg-5 py-4">
+<section class="bs-core-feature-6-area contact-information-icon py-lg-5 py-4">
     <div class="container bs-container-1">
         <div class="bs-core-feature-4-line wa-scaleXInUp"></div>
         <div class="bs-core-feature-6-wrap bg-black" data-background="{{url('frontend/assets/img/services/s4-bg.png')}}">
@@ -60,7 +60,7 @@ ANX Builds || Contact Us
             <!-- single-item -->
             @if(setting('site.web-email'))
             <div class="bs-core-feature-4-item wow fadeInRight" >
-                <a href="{{ setting('site.web-email') }}">
+                <a href="mailto:{{ setting('site.web-email') }}">
                     <h4 class="bs-h-4 item-title contact-page-h4">
                         Emails Address
                     </h4>
@@ -77,7 +77,7 @@ ANX Builds || Contact Us
             <!-- single-item -->
             @if(setting('site.web-phone'))
             <div class="bs-core-feature-4-item wow fadeInRight" >
-                <a href="{{ setting('site.web-phone') }}">
+                <a href="tel:{{ setting('site.web-phone') }}">
                     <h4 class="bs-h-4 item-title contact-page-h4">
                         Call Us
                     </h4>
