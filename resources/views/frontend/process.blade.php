@@ -91,7 +91,7 @@ ANX Builds || Our Process
                             </li>
                             <li>
                                 <p>
-                                Email - <a href="mailto:{{ setting('site.web-email') }}">{{ setting('site.web-email') }}</a>
+                                 Email - <a href="mailto:{{ setting('site.web-email') }}">{{ setting('site.web-email') }}</a>
                                 </p>
                             </li>
                             <li>
