@@ -2,7 +2,7 @@
 <footer class="bs-footer-4-area wa-p-relative wa-fix pt-md-5 pt-4">
 
     <div class="bs-footer-4-bg wa-fix">
-        <img src="{{url('frontend/assets/img/footer/f4-bg-1.png')}}" alt="">
+        <img src="{{url('frontend/assets/img/footer/f4-bg-1.png')}}" alt="footer img">
     </div>
 
     <div class="container bs-container-2">

@@ -21,7 +21,7 @@ Garden Granny Annexe UK FAQs | ANX Builds Answers
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-faqs.png') }}" alt="">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-faqs.png') }}" alt="breadcrumb-faqs">
         </div>
 
         <div class="container bs-container-1">
@@ -56,7 +56,7 @@ Garden Granny Annexe UK FAQs | ANX Builds Answers
                         <div class="bs-faqs-6-sec-title mb-lg-5 mb-md-3 mb-2">
                             <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
                                 <span class="icon">
-                                    <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="">
+                                    <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="star-shape">
                                 </span>
                                 Popular Question
                             </h6>
@@ -65,7 +65,7 @@ Garden Granny Annexe UK FAQs | ANX Builds Answers
 
                         <div class="bs-faqs-6-img">
                             <i class="fa-solid fa-building"></i>
-                            <img src="{{ url('frontend/assets/img/faq/faq-img.png') }}" alt="">
+                            <img src="{{ url('frontend/assets/img/faq/faq-img.png') }}" alt="faq-img">
                             <i class="fa-solid fa-compass-drafting"></i>
                         </div>
                     </div>

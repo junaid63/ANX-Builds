@@ -9,7 +9,7 @@
                 <div class="bs-faq-1-sec-title mb-35">
                     <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
                         <span class="icon">
-                            <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="">
+                            <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="star-shape">
                         </span>
                         UK COVERAGE SECTION
                     </h6>
@@ -31,7 +31,7 @@
                     <!-- single-card -->
                     <div class="bs-office-1-card wa-clip-left-right">
                         <div class="card-img wa-fix wa-img-cover">
-                            <img src="{{url('frontend/assets/img/location/london.webp')}}" alt="">
+                            <img src="{{url('frontend/assets/img/location/london.webp')}}" alt="london img">
                         </div>
                         <h5 class="bs-h-1 title">London</h5>
                         <p class="bs-p-1 disc">Granny Annexe modular spaces</p>
@@ -42,7 +42,7 @@
                     <!-- single-card -->
                     <div class="bs-office-1-card wa-clip-left-right">
                         <div class="card-img wa-fix wa-img-cover">
-                            <img src="{{url('frontend/assets/img/location/manchister.jpg')}}" alt="">
+                            <img src="{{url('frontend/assets/img/location/manchister.jpg')}}" alt="manchister img">
                         </div>
                         <h5 class="bs-h-1 title">Manchester</h5>
                         <p class="bs-p-1 disc">Granny Annexes</p>
@@ -53,7 +53,7 @@
                     <!-- single-card -->
                     <div class="bs-office-1-card wa-clip-left-right">
                         <div class="card-img wa-fix wa-img-cover">
-                            <img src="{{url('frontend/assets/img/location/birmingham.jpg')}}" alt="">
+                            <img src="{{url('frontend/assets/img/location/birmingham.jpg')}}" alt="birmingham img">
                         </div>
                         <h5 class="bs-h-1 title">Birmingham</h5>
                         {{-- <p class="bs-p-1 disc">Steel-frame & commercial builds</p> --}}

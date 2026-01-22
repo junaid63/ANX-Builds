@@ -146,7 +146,7 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-img-item ">
                                 <div class="main-img wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/hero/01.png')}}" alt="">
+                                    <img src="{{url('frontend/assets/img/hero/01.png')}}" alt="Hero First Banner">
                                 </div>
                                 <!-- trusted -->
                                 {{-- <div class="bs-hero-4-slider-img-item-trusted">
@@ -180,7 +180,7 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-img-item ">
                                 <div class="main-img wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/hero/03.png')}}" alt="">
+                                    <img src="{{url('frontend/assets/img/hero/03.png')}}" alt="Hero Second Banner">
                                 </div>
                                 <!-- trusted -->
                                 {{-- <div class="bs-hero-4-slider-img-item-trusted">
@@ -205,7 +205,7 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-img-item ">
                                 <div class="main-img wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/hero/04.png')}}" alt="">
+                                    <img src="{{url('frontend/assets/img/hero/04.png')}}" alt="Hero Third Banner">
                                 </div>
                                 <!-- trusted -->
                                 {{-- <div class="bs-hero-4-slider-img-item-trusted">
@@ -236,7 +236,7 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-thum-item wa-img-cover wa-fix">
-                                <img src="{{url('frontend/assets/img/hero/01.png')}}" alt="">
+                                <img src="{{url('frontend/assets/img/hero/01.png')}}" alt="Hero First Banner">
                             </div>
                         </div>
 
@@ -250,14 +250,14 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-thum-item wa-img-cover wa-fix">
-                                <img src="{{url('frontend/assets/img/hero/03.png')}}" alt="">
+                                <img src="{{url('frontend/assets/img/hero/03.png')}}" alt="Hero Second Banner">
                             </div>
                         </div>
 
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-thum-item wa-img-cover wa-fix">
-                                <img src="{{url('frontend/assets/img/hero/04.png')}}" alt="">
+                                <img src="{{url('frontend/assets/img/hero/04.png')}}" alt="Hero Third Banner">
                             </div>
                         </div>
                     </div>
@@ -283,7 +283,7 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                     <a href="#" aria-label="name">Modular Build System</a>
                 </h3>
                 <div class="item-icon">
-                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/build-system-01.png')}}" alt="">
+                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/build-system-01.png')}}" alt="Build System">
                 </div>
                 <p class="bs-p-4 item-disc second-banner-section-para">
                     Your annexe will be  completed in just a matter of weeks
@@ -296,7 +296,7 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                     <a href="#" aria-label="name">Custom & Unique Designs</a>
                 </h3>
                 <div class="item-icon">
-                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/custom-unique-01.png')}}" alt="">
+                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/custom-unique-01.png')}}" alt="Custom Unique">
                 </div>
                 <p class="bs-p-4 item-disc second-banner-section-para">
                     Every Granny Annexe Company project is tailored your specific taste and requirements 
@@ -309,7 +309,7 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                     <a href="#" aria-label="name">High-Efficiency Build</a>
                 </h3>
                 <div class="item-icon">
-                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-3-01.png')}}" alt="">
+                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/cf-4-icon-3-01.png')}}" alt="High Efficiency Build">
                 </div>
                 <p class="bs-p-4 item-disc second-banner-section-para">
                     Exceptional insulation for  warm winters, cool summers,  and low running costs
@@ -322,7 +322,7 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                     <a href="#" aria-label="name">Engineered to Last, Finished to Perfection</a>
                 </h3>
                 <div class="item-icon">
-                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/engineered-01.png')}}" alt="">
+                    <img data-cursor="-opaque" src="{{url('frontend/assets/img/core-features/engineered-01.png')}}" alt="Engineered">
                 </div>
                 <p class="bs-p-4 item-disc second-banner-section-para">
                     Our steel frame system gives you a stronger core, cleaner lines, and long-term durability.
@@ -376,7 +376,7 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                 </div>
 
                 <div class="item-img wa-fix wa-img-cover">
-                    <img src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-blog-detail.png') }}" alt="">
+                    <img src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-blog-detail.png') }}" alt="Breadcrumb Blog Detail">
                 </div>
             </div>
         </div>
@@ -389,7 +389,7 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
             <h5 class="bs-subtitle-4 ">
                 <span class="text">about us</span>
                 <span class="icon">
-                    <img src="{{url('frontend/assets/img/illus/subtitle-4-icon.svg')}}" alt="">
+                    <img src="{{url('frontend/assets/img/illus/subtitle-4-icon.svg')}}" alt="Subtitle Svg">
                 </span>
             </h5>
 
@@ -420,7 +420,7 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                     </div>
 
                     <div class="illus wa-clip-left-right">
-                        <img src="{{url('frontend/assets/img/about/a4-illus-1.png')}}" alt="">
+                        <img src="{{url('frontend/assets/img/about/a4-illus-1.png')}}" alt="a4-illus First Img">
                     </div>
 
                     <!-- feature -->
@@ -465,11 +465,11 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                     </div>
 
                     <div class="bs-about-4-img wa-fix wa-img-cover">
-                        <img class="wa-parallax-img" src="{{url('frontend/assets/img/about/about-img.png')}}" alt="">
+                        <img class="wa-parallax-img" src="{{url('frontend/assets/img/about/about-img.png')}}" alt="About Img">
                     </div>
 
                     <div class="illus-2">
-                        <img  src="{{url('frontend/assets/img/about/a4-illus-2.png')}}" alt="">
+                        <img  src="{{url('frontend/assets/img/about/a4-illus-2.png')}}" alt="a4-illus Second Img">
                     </div>
                 </div>
             </div>
@@ -493,14 +493,14 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
      <!-- video-start -->
     <section class="bs-video-4-area">
         <div class="bs-video-4-content wa-p-relative wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{url('frontend/assets/img/video/v4-img-1-updated.png')}}" alt="">
+            <img class="wa-parallax-img" src="{{url('frontend/assets/img/video/v4-img-1-updated.png')}}" alt="img updated">
 
             <div class="bs-video-4-text">
                 {{-- <div class="bs-video-4-marquee-active"> --}}
                     {{-- <h4 class="bs-h-1 bs-video-4-text-item wa-split-text">The Granny Annexe Company</h4> --}}
                     <div class="banner-logo">
                         {{-- <img src="{{ url('frontend/assets/img/logo/banner-logo.png') }}" alt="Company Logo"> --}}
-                        <img src="{{ url('storage') }}/{{ setting('site.logo') }}" alt="Company Logo">
+                        <img src="{{ url('storage') }}/{{ setting('site.logo') }}" alt="Logo">
                     </div>
                 {{-- </div> --}}
             </div>
@@ -666,7 +666,7 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                             <h5 class="bs-subtitle-4 bs-choose-4-subtitle">
                                 <span class="text">WHY CHOOSE US</span>
                                 <span class="icon">
-                                    <img src="{{url('frontend/assets/img/illus/subtitle-4-icon-2.svg')}}" alt="">
+                                    <img src="{{url('frontend/assets/img/illus/subtitle-4-icon-2.svg')}}" alt="subtitle icon second">
                                 </span>
                             </h5>
 
@@ -746,7 +746,7 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
                 <h5 class="bs-subtitle-4 ">
                     <span class="text">blog & news</span>
                     <span class="icon">
-                        <img src="{{ url('frontend/assets/img/illus/subtitle-4-icon.svg') }}" alt="">
+                        <img src="{{ url('frontend/assets/img/illus/subtitle-4-icon.svg') }}" alt="subtitle third">
                     </span>
                 </h5>
                 <div class="inner-div">

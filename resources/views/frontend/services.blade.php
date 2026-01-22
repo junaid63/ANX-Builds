@@ -15,7 +15,7 @@ ANX Builds || Services
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-img.png') }}" alt="">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-img.png') }}" alt="breadcrumb-img">
         </div>
 
         <div class="container bs-container-1">
@@ -89,7 +89,7 @@ ANX Builds || Services
         </div>
 
         <div class="bs-work-1-bg-img wa-fix">
-            <img class="wa-slideInUp" src="{{ url('frontend/assets/img/work/w1-bg-img-1.png') }}" alt="">
+            <img class="wa-slideInUp" src="{{ url('frontend/assets/img/work/w1-bg-img-1.png') }}" alt="Work Img">
         </div>
     </div>
     <!-- work-end -->            

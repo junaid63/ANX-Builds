@@ -21,7 +21,7 @@ Granny Annexe Payment Milestones UK | Simple Build Stages
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{url('frontend/assets/img/breadcrumb/breadcrumb-about.png')}}" alt="">
+            <img class="wa-parallax-img" src="{{url('frontend/assets/img/breadcrumb/breadcrumb-about.png')}}" alt="breadcrumb-about">
         </div>
 
         <div class="container bs-container-1">
@@ -50,7 +50,7 @@ Granny Annexe Payment Milestones UK | Simple Build Stages
             <div class="bs-about-1-sec-title mb-30">
                 <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
                     <span class="icon">
-                        <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="">
+                        <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="star-shape">
                     </span>
                     Milestone
                 </h6>
@@ -171,7 +171,7 @@ Granny Annexe Payment Milestones UK | Simple Build Stages
 @endsection
 
 @section('js')
-<script>
+{{-- <script>
         $(document).ready(function() {
             $(".see-more").click(function() {
                 var hiddenItems = $(".why-choose-card-hide");
@@ -204,6 +204,6 @@ Granny Annexe Payment Milestones UK | Simple Build Stages
             });
 
         });
-    </script>
+    </script> --}}
 
 @endsection

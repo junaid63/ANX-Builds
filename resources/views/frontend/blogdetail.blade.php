@@ -21,7 +21,7 @@
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area has-blog-details wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-blog-detail.png') }}" alt="">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-blog-detail.png') }}" alt="breadcrumb-blog-detail">
         </div>
 
         <div class="container bs-container-1">
@@ -60,7 +60,7 @@
                                     @foreach ($popularblogs as $popular)
                                         <div class="bs-sidebar-blog-single">
                                             <div class="item-img wa-img-cover wa-fix">
-                                                <img src="{{ url('storage/' . $popular->home_card_img) }}" alt="">
+                                                <img src="{{ url('storage/' . $popular->home_card_img) }}" alt="{{ ucwords($popular->title) }}">
                                             </div>
                                             <div class="content">
                                                 <h4 class="bs-h-4 title text-ellipsis-2">

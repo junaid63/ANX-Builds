@@ -22,7 +22,7 @@ Garden Granny Annexe UK Gallery | ANX Builds Projects
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-gallery.png') }}" alt="">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-gallery.png') }}" alt="breadcrumb-gallery">
         </div>
 
         <div class="container bs-container-1">
@@ -126,55 +126,55 @@ Garden Granny Annexe UK Gallery | ANX Builds Projects
     <section class="gallery-main-section">
         <div class="masonry-container">
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="First Gallery">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/03.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/03.png') }}" alt="Second Gallery">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/02.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/02.png') }}" alt="Third Gallery">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/04.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/04.png') }}" alt="Fourth Gallery">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/14.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/14.png') }}" alt="Five Gallery">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/07.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/07.png') }}" alt="Six Gallery">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/08.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/08.png') }}" alt="Seven Gallery">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/09.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/09.png') }}" alt="Eight Gallery">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/10.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/10.png') }}" alt="Nine Gallery">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/11.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/11.png') }}" alt="Ten Gallery">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/12.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/12.png') }}" alt="Eleven Gallery">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/13.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/13.png') }}" alt="Tewell Gallery">
             </div>
 
             <div class="gallery-box">
-                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/06.png') }}" alt="">
+                <img data-fancybox="gallery" src="{{ url('frontend/assets/img/gallery/06.png') }}" alt="Thirty Gallery">
             </div>
 
         </div>
