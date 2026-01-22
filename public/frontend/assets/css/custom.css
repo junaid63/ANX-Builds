@@ -29,11 +29,10 @@
     object-fit: contain;
 }
 .bs-core-feature-4-item .item-icon i {
-    font-size: 35px;
     border-radius: 50%;
     font-size: 35px;
     color: #a47966;
-    width: 70px;
+    width: 90px;
     background: #000000;
     aspect-ratio: 1;
     display: flex;
@@ -763,7 +762,8 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   bottom: -20px;
 }
 .bs-core-feature-4-item.fadeInRight .item-icon {
-  width: 90px;
+  /* width: 90px; */
+  /* width: 115px; */
   aspect-ratio: 1;
   background: black;
   border-radius: 50%;
@@ -1223,6 +1223,9 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   }
 
 @media only screen and (max-width: 510px) {
+  .bs-core-feature-4-item .item-icon i {
+    width: 68px;
+  }
   .bs-core-feature-6-wrap .bs-core-feature-4-item a .contact-page-p {
     font-size: 20px;
   }
@@ -2222,6 +2225,18 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .bs-core-feature-4-item .item-title.bs-h-4 {
+    min-height: 20px;
+  }
+  .bs-core-feature-4-item .bs-p-4.item-disc.contact-page-p {
+    font-size: 22px;
+  }
+  .bs-core-feature-6-wrap .bs-core-feature-4-item a {
+    gap: 15px;
+  }
+  .bs-core-feature-4-item .item-icon i {
+    width: 75px;
+  }
   .bs-services-details-area .bs-services-details-content .bs-sec-title-4 {
     font-size: 50px;
   }

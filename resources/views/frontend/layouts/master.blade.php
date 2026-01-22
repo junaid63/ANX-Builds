@@ -1,9 +1,16 @@
 <!Doctype html>
 <html class="no-js" lang="zxx">
     <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-54RDC35J');</script>
+        <!-- End Google Tag Manager -->
+
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
         <meta property="og:url" content="{{ url()->current() }}">
@@ -13,10 +20,10 @@
         <meta name="twitter:domain" content="{{ url()->current() }}">
         <meta name="google-site-verification" content="QptIpgMZl2CeVtdFuECCR5iWeohrEY5cwhuS6B6LyLM" />
         @yield('metas')
+        @yield('schema')
 	
         <title>@yield('title')</title>
     
-        @yield('css')
         <link rel="apple-touch-icon" sizes="57x57" href="{{url('frontend/assets/img/favicon/apple-icon-57x57.png')}}">
         <link rel="apple-touch-icon" sizes="60x60" href="{{url('frontend/assets/img/favicon/apple-icon-60x60.png')}}">
         <link rel="apple-touch-icon" sizes="72x72" href="{{url('frontend/assets/img/favicon/apple-icon-72x72.png')}}">
@@ -35,6 +42,7 @@
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
 
+        <link rel="canonical" href="https://www.grannyannexecompany.co.uk/" />
         <!-- Place favicon.ico in the root directory -->
 		<!-- all-CSS-link-here -->
         <link rel="stylesheet" href="{{url('frontend/assets/css/bootstrap.min.css')}}">
@@ -49,12 +57,13 @@
         <link rel="stylesheet" href="{{url('frontend/assets/css/gallery.css')}}">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        @yield('css')
     </head>
  
     <body class="bs-home-4">
+        @yield('gtag')
         {{-- wa-fix --}}
         <div class="main-wrapper">
-
 
             <div class="call-now-button">
                 <a href="tel:{{ setting('site.web-phone') }}" class="call-now-info phone-ringing"><i class="fa fa-phone"></i></a>
@@ -70,6 +79,7 @@
                 </div>
             </div> --}}
             <!-- end preloader -->
+
 
             @include('frontend.inc.header')
             @yield('content')
