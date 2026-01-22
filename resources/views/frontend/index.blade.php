@@ -9,9 +9,71 @@
     <meta name="twitter:description" content="Garden granny annexe UK experts at ANX Builds, creating bespoke, fully insulated garden annexes. Perfect for family living. Get a free quote today.">
 @endsection
 
+@section('schema')
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Granny Annexe Company",
+            "image": "https://www.grannyannexecompany.co.uk/storage/settings/January2026/kDhmeMjTlPGF5t0XVT6y.png",
+            "@id": "",
+            "url": "https://www.grannyannexecompany.co.uk/",
+            "telephone": "0333 444 0376",
+            "priceRange": "£ £ £ £ £ £",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "ANX Builds Ltd 128 City Road,",
+                "addressLocality": "London",
+                "postalCode": "EC1V 2NX",
+                "addressCountry": "GB"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 51.5273469,
+                "longitude": -0.0888062
+            },
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Monday",
+                "opens": "08:30",
+                "closes": "17:30"
+            },{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Tuesday",
+                "opens": "08:30",
+                "closes": "17:30"
+            },{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Wednesday",
+                "opens": "08:30",
+                "closes": "17:30"
+            },{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Thursday",
+                "opens": "08:30",
+                "closes": "17:30"
+            },{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Friday",
+                "opens": "08:30",
+                "closes": "17:30"
+            }] 
+        }
+    </script>
+@endsection
+
 @section('title')
 Garden Granny Annexe UK | Bespoke Builds by ANX Builds
 @endsection
+
+@section('gtag')
+    <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-4ZHTHG51SF"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-4ZHTHG51SF'); </script>
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54RDC35J"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+@stop
 
 @section('css')
     <!-- Link Swiper's CSS -->
@@ -780,7 +842,9 @@ Garden Granny Annexe UK | Bespoke Builds by ANX Builds
 
 @endsection
 
+
 @section('js')
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
      <script>
