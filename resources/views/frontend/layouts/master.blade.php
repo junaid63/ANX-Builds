@@ -11,6 +11,7 @@
         <meta property="og:locale" content="en_GB">
         <meta property="og:type" content="{{ ucwords(config('app.name')) }}">
         <meta name="twitter:domain" content="{{ url()->current() }}">
+        <meta name="google-site-verification" content="QptIpgMZl2CeVtdFuECCR5iWeohrEY5cwhuS6B6LyLM" />
         @yield('metas')
 	
         <title>@yield('title')</title>

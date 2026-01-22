@@ -1,13 +1,19 @@
 @extends('frontend/layouts/master')
 
 @section('metas')
+    <meta name="title" content="{{ ucwords($blogDetail->meta_title) }}">
+    <meta name="description" content="{{ $blogDetail->meta_description }}">
+    <meta property="og:title" content="{{ ucwords($blogDetail->meta_title) }}">
+    <meta property="og:description" content="{{ $blogDetail->meta_description }}">
+    <meta name="twitter:title" content="{{ ucwords($blogDetail->meta_title) }}">
+    <meta name="twitter:description" content="{{ $blogDetail->meta_description }}">
 @endsection
 
 @section('title')
 @php
-    $words = explode(' ', ucwords($blogDetail->title))
-@endphp
-ANX Builds || {{ implode(' ', array_slice($words, 0, 3)) }}
+    $words = explode(' ', ucwords($blogDetail->meta_title))
+@endphp 
+{{ implode(' ', array_slice($words, 0, 3)) }}
 @endsection
 
 @section('css')
