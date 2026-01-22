@@ -10,10 +10,7 @@
 @endsection
 
 @section('title')
-@php
-    $words = explode(' ', ucwords($blogDetail->meta_title))
-@endphp 
-{{ implode(' ', array_slice($words, 0, 3)) }}
+    {{ ucwords($blogDetail->meta_title) }}
 @endsection
 
 @section('css')
