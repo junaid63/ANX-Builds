@@ -42,9 +42,8 @@
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="canonical" href="https://www.grannyannexecompany.co.uk/" />
-        <!-- Place favicon.ico in the root directory -->
 		<!-- all-CSS-link-here -->
+        <link rel="canonical" href="{{ url()->current() }}" />
         <link rel="stylesheet" href="{{url('frontend/assets/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/swiper-bundle.min.css')}}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/all.min.css')}}">
@@ -123,25 +122,6 @@
                             <li class="@If(Route::currentRouteName() === 'contact') active @endif"><a href="{{ route('contact') }}">Contact Us</a></li>
                         </ul>
                     </nav>
-
-                    {{-- <div class="wa-offcanvas-gallery">
-                        <h6 class="wa-offcanvas-gallery-title bs-h-1 ">Stay Inspired with Instagram</h6>
-
-                        <div class="wa-offcanvas-gallery-grid">
-                            <a href="assets/img/gallery/g2-img-1.png" aria-label="name" class="popup-img wa-offcanvas-gallery-item wa-img-cover wa-fix">
-                                <img src="{{url('frontend/assets/img/gallery/g2-img-1.png')}}" alt="">
-                            </a>
-                            <a href="assets/img/gallery/g2-img-2.png" aria-label="name" class="popup-img wa-offcanvas-gallery-item wa-img-cover wa-fix">
-                                <img src="{{url('frontend/assets/img/gallery/g2-img-2.png')}}" alt="">
-                            </a>
-                            <a href="assets/img/gallery/g2-img-3.png" aria-label="name" class="popup-img wa-offcanvas-gallery-item wa-img-cover wa-fix">
-                                <img src="{{url('frontend/assets/img/gallery/g2-img-3.png')}}" alt="">
-                            </a>
-                            <a href="assets/img/gallery/g2-img-4.png" aria-label="name" class="popup-img wa-offcanvas-gallery-item wa-img-cover wa-fix">
-                                <img src="{{url('frontend/assets/img/gallery/g2-img-4.png')}}" alt="">
-                            </a>
-                        </div>
-                    </div> --}}
 
                     <!-- social -->
                     <div class="wa-offcanvas-social">

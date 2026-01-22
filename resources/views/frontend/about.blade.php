@@ -21,7 +21,7 @@ Garden Granny Annexe UK Experts | About ANX Builds
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{url('frontend/assets/img/breadcrumb/breadcrumb-about.png')}}" alt="">
+            <img class="wa-parallax-img" src="{{url('frontend/assets/img/breadcrumb/breadcrumb-about.png')}}" alt="breadcrumb-about">
         </div>
 
         <div class="container bs-container-1">
@@ -50,7 +50,7 @@ Garden Granny Annexe UK Experts | About ANX Builds
             <div class="bs-about-1-sec-title mb-30 mb-md-3">
                 <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
                     <span class="icon">
-                        <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="">
+                        <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="star-shape">
                     </span>
                     About Us
                 </h6>
@@ -286,14 +286,14 @@ Garden Granny Annexe UK Experts | About ANX Builds
      <!-- video-start -->
     <section class="bs-video-4-area">
         <div class="bs-video-4-content wa-p-relative wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{url('frontend/assets/img/video/v4-img-1-updated.png')}}" alt="">
+            <img class="wa-parallax-img" src="{{url('frontend/assets/img/video/v4-img-1-updated.png')}}" alt="v4-img-1-updated">
 
             <div class="bs-video-4-text">
                 {{-- <div class="bs-video-4-marquee-active"> --}}
                     {{-- <h4 class="bs-h-1 bs-video-4-text-item wa-split-text">The Granny Annexe Company</h4> --}}
                     <div class="banner-logo">
                         {{-- <img src="{{ url('frontend/assets/img/logo/banner-logo.png') }}" alt="Company Logo"> --}}
-                        <img src="{{ url('storage') }}/{{ setting('site.logo') }}" alt="Company Logo">
+                        <img src="{{ url('storage') }}/{{ setting('site.logo') }}" alt="Logo">
                     </div>
                 {{-- </div> --}}
             </div>
@@ -316,7 +316,7 @@ Garden Granny Annexe UK Experts | About ANX Builds
                                 <h5 class="bs-subtitle-4 bs-choose-4-subtitle">
                                     <span class="text">WHY CHOOSE US</span>
                                     <span class="icon">
-                                        <img src="{{url('frontend/assets/img/illus/subtitle-4-icon-2.svg')}}" alt="">
+                                        <img src="{{url('frontend/assets/img/illus/subtitle-4-icon-2.svg')}}" alt="subtitle-4-icon-2">
                                     </span>
                                 </h5>
     
@@ -799,14 +799,14 @@ Garden Granny Annexe UK Experts | About ANX Builds
                     </div>
 
                     <div class="bs-about-5-img-1 wa-fix wa-img-cover wa-fadeInUp" data-cursor="-opaque">
-                        <img class="wa-parallax-img" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
+                        <img class="wa-parallax-img" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="First Gallery">
                     </div>
                 </div>
 
                 <!-- right-side -->
                 <div class="bs-about-5-right">
                     <div class="bs-about-5-img-2 wa-fix wa-img-cover wa-fadeInUp" data-cursor="-opaque">
-                        <img class="wa-parallax-img" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="">
+                        <img class="wa-parallax-img" src="{{ url('frontend/assets/img/gallery/01.png') }}" alt="Second Gallery">
                     </div>
 
                     <p class="bs-p-4 disc wa-fadeInUp ms-lg-3 ms-md-2 ms-2">
@@ -845,7 +845,7 @@ Garden Granny Annexe UK Experts | About ANX Builds
                 </div>
 
                 <div class="bs-testimonial-5-img wa-fix wa-img-cover" data-cursor="-opaque">
-                    <img class="wa-parallax-img" src="{{ url('frontend/assets/img/services/steel-frame.png') }}" alt="">
+                    <img class="wa-parallax-img" src="{{ url('frontend/assets/img/services/steel-frame.png') }}" alt="steel-frame">
                 </div>
                 
             </div>

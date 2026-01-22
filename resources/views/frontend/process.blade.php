@@ -21,7 +21,7 @@ Garden Granny Annexe UK Process | ANX Builds Build Journey
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-process.png') }}" alt="">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-process.png') }}" alt="breadcrumb-process">
         </div>
 
         <div class="container bs-container-1">
@@ -50,7 +50,7 @@ Garden Granny Annexe UK Process | ANX Builds Build Journey
                 <div class="bs-work-process-sec-title mb-lg-5 mb-md-3 mb-2">
                     <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
                         <span class="icon">
-                            <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="">
+                            <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="star-shape">
                         </span>
                         Work Process
                     </h6>
@@ -58,7 +58,7 @@ Garden Granny Annexe UK Process | ANX Builds Build Journey
                 </div>
     
                 <div class="bs-work-process-img wa-fix wa-img-cover mb-lg-3 mb-md-2 mb-2">
-                    <img src="{{ url('frontend/assets/img/work/banner.png') }}" alt="">
+                    <img src="{{ url('frontend/assets/img/work/banner.png') }}" alt="Work banner">
                 </div>
     
                 <p class="bs-p-4 disc wa-split-y mb-lg-3 mb-md-2 mb-2">
@@ -74,7 +74,7 @@ Garden Granny Annexe UK Process | ANX Builds Build Journey
                 <!-- single-item -->
                 <div class="bs-work-process-item-single">
                     <div class="item-img wa-fix wa-img-cover first">
-                        <img src="{{ url('frontend/assets/img/process/01.png') }}" alt="">
+                        <img src="{{ url('frontend/assets/img/process/01.png') }}" alt="First Process">
                     </div>
                     <div class="item-line">
                     </div>
@@ -120,7 +120,7 @@ Garden Granny Annexe UK Process | ANX Builds Build Journey
                 <!-- single-item -->
                 <div class="bs-work-process-item-single">
                     <div class="item-img wa-fix wa-img-cover second">
-                        <img src="{{ url('frontend/assets/img/process/02.png') }}" alt="">
+                        <img src="{{ url('frontend/assets/img/process/02.png') }}" alt="First Process">
                     </div>
                     <div class="item-line">
                     </div>
@@ -142,7 +142,7 @@ Garden Granny Annexe UK Process | ANX Builds Build Journey
                 <!-- single-item -->
                 <div class="bs-work-process-item-single">
                     <div class="item-img wa-fix wa-img-cover third">
-                        <img src="{{ url('frontend/assets/img/process/03.png') }}" alt="">
+                        <img src="{{ url('frontend/assets/img/process/03.png') }}" alt="Second Process">
                     </div>
                     <div class="item-line">
                     </div>
@@ -164,7 +164,7 @@ Garden Granny Annexe UK Process | ANX Builds Build Journey
                 <!-- single-item -->
                 <div class="bs-work-process-item-single">
                     <div class="item-img wa-fix wa-img-cover fourth">
-                        <img src="{{ url('frontend/assets/img/process/04.png') }}" alt="">
+                        <img src="{{ url('frontend/assets/img/process/04.png') }}" alt="Third Process">
                     </div>
                     <div class="item-line">
                     </div>
@@ -183,7 +183,7 @@ Garden Granny Annexe UK Process | ANX Builds Build Journey
                 <!-- single-item -->
                 <div class="bs-work-process-item-single">
                     <div class="item-img wa-fix wa-img-cover five">
-                        <img src="{{ url('frontend/assets/img/process/05.png') }}" alt="">
+                        <img src="{{ url('frontend/assets/img/process/05.png') }}" alt="Fourth Process">
                     </div>
                     <div class="item-line">
                     </div>
@@ -202,7 +202,7 @@ Garden Granny Annexe UK Process | ANX Builds Build Journey
                 <!-- single-item -->
                 <div class="bs-work-process-item-single custom-ltr">
                     <div class="item-img wa-fix wa-img-cover six">
-                        <img src="{{ url('frontend/assets/img/process/06.png') }}" alt="">
+                        <img src="{{ url('frontend/assets/img/process/06.png') }}" alt="Five Process">
                     </div>
                     <div class="item-line">
                     </div>
@@ -235,7 +235,7 @@ Garden Granny Annexe UK Process | ANX Builds Build Journey
                 <!-- single-item -->
                 <div class="bs-work-process-item-single">
                     <div class="item-img wa-fix wa-img-cover five">
-                        <img src="{{ url('frontend/assets/img/process/07.jpg') }}" alt="">
+                        <img src="{{ url('frontend/assets/img/process/07.jpg') }}" alt="Six Process">
                     </div>
                     <div class="item-line">
                     </div>
@@ -254,7 +254,7 @@ Garden Granny Annexe UK Process | ANX Builds Build Journey
                 <!-- single-item -->
                 <div class="bs-work-process-item-single custom-ltr">
                     <div class="item-img wa-fix wa-img-cover six">
-                        <img src="{{ url('frontend/assets/img/process/08.png') }}" alt="">
+                        <img src="{{ url('frontend/assets/img/process/08.png') }}" alt="Seven Process">
                     </div>
                     <div class="item-line">
                     </div>

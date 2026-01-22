@@ -21,7 +21,7 @@ Garden Granny Annexe UK Contact | ANX Builds Today
 <!-- breadcrumb-start -->
 <section class="breadcrumb-area wa-p-relative">
     <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-        <img class="wa-parallax-img" src="{{url('frontend/assets/img/breadcrumb/breadcrumb-contact.png')}}" alt="">
+        <img class="wa-parallax-img" src="{{url('frontend/assets/img/breadcrumb/breadcrumb-contact.png')}}" alt="breadcrumb-contact">
     </div>
 
     <div class="container bs-container-1">
@@ -109,7 +109,7 @@ Garden Granny Annexe UK Contact | ANX Builds Today
         <div class="bs-contact-6-wrap">
 
             <div class="bs-contact-6-img wa-fix wa-img-cover">
-                <img src="{{url('frontend/assets/img/contact/contact-img.png')}}" alt="">
+                <img src="{{url('frontend/assets/img/contact/contact-img.png')}}" alt="contact-img">
             </div>
 
             <div class="bs-contact-6-content">
@@ -118,7 +118,7 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                 <div class="bs-about-1-sec-title mb-lg-5 mb-3">
                     <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
                         <span class="icon">
-                            <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="">
+                            <img src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="star-shape">
                         </span>
                         Contact us
                     </h6>

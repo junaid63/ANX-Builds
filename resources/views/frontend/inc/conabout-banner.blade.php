@@ -5,34 +5,34 @@
                     <div class="contactus-images-banner">
                         <div class="images">
                             <div class="first">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/01.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/01.png') }}" alt="Contact Banner First Img">
                             </div>
                             <div class="second">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/02.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/02.png') }}" alt="Contact Banner Second Img">
                             </div>
                             <div class="third">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/03.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/03.png') }}" alt="Contact Banner Third Img">
                             </div>
                             <div class="fourth">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/04.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/04.png') }}" alt="Contact Banner Fourth Img">
                             </div>
                             <div class="center-top">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/05.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/05.png') }}" alt="Contact Banner Five Img">
                             </div>
                             <div class="six">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/06.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/06.png') }}" alt="Contact Banner Six Img">
                             </div>
                             <div class="seven">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/07.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/07.png') }}" alt="Contact Banner Seven Img">
                             </div>
                             <div class="eight">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/08.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/08.png') }}" alt="Contact Banner Eight Img">
                             </div>
                             <div class="nine">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/09.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/09.png') }}" alt="Contact Banner Nine Img">
                             </div>
                             <div class="ten">
-                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/010.png') }}" alt="">
+                                <img src="{{ url('frontend/assets/img/contact/banner/small-images/010.png') }}" alt="Contact Banner Ten Img">
                             </div>
                         </div>
                         <div class="contactus-content">

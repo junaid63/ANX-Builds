@@ -7,7 +7,7 @@
         <h5 class="bs-subtitle-4 bs-services-4-subtitle">
             <span class="text">services</span>
             <span class="icon">
-                <img src="{{url('frontend/assets/img/illus/subtitle-4-icon-2.svg')}}" alt="">
+                <img src="{{url('frontend/assets/img/illus/subtitle-4-icon-2.svg')}}" alt="subtitle img">
             </span>
         </h5>
 
