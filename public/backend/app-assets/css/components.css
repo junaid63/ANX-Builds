@@ -3310,3 +3310,7 @@ tr.group {
 .dark-layout .bootstrap-touchspin .bootstrap-touchspin-injected .disabled-max-min {
   background-color: #b8c2cc !important;
   opacity: 1; }
+
+.voyager .alert.alert-info {
+  background-color: var(--primary_color)!important;
+}

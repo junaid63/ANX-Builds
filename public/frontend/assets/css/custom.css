@@ -511,7 +511,8 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 }
 .swiper-backface-hidden .swiper-slide {
   background: white;
-  padding: 20px 10px;
+  /* padding: 20px 10px; */
+  padding: 10px 10px;
   border-radius: 10px;
 }
 .direction-left .bs-p-4 {
@@ -1227,6 +1228,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 8px solid var(--bs-white);
 }
 .thankyou-main::after ,
 .thankyou-main::before {
@@ -1240,40 +1242,97 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   background: var(--bs-clr-pr-1);
   left: -350px;
   transform: rotate(220deg);
+  border: 15px double white;
 }
 .thankyou-main::after {
   background: var(--bs-black);
   right: -350px;
   transform: rotate(220deg);
+  border: 15px double white;
 }
 
-  .thankyou-main .thankyou-title-desc-icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-  .thankyou-main .thankyou-title-desc-icon .icon i {
-    width: 50px;
-    background: var(--bs-clr-pr-1);
-    color: white;
-    aspect-ratio: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-  }
-  .thankyou-main .thankyou-title-desc-icon .desc {
-    width: 70%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.thankyou-main .thankyou-title-desc-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.thankyou-main .thankyou-title-desc-icon .icon i {
+  width: 50px;
+  background: var(--bs-clr-pr-1);
+  color: white;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.thankyou-main .thankyou-title-desc-icon .desc {
+  width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time-duration {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+.time-duration #counter {
+  color: var(--bs-clr-pr-1);
+  font-weight: bold;
+}
+.thankyou-main .thankyou-title-desc-icon .icon {
+  position: relative;
+}
 
+.thankyou-main .thankyou-title-desc-icon .icon::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  position: absolute;
+  bottom: -7px;
+  right: -7px;
+  z-index: -1;
+}
 
 @media only screen and (max-width: 510px) {
+  .thankyou-main .thankyou-title-desc-icon {
+    margin-bottom: 100px;
+  }
+  .time-duration #counter {
+    font-weight: bold;
+  }
+  .time-duration {
+    bottom: 0px;
+    left: 20px;
+    font-size: 22px;
+  }
+  .thankyou-main .thankyou-title-desc-icon .desc {
+    width: 100%;
+  }
+  .thankyou-main::after {
+    background: var(--bs-black);
+    right: -75px;
+    transform: rotate(200deg);
+    border: 15px double white;
+  }
+  .thankyou-main::before {
+    background: var(--bs-clr-pr-1);
+    left: -75px;
+    transform: rotate(200deg);
+    border: 15px double white;
+  }
+  .thankyou-main {
+    overflow: hidden;
+    height: 75vh;
+    border: none;
+  }
   .bs-core-feature-4-item .item-icon i {
     width: 68px;
   }
@@ -1792,6 +1851,38 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 
 /* @media only screen and (max-width: 768px) { */
 @media only screen and (min-width: 510px) and (max-width: 820px) {
+  .thankyou-main .thankyou-title-desc-icon {
+    margin-bottom: 0px;
+    gap: 30px;
+  }
+  .time-duration #counter {
+    font-weight: bold;
+  }
+  .time-duration {
+    bottom: 0px;
+    font-size: 22px;
+  }
+  .thankyou-main .thankyou-title-desc-icon .desc {
+    width: 100%;
+  }
+  .thankyou-main::after {
+    background: var(--bs-black);
+    right: -230px;
+    width: 22%;
+    transform: rotate(215deg);
+    border: 15px double white;
+  }
+  .thankyou-main::before {
+    background: var(--bs-clr-pr-1);
+    left: -230px;
+    width: 22%;
+    transform: rotate(215deg);
+    border: 15px double white;
+  }
+  .thankyou-main {
+    overflow: hidden;
+    height: 60vh;
+  }
   .bs-header-4-area.is-sticky {
     z-index: 9999;
   }
@@ -2276,8 +2367,33 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .wa-back-to-top:is(.active) {
+    bottom: 20.5%;
+  }
+  .thankyou-main {
+    border: 5px solid var(--bs-white);
+  }
+  .thankyou-main .thankyou-title-desc-icon .desc {
+    width: 100%;
+  }
+  .thankyou-main::before {
+    background: var(--bs-clr-pr-1);
+    left: -200px;
+    transform: rotate(220deg);
+    border: 10px double white;
+  }
+  .thankyou-main::after {
+    background: var(--bs-black);
+    right: -200px;
+    transform: rotate(220deg);
+    border: 10px double white;
+  }
+  .home-pricing-banner {
+    background: linear-gradient(rgb(0 0 0 / 45%), rgb(0 0 0 / 18%)), url(/frontend/assets/img/breadcrumb/breadcrumb-about.png);
+  }
   .bs-core-feature-4-item .item-title.bs-h-4 {
-    min-height: 20px;
+    /* min-height: 20px; */
+    min-height: 60px;
   }
   .bs-core-feature-4-item .bs-p-4.item-disc.contact-page-p {
     font-size: 22px;
@@ -2357,6 +2473,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   }
   .bs-core-feature-4-item.fadeInRight .item-icon {
     padding: 10px 15px;
+    width: 90px;
   }
   .bs-contact-page-map {
     height: 450px;
@@ -2401,6 +2518,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   }
   .bs-core-services-2-item .item-title {
     font-size: 75px;
+    padding: 10px 50px;
   }
   .bs-hero-4-slider-thum-item {
     height: 100px;

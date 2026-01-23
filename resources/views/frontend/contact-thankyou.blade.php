@@ -33,12 +33,12 @@
                     </div>
                     <div class="desc">
                         <p class="bs-p-4 bs-hero-4-disc text-center  wa-split-y" data-split-delay="1.6s">
-                            Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.
+                            Your message has been received. A member of our team will be in touch shortly. In the meantime, feel free to explore our services or book a free consultation.
                         </p>
                     </div>
                     <div class="redirect-button">
                         <div class="btn-wrap wa-fadeInUp">
-                            <a href="{{ route('about') }}" aria-label="name" class="bs-pr-btn-2">
+                            <a href="{{ route('index') }}" aria-label="name" class="bs-pr-btn-2">
                                 <span class="text" data-back="Back to Home" data-front="Back to Home"></span>
                                 <span class="line-1" ></span>
                                 <span class="line-2" ></span>
@@ -52,10 +52,34 @@
                 </div>
             </div>
         </div>
+        <div class="time-duration">
+            <p>Redirecting in <span id="counter">20</span> seconds...</p>
+        </div>
     </section>
     <!-- core-services-end -->    
 
 @endsection
 
 @section('js')
+@section('js')
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+<script>
+    $(function () {
+        let seconds = 200;
+
+        let timer = setInterval(function () {
+            seconds--;
+            $('#counter').text(seconds);
+
+            if (seconds <= 0) {
+                clearInterval(timer);
+                window.location.href = "/";
+            }
+        }, 1000);
+    });
+</script>
+
+@endsection
 @endsection
