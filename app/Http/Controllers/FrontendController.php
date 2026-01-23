@@ -132,6 +132,7 @@ class FrontendController extends Controller
         return response()->json([
             "status" => "success",
             "message" => "Thank you for Contact Us!",
+            "redirect" => "thank-you"
         ]);
     }
 

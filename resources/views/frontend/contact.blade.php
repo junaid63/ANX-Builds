@@ -205,7 +205,6 @@ Garden Granny Annexe UK Contact | ANX Builds Today
 @endsection
 
 @section('js')
-
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script>
@@ -257,61 +256,140 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                                                             '_token': '{{ csrf_token() }}',
                                                         },
                                                         success: function (response) {
-
                                                             Swal.fire({
                                                                 position: "center",
                                                                 icon: "success",
                                                                 title: response.message,
                                                                 showConfirmButton: false,
-                                                                timer: 2000
+                                                                timer: 20000
                                                             });
-
                                                             $("#ContactSubmit").html("Submit Now").removeAttr("disabled");
                                                             $("#contact-form")[0].reset();
+                                                            setTimeout(() => {
+                                                                window.location = response['redirect'];
+                                                            }, 2000);
                                                         }
                                                     });
 
                                                 } else {
-                                                    Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter the message", timer: 2000 });
+                                                    Swal.fire({ 
+                                                        icon: "warning", 
+                                                        showConfirmButton: false, 
+                                                        title: "Enter the message", 
+                                                        timer: 2000, 
+                                                        backdrop: false,
+                                                        customClass: {
+                                                            popup: 'swal-bottom-center'
+                                                        } 
+                                                    });
                                                     $("#contactmessage").focus();
                                                 }
 
                                             } else {
-                                                Swal.fire({ icon: "warning", showConfirmButton: false, title: "Select project type", timer: 2000 });
+                                                Swal.fire({ 
+                                                    icon: "warning", 
+                                                    showConfirmButton: false, 
+                                                    title: "Select project type", 
+                                                    timer: 2000, 
+                                                    backdrop: false,
+                                                    customClass: {
+                                                        popup: 'swal-bottom-center'
+                                                    } 
+                                                });
                                                 $("#contactproject").focus();
                                             }
 
                                         } else {
-                                            Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter a valid UK postcode", timer: 2000 });
+                                            Swal.fire({ icon: "warning", 
+                                                showConfirmButton: false, 
+                                                title: "Enter a valid UK postcode", 
+                                                timer: 2000, 
+                                                backdrop: false,
+                                                customClass: {
+                                                    popup: 'swal-bottom-center'
+                                                } 
+                                            });
                                             $("#contactpostcode").focus();
                                         }
 
                                     } else {
-                                        Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter the postcode", timer: 2000 });
+                                        Swal.fire({ 
+                                            icon: "warning", 
+                                            showConfirmButton: false, 
+                                            title: "Enter the postcode", 
+                                            timer: 2000, 
+                                            backdrop: false,
+                                            customClass: {
+                                                popup: 'swal-bottom-center'
+                                            } 
+                                        });
                                         $("#contactpostcode").focus();
                                     }
 
                                 } else {
-                                    Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter 12 digits number", timer: 2000 });
+                                    Swal.fire({ 
+                                        icon: "warning", 
+                                        showConfirmButton: false, 
+                                        title: "Enter 12 digits number", 
+                                        timer: 2000, 
+                                        backdrop: false,
+                                        customClass: {
+                                            popup: 'swal-bottom-center'
+                                        } 
+                                    });
                                     $("#contactphone").focus();
                                 }
 
                             } else {
-                                Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter the phone number", timer: 2000 });
+                                Swal.fire({ 
+                                    icon: "warning", 
+                                    showConfirmButton: false, 
+                                    title: "Enter the phone number", 
+                                    timer: 2000, 
+                                    backdrop: false,
+                                    customClass: {
+                                        popup: 'swal-bottom-center'
+                                    } 
+                                });
                             }
 
                         } else {
-                            Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter a valid email address", timer: 2000 });
+                            Swal.fire({ icon: "warning", 
+                                showConfirmButton: false, 
+                                title: "Enter a valid email address", 
+                                timer: 2000, 
+                                backdrop: false,
+                                customClass: {
+                                    popup: 'swal-bottom-center'
+                                } 
+                            });
                             $("#contactemail").focus();
                         }
 
                     } else {
-                        Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter the email", timer: 2000 });
+                        Swal.fire({ icon: "warning",
+                            showConfirmButton: false, 
+                            itle: "Enter the email", 
+                            timer: 2000, 
+                            backdrop: false,
+                            customClass: {
+                                popup: 'swal-bottom-center'
+                            } 
+                        });
                         $("#contactemail").focus();
                     }
 
                 } else {
-                    Swal.fire({ icon: "warning", showConfirmButton: false, title: "Enter the name", timer: 2000 });
+                    Swal.fire({ 
+                        icon: "warning", 
+                        showConfirmButton: false, 
+                        title: "Enter the name", 
+                        timer: 2000, 
+                        backdrop: false,
+                        customClass: {
+                            popup: 'swal-bottom-center'
+                        } 
+                    });
                     $("#contactname").focus();
                 }
 
