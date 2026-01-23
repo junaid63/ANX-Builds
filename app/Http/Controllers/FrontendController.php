@@ -7,6 +7,7 @@ use App\Contact;
 use App\Blog;
 use App\Service;
 use App\Faq;
+use Str;
 
 class FrontendController extends Controller
 {
@@ -120,6 +121,8 @@ class FrontendController extends Controller
 
     public function contactSubmit(request $request)
     {
+        $refkey = Str::random(10);
+
         $data = new Contact();
         $data->name = $request->name;
         $data->email = $request->email;
@@ -132,16 +135,15 @@ class FrontendController extends Controller
         return response()->json([
             "status" => "success",
             "message" => "Thank you for Contact Us!",
-            "redirect" => "thank-you"
+            "redirect" => route('thankyouPage', $refkey)
         ]);
     }
 
     public function thankyouPage()
     {
-        $view = 'frontend.contact-thankyou';
         $blogs = $this->getBlogs();
         $services = $this->getServices();
-        return view($view, compact('blogs','services'));
+        return view('frontend.contact-thankyou', compact('blogs', 'services'));
     }
 
 }
