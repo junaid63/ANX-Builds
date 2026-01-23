@@ -14,6 +14,7 @@ Garden Granny Annexe UK Contact | ANX Builds Today
 @endsection
 
 @section('css')
+<script src="https://www.google.com/recaptcha/api.js"></script>
 @endsection
 
 @section('content')
@@ -172,8 +173,23 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                         <textarea class="bs-form-1-item-input" name="message" id="contactmessage" placeholder="Write your message here..."></textarea>
                     </div>
 
-                    <div class="bs-form-1-item  ">
-                        <button class="bs-btn-1" id="ContactSubmit" type="button" >
+                    <div class="bs-form-1-item position-relative">
+                        <button
+                            class="bs-btn-1 g-recaptcha"
+                            data-sitekey="6LeT9FMsAAAAACGw3-3zcKuEuy4-6RqJLQWlmuaw"
+                            data-callback="onSubmit"
+                            data-action="contact_submit"
+                            type="submit"
+                        >
+                            <span class="text">Submit now</span>
+                            <span class="icon">
+                                <i class="fa-solid fa-right-long"></i>
+                                <i class="fa-solid fa-right-long"></i>
+                            </span>
+                            <span class="shape"></span>
+                        </button>
+
+                        {{-- <button class="bs-btn-1" id="ContactSubmit" type="button" >
                             <span class="text">
                                 Submit now
                             </span>
@@ -182,8 +198,9 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                                 <i class="fa-solid fa-right-long"></i>
                             </span>
                             <span class="shape"></span>
-                        </button>
+                        </button> --}}
                     </div>
+                    {{-- <input type="hidden" class="g-recaptcha" data-sitekey="reCAPTCHA_site_key"> --}}
                 </form>
 
             </div>
@@ -208,7 +225,28 @@ Garden Granny Annexe UK Contact | ANX Builds Today
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script>
+        function onSubmit(token) {
+            document.getElementById("contact-form").submit();
+        }
+    </script>
+    <script>
        $(function () {
+            $('#ContactSubmit').on('click', function () {
+                grecaptcha.ready(function () {
+                    grecaptcha.execute('6LeT9FMsAAAAACGw3-3zcKuEuy4-6RqJLQWlmuaw', {
+                        action: 'contact_form'
+                    }).then(function (token) {
+
+                        // set token
+                        $('#g-recaptcha-response').val(token);
+
+                        // now submit via ajax or normal submit
+                        submitContactForm();
+                    });
+                });
+
+            });
+
             $("#contactphone").mask('99999-999999');
             $("#ContactSubmit").click(function () {
 

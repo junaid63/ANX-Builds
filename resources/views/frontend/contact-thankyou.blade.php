@@ -61,25 +61,32 @@
 @endsection
 
 @section('js')
-@section('js')
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 
-<script>
-    $(function () {
-        let seconds = 20;
+    <script>
+        $(function () {
+            let seconds = 20;
 
-        let timer = setInterval(function () {
-            seconds--;
-            $('#counter').text(seconds);
+            let timer = setInterval(function () {
+                seconds--;
+                $('#counter').text(seconds);
 
-            if (seconds <= 0) {
-                clearInterval(timer);
-                window.location.href = "/";
-            }
-        }, 1000);
-    });
-</script>
+                if (seconds <= 0) {
+                    clearInterval(timer);
+                    window.location.href = "/";
+                }
+            }, 1000);
+        });
+    </script>
+    <script>
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
+        }
 
-@endsection
+        window.onpopstate = function () {
+            window.location.href = "{{ route('index') }}"; 
+        };
+    </script>
+
 @endsection
