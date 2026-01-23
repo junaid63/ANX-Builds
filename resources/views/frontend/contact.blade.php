@@ -175,7 +175,7 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                     </div>
 
                     <div class="bs-form-1-item">
-                        <div class="g-recaptcha" data-sitekey="6LedBFQsAAAAAAtwJXbxz4qGIqgybZPAqZ3t3MRS"></div>
+                        <div class="g-recaptcha" id="" data-sitekey="6LedBFQsAAAAAAtwJXbxz4qGIqgybZPAqZ3t3MRS"></div>
                     </div>
                   
                     <div class="bs-form-1-item position-relative">
@@ -219,243 +219,390 @@ Garden Granny Annexe UK Contact | ANX Builds Today
         }
     </script>
     <script>
+
+        // $(function () {
+        //     $("#contactphone").mask('99999-999999');
+        //     $("#ContactSubmit").click(function () {
+        //         var name = $("#contactname").val().trim();
+        //         var email = $("#contactemail").val().trim();
+        //         var phone = $("#contactphone").val().trim();
+        //         var postcode = $("#contactpostcode").val().trim();
+        //         var project = $("#contactproject").val();
+        //         var message = $("#contactmessage").val().trim();
+
+                
+
+        //         // 1️⃣ Check reCAPTCHA v2
+        //         var recaptchaResponse = grecaptcha.getResponse();
+
+        //         var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+        //         var ukPostcodePattern = /^[A-Z]{1,2}\d[A-Z\d]?\s?\d[A-Z]{2}$/i;
+
+        //         if (name !== "") {
+
+        //             if (email !== "") {
+
+        //                 if (emailPattern.test(email)) {
+
+        //                     if (phone !== "") {
+
+        //                         if (phone.length === 12) {
+
+        //                             if (postcode !== "") {
+
+        //                                 if (ukPostcodePattern.test(postcode)) {
+
+        //                                     if (project !== "") {   // ✅ project selected check
+
+        //                                         if (message !== "") {
+        //                                             if (recaptchaResponse.length === 0) {
+        //                                                 $(this).html("Please Wait &nbsp; <i class='fa fa-spinner fa-spin'></i>");
+        //                                                 $(this).attr("disabled", true);
+
+        //                                                 $.ajax({
+        //                                                     url: "contact/submit",
+        //                                                     type: "POST",
+        //                                                     data: {
+        //                                                         name: name,
+        //                                                         email: email,
+        //                                                         phone: phone,
+        //                                                         postcode: postcode,
+        //                                                         project: project,
+        //                                                         message: message,
+        //                                                         'g-recaptcha-response': $('#g-recaptcha-response').val(),
+        //                                                         '_token': '{{ csrf_token() }}',
+        //                                                     },
+        //                                                     success: function (response) {
+        //                                                         Swal.fire({
+        //                                                             position: "center",
+        //                                                             icon: "success",
+        //                                                             title: response.message,
+        //                                                             showConfirmButton: false,
+        //                                                             timer: 20000
+        //                                                         });
+        //                                                         $("#ContactSubmit").html("Submit Now").removeAttr("disabled");
+        //                                                         $("#contact-form")[0].reset();
+        //                                                         grecaptcha.reset(); // reset the captcha
+        //                                                         setTimeout(() => {
+        //                                                             window.location = response['redirect'];
+        //                                                         }, 2000);
+        //                                                     }
+        //                                                 });
+        //                                             } else {
+        //                                                 Swal.fire({
+        //                                                     icon: "warning",
+        //                                                     title: "Please verify you are not a robot",
+        //                                                     timer: 2000,
+        //                                                     showConfirmButton: false,
+        //                                                     backdrop: false,
+        //                                                     customClass: { popup: 'swal-bottom-center' }
+        //                                                 });
+        //                                                 return false;
+        //                                             }
+
+        //                                         } else {
+        //                                             Swal.fire({ 
+        //                                                 icon: "warning", 
+        //                                                 showConfirmButton: false, 
+        //                                                 title: "Enter the message", 
+        //                                                 timer: 2000, 
+        //                                                 backdrop: false,
+        //                                                 customClass: {
+        //                                                     popup: 'swal-bottom-center'
+        //                                                 } 
+        //                                             });
+        //                                             $("#contactmessage").focus();
+        //                                         }
+        //                                     } else {
+        //                                         Swal.fire({ 
+        //                                             icon: "warning", 
+        //                                             showConfirmButton: false, 
+        //                                             title: "Select project type", 
+        //                                             timer: 2000, 
+        //                                             backdrop: false,
+        //                                             customClass: {
+        //                                                 popup: 'swal-bottom-center'
+        //                                             } 
+        //                                         });
+        //                                         $("#contactproject").focus();
+        //                                     }
+
+        //                                 } else {
+        //                                     Swal.fire({ icon: "warning", 
+        //                                         showConfirmButton: false, 
+        //                                         title: "Enter a valid UK postcode", 
+        //                                         timer: 2000, 
+        //                                         backdrop: false,
+        //                                         customClass: {
+        //                                             popup: 'swal-bottom-center'
+        //                                         } 
+        //                                     });
+        //                                     $("#contactpostcode").focus();
+        //                                 }
+
+        //                             } else {
+        //                                 Swal.fire({ 
+        //                                     icon: "warning", 
+        //                                     showConfirmButton: false, 
+        //                                     title: "Enter the postcode", 
+        //                                     timer: 2000, 
+        //                                     backdrop: false,
+        //                                     customClass: {
+        //                                         popup: 'swal-bottom-center'
+        //                                     } 
+        //                                 });
+        //                                 $("#contactpostcode").focus();
+        //                             }
+
+        //                         } else {
+        //                             Swal.fire({ 
+        //                                 icon: "warning", 
+        //                                 showConfirmButton: false, 
+        //                                 title: "Enter 12 digits number", 
+        //                                 timer: 2000, 
+        //                                 backdrop: false,
+        //                                 customClass: {
+        //                                     popup: 'swal-bottom-center'
+        //                                 } 
+        //                             });
+        //                             $("#contactphone").focus();
+        //                         }
+
+        //                     } else {
+        //                         Swal.fire({ 
+        //                             icon: "warning", 
+        //                             showConfirmButton: false, 
+        //                             title: "Enter the phone number", 
+        //                             timer: 2000, 
+        //                             backdrop: false,
+        //                             customClass: {
+        //                                 popup: 'swal-bottom-center'
+        //                             } 
+        //                         });
+        //                     }
+
+        //                 } else {
+        //                     Swal.fire({ icon: "warning", 
+        //                         showConfirmButton: false, 
+        //                         title: "Enter a valid email address", 
+        //                         timer: 2000, 
+        //                         backdrop: false,
+        //                         customClass: {
+        //                             popup: 'swal-bottom-center'
+        //                         } 
+        //                     });
+        //                     $("#contactemail").focus();
+        //                 }
+
+        //             } else {
+        //                 Swal.fire({ icon: "warning",
+        //                     showConfirmButton: false, 
+        //                     itle: "Enter the email", 
+        //                     timer: 2000, 
+        //                     backdrop: false,
+        //                     customClass: {
+        //                         popup: 'swal-bottom-center'
+        //                     } 
+        //                 });
+        //                 $("#contactemail").focus();
+        //             }
+
+        //         } else {
+        //             Swal.fire({ 
+        //                 icon: "warning", 
+        //                 showConfirmButton: false, 
+        //                 title: "Enter the name", 
+        //                 timer: 2000, 
+        //                 backdrop: false,
+        //                 customClass: {
+        //                     popup: 'swal-bottom-center'
+        //                 } 
+        //             });
+        //             $("#contactname").focus();
+        //         }
+
+        //     });
+        // });
         $(function () {
-            $('#ContactSubmit').on('click', function () {
-
-                grecaptcha.ready(function () {
-                    grecaptcha.execute('6LedBFQsAAAAAAtwJXbxz4qGIqgybZPAqZ3t3MRS', {
-                        action: 'contact'
-                    }).then(function (token) {
-
-                        $('#g-recaptcha-response').val(token);
-
-                        // ab validation + ajax submit
-                        submitContactForm();
-
-                    });
-                });
-
-            });
-        });
-
-       $(function () {
-            // $('#ContactSubmit').on('click', function () {
-            //     grecaptcha.ready(function () {
-            //         grecaptcha.execute('6LedBFQsAAAAAAtwJXbxz4qGIqgybZPAqZ3t3MRS', {
-            //             action: 'contact-form'
-            //         }).then(function (token) {
-
-            //             // set token
-            //             $('#g-recaptcha-response').val(token);
-
-            //             // now submit via ajax or normal submit
-            //             submitContactForm();
-            //         });
-            //     });
-
-            // });
-
             $("#contactphone").mask('99999-999999');
-            $("#ContactSubmit").click(function () {
 
+            $("#ContactSubmit").click(function () {
                 var name = $("#contactname").val().trim();
                 var email = $("#contactemail").val().trim();
                 var phone = $("#contactphone").val().trim();
                 var postcode = $("#contactpostcode").val().trim();
                 var project = $("#contactproject").val();
                 var message = $("#contactmessage").val().trim();
-
-                // 1️⃣ Check reCAPTCHA v2
                 var recaptchaResponse = grecaptcha.getResponse();
 
                 var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
                 var ukPostcodePattern = /^[A-Z]{1,2}\d[A-Z\d]?\s?\d[A-Z]{2}$/i;
 
-                if (name !== "") {
-
-                    if (email !== "") {
-
-                        if (emailPattern.test(email)) {
-
-                            if (phone !== "") {
-
-                                if (phone.length === 12) {
-
-                                    if (postcode !== "") {
-
-                                        if (ukPostcodePattern.test(postcode)) {
-
-                                            if (project !== "") {   // ✅ project selected check
-
-                                                if (message !== "") {
-                                                    if (recaptchaResponse.length === 0) {
-                                                        $(this).html("Please Wait &nbsp; <i class='fa fa-spinner fa-spin'></i>");
-                                                        $(this).attr("disabled", true);
-
-                                                        $.ajax({
-                                                            url: "contact/submit",
-                                                            type: "POST",
-                                                            data: {
-                                                                name: name,
-                                                                email: email,
-                                                                phone: phone,
-                                                                postcode: postcode,
-                                                                project: project,
-                                                                message: message,
-                                                                'g-recaptcha-response': $('#g-recaptcha-response').val(),
-                                                                '_token': '{{ csrf_token() }}',
-                                                            },
-                                                            success: function (response) {
-                                                                Swal.fire({
-                                                                    position: "center",
-                                                                    icon: "success",
-                                                                    title: response.message,
-                                                                    showConfirmButton: false,
-                                                                    timer: 20000
-                                                                });
-                                                                $("#ContactSubmit").html("Submit Now").removeAttr("disabled");
-                                                                $("#contact-form")[0].reset();
-                                                                grecaptcha.reset(); // reset the captcha
-                                                                setTimeout(() => {
-                                                                    window.location = response['redirect'];
-                                                                }, 2000);
-                                                            }
-                                                        });
-                                                    } else {
-                                                        Swal.fire({
-                                                            icon: "warning",
-                                                            title: "Please verify you are not a robot",
-                                                            timer: 2000,
-                                                            showConfirmButton: false,
-                                                            backdrop: false,
-                                                            customClass: { popup: 'swal-bottom-center' }
-                                                        });
-                                                        return false;
-                                                    }
-
-                                                } else {
-                                                    Swal.fire({ 
-                                                        icon: "warning", 
-                                                        showConfirmButton: false, 
-                                                        title: "Enter the message", 
-                                                        timer: 2000, 
-                                                        backdrop: false,
-                                                        customClass: {
-                                                            popup: 'swal-bottom-center'
-                                                        } 
-                                                    });
-                                                    $("#contactmessage").focus();
-                                                }
-                                            } else {
-                                                Swal.fire({ 
-                                                    icon: "warning", 
-                                                    showConfirmButton: false, 
-                                                    title: "Select project type", 
-                                                    timer: 2000, 
-                                                    backdrop: false,
-                                                    customClass: {
-                                                        popup: 'swal-bottom-center'
-                                                    } 
-                                                });
-                                                $("#contactproject").focus();
-                                            }
-
-                                        } else {
-                                            Swal.fire({ icon: "warning", 
-                                                showConfirmButton: false, 
-                                                title: "Enter a valid UK postcode", 
-                                                timer: 2000, 
-                                                backdrop: false,
-                                                customClass: {
-                                                    popup: 'swal-bottom-center'
-                                                } 
-                                            });
-                                            $("#contactpostcode").focus();
-                                        }
-
-                                    } else {
-                                        Swal.fire({ 
-                                            icon: "warning", 
-                                            showConfirmButton: false, 
-                                            title: "Enter the postcode", 
-                                            timer: 2000, 
-                                            backdrop: false,
-                                            customClass: {
-                                                popup: 'swal-bottom-center'
-                                            } 
-                                        });
-                                        $("#contactpostcode").focus();
-                                    }
-
-                                } else {
-                                    Swal.fire({ 
-                                        icon: "warning", 
-                                        showConfirmButton: false, 
-                                        title: "Enter 12 digits number", 
-                                        timer: 2000, 
-                                        backdrop: false,
-                                        customClass: {
-                                            popup: 'swal-bottom-center'
-                                        } 
-                                    });
-                                    $("#contactphone").focus();
-                                }
-
-                            } else {
-                                Swal.fire({ 
-                                    icon: "warning", 
-                                    showConfirmButton: false, 
-                                    title: "Enter the phone number", 
-                                    timer: 2000, 
-                                    backdrop: false,
-                                    customClass: {
-                                        popup: 'swal-bottom-center'
-                                    } 
-                                });
-                            }
-
-                        } else {
-                            Swal.fire({ icon: "warning", 
-                                showConfirmButton: false, 
-                                title: "Enter a valid email address", 
-                                timer: 2000, 
-                                backdrop: false,
-                                customClass: {
-                                    popup: 'swal-bottom-center'
-                                } 
-                            });
-                            $("#contactemail").focus();
-                        }
-
-                    } else {
-                        Swal.fire({ icon: "warning",
-                            showConfirmButton: false, 
-                            itle: "Enter the email", 
-                            timer: 2000, 
-                            backdrop: false,
-                            customClass: {
-                                popup: 'swal-bottom-center'
-                            } 
-                        });
-                        $("#contactemail").focus();
-                    }
-
-                } else {
-                    Swal.fire({ 
-                        icon: "warning", 
-                        showConfirmButton: false, 
-                        title: "Enter the name", 
-                        timer: 2000, 
+                // Name validation
+                if (name === "") {
+                    Swal.fire({
+                        icon: "warning",
+                        showConfirmButton: false,
+                        title: "Enter the name",
+                        timer: 2000,
                         backdrop: false,
-                        customClass: {
-                            popup: 'swal-bottom-center'
-                        } 
+                        customClass: { popup: 'swal-bottom-center' }
                     });
                     $("#contactname").focus();
+                    return false;
                 }
+
+                // Email validation
+                if (email === "") {
+                    Swal.fire({
+                        icon: "warning",
+                        showConfirmButton: false,
+                        title: "Enter the email",
+                        timer: 2000,
+                        backdrop: false,
+                        customClass: { popup: 'swal-bottom-center' }
+                    });
+                    $("#contactemail").focus();
+                    return false;
+                } else if (!emailPattern.test(email)) {
+                    Swal.fire({
+                        icon: "warning",
+                        showConfirmButton: false,
+                        title: "Enter a valid email address",
+                        timer: 2000,
+                        backdrop: false,
+                        customClass: { popup: 'swal-bottom-center' }
+                    });
+                    $("#contactemail").focus();
+                    return false;
+                }
+
+                // Phone validation
+                if (phone === "") {
+                    Swal.fire({
+                        icon: "warning",
+                        showConfirmButton: false,
+                        title: "Enter the phone number",
+                        timer: 2000,
+                        backdrop: false,
+                        customClass: { popup: 'swal-bottom-center' }
+                    });
+                    $("#contactphone").focus();
+                    return false;
+                } else if (phone.length !== 12) {
+                    Swal.fire({
+                        icon: "warning",
+                        showConfirmButton: false,
+                        title: "Enter 12 digits number",
+                        timer: 2000,
+                        backdrop: false,
+                        customClass: { popup: 'swal-bottom-center' }
+                    });
+                    $("#contactphone").focus();
+                    return false;
+                }
+
+                // Postcode validation
+                if (postcode === "") {
+                    Swal.fire({
+                        icon: "warning",
+                        showConfirmButton: false,
+                        title: "Enter the postcode",
+                        timer: 2000,
+                        backdrop: false,
+                        customClass: { popup: 'swal-bottom-center' }
+                    });
+                    $("#contactpostcode").focus();
+                    return false;
+                } else if (!ukPostcodePattern.test(postcode)) {
+                    Swal.fire({
+                        icon: "warning",
+                        showConfirmButton: false,
+                        title: "Enter a valid UK postcode",
+                        timer: 2000,
+                        backdrop: false,
+                        customClass: { popup: 'swal-bottom-center' }
+                    });
+                    $("#contactpostcode").focus();
+                    return false;
+                }
+
+                // Project validation
+                if (project === "") {
+                    Swal.fire({
+                        icon: "warning",
+                        showConfirmButton: false,
+                        title: "Select project type",
+                        timer: 2000,
+                        backdrop: false,
+                        customClass: { popup: 'swal-bottom-center' }
+                    });
+                    $("#contactproject").focus();
+                    return false;
+                }
+
+                // Message validation
+                if (message === "") {
+                    Swal.fire({
+                        icon: "warning",
+                        showConfirmButton: false,
+                        title: "Enter the message",
+                        timer: 2000,
+                        backdrop: false,
+                        customClass: { popup: 'swal-bottom-center' }
+                    });
+                    $("#contactmessage").focus();
+                    return false;
+                }
+
+                // Captcha validation
+                if (recaptchaResponse.length === 0) {
+                    Swal.fire({
+                        icon: "warning",
+                        title: "Please verify you are not a robot",
+                        timer: 2000,
+                        showConfirmButton: false,
+                        backdrop: false,
+                        customClass: { popup: 'swal-bottom-center' }
+                    });
+                    return false;
+                }
+
+                // If all validations pass, submit via AJAX
+                $(this).html("Please Wait &nbsp; <i class='fa fa-spinner fa-spin'></i>");
+                $(this).attr("disabled", true);
+
+                $.ajax({
+                    url: "contact/submit",
+                    type: "POST",
+                    data: {
+                        name: name,
+                        email: email,
+                        phone: phone,
+                        postcode: postcode,
+                        project: project,
+                        message: message,
+                        'g-recaptcha-response': recaptchaResponse,
+                        '_token': '{{ csrf_token() }}',
+                    },
+                    success: function (response) {
+                        Swal.fire({
+                            position: "center",
+                            icon: "success",
+                            title: response.message,
+                            showConfirmButton: false,
+                            timer: 2000
+                        });
+                        $("#ContactSubmit").html("Submit Now").removeAttr("disabled");
+                        $("#contact-form")[0].reset();
+                        grecaptcha.reset(); // reset the captcha
+                        setTimeout(() => {
+                            window.location = response['redirect'];
+                        }, 2000);
+                    }
+                });
 
             });
         });
-
     </script>
 @endsection
