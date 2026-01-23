@@ -1,12 +1,12 @@
 @extends('frontend/layouts/master')
 
 @section('metas')
-    <meta name="title" content="Garden Granny Annexe UK | Bespoke Builds by ANX Builds">
-    <meta name="description" content="Garden granny annexe UK experts at ANX Builds, creating bespoke, fully insulated garden annexes. Perfect for family living. Get a free quote today.">
-    <meta property="og:title" content="Garden Granny Annexe UK | Bespoke Builds by ANX Builds">
-    <meta property="og:description" content="Garden granny annexe UK experts at ANX Builds, creating bespoke, fully insulated garden annexes. Perfect for family living. Get a free quote today.">
-    <meta name="twitter:title" content="Garden Granny Annexe UK | Bespoke Builds by ANX Builds">
-    <meta name="twitter:description" content="Garden granny annexe UK experts at ANX Builds, creating bespoke, fully insulated garden annexes. Perfect for family living. Get a free quote today.">
+    <meta name="title" content="Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.">
+    <meta name="description" content="Garden Granny Annexe UK: Discover bespoke, high quality garden annexes with Granny Annexe Company. Create more space today  Get a free consultation now!">
+    <meta property="og:title" content="Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.">
+    <meta property="og:description" content="Garden Granny Annexe UK: Discover bespoke, high quality garden annexes with Granny Annexe Company. Create more space today  Get a free consultation now!">
+    <meta name="twitter:title" content="Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.">
+    <meta name="twitter:description" content="Garden Granny Annexe UK: Discover bespoke, high quality garden annexes with Granny Annexe Company. Create more space today  Get a free consultation now!">
 @endsection
 
 @section('schema')
@@ -63,7 +63,7 @@
 @endsection
 
 @section('title')
-Garden Granny Annexe UK | Bespoke Builds by ANX Builds
+Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
 @endsection
 
 @section('gtag')

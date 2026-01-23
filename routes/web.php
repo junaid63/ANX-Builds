@@ -24,6 +24,7 @@ Route::get("/blog", [FrontendController::class , 'blogs'])->name('blogs');
 Route::get("/faq", [FrontendController::class , 'faq'])->name('faq');
 Route::get("/payment-milestone", [FrontendController::class , 'paymentmilestone'])->name('paymentmilestone');
 Route::get("/contact-us", [FrontendController::class , 'contact'])->name('contact');
+Route::get("/thank-you", [FrontendController::class , 'thankyouPage'])->name('thankyouPage');
 Route::post("/contact/submit", [FrontendController::class , 'contactSubmit'])->name('contactSubmit');
 
 Route::get("/blog/{slug}", [FrontendController::class , 'blogDeails'])->name('blogDeails');

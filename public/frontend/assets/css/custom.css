@@ -1207,20 +1207,71 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   width: 100%;
   height: 100%;
   }
-
   .swiper-slide {
   font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
   }
-
   .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   }
+  
+
+.thankyou-main {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thankyou-main::after ,
+.thankyou-main::before {
+  position: absolute;
+  content: '';
+  width: 15%;
+  height: 175%;
+  z-index: -1;
+}
+.thankyou-main::before {
+  background: var(--bs-clr-pr-1);
+  left: -350px;
+  transform: rotate(220deg);
+}
+.thankyou-main::after {
+  background: var(--bs-black);
+  right: -350px;
+  transform: rotate(220deg);
+}
+
+  .thankyou-main .thankyou-title-desc-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .thankyou-main .thankyou-title-desc-icon .icon i {
+    width: 50px;
+    background: var(--bs-clr-pr-1);
+    color: white;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  .thankyou-main .thankyou-title-desc-icon .desc {
+    width: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
 @media only screen and (max-width: 510px) {
   .bs-core-feature-4-item .item-icon i {

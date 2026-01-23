@@ -37,6 +37,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="{{url('frontend/assets/img/favicon/favicon-32x32.png')}}">
         <link rel="icon" type="image/png" sizes="96x96" href="{{url('frontend/assets/img/favicon/favicon-96x96.png')}}">
         <link rel="icon" type="image/png" sizes="16x16" href="{{url('frontend/assets/img/favicon/favicon-16x16.png')}}">
+        <link rel="icon" href="{{ url('frontend/assets/img/favicon/favicon.ico') }}" type="image/x-icon">
         <link rel="manifest" href="{{ url('frontend/assets/img/favicon/manifest.json') }}">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
