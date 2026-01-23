@@ -67,7 +67,7 @@
 
 <script>
     $(function () {
-        let seconds = 200;
+        let seconds = 20;
 
         let timer = setInterval(function () {
             seconds--;
