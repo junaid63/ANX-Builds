@@ -15,6 +15,7 @@ Garden Granny Annexe UK Contact | ANX Builds Today
 
 @section('css')
 <script src="https://www.google.com/recaptcha/api.js"></script>
+{{-- <script src="https://www.google.com/recaptcha/api.js?render=6LedBFQsAAAAAAtwJXbxz4qGIqgybZPAqZ3t3MRS"></script> --}}
 @endsection
 
 @section('content')
@@ -174,8 +175,7 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                     </div>
 
                     <div class="bs-form-1-item">
-                        <div class="g-recaptcha" id="g-recaptcha-response" data-sitekey="6LedBFQsAAAAAAtwJXbxz4qGIqgybZPAqZ3t3MRS">
-                        </div>  
+                        <div class="g-recaptcha" data-sitekey="6LedBFQsAAAAAAtwJXbxz4qGIqgybZPAqZ3t3MRS"></div>
                     </div>
                   
                     <div class="bs-form-1-item position-relative">
@@ -219,22 +219,41 @@ Garden Granny Annexe UK Contact | ANX Builds Today
         }
     </script>
     <script>
-       $(function () {
+        $(function () {
             $('#ContactSubmit').on('click', function () {
+
                 grecaptcha.ready(function () {
                     grecaptcha.execute('6LedBFQsAAAAAAtwJXbxz4qGIqgybZPAqZ3t3MRS', {
-                        action: 'contact-form'
+                        action: 'contact'
                     }).then(function (token) {
 
-                        // set token
                         $('#g-recaptcha-response').val(token);
 
-                        // now submit via ajax or normal submit
+                        // ab validation + ajax submit
                         submitContactForm();
+
                     });
                 });
 
             });
+        });
+
+       $(function () {
+            // $('#ContactSubmit').on('click', function () {
+            //     grecaptcha.ready(function () {
+            //         grecaptcha.execute('6LedBFQsAAAAAAtwJXbxz4qGIqgybZPAqZ3t3MRS', {
+            //             action: 'contact-form'
+            //         }).then(function (token) {
+
+            //             // set token
+            //             $('#g-recaptcha-response').val(token);
+
+            //             // now submit via ajax or normal submit
+            //             submitContactForm();
+            //         });
+            //     });
+
+            // });
 
             $("#contactphone").mask('99999-999999');
             $("#ContactSubmit").click(function () {
@@ -245,6 +264,9 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                 var postcode = $("#contactpostcode").val().trim();
                 var project = $("#contactproject").val();
                 var message = $("#contactmessage").val().trim();
+
+                // 1️⃣ Check reCAPTCHA v2
+                var recaptchaResponse = grecaptcha.getResponse();
 
                 var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
                 var ukPostcodePattern = /^[A-Z]{1,2}\d[A-Z\d]?\s?\d[A-Z]{2}$/i;
@@ -266,37 +288,50 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                                             if (project !== "") {   // ✅ project selected check
 
                                                 if (message !== "") {
+                                                    if (recaptchaResponse.length === 0) {
+                                                        $(this).html("Please Wait &nbsp; <i class='fa fa-spinner fa-spin'></i>");
+                                                        $(this).attr("disabled", true);
 
-                                                    $(this).html("Please Wait &nbsp; <i class='fa fa-spinner fa-spin'></i>");
-                                                    $(this).attr("disabled", true);
-
-                                                    $.ajax({
-                                                        url: "contact/submit",
-                                                        type: "POST",
-                                                        data: {
-                                                            name: name,
-                                                            email: email,
-                                                            phone: phone,
-                                                            postcode: postcode,
-                                                            project: project,
-                                                            message: message,
-                                                            '_token': '{{ csrf_token() }}',
-                                                        },
-                                                        success: function (response) {
-                                                            Swal.fire({
-                                                                position: "center",
-                                                                icon: "success",
-                                                                title: response.message,
-                                                                showConfirmButton: false,
-                                                                timer: 20000
-                                                            });
-                                                            $("#ContactSubmit").html("Submit Now").removeAttr("disabled");
-                                                            $("#contact-form")[0].reset();
-                                                            setTimeout(() => {
-                                                                window.location = response['redirect'];
-                                                            }, 2000);
-                                                        }
-                                                    });
+                                                        $.ajax({
+                                                            url: "contact/submit",
+                                                            type: "POST",
+                                                            data: {
+                                                                name: name,
+                                                                email: email,
+                                                                phone: phone,
+                                                                postcode: postcode,
+                                                                project: project,
+                                                                message: message,
+                                                                'g-recaptcha-response': $('#g-recaptcha-response').val(),
+                                                                '_token': '{{ csrf_token() }}',
+                                                            },
+                                                            success: function (response) {
+                                                                Swal.fire({
+                                                                    position: "center",
+                                                                    icon: "success",
+                                                                    title: response.message,
+                                                                    showConfirmButton: false,
+                                                                    timer: 20000
+                                                                });
+                                                                $("#ContactSubmit").html("Submit Now").removeAttr("disabled");
+                                                                $("#contact-form")[0].reset();
+                                                                grecaptcha.reset(); // reset the captcha
+                                                                setTimeout(() => {
+                                                                    window.location = response['redirect'];
+                                                                }, 2000);
+                                                            }
+                                                        });
+                                                    } else {
+                                                        Swal.fire({
+                                                            icon: "warning",
+                                                            title: "Please verify you are not a robot",
+                                                            timer: 2000,
+                                                            showConfirmButton: false,
+                                                            backdrop: false,
+                                                            customClass: { popup: 'swal-bottom-center' }
+                                                        });
+                                                        return false;
+                                                    }
 
                                                 } else {
                                                     Swal.fire({ 
@@ -311,7 +346,6 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                                                     });
                                                     $("#contactmessage").focus();
                                                 }
-
                                             } else {
                                                 Swal.fire({ 
                                                     icon: "warning", 
