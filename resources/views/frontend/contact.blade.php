@@ -174,7 +174,7 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                     </div>
 
                     <div class="bs-form-1-item">
-                        <div class="g-recaptcha" id="g-recaptcha-response" data-sitekey="6LeT9FMsAAAAACGw3-3zcKuEuy4-6RqJLQWlmuaw">
+                        <div class="g-recaptcha" id="g-recaptcha-response" data-sitekey="6LedBFQsAAAAAAtwJXbxz4qGIqgybZPAqZ3t3MRS">
                         </div>  
                     </div>
                   
@@ -222,8 +222,8 @@ Garden Granny Annexe UK Contact | ANX Builds Today
        $(function () {
             $('#ContactSubmit').on('click', function () {
                 grecaptcha.ready(function () {
-                    grecaptcha.execute('6LeT9FMsAAAAACGw3-3zcKuEuy4-6RqJLQWlmuaw', {
-                        action: 'contact_form'
+                    grecaptcha.execute('6LedBFQsAAAAAAtwJXbxz4qGIqgybZPAqZ3t3MRS', {
+                        action: 'contact-form'
                     }).then(function (token) {
 
                         // set token
