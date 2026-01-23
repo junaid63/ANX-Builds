@@ -135,4 +135,12 @@ class FrontendController extends Controller
         ]);
     }
 
+    public function thankyouPage()
+    {
+        $view = 'frontend.contact-thankyou';
+        $blogs = $this->getBlogs();
+        $services = $this->getServices();
+        return view($view, compact('blogs','services'));
+    }
+
 }
