@@ -173,23 +173,13 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                         <textarea class="bs-form-1-item-input" name="message" id="contactmessage" placeholder="Write your message here..."></textarea>
                     </div>
 
+                    <div class="bs-form-1-item">
+                        <div class="g-recaptcha" data-sitekey="6LeT9FMsAAAAACGw3-3zcKuEuy4-6RqJLQWlmuaw">
+                        </div>  
+                    </div>
+                  
                     <div class="bs-form-1-item position-relative">
-                        <button
-                            class="bs-btn-1 g-recaptcha"
-                            data-sitekey="6LeT9FMsAAAAACGw3-3zcKuEuy4-6RqJLQWlmuaw"
-                            data-callback="onSubmit"
-                            data-action="contact_submit"
-                            type="submit"
-                        >
-                            <span class="text">Submit now</span>
-                            <span class="icon">
-                                <i class="fa-solid fa-right-long"></i>
-                                <i class="fa-solid fa-right-long"></i>
-                            </span>
-                            <span class="shape"></span>
-                        </button>
-
-                        {{-- <button class="bs-btn-1" id="ContactSubmit" type="button" >
+                        <button class="bs-btn-1" id="ContactSubmit" type="button" >
                             <span class="text">
                                 Submit now
                             </span>
@@ -198,9 +188,8 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                                 <i class="fa-solid fa-right-long"></i>
                             </span>
                             <span class="shape"></span>
-                        </button> --}}
+                        </button>
                     </div>
-                    {{-- <input type="hidden" class="g-recaptcha" data-sitekey="reCAPTCHA_site_key"> --}}
                 </form>
 
             </div>
