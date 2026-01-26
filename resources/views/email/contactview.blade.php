@@ -69,7 +69,7 @@
         
         /* Content Section */
         .content-wrapper {
-            padding: 40px;
+            padding: 10px 40px;
             background-color: #ffffff;
         }
         .content-card {
@@ -131,6 +131,9 @@
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
+        .label.name {
+            text-transform: capitalize;
+        }
         .value {
             flex: 1;
             color: #000000;
@@ -149,12 +152,9 @@
         /* Footer */
         .footer {
             background-color: #1a1a1a;
-            padding: 35px 20px;
+            padding: 10px 20px;
             text-align: center;
             border-top: 4px solid #a47966;
-        }
-        .footer-links {
-            margin-bottom: 20px;
         }
         .footer a {
             color: #ffffff;
@@ -272,7 +272,7 @@
                         <h2 class="section-title">New Contact Form Submission</h2>
                         <div class="details-section">
                             <div class="detail-row">
-                                <span class="label">Name:</span>
+                                <span class="label name">Name:</span>
                                 <span class="value">{{ $ConctactInfo->name }}</span>
                             </div>
                             <div class="detail-row">
@@ -307,7 +307,7 @@
         <tr>
             <td class="footer">
                 <div class="footer-links">
-                    <p style="color: #ffffff; margin-bottom: 15px; font-size: 16px;">Explore our premium annexe solutions</p>
+                    <p style="color: #ffffff; margin-bottom: 15px; font-size: 16px;">Explore Our Premium Annexe Solutions</p>
                     <a href="https://www.grannyannexecompany.co.uk/" class="website-link">Visit Our Website</a>
                 </div>
                 

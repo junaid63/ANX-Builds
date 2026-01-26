@@ -1543,7 +1543,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   }
   .bs-core-feature-4-item.fadeInRight .item-icon {
     padding: 15px;
-    height: 90px;
+    width: 90px;
   }
   .wa-offcanvas-top-logo {
     max-width: 210px;
