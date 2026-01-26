@@ -150,7 +150,7 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                                 </div>
                                 <!-- trusted -->
                                 {{-- <div class="bs-hero-4-slider-img-item-trusted">
-                                    <h5 class="bs-h-4 title">trusted</h5>
+                                    <h3 class="bs-h-4 title">trusted</h3>
                                     <p class="bs-p-4 ratting" >
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
@@ -184,7 +184,7 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                                 </div>
                                 <!-- trusted -->
                                 {{-- <div class="bs-hero-4-slider-img-item-trusted">
-                                    <h5 class="bs-h-4 title">trusted</h5>
+                                    <h3 class="bs-h-4 title">trusted</h3>
                                     <p class="bs-p-4 ratting" >
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
@@ -209,7 +209,7 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                                 </div>
                                 <!-- trusted -->
                                 {{-- <div class="bs-hero-4-slider-img-item-trusted">
-                                    <h5 class="bs-h-4 title">trusted</h5>
+                                    <h3 class="bs-h-4 title">trusted</h3>
                                     <p class="bs-p-4 ratting" >
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
@@ -341,30 +341,30 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
             <!-- single-item -->
             <div class="bs-core-services-2-item ">
                 {{-- <div class="item-title"> --}}
-                    <h5 class="bs-h-2 item-title">
-                        <span class="wa-split-up wa-capitalize wa-fix">
-                            Prices Starting From
+                <h4 class="bs-h-2 item-title">
+                    <span class="wa-split-up wa-capitalize wa-fix">
+                        Prices Starting From
+                    </span>
+                </h4>
+                <h5 class="bs-h-2 item-title custom-top">
+                    <strong>£59,995</strong>
+                </h5>
+                <div class="item-btn custom-top-btn">
+                    <a href="{{ route('price') }}" aria-label="name" class="bs-btn-1">
+                        <span class="text">
+                            See Our Prices
                         </span>
-                    </h5>
-                    <h5 class="bs-h-2 item-title custom-top">
-                        <strong>£59,995</strong>
-                    </h5>
-                    <div class="item-btn custom-top-btn">
-                        <a href="{{ route('price') }}" aria-label="name" class="bs-btn-1">
-                            <span class="text">
-                                See Our Prices
-                            </span>
-                            <span class="shape" ></span>
-                        </a>
-                    </div>
+                        <span class="shape" ></span>
+                    </a>
+                </div>
                 {{-- </div> --}}
                 <div class="content-wrap">
-                    <h5 class="bs-h-2 item-title">
+                    <h4 class="bs-h-2 item-title">
                         Prices Starting From
-                    </h5>
-                    <h5 class="bs-h-2 item-title">
+                    </h4>
+                    <h4 class="bs-h-2 item-title">
                        <strong>£59,995</strong>
-                    </h5>
+                    </h4>
                     <div class="item-btn">
                         <a href="{{ route('price') }}" aria-label="name" class="bs-btn-1">
                             <span class="text">
@@ -456,9 +456,9 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                         <div class="icon">
                             <i class="flaticon-right-arrow flaticon"></i>
                         </div>
-                        <h4 class="bs-h-4 title">
+                        <h3 class="bs-h-4 title">
                             <a href="{{ route('about') }}" aria-label="name">See some of our completed annexes</a>
-                        </h4>
+                        </h3>
                         <p class="bs-p-4 disc">
                             Explore completed annexes and steel-frame builds across the UK.
                         </p>
@@ -596,9 +596,9 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                         <div class="icon">
                             <i class="flaticon-minimalist flaticon"></i>
                         </div>
-                        <h4 class="bs-h-4 title">
+                        <h3 class="bs-h-4 title">
                             <a href="project-details.html" aria-label="name">Visionary Modular Design</a>
-                        </h4>
+                        </h3>
                         <p class="bs-p-4 disc">
                             Layouts optimised for comfort and functionality.
                         </p>
@@ -611,9 +611,9 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                         <div class="icon">
                             <i class="flaticon-blueprint flaticon"></i>
                         </div>
-                        <h4 class="bs-h-4 title">
+                        <h3 class="bs-h-4 title">
                             <a href="project-details.html" aria-label="name">Uncompromising Quality</a>
-                        </h4>
+                        </h3>
                         <p class="bs-p-4 disc">
                             Premium materials and precision engineering.
                         </p>
@@ -626,9 +626,9 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                         <div class="icon">
                             <i class="flaticon-property-insurance flaticon"></i>
                         </div>
-                        <h4 class="bs-h-4 title">
+                        <h3 class="bs-h-4 title">
                             <a href="project-details.html" aria-label="name">Seamless Functionality</a>
-                        </h4>
+                        </h3>
                         <p class="bs-p-4 disc">
                             Every pod and extension is designed for real-life use.
                         </p>
@@ -641,9 +641,9 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                         <div class="icon">
                             <i class="flaticon-goodwill-1 flaticon"></i>
                         </div>
-                        <h4 class="bs-h-4 title">
+                        <h3 class="bs-h-4 title">
                             <a href="project-details.html" aria-label="name">Time-Tested Reliability</a>
-                        </h4>
+                        </h3>
                         <p class="bs-p-4 disc">
                             Modular systems with consistent long-term performance.
                         </p>
@@ -807,7 +807,8 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                             <div class="bs-blog-4-item wow fadeInRight" >
                                 <div class="item-img wa-fix wa-img-cover">
                                     <a href="{{ route('blogDeails', $blog->slug) }}" aria-label="name" data-cursor-text="View">
-                                        <img src="{{ url('storage/' . $blog->home_card_img) }}" title="{{ $blog->title }}" alt="{{ $blog->title }}">
+                                        <img src="{{ url('storage/' . str_replace('\\', '/', $blog->home_card_img)) }}" title="{{ $blog->title }}" alt="{{ $blog->title }}">
+                                        {{-- <img src="{{ url('storage/' . $blog->home_card_img) }}" title="{{ $blog->title }}" alt="{{ $blog->title }}"> --}}
                                     </a>
                                 </div>
                                 <div class="content">
@@ -815,9 +816,9 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                                         <i class="flaticon-top-right flaticon"></i>
                                     </a>
                                     <p class="bs-p-4 author">{{ ucwords($blog->sub_title) }}</p>
-                                    <h4 class="title bs-h-1 text-ellipsis-2">
+                                    <h3 class="title bs-h-1 text-ellipsis-2">
                                         <a href="{{ route('blogDeails', $blog->slug) }}" aria-label="name">{{ ucwords($blog->title) }}</a>
-                                    </h4>
+                                    </h3>
                                     <p class="item-meta bs-p-4">
                                         <span class="categories" >Garden Annexes</span>
                                         {{-- <span class="date" >jan 20, 2024</span>

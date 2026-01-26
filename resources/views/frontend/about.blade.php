@@ -67,7 +67,7 @@ Garden Granny Annexe UK Experts | About ANX Builds
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-about-1-item wa-fix ">
-                                <a ref="{{url('frontend/assets/img/about/01.png')}}" class="popup-img wa-img-cover">
+                                <a href="{{url('frontend/assets/img/about/01.png')}}" class="popup-img wa-img-cover">
                                     <img title="about img" src="{{url('frontend/assets/img/about/01.png')}}" alt="about img">
                                 </a>
                             </div>
@@ -76,7 +76,7 @@ Garden Granny Annexe UK Experts | About ANX Builds
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-about-1-item wa-fix ">
-                                <a  ref="{{url('frontend/assets/img/about/02.png')}}" class="popup-img wa-img-cover">
+                                <a  href="{{url('frontend/assets/img/about/02.png')}}" class="popup-img wa-img-cover">
                                     <img title="about second img" src="{{url('frontend/assets/img/about/02.png')}}" alt="about second img">
                                 </a>
                             </div>
@@ -85,7 +85,7 @@ Garden Granny Annexe UK Experts | About ANX Builds
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-about-1-item wa-fix ">
-                                <a ref="{{url('frontend/assets/img/about/03.png')}}" class="popup-img wa-img-cover">
+                                <a href="{{url('frontend/assets/img/about/03.png')}}" class="popup-img wa-img-cover">
                                     <img title="about third img" src="{{url('frontend/assets/img/about/03.png')}}" alt="about third img">
                                 </a>
                             </div>
@@ -283,7 +283,7 @@ Garden Granny Annexe UK Experts | About ANX Builds
         </div>
     </section> --}}
      <!-- video-start -->
-    <section class="bs-video-4-area">
+    <div class="bs-video-4-area">
         <div class="bs-video-4-content wa-p-relative wa-fix wa-img-cover">
             <img class="wa-parallax-img" title="v4-img-1-updated" src="{{url('frontend/assets/img/video/v4-img-1-updated.png')}}" alt="v4-img-1-updated">
 
@@ -297,7 +297,7 @@ Garden Granny Annexe UK Experts | About ANX Builds
                 {{-- </div> --}}
             </div>
         </div>
-    </section>
+    </div>
     <!-- video-end -->
 
     <!-- choose-start -->

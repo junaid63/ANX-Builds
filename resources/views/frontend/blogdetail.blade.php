@@ -60,7 +60,8 @@
                                     @foreach ($popularblogs as $popular)
                                         <div class="bs-sidebar-blog-single">
                                             <div class="item-img wa-img-cover wa-fix">
-                                                <img title="{{ ucwords($popular->title) }}" src="{{ url('storage/' . $popular->home_card_img) }}" alt="{{ $popular->title }}">
+                                                <img src="{{ url('storage/' . str_replace('\\', '/', $popular->home_card_img)) }}" title="{{ $popular->title }}" alt="{{ $popular->title }}">
+                                                {{-- <img title="{{ ucwords($popular->title) }}" src="{{ url('storage/' . $popular->home_card_img) }}" alt="{{ $popular->title }}"> --}}
                                             </div>
                                             <div class="content">
                                                 <h4 class="bs-h-4 title text-ellipsis-2">
