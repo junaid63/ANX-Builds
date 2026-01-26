@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Contact;
 use App\Blog;
 use App\Service;
 use App\Faq;
+use App\Jobs\ContactJob;
+use App\Contact;
 use Str;
 
 class FrontendController extends Controller
@@ -132,6 +133,13 @@ class FrontendController extends Controller
         $data->message = $request->message;
         $data->save();
 
+        dispatch(new ContactJob($data->id, $data->email, "contactuser"));
+        $NOTIFICATION_EMAIL =  explode(",", setting('site.Notification_Email'));
+        foreach($NOTIFICATION_EMAIL as $NE)
+        {
+            dispatch(new ContactJob($data->id,$NE,"admin"));
+        }
+        
         return response()->json([
             "status" => "success",
             "message" => "Thank you for Contact Us!",
