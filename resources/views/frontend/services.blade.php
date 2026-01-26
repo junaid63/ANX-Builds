@@ -15,7 +15,7 @@ ANX Builds || Services
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-img.png') }}" alt="breadcrumb-img">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-img.png') }}" title="breadcrumb-img" alt="breadcrumb-img">
         </div>
 
         <div class="container bs-container-1">
@@ -66,7 +66,7 @@ ANX Builds || Services
                     >
                         <div class="bs-work-1-tabs-item-single">
                             <div class="item-img wa-fix wa-img-cover" data-cursor="-opaque">
-                                <img src="{{ url('storage/' . $service->card_img) }}" alt="">
+                                <img src="{{ url('storage/' . $service->card_img) }}" title="{{ $service->title }}" alt="{{ $service->title }}">
                             </div>
 
                             <p class="bs-p-1 item-disc">
@@ -89,7 +89,7 @@ ANX Builds || Services
         </div>
 
         <div class="bs-work-1-bg-img wa-fix">
-            <img class="wa-slideInUp" src="{{ url('frontend/assets/img/work/w1-bg-img-1.png') }}" alt="Work Img">
+            <img class="wa-slideInUp" src="{{ url('frontend/assets/img/work/w1-bg-img-1.png') }}" title="Work Img" alt="Work Img">
         </div>
     </div>
     <!-- work-end -->            

@@ -21,7 +21,7 @@ Garden Granny Annexe UK Blog | ANX Builds Insights
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-blogs.png') }}" alt="breadcrumb-blogs">
+            <img class="wa-parallax-img" title="breadcrumb-blogs" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-blogs.png') }}" alt="breadcrumb-blogs">
         </div>
 
         <div class="container bs-container-1">
@@ -53,7 +53,7 @@ Garden Granny Annexe UK Blog | ANX Builds Insights
             <div class="bs-blog-1-sec-title text-start text-lg-center mb-40">
                 <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
                     <span class="icon">
-                        <img src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="breadcrumb-blogs">
+                        <img title="breadcrumb-blogs" src="{{ url('frontend/assets/img/illus/star-shape.png') }}" alt="breadcrumb-blogs">
                     </span>
                     our recent blog
                 </h6>
@@ -66,7 +66,7 @@ Garden Granny Annexe UK Blog | ANX Builds Insights
                 <div class="bs-blog-1-item wa-3dUp">
                     <div class="item-img wa-fix wa-img-cover">
                         <a href="{{ route('blogDeails', $blog->slug) }}" aria-label="name" data-cursor-text="View">
-                            <img src="{{ url('storage/' . $blog->home_card_img) }}" alt="">
+                            <img title="{{ $blog->title }}" src="{{ url('storage/' . $blog->home_card_img) }}" alt="{{ $blog->title }}">
                         </a>
                     </div>
                     <p class="item-date bs-p-1">

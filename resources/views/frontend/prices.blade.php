@@ -21,7 +21,7 @@ Garden Granny Annexe UK Prices | ANX Builds Cost Guide
     <!-- breadcrumb-start -->
     <section class="breadcrumb-area wa-p-relative" >
         <div class="breadcrumb-bg-img wa-fix wa-img-cover">
-            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-pricing.png') }}" alt="breadcrumb-pricing">
+            <img class="wa-parallax-img" src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-pricing.png') }}" title="breadcrumb-pricing" alt="breadcrumb-pricing">
         </div>
 
         <div class="container bs-container-1">
@@ -583,7 +583,7 @@ Garden Granny Annexe UK Prices | ANX Builds Cost Guide
                 <!-- single-card -->
                 <div class="bs-work-5-card has-ani-up">
                     <div class="bg-img wa-img-cover wa-fix">
-                        <img src="{{ url('frontend/assets/img/price/brochures/01.png') }}" alt="First Brochures">
+                        <img src="{{ url('frontend/assets/img/price/brochures/01.png') }}" title="First Brochures" alt="First Brochures">
                     </div>
                     <h4 class="bs-h-1 title">9.0m x 5.0m x 3.1m Garden Annexe</h4>
                     <p class="bs-p-4 disc"> This bespoke Garden Annexe was designed to provide a safe, comfortable, and independent living space for a family member with a degenerative condition, while remaining close to loved ones for daily support and reassurance.</p>
@@ -593,7 +593,7 @@ Garden Granny Annexe UK Prices | ANX Builds Cost Guide
                 <!-- single-card -->
                 <div class="bs-work-5-card has-ani-down">
                     <div class="bg-img wa-img-cover wa-fix">
-                        <img src="{{ url('frontend/assets/img/price/brochures/02.jpg') }}" alt="Second Brochures">
+                        <img src="{{ url('frontend/assets/img/price/brochures/02.jpg') }}" title="Second Brochures" alt="Second Brochures">
                     </div>
                     <h4 class="bs-h-1 title">9.8m x 3.5m x 3.1m Garden Annexe</h4>
                     <p class="bs-p-4 disc"> This bespoke Garden Annexe was designed to create a high-quality, self-contained living space for a family member requiring independence while remaining close to the main home. The brief focused on comfort, privacy, and a layout suitable for long-term everyday living.</p>
@@ -603,7 +603,7 @@ Garden Granny Annexe UK Prices | ANX Builds Cost Guide
                 <!-- single-card -->
                 <div class="bs-work-5-card has-ani-up">
                     <div class="bg-img wa-img-cover wa-fix">
-                        <img src="{{ url('frontend/assets/img/price/brochures/03.png') }}" alt="Third Brochures">
+                        <img src="{{ url('frontend/assets/img/price/brochures/03.png') }}" title="Third Brochures" alt="Third Brochures">
                     </div>
                     <h4 class="bs-h-1 title">3.8m x 7.8m x 2.8m Garden Annexe</h4>
                     <p class="bs-p-4 disc"> This bespoke Luxury Garden Annexe was designed as a compact, self-contained living space for a family member visiting from Hong Kong for extended periods, providing independence while remaining closely connected to the main home.</p>
@@ -613,7 +613,7 @@ Garden Granny Annexe UK Prices | ANX Builds Cost Guide
                 <!-- single-card -->
                 <div class="bs-work-5-card has-ani-down">
                     <div class="bg-img wa-img-cover wa-fix">
-                        <img src="{{ url('frontend/assets/img/price/brochures/04.png') }}" alt="Fourth Brochures">
+                        <img src="{{ url('frontend/assets/img/price/brochures/04.png') }}" title="Fourth Brochures" alt="Fourth Brochures">
                     </div>
                     <h4 class="bs-h-1 title">15.5m x 6.0m x 3.4m Garden Annexe</h4>
                     <p class="bs-p-4 disc"> This large, two bedroom Annexe was designed as a high-quality, single-storey home, offering comfortable and practical living with a strong focus on longevity, efficiency, and low maintenance. The brief was to create a modern annexe for a clients parents that could adapt easily to future needs while remaining simple and robust in its design.</p>

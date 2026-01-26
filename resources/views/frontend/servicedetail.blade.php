@@ -31,7 +31,7 @@
                 <h1 class="bs-sec-title-4 service-detail-title wa-split-right wa-capitalize" data-split-delay="1.1s" >{{ ucwords($serviceDetails->title) }}</h1>
 
                 <div class="breadcrumb-bg-shape">
-                    <img src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-shape.png') }}" alt="breadcrumb-shape">
+                    <img src="{{ url('frontend/assets/img/breadcrumb/breadcrumb-shape.png') }}" title="breadcrumb-shape" alt="breadcrumb-shape">
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@
         <div class="container bs-container-1">
             <div class="bs-services-details-content">
                 <div class="service-banner-img mb-lg-5 mb-md-3 mb-2">
-                    <img src="{{ url('storage/' . $serviceDetails->service_banner) }}" alt="{{ ucwords($serviceDetails->title) }}">
+                    <img src="{{ url('storage/' . $serviceDetails->service_banner) }}" title="{{ $serviceDetails->title }}" alt="{{ ucwords($serviceDetails->title) }}">
                 </div>
 
                 <div class="bs-about-4-content">
