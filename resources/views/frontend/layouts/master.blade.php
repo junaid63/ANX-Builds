@@ -41,7 +41,7 @@
         <link rel="manifest" href="{{ url('frontend/assets/img/favicon/manifest.json') }}">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
+        <meta name="theme-color" content="#a47966">
 
 		<!-- all-CSS-link-here -->
         <link rel="canonical" href="{{ url()->current() }}" />
