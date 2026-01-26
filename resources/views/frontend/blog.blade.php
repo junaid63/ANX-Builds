@@ -66,7 +66,8 @@ Garden Granny Annexe UK Blog | ANX Builds Insights
                 <div class="bs-blog-1-item wa-3dUp">
                     <div class="item-img wa-fix wa-img-cover">
                         <a href="{{ route('blogDeails', $blog->slug) }}" aria-label="name" data-cursor-text="View">
-                            <img title="{{ $blog->title }}" src="{{ url('storage/' . $blog->home_card_img) }}" alt="{{ $blog->title }}">
+                            <img src="{{ url('storage/' . str_replace('\\', '/', $blog->home_card_img)) }}" title="{{ $blog->title }}" alt="{{ $blog->title }}">
+                            {{-- <img src="{{ url('storage/' . $blog->home_card_img) }}" title="{{ $blog->title }}" alt="{{ $blog->title }}"> --}}
                         </a>
                     </div>
                     <p class="item-date bs-p-1">

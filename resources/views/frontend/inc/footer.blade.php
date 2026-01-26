@@ -81,7 +81,7 @@
 
             <!-- right -->
             <div class="bs-footer-4-contact">
-                <h4 class="bs-h-1 title wa-split-up wa-capitalize wa-fix">Get In Touch</h4>
+                <h3 class="bs-h-1 title wa-split-up wa-capitalize wa-fix">Get In Touch</h3>
                 <div class="bs-footer-4-contact-link">
                     @if(setting('site.web-email'))
                     <p class="bs-p-4 link-title">Email</p>
