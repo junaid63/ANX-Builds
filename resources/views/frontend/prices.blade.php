@@ -86,32 +86,32 @@ Garden Granny Annexe UK Prices | ANX Builds Cost Guide
                                     </tr>
                                     <tr>
                                         <td>4m x 7m</td>
-                                        <td>£68,350</td>
+                                        <td>£63,350</td>
                                         <td>28 sqm</td>
                                     </tr>
                                     <tr>
                                         <td>4m x 9m</td>
-                                        <td>£81,000</td>
+                                        <td>£76,000</td>
                                         <td>36 sqm</td>
                                     </tr>
                                     <tr>
                                         <td>5m x 10m</td>
-                                        <td>£93,000</td>
+                                        <td>£88,000</td>
                                         <td>50 sqm</td>
                                     </tr>
                                     <tr>
                                         <td>5m x 12m</td>
-                                        <td>£107,350</td>
+                                        <td>£102,350</td>
                                         <td>60 sqm</td>
                                     </tr>
                                     <tr>
                                         <td>5m x 15m</td>
-                                        <td>£130,375</td>
+                                        <td>£125,375</td>
                                         <td>75 sqm</td>
                                     </tr>
                                     <tr>
                                         <td>5m x 19m</td>
-                                        <td>£145,725</td>
+                                        <td>£140,725</td>
                                         <td>95 sqm</td>
                                     </tr>
                                 </tbody>
