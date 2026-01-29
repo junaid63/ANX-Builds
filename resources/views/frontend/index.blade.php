@@ -347,7 +347,7 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                     </span>
                 </h4>
                 <h5 class="bs-h-2 item-title custom-top">
-                    <strong>£59,995</strong>
+                    <strong>£54,995</strong>
                 </h5>
                 <div class="item-btn custom-top-btn">
                     <a href="{{ route('price') }}" aria-label="name" class="bs-btn-1">
@@ -363,7 +363,7 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                         Prices Starting From
                     </h4>
                     <h4 class="bs-h-2 item-title">
-                       <strong>£59,995</strong>
+                       <strong>£54,995</strong>
                     </h4>
                     <div class="item-btn">
                         <a href="{{ route('price') }}" aria-label="name" class="bs-btn-1">

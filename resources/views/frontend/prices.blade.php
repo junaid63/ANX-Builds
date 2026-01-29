@@ -81,7 +81,7 @@ Garden Granny Annexe UK Prices | ANX Builds Cost Guide
                                 <tbody>
                                     <tr>
                                         <td>4m x 5.5m</td>
-                                        <td>£59,995</td>
+                                        <td>£54,995</td>
                                         <td>22 sqm</td>
                                     </tr>
                                     <tr>

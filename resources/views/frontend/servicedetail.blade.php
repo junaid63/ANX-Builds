@@ -61,7 +61,7 @@
             </div>
             <div class="bs-services-details-content pricing-table-title-table mb-lg-5 mb-md-3 mb-2">
                 <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize mb-md-3 mb-3" data-cursor="-opaque">
-                    <strong>Our 100%</strong> Turn-Key <strong>Packages Start from</strong> £59,995
+                    <strong>Our 100%</strong> Turn-Key <strong>Packages Start from</strong> £54,995
                 </h2>
                 <div class="pricing-custom-main">
                     <div class="pricing-width pricing-custom-matric">
@@ -76,7 +76,7 @@
                             <tbody>
                                 <tr>
                                     <td>4m x 5.5m</td>
-                                    <td>£59,995</td>
+                                    <td>£54,995</td>
                                     <td>22 sqm</td>
                                 </tr>
                                 <tr>
