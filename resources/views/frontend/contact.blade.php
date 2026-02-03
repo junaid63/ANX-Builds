@@ -117,7 +117,7 @@ Garden Granny Annexe UK Contact | ANX Builds Today
             <div class="bs-contact-6-content">
 
                 <!-- section-title -->
-                <div class="bs-about-1-sec-title mb-lg-5 mb-3">
+                <div class="bs-about-1-sec-title mb-lg-0 mb-md-0 mb-0 ms-lg-4 ms-md-3 ms-0">
                     <h6 class="bs-subtitle-1 wa-split-clr wa-capitalize">
                         <span class="icon">
                             <img title="star-shape" src="{{url('frontend/assets/img/illus/star-shape.png')}}" alt="star-shape">
@@ -133,7 +133,7 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                 </div>
 
 
-                <form id="contact-form" class="bs-form-1 bs-career-single-form">
+                {{-- <form id="contact-form" class="bs-form-1 bs-career-single-form">
                     <div class="form-messages"></div>
 
                     <div class="bs-form-1-item">
@@ -190,7 +190,8 @@ Garden Granny Annexe UK Contact | ANX Builds Today
                             <span class="shape"></span>
                         </button>
                     </div>
-                </form>
+                </form> --}}
+                <div class="hs-form-frame" data-region="eu1" data-form-id="b1ddfe6a-9874-401a-b6f1-449a19d1068b" data-portal-id="147670011"></div>
 
             </div>
         </div>
@@ -211,6 +212,7 @@ Garden Granny Annexe UK Contact | ANX Builds Today
 @endsection
 
 @section('js')
+    <script src="https://js-eu1.hsforms.net/forms/embed/147670011.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script>
