@@ -17812,7 +17812,8 @@ Primary style
 .bs-contact-6-wrap {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
-  gap: 85px;
+  gap: 20px;
+  /* gap: 85px; */
   align-items: center;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
