@@ -97,34 +97,9 @@
                                             <i class="fa-brands fa-facebook"></i>
                                         </a>
 
-                                        <!-- Instagram (no direct share support, opens Instagram) -->
-                                        <a href="https://www.instagram.com/" target="_blank">
+                                        <!-- Instagram -->
+                                        <a href="javascript:void(0)" onclick="shareOnInstagram()">
                                             <i class="fa-brands fa-instagram"></i>
-                                        </a>
-
-                                        <!-- TikTok (no direct share support) -->
-                                        <a href="https://www.tiktok.com/" target="_blank">
-                                            <i class="fa-brands fa-tiktok"></i>
-                                        </a>
-
-                                        <!-- Messenger -->
-                                        <a href="https://www.facebook.com/dialog/send?link=https%3A%2F%2Fwww.grannyannexecompany.co.uk%2F&app_id=123456&redirect_uri=https%3A%2F%2Fwww.grannyannexecompany.co.uk%2Fblog%2F{{ $blogDetail->slug }}" target="_blank">
-                                            <i class="fa-brands fa-facebook-messenger"></i>
-                                        </a>
-
-                                        <!-- YouTube -->
-                                        <a href="https://www.youtube.com/" target="_blank">
-                                            <i class="fa-brands fa-youtube"></i>
-                                        </a>
-
-                                        <!-- LinkedIn -->
-                                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.grannyannexecompany.co.uk%2Fblog%2F{{ $blogDetail->slug }}" target="_blank">
-                                            <i class="fa-brands fa-linkedin"></i>
-                                        </a>
-
-                                        <!-- X (Twitter) -->
-                                        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.grannyannexecompany.co.uk%2Fblog%2F{{ $blogDetail->slug }}" target="_blank">
-                                            <i class="fa-brands fa-x-twitter"></i>
                                         </a>
 
                                     </div>
@@ -143,4 +118,27 @@
 @endsection
 
 @section('js')
+<script>
+function shareOnInstagram() {
+    var blogUrl = "https://www.grannyannexecompany.co.uk/blog/{{ $blogDetail->slug }}";
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(blogUrl).then(function () {
+            alert("Link copied! Now paste it on Instagram.");
+            window.open("https://www.instagram.com/anxbuilds/", "_blank");
+        });
+    } else {
+        // Fallback for old browsers
+        var tempInput = document.createElement("textarea");
+        tempInput.value = blogUrl;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempInput);
+
+        alert("Link copied! Now paste it on Instagram.");
+        window.open("https://www.instagram.com/anxbuilds/", "_blank");
+    }
+}
+</script>
 @endsection
