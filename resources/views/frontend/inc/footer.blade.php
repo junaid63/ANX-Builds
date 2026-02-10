@@ -66,16 +66,20 @@
                         </div>
                     </div>
 
-                    {{-- <div class="bs-footer-4-copyright-social">
-                        <a href="https://www.facebook.com/OffPods" aria-label="name" class="elm-link bs-p-4">
+                    <div class="bs-footer-4-copyright-social">
+                        @if(setting('site.facebook'))
+                        <a href="{{ setting('site.facebook') }}" aria-label="name" class="elm-link bs-p-4">
                             <i class="fa-brands fa-facebook-f"></i>
-                            facebook
+                            Facebook
                         </a>
-                        <a href="https://www.instagram.com/offpod_uk/" aria-label="name" class="elm-link bs-p-4">
+                        @endif
+                        @if(setting('site.instagram'))
+                        <a href="{{ setting('site.instagram') }}" aria-label="name" class="elm-link bs-p-4">
                             <i class="fa-brands fa-instagram"></i>
-                            instagram
+                            Instagram
                         </a>
-                    </div> --}}
+                        @endif
+                    </div>
                 </div>
             </div>
 
@@ -121,16 +125,6 @@
                     </a> 
                     - Under the Provision of SSF Group
                 </div>
-                {{-- <div class="bs-footer-4-copyright-social">
-                    <a href="https://www.facebook.com/OffPods" aria-label="name" class="elm-link bs-p-4">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        facebook
-                    </a>
-                    <a href="https://www.instagram.com/offpod_uk/" aria-label="name" class="elm-link bs-p-4">
-                        <i class="fa-brands fa-instagram"></i>
-                        instagram
-                    </a>
-                </div> --}}
             </div>
         </div>
     </div>

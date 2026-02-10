@@ -292,7 +292,8 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   width: 100%;
 }
 .bs-sidebar-blog .tags-list a {
-  width: calc((100% / 4) - 10px);
+  /* width: calc((100% / 4) - 10px); */
+  width: calc((100% / 3) - 10px);
 }
 .bs-sidebar-blog .tags-list a i {
   justify-content: center;
@@ -1385,7 +1386,14 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 }
 /* <!--- Error Pages Css End---> */
 
+.bs-footer-4-copyright-social {
+  gap: 10px 100px;
+}
+
 @media only screen and (max-width: 510px) {
+  .bs-footer-4-copyright-social {
+    gap: 10px 65px;
+  }
   .oops-heading {
     height: 120px;
     font-size: 130px;
@@ -1948,6 +1956,9 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 
 /* @media only screen and (max-width: 768px) { */
 @media only screen and (min-width: 510px) and (max-width: 820px) {
+   .bs-footer-4-copyright-social {
+    gap: 10px 60px;
+  }
   .oops-heading {
     height: 130px;
     font-size: 150px;
@@ -2474,6 +2485,42 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
   .contactus-images-banner .images .first {
     top: -65px;
     left: 10px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+  .wa-back-to-top:is(.active) {
+    bottom: 18.5%;
+  } 
+  .bs-sec-title-4 {
+    font-size: 45px;
+  }
+  .bs-core-services-2-item .item-btn.custom-top-btn {
+    transform: translate(285%, -112%);
+  }
+  .bs-p-4,
+  .bs-about-4-content .disc,
+  .bs-core-feature-4-item .bs-p-4.second-banner-section-para {
+    font-size: 20px;
+  }
+  .bs-core-feature-4-item .item-title {
+    font-size: 22px;
+  }
+  .bs-core-feature-4-item.fadeInRight .item-icon {
+    width: 85px;
+    padding: 20px;
+  }
+  .bs-header-4-top-contact .bs-p-4, .bs-header-4-top-contact li a {
+    font-size: 14px;
+  }
+  .bs-header-4-main .bs-main-navigation .navbar-nav li a {
+    padding: 20px 0px;
+    font-size: 15px;
+  }
+  .bs-header-4-top {
+    padding: 0px 10px;
+  }
+  .bs-main-navigation .navbar-nav {
+    gap: 25px;
   }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1500px) {
