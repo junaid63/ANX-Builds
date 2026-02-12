@@ -23,6 +23,25 @@
         @yield('schema')
 	
         <title>@yield('title')</title>
+
+        <!-- Meta Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1367869383660955');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1367869383660955&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Meta Pixel Code -->
+        @yield('pixel-code')
     
         <link rel="apple-touch-icon" sizes="57x57" href="{{url('frontend/assets/img/favicon/apple-icon-57x57.png')}}">
         <link rel="apple-touch-icon" sizes="60x60" href="{{url('frontend/assets/img/favicon/apple-icon-60x60.png')}}">
