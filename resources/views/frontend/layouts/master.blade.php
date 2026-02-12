@@ -226,32 +226,29 @@
         <script src="{{url('frontend/assets/js/main.js')}}?ref={{ setting('site.css') }}"></script>
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
         <script>
-$(function () {
+            $(function () {
 
-    var $originalHeader = $('.bs-header-4-area');
+                var $originalHeader = $('.bs-header-4-area');
 
-    // Clone header for sticky
-    var $stickyHeader = $originalHeader.clone()
-        .addClass('is-sticky-clone')
-        .appendTo('body');
+                // Clone header for sticky
+                var $stickyHeader = $originalHeader.clone()
+                    .addClass('is-sticky-clone')
+                    .appendTo('body');
 
-    $(window).on('scroll', function () {
-        var scrollTop = $(this).scrollTop();
+                $(window).on('scroll', function () {
+                    var scrollTop = $(this).scrollTop();
 
-        if (scrollTop > 0) {
-            $stickyHeader.addClass('is-sticky');
-        } else {
-            $stickyHeader.removeClass('is-sticky');
-        }
-    });
+                    if (scrollTop > 0) {
+                        $stickyHeader.addClass('is-sticky');
+                    } else {
+                        $stickyHeader.removeClass('is-sticky');
+                    }
+                });
 
-});
-</script>
-
-
-
-
+            });
+        </script>
         @yield('js')
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/147670011.js"></script>
     </body>
 </html>
 
