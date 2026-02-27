@@ -74,6 +74,7 @@
         <link rel="stylesheet" href="{{url('frontend/assets/css/main.css')}}?ref={{ setting('site.css') }}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/custom.css')}}?ref={{ setting('site.css') }}">
         <link rel="stylesheet" href="{{url('frontend/assets/css/gallery.css')}}">
+        <link rel="stylesheet" href="{{url('frontend/assets/css/cookie.css')}}?ref={{ setting('site.css') }}">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         @yield('css')
@@ -88,6 +89,7 @@
                 <a href="tel:{{ setting('site.web-phone') }}" class="call-now-info phone-ringing"><i class="fa fa-phone"></i></a>
             </div>
 
+            @include('frontend.inc.cookie')
             
             <!-- start preloader -->
             {{-- <div class="lw-preloader">
@@ -246,6 +248,48 @@
                 });
 
             });
+        </script>
+         <!-- Cookie JS-->
+        <script>
+            setTimeout(() => {
+                var checkbox = document.getElementById("customSwitch3");
+                if (checkbox) {
+                    checkbox.checked = true;
+                    checkbox.dispatchEvent(new Event('change'));
+                    checkbox.disabled = true;
+                }
+
+                $(document).ready(function(){
+                    $(".accordion-button.custom-cookie-btn").click(function() {
+                        $(this).toggleClass("active");
+                    });
+
+                    // check if accepted already
+                    if (localStorage.getItem('quay-space') === '1') {
+                        $('.cookie-popup-container').hide();
+                        $('html').removeClass('cookie-blocked');
+                    } else {
+                        $('.cookie-popup-container').fadeIn(200);
+                        $('html').addClass('cookie-blocked');
+                    }
+
+                    // accept cookie
+                    $('.accept-cookie').click(function () {
+                        $('.cookie-popup').slideUp(300);
+                        $('.cookie-popup-container').fadeOut(300);
+                        $('html').removeClass('cookie-blocked');
+                        localStorage.setItem('quay-space', '1');
+                    });
+
+                    // decline cookie
+                    $('.decline-cookie').click(function () {
+                        $('.cookie-popup').slideUp(300);
+                        $('.cookie-popup-container').fadeOut(300);
+                        $('html').removeClass('cookie-blocked');
+                        localStorage.setItem('quay-space', '0'); // 0 means declined
+                    });
+                });
+            }, 1000);
         </script>
         @yield('js')
         <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/147670011.js"></script>
