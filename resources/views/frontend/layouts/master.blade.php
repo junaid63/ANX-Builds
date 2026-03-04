@@ -147,7 +147,7 @@
 
 
                     <div class="download-btn-wrapper d-lg-none d-md-none mb-4">
-                        <a href="{{ url('frontend/assets/img/brochure/brochure.pdf') }}" target="_blank" download class="download-btn"  aria-label="Download Our Brochure">
+                        <a href="{{ url('frontend/assets/img/brochure/thegrannyannexecompany.pdf') }}" target="_blank" download class="download-btn"  aria-label="Download Our Brochure">
                             <!-- Glow Effect -->
                             <div class="glow"></div>
                             
