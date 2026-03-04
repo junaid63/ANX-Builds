@@ -2953,7 +2953,8 @@ input:focus::placeholder, textarea:focus::placeholder {
   position: relative;
   padding: 20px 0;
 }
-.mobile-main-navigation ul li:not(:last-child) {
+/* .mobile-main-navigation ul li:not(:last-child) { */
+.mobile-main-navigation ul li {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .mobile-main-navigation ul li a {
