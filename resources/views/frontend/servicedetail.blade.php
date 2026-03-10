@@ -61,7 +61,7 @@
             </div>
             <div class="bs-services-details-content pricing-table-title-table mb-lg-5 mb-md-3 mb-2">
                 <h2 class="bs-sec-title-4 title wa-split-right wa-capitalize mb-md-3 mb-3" data-cursor="-opaque">
-                    <strong>Our 100%</strong> Turn-Key <strong>Packages Start from</strong> £54,995
+                    <strong>Our 100%</strong> Turn-Key <strong>Packages Start from</strong> £59,995
                 </h2>
                 <div class="pricing-custom-main">
                     <div class="pricing-width pricing-custom-matric">
@@ -76,37 +76,37 @@
                             <tbody>
                                 <tr>
                                     <td>4m x 5.5m</td>
-                                    <td>£54,995</td>
+                                    <td>£59,995</td>
                                     <td>22 sqm</td>
                                 </tr>
                                 <tr>
                                     <td>4m x 7m</td>
-                                    <td>£63,350</td>
+                                    <td>£68,350</td>
                                     <td>28 sqm</td>
                                 </tr>
                                 <tr>
                                     <td>4m x 9m</td>
-                                    <td>£76,000</td>
+                                    <td>£81,000</td>
                                     <td>36 sqm</td>
                                 </tr>
                                 <tr>
                                     <td>5m x 10m</td>
-                                    <td>£88,000</td>
+                                    <td>£93,000</td>
                                     <td>50 sqm</td>
                                 </tr>
                                 <tr>
                                     <td>5m x 12m</td>
-                                    <td>£102,350</td>
+                                    <td>£107,350</td>
                                     <td>60 sqm</td>
                                 </tr>
                                 <tr>
                                     <td>5m x 15m</td>
-                                    <td>£125,375</td>
+                                    <td>£130,375</td>
                                     <td>75 sqm</td>
                                 </tr>
                                 <tr>
                                     <td>5m x 19m</td>
-                                    <td>£140,725</td>
+                                    <td>£145,725</td>
                                     <td>95 sqm</td>
                                 </tr>
                             </tbody>
