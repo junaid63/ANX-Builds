@@ -614,8 +614,11 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 .bs-header-4-top {
   padding: 10px;
 }
-.swiper-backface-hidden .swiper-slide.swiper-slide-active {
+.bs-hero-4-slider .swiper-slide {
   background: transparent;
+}
+.bs-hero-4-slider .swiper-slide.swiper-slide-thumb-active {
+  background: white!important;
 }
 .pricing-custom-main .pricing-include-points .item-title {
   /* font-size: 25px; */
