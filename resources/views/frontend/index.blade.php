@@ -146,58 +146,17 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-img-item ">
                                 <div class="main-img wa-img-cover">
-                                    <img title="Hero First Banner" src="{{url('frontend/assets/img/hero/01.png')}}" alt="Hero First Banner">
+                                    <img title="Hero First Banner" src="{{url('frontend/assets/img/hero/01-new.jpg')}}" alt="Hero First Banner">
                                 </div>
-                                <!-- trusted -->
-                                {{-- <div class="bs-hero-4-slider-img-item-trusted">
-                                    <h3 class="bs-h-4 title">trusted</h3>
-                                    <p class="bs-p-4 ratting" >
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        4.8 view
-                                    </p>
-
-                                    <p class="bs-p-4 disc">
-                                        discover the architectural
-                                    </p>
-                                </div> --}}
                             </div>
                         </div>
-
-                        <!-- single-slide -->
-                        {{-- <div class="swiper-slide">
-                            <div class="bs-hero-4-slider-img-item ">
-                                <div class="main-img wa-img-cover">
-                                    <img src="{{url('frontend/assets/img/hero/02.png')}}" alt="">
-                                </div>
-                            </div>
-                        </div> --}}
 
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-img-item ">
                                 <div class="main-img wa-img-cover">
-                                    <img title="Hero Second Banner" src="{{url('frontend/assets/img/hero/03.png')}}" alt="Hero Second Banner">
+                                    <img title="Hero Second Banner" src="{{url('frontend/assets/img/hero/03-new.png')}}" alt="Hero Second Banner">
                                 </div>
-                                <!-- trusted -->
-                                {{-- <div class="bs-hero-4-slider-img-item-trusted">
-                                    <h3 class="bs-h-4 title">trusted</h3>
-                                    <p class="bs-p-4 ratting" >
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        4.8 view
-                                    </p>
-
-                                    <p class="bs-p-4 disc">
-                                        discover the architectural
-                                    </p>
-                                </div> --}}
                             </div>
                         </div>
 
@@ -207,22 +166,6 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                                 <div class="main-img wa-img-cover">
                                     <img title="Hero Third Banner" src="{{url('frontend/assets/img/hero/04.png')}}" alt="Hero Third Banner">
                                 </div>
-                                <!-- trusted -->
-                                {{-- <div class="bs-hero-4-slider-img-item-trusted">
-                                    <h3 class="bs-h-4 title">trusted</h3>
-                                    <p class="bs-p-4 ratting" >
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        4.8 view
-                                    </p>
-
-                                    <p class="bs-p-4 disc">
-                                        discover the architectural
-                                    </p>
-                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -236,21 +179,14 @@ Garden Granny Annexe UK | Custom Designs - Granny Annexe Co.
                         <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-thum-item wa-img-cover wa-fix">
-                                <img title="Hero First Banner" src="{{url('frontend/assets/img/hero/01.png')}}" alt="Hero First Banner">
+                                <img title="Hero First Banner" src="{{url('frontend/assets/img/hero/01-new.jpg')}}" alt="Hero First Banner">
                             </div>
                         </div>
 
                         <!-- single-slide -->
-                        {{-- <div class="swiper-slide">
-                            <div class="bs-hero-4-slider-thum-item wa-img-cover wa-fix">
-                                <img title="Hero First Banner" src="{{url('frontend/assets/img/hero/02.png')}}" alt="">
-                            </div>
-                        </div> --}}
-
-                        <!-- single-slide -->
                         <div class="swiper-slide">
                             <div class="bs-hero-4-slider-thum-item wa-img-cover wa-fix">
-                                <img title="Hero Second Banner" src="{{url('frontend/assets/img/hero/03.png')}}" alt="Hero Second Banner">
+                                <img title="Hero Second Banner" src="{{url('frontend/assets/img/hero/03-new.png')}}" alt="Hero Second Banner">
                             </div>
                         </div>
 

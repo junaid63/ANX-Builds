@@ -181,8 +181,6 @@ document.addEventListener("DOMContentLoaded", function () {
 					loop: true,
 					spaceBetween: 16,
 					speed: 1000,
-
-
 					breakpoints: {
 						0: {
 							slidesPerView: 1,
