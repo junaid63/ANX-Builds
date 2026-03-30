@@ -81,37 +81,37 @@ Garden Granny Annexe UK Prices | ANX Builds Cost Guide
                                 <tbody>
                                     <tr>
                                         <td>4m x 5.5m</td>
-                                        <td>£59,995</td>
+                                        <td>£62,395</td>
                                         <td>22 sqm</td>
                                     </tr>
                                     <tr>
                                         <td>4m x 7m</td>
-                                        <td>£68,350</td>
+                                        <td>£71,084</td>
                                         <td>28 sqm</td>
                                     </tr>
                                     <tr>
                                         <td>4m x 9m</td>
-                                        <td>£81,000</td>
+                                        <td>£84,240</td>
                                         <td>36 sqm</td>
                                     </tr>
                                     <tr>
                                         <td>5m x 10m</td>
-                                        <td>£93,000</td>
+                                        <td>£96,720</td>
                                         <td>50 sqm</td>
                                     </tr>
                                     <tr>
                                         <td>5m x 12m</td>
-                                        <td>£107,350</td>
+                                        <td>£111,644</td>
                                         <td>60 sqm</td>
                                     </tr>
                                     <tr>
                                         <td>5m x 15m</td>
-                                        <td>£130,375</td>
+                                        <td>£135,590</td>
                                         <td>75 sqm</td>
                                     </tr>
                                     <tr>
                                         <td>5m x 19m</td>
-                                        <td>£145,725</td>
+                                        <td>£151,554</td>
                                         <td>95 sqm</td>
                                     </tr>
                                 </tbody>
